@@ -1,0 +1,5 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇯🇵 trojan | 日本 | 2 - 火箭加速, server: xjp2.vncky.app, port: 33843, type: trojan, password: 79a1480f-d615-3bfc-be74-f69a22be5d98, sni: xjp2.vncky.app, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 trojan | 日本 | 1 - 火箭加速, server: xjp1.vncky.app, port: 33842, type: trojan, password: 79a1480f-d615-3bfc-be74-f69a22be5d98, sni: xjp1.vncky.app, skip-cert-verify: true, udp: true}

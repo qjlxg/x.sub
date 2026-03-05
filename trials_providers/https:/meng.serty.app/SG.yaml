@@ -1,0 +1,7 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇸🇬 trojan｜新加坡 | 1 - 萌猫加速, server: msg1.vncky.app, port: 31938, type: trojan, password: d31e0ef6-5347-3ae3-bdb1-6b9cb264b5ab, sni: msg1.vncky.app, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡-1 - 萌猫加速, server: msg15.ncybk.app, port: 49783, type: ss, cipher: aes-256-gcm, password: g0kNNFnip9a9WyaJ, udp: true}
+- {name: 🇸🇬 新加坡-2 - 萌猫加速, server: msg14.ncybk.app, port: 49983, type: ss, cipher: aes-256-gcm, password: g0kNNFnip9a9WyaJ, udp: true}
+- {name: 🇸🇬 trojan｜新加坡 | 1 - 萌猫加速 2, server: msg1.vncky.app, port: 31938, type: trojan, password: d31e0ef6-5347-3ae3-bdb1-6b9cb264b5ab, sni: msg1.vncky.app, skip-cert-verify: true, udp: true}

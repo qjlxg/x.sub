@@ -1,0 +1,40 @@
+%YAML 1.1
+---
+proxies:
+- {name: ' iKuai加速专线 - iKuai加速器', server: 127.0.0.1, port: 1181, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: windows11.dpdns.org, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 A線中轉美國1-NFSG - iKuai加速器, server: ikuai.404.mn, port: 14555, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: ikuai.404.mn, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 A線中轉美國1-NFTW - iKuai加速器, server: ikuai.404.mn, port: 10777, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: windows11.dpdns.org, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 A線中轉美國1-NFUS - iKuai加速器, server: ikuai.404.mn, port: 12777, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: ikuai.404.mn, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 B線v6中轉美國1-NFTW - iKuai加速器, server: ikuai.uk.to, port: 711, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: windows11.dpdns.org, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 B線v6中轉美國1-NFUS - iKuai加速器, server: ikuai.uk.to, port: 11777, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: ikuai.uk.to, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 B線中轉美國1-NFTW - iKuai加速器, server: ikuai.fr.to, port: 11555, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: windows11.dpdns.org, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 B線中轉美國1-NFUS - iKuai加速器, server: ikuai.fr.to, port: 13777, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: windows11.dpdns.org, skip-cert-verify: true, udp: true}
+- {name: CF-HKCMI - iKuai加速器, server: www.visa.com, port: 443, type: vmess, uuid: 2918ebc2-72b7-3be5-b533-421f83b4c841, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: download.windows11.dpdns.org, network: ws, ws-opts: {path: /data, headers: {Host: download.windows11.dpdns.org}}, udp: true}
+- {name: 🇺🇸 D線中轉美國1-NFHK - iKuai加速器, server: ikuai.bot.nu, port: 14555, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: windows11.dpdns.org, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 D線中轉美國1-NFTW - iKuai加速器, server: ikuai.bot.nu, port: 21777, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: windows11.dpdns.org, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 D線中轉美國1-NFUS - iKuai加速器, server: ikuai.bot.nu, port: 11777, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: windows11.dpdns.org, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 D線中轉香港-NFHK - iKuai加速器, server: ikuai.bot.nu, port: 50852, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: ikuai.bot.nu, skip-cert-verify: true, udp: true}
+- {name: HKCMI-USv4-NFHK - iKuai加速器, server: 156.251.176.128, port: 777, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: windows11.dpdns.org, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 直連美國v6-NFHK - iKuai加速器, server: ikuai.k.vu, port: 10777, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: windows11.dpdns.org, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 直連美國v6-NFTW - iKuai加速器, server: ikuai.k.vu, port: 711, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: windows11.dpdns.org, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 直連美國v6-NFUS - iKuai加速器, server: ikuai.k.vu, port: 11777, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: windows11.dpdns.org, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 直連香港v6-NFHK - iKuai加速器, server: ikuai.uk.to, port: 50852, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: ikuai.uk.to, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美國v6中转v4-NFSG - iKuai加速器, server: ikuai.k.vu, port: 771, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: windows11.dpdns.org, skip-cert-verify: true, udp: true}
+- {name: ' iKuai加速专线 - iKuai加速器 2', server: 127.0.0.1, port: 1181, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: windows11.dpdns.org, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 A線中轉美國1-NFSG - iKuai加速器 2, server: ikuai.404.mn, port: 14555, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: ikuai.404.mn, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 A線中轉美國1-NFTW - iKuai加速器 2, server: ikuai.404.mn, port: 10777, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: windows11.dpdns.org, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 A線中轉美國1-NFUS - iKuai加速器 2, server: ikuai.404.mn, port: 12777, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: ikuai.404.mn, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 B線v6中轉美國1-NFTW - iKuai加速器 2, server: ikuai.uk.to, port: 711, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: windows11.dpdns.org, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 B線v6中轉美國1-NFUS - iKuai加速器 2, server: ikuai.uk.to, port: 11777, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: ikuai.uk.to, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 B線中轉美國1-NFTW - iKuai加速器 2, server: ikuai.fr.to, port: 11555, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: windows11.dpdns.org, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 B線中轉美國1-NFUS - iKuai加速器 2, server: ikuai.fr.to, port: 13777, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: windows11.dpdns.org, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 D線中轉美國1-NFHK - iKuai加速器 2, server: ikuai.bot.nu, port: 14555, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: windows11.dpdns.org, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 D線中轉美國1-NFTW - iKuai加速器 2, server: ikuai.bot.nu, port: 21777, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: windows11.dpdns.org, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 D線中轉美國1-NFUS - iKuai加速器 2, server: ikuai.bot.nu, port: 11777, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: windows11.dpdns.org, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 D線中轉香港-NFHK - iKuai加速器 2, server: ikuai.bot.nu, port: 50852, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: ikuai.bot.nu, skip-cert-verify: true, udp: true}
+- {name: HKCMI-USv4-NFHK - iKuai加速器 2, server: 156.251.176.128, port: 777, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: windows11.dpdns.org, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 直連美國v6-NFHK - iKuai加速器 2, server: ikuai.k.vu, port: 10777, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: windows11.dpdns.org, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 直連美國v6-NFTW - iKuai加速器 2, server: ikuai.k.vu, port: 711, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: windows11.dpdns.org, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 直連美國v6-NFUS - iKuai加速器 2, server: ikuai.k.vu, port: 11777, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: windows11.dpdns.org, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 直連香港v6-NFHK - iKuai加速器 2, server: ikuai.uk.to, port: 50852, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: ikuai.uk.to, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美國v6中转v4-NFSG - iKuai加速器 2, server: ikuai.k.vu, port: 771, type: trojan, password: 2918ebc2-72b7-3be5-b533-421f83b4c841, sni: windows11.dpdns.org, skip-cert-verify: true, udp: true}

@@ -1,0 +1,4 @@
+%YAML 1.1
+---
+proxies:
+- {name: 'ℹ️ 官网: xhj.bnsrf.com - 火箭加速', server: xsg2.vncky.app, port: 38493, type: trojan, password: 6232790e-1f39-3fd7-a0c0-01a599de773c, sni: xsg2.vncky.app, skip-cert-verify: true, udp: true}

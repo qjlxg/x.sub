@@ -1,0 +1,5 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇸🇬 trojan | 新加坡 | 1 - 云猫加速, server: ysg1.vncky.app, port: 39303, type: trojan, password: 11fe6860-0089-3c87-9e4d-b63a532d5f4b, sni: ysg1.vncky.app, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 trojan | 日本｜1 - 云猫加速, server: yjp1.vncky.app, port: 36371, type: trojan, password: 11fe6860-0089-3c87-9e4d-b63a532d5f4b, sni: yjp1.vncky.app, skip-cert-verify: true, udp: true}

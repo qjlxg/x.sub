@@ -1,0 +1,11 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇹🇼 台湾 01〖中转-CN2线路〗 - QinggoCloud, server: gz-1.jdweblink.live, port: 12337, type: vmess, uuid: 89aa4a01-f783-392e-aac4-9091fd5a6490, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: www.bing.com}}, udp: true}
+- {name: 🇹🇼 台湾 02〖中转-CN2线路〗 - QinggoCloud, server: gz-2.jdweblink.live, port: 12377, type: vmess, uuid: 89aa4a01-f783-392e-aac4-9091fd5a6490, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: www.bing.com}}, udp: true}
+- {name: 🇭🇰 香港 01〖中转-CN2线路〗 - QinggoCloud, server: gz-1.jdweblink.live, port: 12321, type: vmess, uuid: 89aa4a01-f783-392e-aac4-9091fd5a6490, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: www.bing.com}}, udp: true}
+- {name: 🇭🇰 香港 02〖中转-CN2线路〗 - QinggoCloud, server: gz-2.jdweblink.live, port: 12322, type: vmess, uuid: 89aa4a01-f783-392e-aac4-9091fd5a6490, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: www.bing.com}}, udp: true}
+- {name: 🇭🇰 香港 03〖中转-CN2线路〗 - QinggoCloud, server: gzcm1.jdweblink.live, port: 12323, type: vmess, uuid: 89aa4a01-f783-392e-aac4-9091fd5a6490, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: www.bing.com}}, udp: true}
+- {name: 🇭🇰 香港 04〖中转-CN2线路〗 - QinggoCloud, server: gzcm2.jdweblink.live, port: 12328, type: vmess, uuid: 89aa4a01-f783-392e-aac4-9091fd5a6490, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: www.bing.com}}, udp: true}
+- {name: 🇭🇰 香港 05〖直连-CN2线路〗 - QinggoCloud, server: gzcm1.jdweblink.live, port: 12323, type: vmess, uuid: 89aa4a01-f783-392e-aac4-9091fd5a6490, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: www.bing.com}}, udp: true}
+- {name: 🇭🇰 香港 06〖中转-HKT原生〗 - QinggoCloud, server: gz-1.jdweblink.live, port: 12331, type: vmess, uuid: 89aa4a01-f783-392e-aac4-9091fd5a6490, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: www.bing.com}}, udp: true}

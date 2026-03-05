@@ -1,0 +1,8 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇯🇵 trojan｜日本 ｜1 - 萌猫加速, server: mjp1.vncky.app, port: 20188, type: trojan, password: e91eb314-03b6-3b06-a872-76f1bccf8a9c, sni: mjp1.vncky.app, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本-2 - 萌猫加速, server: mjp13.ncybk.app, port: 49302, type: ss, cipher: aes-256-gcm, password: oEZk9ESDoEhSfoc4, udp: true}
+- {name: 🇯🇵 日本-3 - 萌猫加速, server: mjp14.ncybk.app, port: 47838, type: ss, cipher: aes-256-gcm, password: oEZk9ESDoEhSfoc4, udp: true}
+- {name: 🇯🇵 日本-4 - 萌猫加速, server: mjp15.ncybk.app, port: 26860, type: ss, cipher: aes-256-gcm, password: oEZk9ESDoEhSfoc4, udp: true}
+- {name: 🇯🇵 trojan｜日本 ｜1 - 萌猫加速 2, server: mjp1.vncky.app, port: 20188, type: trojan, password: e91eb314-03b6-3b06-a872-76f1bccf8a9c, sni: mjp1.vncky.app, skip-cert-verify: true, udp: true}

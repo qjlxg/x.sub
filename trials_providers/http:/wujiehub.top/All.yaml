@@ -1,0 +1,4 @@
+%YAML 1.1
+---
+proxies:
+- {name: ℹ️ 每次使用前请更新订阅 - 无界, server: wujiehub.top, port: 10086, type: vmess, uuid: 7b7075b0-b5db-3c5f-8894-392ac61c963c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
