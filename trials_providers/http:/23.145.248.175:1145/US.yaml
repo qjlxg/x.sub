@@ -1,0 +1,7 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇺🇸 美国洛杉矶 1 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 37673, type: ss, cipher: aes-128-gcm, password: 05d3b940-6d0d-4913-99c7-794a53ba86e9, udp: true}
+- {name: 🇺🇸 美国洛杉矶 2 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 37673, type: ss, cipher: aes-128-gcm, password: 05d3b940-6d0d-4913-99c7-794a53ba86e9, udp: true}
+- {name: 🇺🇸 美国凤凰城 3 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 31429, type: ss, cipher: aes-128-gcm, password: 05d3b940-6d0d-4913-99c7-794a53ba86e9, udp: true}
+- {name: 🇺🇸 美国凤凰城 4 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 31429, type: ss, cipher: aes-128-gcm, password: 05d3b940-6d0d-4913-99c7-794a53ba86e9, udp: true}
