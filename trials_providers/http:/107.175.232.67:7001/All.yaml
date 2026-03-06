@@ -1,0 +1,5 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇯🇵移动优化|测试节点 - OKX, server: 154.83.94.7, port: 30043, type: ss, cipher: chacha20-ietf-poly1305, password: f6565d6f-966d-4031-a381-57080bc9f25d, udp: true}
+- {name: 联通电信暂不提供优化测试 - OKX, server: 156.231.115.233, port: 30044, type: ss, cipher: chacha20-ietf-poly1305, password: f6565d6f-966d-4031-a381-57080bc9f25d, udp: true}

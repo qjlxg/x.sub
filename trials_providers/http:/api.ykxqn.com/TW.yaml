@@ -1,0 +1,5 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇹🇼 台湾一 - LIME, server: 01.limenodebgp.com, port: 30628, type: ss, cipher: aes-128-gcm, password: 7de00a8a-d1ca-4935-9f1a-cd43be98c6a4, udp: true}
+- {name: 🇹🇼 台湾二 - LIME, server: 02.limenodebgp.com, port: 30629, type: ss, cipher: aes-128-gcm, password: 7de00a8a-d1ca-4935-9f1a-cd43be98c6a4, udp: true}

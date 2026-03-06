@@ -1,0 +1,5 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇸🇬 新加坡-中转-1 - AirBuddy Rocket, server: gd1.ddns.argonode.men, port: 14401, type: trojan, password: eeb937c0-2c0e-45d9-b286-7392facc379b, sni: sg1.argonode.men, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡-中转-2 - AirBuddy Rocket, server: gd1.ddns.argonode.men, port: 14402, type: trojan, password: eeb937c0-2c0e-45d9-b286-7392facc379b, sni: sg1.argonode.men, skip-cert-verify: true, udp: true}

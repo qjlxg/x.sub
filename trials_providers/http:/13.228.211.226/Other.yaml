@@ -1,0 +1,4 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇮🇪 爱尔兰-都柏林 - 神盾, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 0a79ad40-6c90-4f3c-9990-e98305c32d6f, udp: true}

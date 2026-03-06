@@ -1,0 +1,6 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇺🇸 美国 - 学术云, server: us.academicbest.dpdns.org, port: 7002, type: ss, cipher: aes-256-gcm, password: ece9f981-9069-4ed4-9593-680dec198a43, udp: true}
+- {name: 🇺🇸 美国01 - 学术云, server: us01.academicbest.dpdns.org, port: 7011, type: ss, cipher: aes-256-gcm, password: ece9f981-9069-4ed4-9593-680dec198a43, udp: true}
+- {name: 🇺🇸 美国02 - 学术云, server: us02.academicbest.dpdns.org, port: 7012, type: ss, cipher: aes-256-gcm, password: ece9f981-9069-4ed4-9593-680dec198a43, udp: true}

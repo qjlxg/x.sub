@@ -1,0 +1,5 @@
+%YAML 1.1
+---
+proxies:
+- {name: '🇯🇵 User ID: 3404 - SIM 4G 5G JAPAN', server: expired.example.com, port: 80, type: vmess, uuid: 25c99825-8e50-4492-b2c4-16a91339a52d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /expired, headers: {Host: expired.example.com}}, udp: true}
+- {name: 🇯🇵 Gói của bạn đã hết hạn - SIM 4G 5G JAPAN, server: expired.example.com, port: 80, type: vmess, uuid: 25c99825-8e50-4492-b2c4-16a91339a52d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /expired, headers: {Host: expired.example.com}}, udp: true}
