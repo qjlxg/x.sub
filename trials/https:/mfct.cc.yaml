@@ -54,7 +54,7 @@ proxy-groups:
   - 🛩️ ‍墙内
   - 💩 ‍广告
 proxies:
-- {name: 🇺🇸 美国家宽 - 海螺加速器 hailuo.us, server: 155.229.50.8, port: 443, type: ss, cipher: aes-128-gcm, password: b144f1ca-5f99-4d9f-997b-1589c8599f8a, plugin: obfs, plugin-opts: {mode: http, host: ''}, udp: true}
+- {name: 🇺🇸 美国家宽 - 海螺加速器 hailuo.us, server: 155.229.50.8, port: 443, type: ss, cipher: aes-128-gcm, password: b9c27a40-beaa-49d8-bb39-0511b23c0966, plugin: obfs, plugin-opts: {mode: http, host: ''}, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT

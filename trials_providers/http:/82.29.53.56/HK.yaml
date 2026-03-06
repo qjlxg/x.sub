@@ -1,5 +1,5 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇭🇰 🌈 HK香港 - 01 | 海外使用 - Cecil 塞西尔, server: hk-hgc.cdn-yx.buzz, port: 20052, type: trojan, password: 981b35ce-b8c7-4839-8b79-30ef6d449fc3, sni: hk-hgc.cdn-yx.buzz, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 🌈 HK香港 - 02 | 海外使用 - Cecil 塞西尔, server: hk-hkbn.cdn-yx.buzz, port: 20052, type: trojan, password: 981b35ce-b8c7-4839-8b79-30ef6d449fc3, sni: hk-hkbn.cdn-yx.buzz, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 🌈 HK香港 - 01 | 海外使用 - Cecil 塞西尔, server: hk-hgc.cdn-yx.buzz, port: 20052, type: trojan, password: 4692a424-bbd9-4ae0-a7fc-2b164463aab0, sni: hk-hgc.cdn-yx.buzz, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 🌈 HK香港 - 02 | 海外使用 - Cecil 塞西尔, server: hk-hkbn.cdn-yx.buzz, port: 20052, type: trojan, password: 4692a424-bbd9-4ae0-a7fc-2b164463aab0, sni: hk-hkbn.cdn-yx.buzz, skip-cert-verify: true, udp: true}
