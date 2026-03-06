@@ -1,0 +1,4 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇹🇼 🌈 TW台湾 | 海外使用 - Cecil 塞西尔, server: tw-taian.cdn-yx.buzz, port: 20052, type: trojan, password: 981b35ce-b8c7-4839-8b79-30ef6d449fc3, sni: tw-taian.cdn-yx.buzz, skip-cert-verify: true, udp: true}

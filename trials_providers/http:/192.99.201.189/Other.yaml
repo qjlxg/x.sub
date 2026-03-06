@@ -1,0 +1,12 @@
+%YAML 1.1
+---
+proxies:
+- {name: ℹ️ 上次订阅更新：2026-03-06 10:25:38 - 柚子酱, server: HIx057ApwVh2yZzG4NnC.01.karyl.top, port: 32100, type: trojan, password: 3a455359-45e9-4bcf-ac2d-7f108a76b93a, sni: tw.karyl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw.karyl.cc}}, udp: true}
+- {name: Lv2-🇨🇦加拿大01流媒体「1X」 - 柚子酱, server: sCp4uAmBX5iF1Et3g2PW.a.karyl.top, port: 32206, type: trojan, password: 3a455359-45e9-4bcf-ac2d-7f108a76b93a, sni: s1.hdslb.com, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.hdslb.com}}, udp: true}
+- {name: Lv2-🇨🇦加拿大02流媒体「1X」 - 柚子酱, server: iHxTF2wb4gWjpmEDKlOV.b.karyl.top, port: 32206, type: trojan, password: 3a455359-45e9-4bcf-ac2d-7f108a76b93a, sni: s1.hdslb.com, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.hdslb.com}}, udp: true}
+- {name: Lv2-🇧🇷巴西01流媒体「1X」 - 柚子酱, server: 6V12LNRpcTAbWmP5E0sJ.a.karyl.top, port: 32207, type: trojan, password: 3a455359-45e9-4bcf-ac2d-7f108a76b93a, sni: s1.hdslb.com, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.hdslb.com}}, udp: true}
+- {name: Lv2-🇧🇷巴西02流媒体「1X」 - 柚子酱, server: 5sMYwDAvb2HWSt9jNzQx.b.karyl.top, port: 32207, type: trojan, password: 3a455359-45e9-4bcf-ac2d-7f108a76b93a, sni: s1.hdslb.com, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.hdslb.com}}, udp: true}
+- {name: Lv2-🇻🇳越南01流媒体「1X」 - 柚子酱, server: cSfnF2Oq94eR5TZCdiVw.a.karyl.top, port: 32208, type: trojan, password: 3a455359-45e9-4bcf-ac2d-7f108a76b93a, sni: s1.hdslb.com, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.hdslb.com}}, udp: true}
+- {name: Lv2-🇻🇳越南02流媒体「1X」 - 柚子酱, server: XzqiAJmnEG23cph5UWjZ.b.karyl.top, port: 32208, type: trojan, password: 3a455359-45e9-4bcf-ac2d-7f108a76b93a, sni: s1.hdslb.com, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.hdslb.com}}, udp: true}
+- {name: Lv2-🇮🇳印度01流媒体「1X」 - 柚子酱, server: R4WEJ53amZU6i2flbcBF.a.karyl.top, port: 32209, type: trojan, password: 3a455359-45e9-4bcf-ac2d-7f108a76b93a, sni: s1.hdslb.com, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.hdslb.com}}, udp: true}
+- {name: Lv2-🇮🇳印度02流媒体「1X」 - 柚子酱, server: iFEUIS6bR7Bn2tqf9cK4.b.karyl.top, port: 32209, type: trojan, password: 3a455359-45e9-4bcf-ac2d-7f108a76b93a, sni: s1.hdslb.com, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.hdslb.com}}, udp: true}

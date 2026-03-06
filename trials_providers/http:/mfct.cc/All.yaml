@@ -1,0 +1,4 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇺🇸 美国家宽 - 海螺加速器 hailuo.us, server: 155.229.50.8, port: 443, type: ss, cipher: aes-128-gcm, password: ed665842-ef8e-41b4-925b-04e8ab546e82, plugin: obfs, plugin-opts: {mode: http, host: ''}, udp: true}
