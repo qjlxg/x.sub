@@ -3,19 +3,19 @@
 [https://www.hotcloud.store]
 name  Fast Cloud
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(phvbsjkk537@snapmail.cc): {'message': '验证码有误'}
+更新订阅链接/续费续签失败  发送邮箱验证码失败(nytbeakxz847@psnator.com): {'message': '验证码有误'}
 
 [http://rk.huige.store]
 api_host  rk.huige.store
 name  Fast Cloud
 type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"qatfews660@vapeuccino.com","success":"false"}'
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"qifrmods156@mail.wvwvw.tech","success":"false"}'
 
 [http://www.91ray.com]
 api_host  www.91ray.com
 name  九一加速_ 专业安全稳定机场
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(oaysmbqt28@linshiyou.com): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  发送邮箱验证码失败(ebebuqv565@tmails.net): {'message': '邮箱后缀不处于白名单中'}
 
 [https://173.249.208.226]
 
@@ -26,7 +26,7 @@ name  铁蛋
 sub_url  http://118.89.190.200:1222/tiedan168?token=461ee98f33f58b954196db855ec2325e
 time  2026-03-06 10:25:22.999614+08:00
 type  v2board
-获取订阅失败  (http://173.249.208.226/tiedan168?token=461ee98f33f58b954196db855ec2325e): 500 Internal Server Error '<!DOCTYPE html>\n<html lang="en">\n <head>\n <meta charset="utf-8">\n <meta name="viewport" content="width=device-width, initial-scale=1">\n\n <title>Server Error</title>\n\n <!-- Fonts -->\n <link rel="preconnect" href="https://fonts.gstatic.com">\n <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">\n\n <style>\n /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent}code{font-family:monospace,monospace;font-size:1em}[hidden]{display:none}html{font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5}*,:after,:before{box-sizing:border-box;border:0 solid #e2e8f0}a{color:inherit;text-decoration:inherit}code{font-family:Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}svg,video{display:block;vertical-align:middle}video{max-width:100%;height:auto}.bg-white{--bg-opacity:1;background-color:#fff;background-color:rgba(255,255,255,var(--bg-opacity))}.bg-gray-100{--bg-opacity:1;background-color:#f7fafc;background-color:rgba(247,250,252,var(--bg-opacity))}.border-gray-200{--border-opacity:1;border-color:#edf2f7;border-color:rgba(237,242,247,var(--border-opacity))}.border-gray-400{--border-opacity:1;border-color:#cbd5e0;border-color:rgba(203,213,224,var(--border-opacity))}.border-t{border-top-width:1px}.border-r{border-right-width:1px}.flex{display:flex}.grid{display:grid}.hidden{display:none}.items-center{align-items:center}.justify-center{justify-content:center}.font-semibold{font-weight:600}.h-5{height:1.25rem}.h-8{height:2rem}.h-16{height:4rem}.text-sm{font-size:.875rem}.text-lg{font-size:1.125rem}.leading-7{line-height:1.75rem}.mx-auto{margin-left:auto;margin-right:auto}.ml-1{margin-left:.25rem}.mt-2{margin-top:.5rem}.mr-2{margin-right:.5rem}.ml-2{margin-left:.5rem}.mt-4{margin-top:1rem}.ml-4{margin-left:1rem}.mt-8{margin-top:2rem}.ml-12{margin-left:3rem}.-mt-px{margin-top:-1px}.max-w-xl{max-width:36rem}.max-w-6xl{max-width:72rem}.min-h-screen{min-height:100vh}.overflow-hidden{overflow:hidden}.p-6{padding:1.5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.pt-8{padding-top:2rem}.fixed{position:fixed}.relative{position:relative}.top-0{top:0}.right-0{right:0}.shadow{box-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06)}.text-center{text-align:center}.text-gray-200{--text-opacity:1;color:#edf2f7;color:rgba(237,242,247,var(--text-opacity))}.text-gray-300{--text-opacity:1;color:#e2e8f0;color:rgba(226,232,240,var(--text-opacity))}.text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}.text-gray-500{--text-opacity:1;color:#a0aec0;color:rgba(160,174,192,var(--text-opacity))}.text-gray-600{--text-opacity:1;color:#718096;color:rgba(113,128,150,var(--text-opacity))}.text-gray-700{--text-opacity:1;color:#4a5568;color:rgba(74,85,104,var(--text-opacity))}.text-gray-900{--text-opacity:1;color:#1a202c;color:rgba(26,32,44,var(--text-opacity))}.uppercase{text-transform:uppercase}.underline{text-decoration:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.tracking-wider{letter-spacing:.05em}.w-5{width:1.25rem}.w-8{width:2rem}.w-auto{width:auto}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}@-webkit-keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@-webkit-keyframes ping{0%{transform:scale(1);opacity:1}75%,to{transform:scale(2);opacity:0}}@keyframes ping{0%{transform:scale(1);opacity:1}75%,to{transform:scale(2);opacity:0}}@-webkit-keyframes pulse{0%,to{opacity:1}50%{opacity:.5}}@keyframes pulse{0%,to{opacity:1}50%{opacity:.5}}@-webkit-keyframes bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:translateY(0);-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}@keyframes bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:translateY(0);-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}@media (min-width:640px){.sm\\:rounded-lg{border-radius:.5rem}.sm\\:block{display:block}.sm\\:items-center{align-items:center}.sm\\:justify-start{justify-content:flex-start}.sm\\:justify-between{justify-content:space-between}.sm\\:h-20{height:5rem}.sm\\:ml-0{margin-left:0}.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\\:pt-0{padding-top:0}.sm\\:text-left{text-align:left}.sm\\:text-right{text-align:right}}@media (min-width:768px){.md\\:border-t-0{border-top-width:0}.md\\:border-l{border-left-width:1px}.md\\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (min-width:1024px){.lg\\:px-8{padding-left:2rem;padding-right:2rem}}@media (prefers-color-scheme:dark){.dark\\:bg-gray-800{--bg-opacity:1;background-color:#2d3748;background-color:rgba(45,55,72,var(--bg-opacity))}.dark\\:bg-gray-900{--bg-opacity:1;background-color:#1a202c;background-color:rgba(26,32,44,var(--bg-opacity))}.dark\\:border-gray-700{--border-opacity:1;border-color:#4a5568;border-color:rgba(74,85,104,var(--border-opacity))}.dark\\:text-white{--text-opacity:1;color:#fff;color:rgba(255,255,255,var(--text-opacity))}.dark\\:text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}}\n </style>\n\n <style>\n body {\n font-family: \'Nunito\', sans-serif;\n }\n </style>\n </head>\n <body class="antialiased">\n <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">\n <div class="max-w-xl mx-auto sm:px-6 lg:px-8">\n <div class="flex items-center pt-8 sm:justify-start sm:pt-0">\n <div class="px-4 text-lg text-gray-500 border-r border-gray-400 tracking-wider">\n 500 </div>\n\n <div class="ml-4 text-lg text-gray-500 uppercase tracking-wider">\n Undefined array key &quot;type&quot; </div>\n </div>\n </div>\n </div>\n </body>\n</html>\n'
+更新旧订阅失败  (http://173.249.208.226/tiedan168?token=461ee98f33f58b954196db855ec2325e): 500 Internal Server Error '<!DOCTYPE html>\n<html lang="en">\n <head>\n <meta charset="utf-8">\n <meta name="viewport" content="width=device-width, initial-scale=1">\n\n <title>Server Error</title>\n\n <!-- Fonts -->\n <link rel="preconnect" href="https://fonts.gstatic.com">\n <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">\n\n <style>\n /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent}code{font-family:monospace,monospace;font-size:1em}[hidden]{display:none}html{font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5}*,:after,:before{box-sizing:border-box;border:0 solid #e2e8f0}a{color:inherit;text-decoration:inherit}code{font-family:Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}svg,video{display:block;vertical-align:middle}video{max-width:100%;height:auto}.bg-white{--bg-opacity:1;background-color:#fff;background-color:rgba(255,255,255,var(--bg-opacity))}.bg-gray-100{--bg-opacity:1;background-color:#f7fafc;background-color:rgba(247,250,252,var(--bg-opacity))}.border-gray-200{--border-opacity:1;border-color:#edf2f7;border-color:rgba(237,242,247,var(--border-opacity))}.border-gray-400{--border-opacity:1;border-color:#cbd5e0;border-color:rgba(203,213,224,var(--border-opacity))}.border-t{border-top-width:1px}.border-r{border-right-width:1px}.flex{display:flex}.grid{display:grid}.hidden{display:none}.items-center{align-items:center}.justify-center{justify-content:center}.font-semibold{font-weight:600}.h-5{height:1.25rem}.h-8{height:2rem}.h-16{height:4rem}.text-sm{font-size:.875rem}.text-lg{font-size:1.125rem}.leading-7{line-height:1.75rem}.mx-auto{margin-left:auto;margin-right:auto}.ml-1{margin-left:.25rem}.mt-2{margin-top:.5rem}.mr-2{margin-right:.5rem}.ml-2{margin-left:.5rem}.mt-4{margin-top:1rem}.ml-4{margin-left:1rem}.mt-8{margin-top:2rem}.ml-12{margin-left:3rem}.-mt-px{margin-top:-1px}.max-w-xl{max-width:36rem}.max-w-6xl{max-width:72rem}.min-h-screen{min-height:100vh}.overflow-hidden{overflow:hidden}.p-6{padding:1.5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.pt-8{padding-top:2rem}.fixed{position:fixed}.relative{position:relative}.top-0{top:0}.right-0{right:0}.shadow{box-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06)}.text-center{text-align:center}.text-gray-200{--text-opacity:1;color:#edf2f7;color:rgba(237,242,247,var(--text-opacity))}.text-gray-300{--text-opacity:1;color:#e2e8f0;color:rgba(226,232,240,var(--text-opacity))}.text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}.text-gray-500{--text-opacity:1;color:#a0aec0;color:rgba(160,174,192,var(--text-opacity))}.text-gray-600{--text-opacity:1;color:#718096;color:rgba(113,128,150,var(--text-opacity))}.text-gray-700{--text-opacity:1;color:#4a5568;color:rgba(74,85,104,var(--text-opacity))}.text-gray-900{--text-opacity:1;color:#1a202c;color:rgba(26,32,44,var(--text-opacity))}.uppercase{text-transform:uppercase}.underline{text-decoration:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.tracking-wider{letter-spacing:.05em}.w-5{width:1.25rem}.w-8{width:2rem}.w-auto{width:auto}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}@-webkit-keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@-webkit-keyframes ping{0%{transform:scale(1);opacity:1}75%,to{transform:scale(2);opacity:0}}@keyframes ping{0%{transform:scale(1);opacity:1}75%,to{transform:scale(2);opacity:0}}@-webkit-keyframes pulse{0%,to{opacity:1}50%{opacity:.5}}@keyframes pulse{0%,to{opacity:1}50%{opacity:.5}}@-webkit-keyframes bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:translateY(0);-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}@keyframes bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:translateY(0);-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}@media (min-width:640px){.sm\\:rounded-lg{border-radius:.5rem}.sm\\:block{display:block}.sm\\:items-center{align-items:center}.sm\\:justify-start{justify-content:flex-start}.sm\\:justify-between{justify-content:space-between}.sm\\:h-20{height:5rem}.sm\\:ml-0{margin-left:0}.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\\:pt-0{padding-top:0}.sm\\:text-left{text-align:left}.sm\\:text-right{text-align:right}}@media (min-width:768px){.md\\:border-t-0{border-top-width:0}.md\\:border-l{border-left-width:1px}.md\\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (min-width:1024px){.lg\\:px-8{padding-left:2rem;padding-right:2rem}}@media (prefers-color-scheme:dark){.dark\\:bg-gray-800{--bg-opacity:1;background-color:#2d3748;background-color:rgba(45,55,72,var(--bg-opacity))}.dark\\:bg-gray-900{--bg-opacity:1;background-color:#1a202c;background-color:rgba(26,32,44,var(--bg-opacity))}.dark\\:border-gray-700{--border-opacity:1;border-color:#4a5568;border-color:rgba(74,85,104,var(--border-opacity))}.dark\\:text-white{--text-opacity:1;color:#fff;color:rgba(255,255,255,var(--text-opacity))}.dark\\:text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}}\n </style>\n\n <style>\n body {\n font-family: \'Nunito\', sans-serif;\n }\n </style>\n </head>\n <body class="antialiased">\n <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">\n <div class="max-w-xl mx-auto sm:px-6 lg:px-8">\n <div class="flex items-center pt-8 sm:justify-start sm:pt-0">\n <div class="px-4 text-lg text-gray-500 border-r border-gray-400 tracking-wider">\n 500 </div>\n\n <div class="ml-4 text-lg text-gray-500 uppercase tracking-wider">\n Undefined array key &quot;type&quot; </div>\n </div>\n </div>\n </div>\n </body>\n</html>\n'
 
 [https://138.2.121.84]
 
@@ -39,12 +39,12 @@ type  v2board
 [http://154.19.186.71]
 name  光猫
 type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"lkvmagrcb414@51788.top","success":"false"}'
+更新订阅链接/续费续签失败  发送邮箱验证码失败(pgeptki996@xdanae.com): {'message': '邮箱后缀不处于白名单中'}
 
 [http://103.38.81.15]
 name  火箭加速
 type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"cooegoc552@ipiso.tmmad.com","success":"false"}'
+更新订阅链接/续费续签失败  发送邮箱验证码失败(pzjicvhx238@oakon.com): {'message': '邮箱后缀不处于白名单中'}
 
 [https://sub1.wonderx.link]
 name  𝙒𝙊𝙉𝘿𝙀𝙍𝙓
@@ -54,124 +54,124 @@ type  v2board
 [http://74.48.70.149]
 name  -云上冲浪板-
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(zpmpaczns255@tmpmail.net): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"uyvyffjey832@965.tmmad.com","success":"false"}'
 
 [https://www.xinamd.com]
 name  xinAMD.com
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(eqjwgzjg667@mydefipet.live): {'message': '验证码有误'}
+更新订阅链接/续费续签失败  发送邮箱验证码失败(rwzclbbc225@femailtor.com): {'message': '验证码有误'}
 
 [http://www.xinamd.com]
 name  xinAMD.com
 type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"zwryskjce360@adtgng.tmmad.com","success":"false"}'
+更新订阅链接/续费续签失败  发送邮箱验证码失败(vraeuikx893@mydefipet.live): {'message': '验证码有误'}
 
 [https://ny.niaoyun.lol]
 name  小鸟☁️全球网络代理
 type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"kddbzyil792@965.tmmad.com","success":"false"}'
+更新订阅链接/续费续签失败  发送邮箱验证码失败(rrvpipv501@tmpmail.org): {'message': '邮箱后缀不处于白名单中'}
 
 [http://admin.032710.xyz]
 name  谜之站点
 type  v2board
-更新订阅链接/续费续签失败  注册失败(acjuezgeb370@gmail.com): 本站已关闭注册
+更新订阅链接/续费续签失败  注册失败(xesodrmpo129@gmail.com): 本站已关闭注册
 
 [https://lx.527998.xyz]
 name  信息管理系统
 type  v2board
-更新订阅链接/续费续签失败  注册失败(urhqvfpu231@gmail.com): 本站已关闭注册
+更新订阅链接/续费续签失败  注册失败(bpurlsf157@gmail.com): 本站已关闭注册
 
 [http://98.126.31.6]
 name  可乐云
 type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"cwnqtts750@mail.wvwvw.tech","success":"false"}'
+更新订阅链接/续费续签失败  发送邮箱验证码失败(ccadwrpgs21@tmail.ws): {'message': '邮箱后缀不处于白名单中'}
 
 [https://xny.niaoyun.us]
 name  小鸟☁️全球网络代理
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(mbzzwak4@grr.la): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  发送邮箱验证码失败(vzmunvxtm106@tmpmail.net): {'message': '邮箱后缀不处于白名单中'}
 
 [http://www.jiasu666.top]
 api_host  www.jiasu666.top
 name  CloudTop
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(dyqjcns401@adtgng.tmmad.com): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"acsmodtw467@vapelato.com","success":"false"}'
 
 [http://70.39.181.210]
 api_host  70.39.181.210
 name  小鸟☁️全球网络代理
 type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"vmlkprk467@vapeuccino.com","success":"false"}'
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"vinryhsar543@lyx13.xyz","success":"false"}'
 
 [https://chukou01.pro]
 name  FireworksChukou☁️
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(wygpacypn643@sharklasers.com): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  发送邮箱验证码失败(rpgdwvy696@pastryofistanbul.com): {'message': '邮箱后缀不处于白名单中'}
 
 [https://admin.032710.xyz]
 name  谜之站点
 type  v2board
-更新订阅链接/续费续签失败  注册失败(nkvqmzs515@gmail.com): 本站已关闭注册
+更新订阅链接/续费续签失败  注册失败(zeqzbxzf386@gmail.com): 本站已关闭注册
 
 [http://spw.ntbq.dynu.net]
 name  Sparrow 麻雀加速器
 type  v2board
-更新订阅链接/续费续签失败  注册失败(bnjsload287@gmail.com): 本站已关闭注册
+更新订阅链接/续费续签失败  注册失败(uuznbbm206@gmail.com): 本站已关闭注册
 
 [http://catcatcat.store]
 name  光猫
 type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"znrlcnpy426@huiplay.com","success":"false"}'
+更新订阅链接/续费续签失败  发送邮箱验证码失败(ytoramo75@mxl001.win): {'message': '邮箱后缀不处于白名单中'}
 
 [http://spw.twty.dynu.net]
 name  Sparrow 麻雀加速器
 type  v2board
-更新订阅链接/续费续签失败  注册失败(jkgswcnhl555@gmail.com): 本站已关闭注册
+更新订阅链接/续费续签失败  注册失败(lguflwyn824@gmail.com): 本站已关闭注册
 
 [https://spwvpn.com]
 name  Sparrow 麻雀加速器
 type  v2board
-更新订阅链接/续费续签失败  注册失败(szhjrxqz651@gmail.com): 本站已关闭注册
+更新订阅链接/续费续签失败  注册失败(iaxhpzpe21@gmail.com): 本站已关闭注册
 
 [https://sky.ash.wf]
 name  微斯人，吾谁与归
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(ptvgwbvkb307@teml.net): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"bubhlhf70@ipiso.tmmad.com","success":"false"}'
 
 [https://main.wz-cloud.com]
 name  御鸠云
 type  v2board
-更新订阅链接/续费续签失败  注册失败(odrqijf218@gmail.com): 本站已关闭注册
+更新订阅链接/续费续签失败  注册失败(swoctut519@gmail.com): 本站已关闭注册
 
 [https://spw.ntbq.dynu.net]
 name  Sparrow 麻雀加速器
 type  v2board
-更新订阅链接/续费续签失败  注册失败(kncxjlug816@gmail.com): 本站已关闭注册
+更新订阅链接/续费续签失败  注册失败(zhdzdsx206@gmail.com): 本站已关闭注册
 
 [http://v.spwvpn.com]
 name  Sparrow 麻雀加速器
 type  v2board
-更新订阅链接/续费续签失败  注册失败(vyalrjssy76@gmail.com): 本站已关闭注册
+更新订阅链接/续费续签失败  注册失败(frkieovu73@gmail.com): 本站已关闭注册
 
 [https://cn.slte.me]
 buy  pass
-email  ufkelgwda254@gmail.com
+email  zpxmtrvnk796@gmail.com
 name  SLTE
 sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://cn.slte.me/api/v1/client/subscribe?token=327738ae1ccaeaad35308d4dd2021cb1
-time  2026-03-06 10:25:23.998316+08:00
+sub_url  https://cn.slte.me/api/v1/client/subscribe?token=0d2544e24f3f8a572031a0104f3105f7
+time  2026-03-06 10:28:33.854954+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
 
 [http://panel.333444.best]
 name  微斯人，吾谁与归
 type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"elfndow810@huiplay.com","success":"false"}'
+更新订阅链接/续费续签失败  发送邮箱验证码失败(sbcpoduo997@moakt.co): {'message': '邮箱后缀不处于白名单中'}
 
 [https://panel.333444.best]
 name  微斯人，吾谁与归
 type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"oqwluuthz539@x866.cc","success":"false"}'
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"xardhjikk609@rgzx.tmmad.com","success":"false"}'
 
 [http://45.76.111.225]
 buy  period=onetime_price&plan_id=1
@@ -182,11 +182,12 @@ sub_url  http://45.76.111.225/api/v1/client/subscribe?token=91d0432d7cf55baf0998
 time  2026-03-06 10:25:24.808907+08:00
 type  v2board
 保存base64/clash订阅失败  mapping values are not allowed here in "<byte string>", line 67, column 70: ... block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold"> ... ^ (line: 67)
+更新旧订阅失败  int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
 
 [http://spwvpn.com]
 name  Sparrow 麻雀加速器
 type  v2board
-更新订阅链接/续费续签失败  注册失败(laqptnzfo779@gmail.com): 本站已关闭注册
+更新订阅链接/续费续签失败  注册失败(jfqdrse913@gmail.com): 本站已关闭注册
 
 [https://xbb.nai99.top]
 buy  period=onetime_price&plan_id=3
@@ -197,6 +198,7 @@ sub_info  0B  2G  永不过期  (剩余 2G)
 sub_url  https://xbb.nai99.top/api/v1/client/subscribe?token=8465b74510410a62d9867840a1cd635f
 time  2026-03-06 10:25:27.002812+08:00
 type  v2board
+更新旧订阅失败  invalid literal for int() with base 10: ''
 
 [http://jkk.nai99.top]
 api_host  jkk.nai99.top
@@ -208,12 +210,13 @@ sub_info  0B  2G  永不过期  (剩余 2G)
 sub_url  https://jkk.nai99.top/api/v1/client/subscribe?token=17f2e23246d9dd5b11521f4d552462f5
 time  2026-03-06 10:25:27.140527+08:00
 type  v2board
+更新旧订阅失败  invalid literal for int() with base 10: ''
 
 [http://is.nksea.com]
 email_domain  None
 name  IS
 type  v2board
-更新订阅链接/续费续签失败  注册失败(hplyfjueo613@qq.com): 邮箱后缀不处于白名单中
+更新订阅链接/续费续签失败  注册失败(cwbdlnga355@None): 邮箱后缀不处于白名单中
 
 [http://cn.slte.me]
 buy  pass
@@ -224,6 +227,7 @@ sub_url  https://cn.slte.me/api/v1/client/subscribe?token=41983079f4d52b6f0e8ac5
 time  2026-03-06 10:25:24.401489+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
+更新订阅链接/续费续签失败  注册失败(upjgtvrcd713@gmail.com): 注册频繁，请等待 60 分钟后再次尝试
 
 [http://04.didiaoyun.cc]
 
@@ -231,47 +235,47 @@ type  v2board
 email_domain  None
 name  IS
 type  v2board
-更新订阅链接/续费续签失败  注册失败(xrebdfobd993@qq.com): 邮箱后缀不处于白名单中
+更新订阅链接/续费续签失败  注册失败(nlfdhzr199@None): 邮箱后缀不处于白名单中
 
 [http://218.244.142.188:9001]
 buy  pass
-email  ukjnrykzq73@gmail.com
+email  gdvltkis216@gmail.com
 name  抖音加速
 sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  http://218.244.142.188:9003/api/v1/client/subscribe?token=b8fbf8d8fde33e0f8073cd937dce3fb4
-time  2026-03-06 10:25:28.811785+08:00
+sub_url  http://218.244.142.188:9002/api/v1/client/subscribe?token=6e7b1793b472dea54f728a4161282444
+time  2026-03-06 10:28:51.072334+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
 
 [http://192.131.142.107]
 name  GOOGO.US
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(doppjldg445@femailtor.com): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"tsaimeq578@12316hfk.com","success":"false"}'
 
 [http://demo.328671.xyz]
 name  飞流加速
 type  v2board
-更新订阅链接/续费续签失败  注册失败(ztcfbszu183@gmail.com): 本站已关闭注册
+更新订阅链接/续费续签失败  注册失败(nphhfwfwa634@gmail.com): 本站已关闭注册
 
 [https://hh.xinamd.com]
 name  xinAMD.com
 type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"rpkohxh497@965.tmmad.com","success":"false"}'
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"lfmhtftah7@x866.cc","success":"false"}'
 
 [http://45.32.34.170]
 name  Netch加速
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(qkttvcuuw720@mydefipet.live): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"sreohera555@12316hfk.com","success":"false"}'
 
 [http://hh.xinamd.com]
 name  xinAMD.com
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(ezrxgwpm322@disbox.org): {'message': '验证码有误'}
+更新订阅链接/续费续签失败  发送邮箱验证码失败(xnvzawcd454@tmpbox.net): {'message': '验证码有误'}
 
 [http://69.197.141.227]
 name  CHCC 尤选专线机场
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(avcmrsles793@femailtor.com): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  发送邮箱验证码失败(afhaybuqm52@oakon.com): {'message': '邮箱后缀不处于白名单中'}
 
 [https://04.didiaoyun.cc]
 
@@ -280,7 +284,7 @@ type  v2board
 [http://38.175.198.124]
 name  小鸟☁️全球网络代理
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(hkcsemln627@teihu.com): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"hvftiuv840@lyx13.xyz","success":"false"}'
 
 [https://net-yar.com]
 
@@ -292,15 +296,15 @@ type  v2board
 [https://demo.328671.xyz]
 name  飞流加速
 type  v2board
-更新订阅链接/续费续签失败  注册失败(jlmvhpj637@gmail.com): 本站已关闭注册
+更新订阅链接/续费续签失败  注册失败(hjoasyk792@gmail.com): 本站已关闭注册
 
 [http://154.19.242.131]
 buy  pass
-email  iijtzlz288@gmail.com
+email  brfjqxoq989@gmail.com
 name  雷速NEXT
 sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  http://154.19.242.131/api/v1/client/subscribe?token=a9f55f90462f11b121db8a040f65be5c
-time  2026-03-06 10:25:26.451415+08:00
+sub_url  http://154.19.242.131/api/v1/client/subscribe?token=49f13fba2df513e7285a8365b5597a04
+time  2026-03-06 10:28:53.102912+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
 
@@ -315,40 +319,40 @@ type  v2board
 [https://ooxx.kncgmo.cn]
 name  三斤云
 type  v2board
-更新订阅链接/续费续签失败  注册失败(djvepetdl757@gmail.com): 本站已关闭注册
+更新订阅链接/续费续签失败  注册失败(zklevpki367@gmail.com): 本站已关闭注册
 
 [http://23.95.247.39]
 email_domain  112004.xyz
 name  aslmhflajhf
 type  v2board
-更新订阅链接/续费续签失败  注册失败(ogroznqk544@112004.xyz): 遇到了些问题，我们正在进行处理
+更新订阅链接/续费续签失败  注册失败(fwhauchfp433@112004.xyz): 遇到了些问题，我们正在进行处理
 
 [http://ooxx.kncgmo.cn]
 api_host  ooxx.kncgmo.cn
 name  三斤云
 type  v2board
-更新订阅链接/续费续签失败  注册失败(tcjayimc643@gmail.com): 本站已关闭注册
+更新订阅链接/续费续签失败  注册失败(chrmarmj576@gmail.com): 本站已关闭注册
 
 [https://www.jiasu666.top]
 name  CloudTop
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(jfbcxrs742@xxxhi.cc): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  发送邮箱验证码失败(vuidupmdn872@disbox.net): {'message': '邮箱后缀不处于白名单中'}
 
 [http://v2board.imxj.top]
 name  众筹买小鸡
 type  v2board
-更新订阅链接/续费续签失败  注册失败(sywxifzaf539@gmail.com): 本站已关闭注册
+更新订阅链接/续费续签失败  注册失败(zpcrbzz166@gmail.com): 本站已关闭注册
 
 [http://chukou01.pro]
 api_host  chukou01.pro
 name  FireworksChukou☁️
 type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"cfdjonn471@51788.top","success":"false"}'
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"ixitxvd318@vapelato.com","success":"false"}'
 
 [http://77.247.127.43]
 name  Forest
 type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"jgidygbz54@vapelato.com","success":"false"}'
+更新订阅链接/续费续签失败  发送邮箱验证码失败(vuwnmujwx329@disbox.net): {'message': '邮箱后缀不处于白名单中'}
 
 [http://shandianyunbvcxz.top]
 api_host  shandianyunbvcxz.top
@@ -359,7 +363,7 @@ type  v2board
 [http://new.bedns.club]
 name  Benz
 type  v2board
-更新订阅链接/续费续签失败  注册失败(zcupiqr781@gmail.com): 本站已关闭注册
+更新订阅链接/续费续签失败  注册失败(oexfyxze580@gmail.com): 本站已关闭注册
 
 [https://shandianyunbvcxz.top]
 name  友谊机场
@@ -368,50 +372,50 @@ type  v2board
 
 [http://50.114.113.245:9001]
 buy  pass
-email  ruyjwgyf215@gmail.com
+email  lvfcyitnn853@gmail.com
 name  光年加速
 sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  http://8.138.16.155:10011/api/v1/client/subscribe?token=82ad98b6bf8b7b1a5b703916edc5af9e
-time  2026-03-06 10:25:35.046544+08:00
+sub_url  http://8.138.16.155:10010/api/v1/client/subscribe?token=e3c1f0272186e77a1be63b5c5d59cb55
+time  2026-03-06 10:28:45.982117+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
 
 [https://v22.sealnet.cf]
 name  Moon
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(ebjhfelxz731@moakt.co): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  发送邮箱验证码失败(kczvicz524@tmpmail.net): {'message': '邮箱后缀不处于白名单中'}
 
 [http://v22.sealnet.cf]
 name  Moon
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(lkilitfqk269@tmails.net): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  发送邮箱验证码失败(tgblhhdd342@guerrillamail.com): {'message': '邮箱后缀不处于白名单中'}
 
 [http://142.91.105.42]
 name  微斯人，吾谁与归
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(zkgtvyxl700@guerrillamail.org): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"mtgjycvj261@xdanae.com","success":"false"}'
 
 [https://chukou.co]
 
 [http://103.45.65.35]
 buy  pass
-email  nrevjjxsa505@gmail.com
+email  dktrsievi171@gmail.com
 name  熊猫加速器
 sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://xiongmao.dingyue.icu/s?token=4fd768c6ed3e9311d60ceed56492e760
-time  2026-03-06 10:25:35.868578+08:00
+sub_url  https://xiongmao.dingyue.icu/s?token=bc69b6dca0c2d42fc52298299771340e
+time  2026-03-06 10:28:46.101503+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
 
 [https://new.bedns.club]
 name  Benz
 type  v2board
-更新订阅链接/续费续签失败  注册失败(lvldzfiof317@gmail.com): 本站已关闭注册
+更新订阅链接/续费续签失败  注册失败(qnpgmwdl332@gmail.com): 本站已关闭注册
 
 [http://cccndc.top]
 name  光猫
 type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"wseuimj678@mxl001.win","success":"false"}'
+更新订阅链接/续费续签失败  发送邮箱验证码失败(pfurfuxhl627@oakon.com): {'message': '邮箱后缀不处于白名单中'}
 
 [https://b.qimengyun.cc]
 
@@ -420,32 +424,32 @@ type  v2board
 [http://103.229.54.112]
 name  远方云
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(yczgkfzbq555@xxxhi.cc): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"gpgqxwngs731@ipiso.tmmad.com","success":"false"}'
 
 [https://yanhua101.vip]
 name  Fireworks🎆
 type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"rfmvoazl857@mail.shouyou789.com","success":"false"}'
+更新订阅链接/续费续签失败  发送邮箱验证码失败(kvighxni688@guerrillamail.net): {'message': '邮箱后缀不处于白名单中'}
 
 [http://139.99.91.197]
 name  BENZ
 type  v2board
-更新订阅链接/续费续签失败  注册失败(pjosmum868@gmail.com): 本站已关闭注册
+更新订阅链接/续费续签失败  注册失败(dvpkwhuft959@gmail.com): 本站已关闭注册
 
 [http://166.88.57.11]
 name  火神加速
 type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"nmswfxal398@adtgng.tmmad.com","success":"false"}'
+更新订阅链接/续费续签失败  发送邮箱验证码失败(oocripkt729@spam4.me): {'message': '邮箱后缀不处于白名单中', 'exception': 'Symfony\\Component\\HttpKernel\\Exception\\HttpException', 'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php', 'line': 1134, 'trace': [{'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php', 'line': 44, 'function': 'abort', 'class': 'Illuminate\\Foundation\\Application', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/app/Http/Controllers/V1/Passport/CommController.php', 'line': 55, 'function': 'abort'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Routing/Controller.php', 'line': 54, 'function': 'sendEmailVerify', 'class': 'App\\Http\\Controllers\\V1\\Passport\\CommController', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php', 'line': 45, 'function': 'callAction', 'class': 'Illuminate\\Routing\\Controller', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Routing/Route.php', 'line': 262, 'function': 'dispatch', 'class': 'Illuminate\\Routing\\ControllerDispatcher', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Routing/Route.php', 'line': 205, 'function': 'runController', 'class': 'Illuminate\\Routing\\Route', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php', 'line': 721, 'function': 'run', 'class': 'Illuminate\\Routing\\Route', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 128, 'function': 'Illuminate\\Routing\\{closure}', 'class': 'Illuminate\\Routing\\Router', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php', 'line': 50, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Illuminate\\Routing\\Middleware\\SubstituteBindings', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/app/Http/Middleware/Language.php', 'line': 15, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'App\\Http\\Middleware\\Language', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/app/Http/Middleware/ForceJson.php', 'line': 20, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'App\\Http\\Middleware\\ForceJson', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 103, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php', 'line': 723, 'function': 'then', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php', 'line': 698, 'function': 'runRouteWithinStack', 'class': 'Illuminate\\Routing\\Router', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php', 'line': 662, 'function': 'runRoute', 'class': 'Illuminate\\Routing\\Router', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php', 'line': 651, 'function': 'dispatchToRoute', 'class': 'Illuminate\\Routing\\Router', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php', 'line': 167, 'function': 'dispatch', 'class': 'Illuminate\\Routing\\Router', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 128, 'function': 'Illuminate\\Foundation\\Http\\{closure}', 'class': 'Illuminate\\Foundation\\Http\\Kernel', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php', 'line': 21, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php', 'line': 31, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php', 'line': 21, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php', 'line': 40, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\TrimStrings', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php', 'line': 27, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php', 'line': 86, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/fideloper/proxy/src/TrustProxies.php', 'line': 57, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Fideloper\\Proxy\\TrustProxies', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/app/Http/Middleware/UAfilter.php', 'line': 56, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'App\\Http\\Middleware\\UAfilter', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/app/Http/Middleware/CORS.php', 'line': 18, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'App\\Http\\Middleware\\CORS', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 103, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php', 'line': 142, 'function': 'then', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php', 'line': 111, 'function': 'sendRequestThroughRouter', 'class': 'Illuminate\\Foundation\\Http\\Kernel', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/start.php', 'line': 63, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Kernel', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/webman.php', 'line': 34, 'function': 'run'}, {'file': '/www/wwwroot/huoshen11.com/vendor/workerman/workerman/src/Connection/TcpConnection.php', 'line': 742, 'function': '{closure}'}, {'file': '/www/wwwroot/huoshen11.com/vendor/workerman/workerman/src/Events/Select.php', 'line': 406, 'function': 'baseRead', 'class': 'Workerman\\Connection\\TcpConnection', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/workerman/workerman/src/Worker.php', 'line': 1756, 'function': 'run', 'class': 'Workerman\\Events\\Select', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/workerman/workerman/src/Worker.php', 'line': 1552, 'function': 'forkOneWorkerForLinux', 'class': 'Workerman\\Worker', 'type': '::'}, {'file': '/www/wwwroot/huoshen11.com/vendor/workerman/workerman/src/Worker.php', 'line': 1532, 'function': 'forkWorkersForLinux', 'class': 'Workerman\\Worker', 'type': '::'}, {'file': '/www/wwwroot/huoshen11.com/vendor/workerman/workerman/src/Worker.php', 'line': 1901, 'function': 'forkWorkers', 'class': 'Workerman\\Worker', 'type': '::'}, {'file': '/www/wwwroot/huoshen11.com/vendor/workerman/workerman/src/Worker.php', 'line': 1836, 'function': 'monitorWorkersForLinux', 'class': 'Workerman\\Worker', 'type': '::'}, {'file': '/www/wwwroot/huoshen11.com/vendor/workerman/workerman/src/Worker.php', 'line': 603, 'function': 'monitorWorkers', 'class': 'Workerman\\Worker', 'type': '::'}, {'file': '/www/wwwroot/huoshen11.com/webman.php', 'line': 40, 'function': 'runAll', 'class': 'Workerman\\Worker', 'type': '::'}]}
 
 [https://cigtpr.site]
 name  光猫
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(pxgxjkxk496@teihu.com): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  发送邮箱验证码失败(ztjyoqj716@moakt.co): {'message': '邮箱后缀不处于白名单中'}
 
 [http://sky.ash.wf]
 name  微斯人，吾谁与归
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(aaipeem913@linshiyou.com): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  发送邮箱验证码失败(havogca534@psnator.com): {'message': '邮箱后缀不处于白名单中'}
 
 [http://54.38.156.5]
 name  连连看
@@ -455,17 +459,17 @@ type  v2board
 [https://xn--9kqsd13p.top]
 name  古人云
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(lvejybip135@sharklasers.com): {'message': '邮箱后缀不处于白名单中', 'exception': 'Symfony\\Component\\HttpKernel\\Exception\\HttpException', 'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Application.php', 'line': 1134, 'trace': [{'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php', 'line': 44, 'function': 'abort', 'class': 'Illuminate\\Foundation\\Application', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/app/Http/Controllers/V1/Passport/CommController.php', 'line': 55, 'function': 'abort'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/Controller.php', 'line': 54, 'function': 'sendEmailVerify', 'class': 'App\\Http\\Controllers\\V1\\Passport\\CommController', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php', 'line': 45, 'function': 'callAction', 'class': 'Illuminate\\Routing\\Controller', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/Route.php', 'line': 261, 'function': 'dispatch', 'class': 'Illuminate\\Routing\\ControllerDispatcher', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/Route.php', 'line': 205, 'function': 'runController', 'class': 'Illuminate\\Routing\\Route', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/Router.php', 'line': 721, 'function': 'run', 'class': 'Illuminate\\Routing\\Route', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 128, 'function': 'Illuminate\\Routing\\{closure}', 'class': 'Illuminate\\Routing\\Router', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php', 'line': 50, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Illuminate\\Routing\\Middleware\\SubstituteBindings', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/app/Http/Middleware/Language.php', 'line': 15, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'App\\Http\\Middleware\\Language', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/app/Http/Middleware/ForceJson.php', 'line': 20, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'App\\Http\\Middleware\\ForceJson', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 103, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/Router.php', 'line': 719, 'function': 'then', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/Router.php', 'line': 698, 'function': 'runRouteWithinStack', 'class': 'Illuminate\\Routing\\Router', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/Router.php', 'line': 662, 'function': 'runRoute', 'class': 'Illuminate\\Routing\\Router', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/Router.php', 'line': 651, 'function': 'dispatchToRoute', 'class': 'Illuminate\\Routing\\Router', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php', 'line': 167, 'function': 'dispatch', 'class': 'Illuminate\\Routing\\Router', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 128, 'function': 'Illuminate\\Foundation\\Http\\{closure}', 'class': 'Illuminate\\Foundation\\Http\\Kernel', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php', 'line': 21, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php', 'line': 31, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php', 'line': 21, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php', 'line': 40, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\TrimStrings', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php', 'line': 27, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php', 'line': 86, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/fideloper/proxy/src/TrustProxies.php', 'line': 57, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Fideloper\\Proxy\\TrustProxies', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/app/Http/Middleware/CORS.php', 'line': 18, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'App\\Http\\Middleware\\CORS', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 103, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php', 'line': 142, 'function': 'then', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php', 'line': 111, 'function': 'sendRequestThroughRouter', 'class': 'Illuminate\\Foundation\\Http\\Kernel', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/public/index.php', 'line': 54, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Kernel', 'type': '->'}]}
+更新订阅链接/续费续签失败  发送邮箱验证码失败(nlcldhxxg706@tmpmail.org): {'message': '邮箱后缀不处于白名单中', 'exception': 'Symfony\\Component\\HttpKernel\\Exception\\HttpException', 'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Application.php', 'line': 1134, 'trace': [{'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php', 'line': 44, 'function': 'abort', 'class': 'Illuminate\\Foundation\\Application', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/app/Http/Controllers/V1/Passport/CommController.php', 'line': 55, 'function': 'abort'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/Controller.php', 'line': 54, 'function': 'sendEmailVerify', 'class': 'App\\Http\\Controllers\\V1\\Passport\\CommController', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php', 'line': 45, 'function': 'callAction', 'class': 'Illuminate\\Routing\\Controller', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/Route.php', 'line': 261, 'function': 'dispatch', 'class': 'Illuminate\\Routing\\ControllerDispatcher', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/Route.php', 'line': 205, 'function': 'runController', 'class': 'Illuminate\\Routing\\Route', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/Router.php', 'line': 721, 'function': 'run', 'class': 'Illuminate\\Routing\\Route', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 128, 'function': 'Illuminate\\Routing\\{closure}', 'class': 'Illuminate\\Routing\\Router', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php', 'line': 50, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Illuminate\\Routing\\Middleware\\SubstituteBindings', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/app/Http/Middleware/Language.php', 'line': 15, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'App\\Http\\Middleware\\Language', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/app/Http/Middleware/ForceJson.php', 'line': 20, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'App\\Http\\Middleware\\ForceJson', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 103, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/Router.php', 'line': 719, 'function': 'then', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/Router.php', 'line': 698, 'function': 'runRouteWithinStack', 'class': 'Illuminate\\Routing\\Router', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/Router.php', 'line': 662, 'function': 'runRoute', 'class': 'Illuminate\\Routing\\Router', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/Router.php', 'line': 651, 'function': 'dispatchToRoute', 'class': 'Illuminate\\Routing\\Router', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php', 'line': 167, 'function': 'dispatch', 'class': 'Illuminate\\Routing\\Router', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 128, 'function': 'Illuminate\\Foundation\\Http\\{closure}', 'class': 'Illuminate\\Foundation\\Http\\Kernel', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php', 'line': 21, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php', 'line': 31, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php', 'line': 21, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php', 'line': 40, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\TrimStrings', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php', 'line': 27, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php', 'line': 86, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/fideloper/proxy/src/TrustProxies.php', 'line': 57, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Fideloper\\Proxy\\TrustProxies', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/app/Http/Middleware/CORS.php', 'line': 18, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'App\\Http\\Middleware\\CORS', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 103, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php', 'line': 142, 'function': 'then', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php', 'line': 111, 'function': 'sendRequestThroughRouter', 'class': 'Illuminate\\Foundation\\Http\\Kernel', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/public/index.php', 'line': 54, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Kernel', 'type': '->'}]}
 
 [https://fireworks103.xyz]
 name  Fireworks🎆
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(wivyjdcc706@lista.cc): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  发送邮箱验证码失败(gwgpcyoxm175@guerrillamail.net): {'message': '邮箱后缀不处于白名单中'}
 
 [http://66.154.104.195]
 name  Stardream
 type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"kuujakh250@rgzx.tmmad.com","success":"false"}'
+更新订阅链接/续费续签失败  发送邮箱验证码失败(fjkohujp9@disbox.org): {'message': '验证码有误'}
 
 [http://51.81.187.228]
 name  泡泡茶壶
@@ -474,44 +478,44 @@ type  v2board
 
 [http://107.155.55.8]
 buy  pass
-email  rghamgr392@gmail.com
+email  kqjkwfed424@gmail.com
 name  idle Duck
 sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://api.idleduck.top/api/v1/client/subscribe?token=4a0237cabf709c99bbc2e100acf0d37b
-time  2026-03-06 10:25:37.692180+08:00
+sub_url  https://api.idleduck.top/api/v1/client/subscribe?token=487fda49d92df7b15622ed7d5af04c2d
+time  2026-03-06 10:29:07.884587+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
 
 [http://159.198.37.142]
 name  🦋神筆雲(蝴蝶網)
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(djfsktbxa10@guerrillamail.de): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"acmxdbywh772@bccto.cc","success":"false"}'
 
 [http://192.3.248.54]
 banned_domains  xxxhi.cc
 name  无极加速
 type  v2board
-更新订阅链接/续费续签失败  获取邮箱验证码超时(jmlciecf649@xxxhi.cc)
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"slezycufb405@lplso.tmmad.com","success":"false"}'
 
 [http://166.88.97.30]
 buy  pass
-email  iaudzaqw466@gmail.com
+email  btkilsu935@gmail.com
 name  光年加速
 sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  http://8.138.16.155:10011/api/v1/client/subscribe?token=b5280bbdd3785fd3a5728a585607c5d2
-time  2026-03-06 10:25:36.383222+08:00
+sub_url  http://8.138.16.155:10011/api/v1/client/subscribe?token=e15ff4dede97279c87bf6f169aa9259f
+time  2026-03-06 10:28:45.497927+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
 
 [http://188.253.112.72]
 name  KooDog
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(rknuaia550@tmpmail.net): {'message': '验证码有误'}
+更新订阅链接/续费续签失败  发送邮箱验证码失败(yzuocez112@bareed.ws): {'message': '验证码有误'}
 
 [http://104.168.30.114]
 name  鹏鹏加速
 type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"qcsffbgp719@rgzx.tmmad.com","success":"false"}'
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"srwfiuhv467@nano-watt.tech","success":"false"}'
 
 [http://182.255.44.202]
 buy  pass
@@ -520,29 +524,29 @@ name  V2Board
 sub_url  http://182.255.44.202/list?token=e4c674c2bc1de7f4d6ec904219383976
 time  2026-03-06 10:25:37.287259+08:00
 type  v2board
-获取订阅失败  (http://182.255.44.202/list?token=e4c674c2bc1de7f4d6ec904219383976): 403 Forbidden '{"ret":0,"msg":"\\u7528\\u6237\\u4e0d\\u53ef\\u7528"}'
+更新旧订阅失败  (http://182.255.44.202/list?token=e4c674c2bc1de7f4d6ec904219383976): 403 Forbidden '{"ret":0,"msg":"\\u7528\\u6237\\u4e0d\\u53ef\\u7528"}'
 
 [http://108.165.155.8]
 buy  pass
-email  uehqxhjbi679@gmail.com
+email  nfbyfnoad13@gmail.com
 name  快牙加速
 sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  http://8.138.16.155:20010/api/v1/client/subscribe?token=a2f55975308158a12f027b089c3ede5d
-time  2026-03-06 10:25:37.397157+08:00
+sub_url  http://8.138.16.155:20010/api/v1/client/subscribe?token=ceba615642e523e43a2e682f7b52b2d4
+time  2026-03-06 10:28:47.334489+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
 
 [https://nao3f8pvpggpwvzgv.nodesrr.top]
 name  CloudTop
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(jctarbff209@disbox.org): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  发送邮箱验证码失败(gitscspow901@tmails.net): {'message': '邮箱后缀不处于白名单中'}
 
 [https://www.hailuo.xyz]
 buy  period=three_year_price&plan_id=1
 email  zoydfotdp139@gmail.com
 name  海螺加速器 hailuo.us
 node_n  1
-sub_info  0B  97.66T  2029-03-06 11:25:36+08:00  (剩余 97.66T 1096 days, 0:59:20.913538)
+sub_info  0B  97.66T  2029-03-06 11:25:36+08:00  (剩余 97.66T 1096 days, 0:56:45.866611)
 sub_url  https://hailuo.xyz/svip?token=a2a1672aa78601f76b76c1d5abda6f13
 time  2026-03-06 10:25:38.090809+08:00
 type  v2board
@@ -550,17 +554,17 @@ type  v2board
 [http://47.79.39.164]
 name  AWEME
 type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"rbymhngm539@vapelato.com","success":"false"}'
+更新订阅链接/续费续签失败  发送邮箱验证码失败(hdzqjncja351@tmpmail.net): {'message': '邮箱后缀不处于白名单中'}
 
 [http://152.53.118.140]
 name  悠云UO
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(feynnxe426@guerrillamail.net): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"tlpdycqdi256@mail.wvwvw.tech","success":"false"}'
 
 [http://dydvehzxk9geah.556699.cfd]
 name  CloudTop
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(pldmtdj524@tmail.ws): {'message': 'Too many requests, please try again later.'}
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"hcavnmi452@huiplay.com","success":"false"}'
 
 [http://167.179.96.189]
 api_host  167.179.96.189
@@ -570,11 +574,11 @@ type  v2board
 
 [http://198.20.133.209]
 buy  pass
-email  nqcrmcbof138@gmail.com
+email  cnckgqzy36@gmail.com
 name  抖音加速
 sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  http://218.244.142.188:20011/api/v1/client/subscribe?token=c95f172e4c8a935ae0009d72a9a86e59
-time  2026-03-06 10:25:37.375404+08:00
+sub_url  http://218.244.142.188:20010/api/v1/client/subscribe?token=8dfab37d9ecb0387f514594931e84627
+time  2026-03-06 10:28:57.331086+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
 
@@ -585,7 +589,7 @@ buy  pass
 email  radboahfh555@gmail.com
 name  Cecil 塞西尔
 node_n  3
-sub_info  0B  3G  2026-03-07 10:25:36+08:00  (剩余 3G 23:59:19.415244)
+sub_info  0B  3G  2026-03-07 10:25:36+08:00  (剩余 3G 23:56:50.167716)
 sub_url  http://82.29.53.56/api/v1/client/subscribe?token=4a3f19dd1ae1150089a7ea0c18b4b893
 time  2026-03-06 10:25:36.449426+08:00
 type  v2board
@@ -594,8 +598,8 @@ type  v2board
 buy  pass
 email  mygdoee777@gmail.com
 name  柚子酱
-node_n  33
-sub_info  0B  1G  2026-03-07 10:25:36+08:00  (剩余 1G 23:59:55.156810)
+node_n  34
+sub_info  0B  1G  2026-03-07 10:25:36+08:00  (剩余 1G 23:56:48.691322)
 sub_url  https://114514.youzizizi.top/api/v1/client/subscribe?token=c99f3074f4e4e373a2c2494ed304a036
 time  2026-03-06 10:25:36.890267+08:00
 type  v2board
@@ -604,7 +608,7 @@ type  v2board
 banned_domains  teml.net
 name  快猫
 type  v2board
-更新订阅链接/续费续签失败  获取邮箱验证码超时(lyclwju581@teml.net)
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"lfnxyud461@jkd.tmmad.com","success":"false"}'
 
 [http://160.250.132.211]
 
@@ -613,12 +617,12 @@ type  v2board
 [http://149.28.22.5]
 name  王者官网
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(ppdykii992@disbox.org): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"evxkhxl814@ipiso.tmmad.com","success":"false"}'
 
 [http://45.249.89.109]
 name  MGNB
 type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"yecunaz498@adtgng.tmmad.com","success":"false"}'
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"ticcdtmg758@ipiso.tmmad.com","success":"false"}'
 
 [https://15.235.186.102]
 
@@ -626,11 +630,11 @@ type  v2board
 
 [http://50.114.113.245]
 buy  pass
-email  czwfnrc498@gmail.com
+email  gtwciiu459@gmail.com
 name  光年加速
 sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  http://8.138.16.155:10012/api/v1/client/subscribe?token=fd8116858879743a8722ea9ce49fbe0f
-time  2026-03-06 10:25:38.341838+08:00
+sub_url  http://8.138.16.155:10011/api/v1/client/subscribe?token=d3e2ae20f8ff8e0b3067a945b6167228
+time  2026-03-06 10:28:51.581156+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
 
@@ -639,35 +643,35 @@ type  v2board
 [https://103.45.65.35]
 
 [http://45.88.223.110]
-banned_domains  disbox.net
+banned_domains  disbox.net  femailtor.com
 name  V2Board
 type  v2board
-更新订阅链接/续费续签失败  获取邮箱验证码超时(gbckbfnwn686@disbox.net)
+更新订阅链接/续费续签失败  获取邮箱验证码超时(ljdalke829@femailtor.com)
 
 [http://149.88.69.149]
 name  Fireworks🎆
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(wukpiqcd145@mail.shouyou789.com): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"fewgyfvpr481@965.tmmad.com","success":"false"}'
 
 [http://148.135.88.180]
 buy  pass
-email  manbxbevm986@gmail.com
+email  zgvfkey379@gmail.com
 name  光速云
 sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://book.gs009.buzz/api/v1/client/subscribe?token=a2f55dd4dc2a2806626533495f29a6e0
-time  2026-03-06 10:25:38.225369+08:00
+sub_url  https://book.gs009.buzz/api/v1/client/subscribe?token=10954baa12c20eb7c6fe4b8e4adb4591
+time  2026-03-06 10:28:53.608256+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
 
 [http://74.48.160.135]
 name  FireworksChukou☁️
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(ffwysnqh315@disbox.net): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"ttebtzv225@mail.shouyou789.com","success":"false"}'
 
 [http://158.51.111.157]
 name  HIMEMY
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(ctmrfnfmi613@tmpbox.net): {'message': '验证码有误'}
+更新订阅链接/续费续签失败  发送邮箱验证码失败(tixfgxerf889@xxxhi.cc): {'message': '验证码有误'}
 
 [https://79.72.64.70]
 
@@ -676,7 +680,7 @@ type  v2board
 [http://ao3f8pvpggpwvzgv.nodesrr.top]
 name  CloudTop
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(cfmnmbjb950@bareed.ws): {'message': 'Too many requests, please try again later.'}
+更新订阅链接/续费续签失败  发送邮箱验证码失败(bxvucgto265@femailtor.com): {'message': '邮箱后缀不处于白名单中'}
 
 [https://www.stardream.cloud]
 
@@ -689,18 +693,18 @@ type  v2board
 [http://172.104.107.223]
 name  wmsxwd
 type  v2board
-更新订阅链接/续费续签失败  注册失败(cuttykv587@gmail.com): 本站已关闭注册
+更新订阅链接/续费续签失败  注册失败(ctknlrsym592@gmail.com): 本站已关闭注册
 
 [http://tjos.oxcloud.top]
 api_host  tjos.oxcloud.top
 name  OX Cloud
 type  v2board
-更新订阅链接/续费续签失败  注册失败(fhwsiho42@gmail.com): 本站已关闭注册
+更新订阅链接/续费续签失败  注册失败(qrdebwmif851@gmail.com): 本站已关闭注册
 
 [https://th.fastroute.icu]
 name  GaleCloud
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(xijjptdgx749@tmpeml.com): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  发送邮箱验证码失败(svdluvv824@moakt.ws): {'message': '邮箱后缀不处于白名单中'}
 
 [https://154.9.26.196]
 
@@ -729,7 +733,7 @@ type  v2board
 [https://ad.cnwjane.xyz]
 name  cnwjane
 type  v2board
-更新订阅链接/续费续签失败  注册失败(zslaicr726@gmail.com): 本站已关闭注册
+更新订阅链接/续费续签失败  注册失败(twlrdlys57@gmail.com): 本站已关闭注册
 
 [https://101.201.67.59]
 
@@ -754,7 +758,7 @@ type  v2board
 [http://v2client.wxly365.net]
 name  Clashlayer
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(fobjwwt366@tmpmail.org): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  发送邮箱验证码失败(zwdamnx175@tmpbox.net): {'message': '邮箱后缀不处于白名单中'}
 
 [https://38.60.91.110]
 
@@ -765,7 +769,7 @@ buy  pass
 email  ihiylxxp229@gmail.com
 name  拓扑门topman8848.com
 node_n  19
-sub_info  0B  1G  2026-03-07 10:25:40+08:00  (剩余 1G 23:59:49.550364)
+sub_info  0B  1G  2026-03-07 10:25:40+08:00  (剩余 1G 23:56:45.639246)
 sub_url  http://113.207.49.134:10010/link?token=09ca94835bab2361ee147265679bcfd6
 time  2026-03-06 10:25:42.859866+08:00
 type  v2board
@@ -774,11 +778,11 @@ type  v2board
 
 [http://www.okztwo.sbs]
 buy  pass
-email  anrklxl932@gmail.com
+email  rriltdbo87@gmail.com
 name  OKZTWO
 sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://apple.clashx.sbs/api/v1/client/subscribe?token=33a06eee1182387628424a2e468448e4
-time  2026-03-06 10:25:43.673440+08:00
+sub_url  https://apple.clashx.sbs/api/v1/client/subscribe?token=929f1cec054828f6c1a6182123ff6052
+time  2026-03-06 10:28:54.986929+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
 
@@ -788,7 +792,7 @@ buy  period=three_year_price&plan_id=1
 email  nychotpef620@gmail.com
 name  海螺加速器 hailuo.us
 node_n  1
-sub_info  0B  97.66T  2029-03-06 11:25:43+08:00  (剩余 97.66T 1096 days, 0:59:55.258173)
+sub_info  0B  97.66T  2029-03-06 11:25:43+08:00  (剩余 97.66T 1096 days, 0:56:48.884153)
 sub_url  https://bigbee.vip/svip?token=ec534a42c22a057ad858b1928bb4e9a4
 time  2026-03-06 10:25:44.942465+08:00
 type  v2board
@@ -798,7 +802,7 @@ buy  pass
 email  ithvbieg701@gmail.com
 name  小蜜蜂
 node_n  2
-sub_info  0B  1G  2026-03-06 11:25:02+08:00  (剩余 1G 0:59:17.204671)
+sub_info  0B  1G  2026-03-06 11:25:02+08:00  (剩余 1G 0:56:10.160108)
 sub_url  https://v.68601.net/html/system/bee/html?token=1088760c7ffbef08697caeae3e289070
 time  2026-03-06 10:25:43.456666+08:00
 type  v2board
@@ -817,7 +821,7 @@ buy  period=three_year_price&plan_id=1
 email  ijqldbv84@gmail.com
 name  海螺加速器 hailuo.us
 node_n  1
-sub_info  0B  97.66T  2029-03-06 11:25:44+08:00  (剩余 97.66T 1096 days, 0:59:52.407078)
+sub_info  0B  97.66T  2029-03-06 11:25:44+08:00  (剩余 97.66T 1096 days, 0:56:05.077195)
 sub_url  https://hailuo.xyz/svip?token=2a1d2594be519f50dd9cdb87052cfc8f
 time  2026-03-06 10:25:45.570192+08:00
 type  v2board
@@ -845,7 +849,7 @@ type  v2board
 api_host  hou.funoneplus.com
 name  Funplus
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(fuqliiryj692@mail.shouyou789.com): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  发送邮箱验证码失败(fjdkfgji125@lista.cc): {'message': '邮箱后缀不处于白名单中'}
 
 [https://15.235.216.58]
 
@@ -857,21 +861,21 @@ type  v2board
 
 [https://a.xcvpn.us]
 buy  pass
-email  eaxjmtgud288@gmail.com
+email  jlmxmamm706@gmail.com
 name  白月光
 sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://a.xcvpn.us/api/v1/client/subscribe?token=MTYxNjAwOjk2YzU4OWM3MDNhNTU4YzRmYzY0OTUxNjVlZDliZGU1MDBhZDExZDg
-time  2026-03-06 10:25:46.894822+08:00
+sub_url  https://a.xcvpn.us/api/v1/client/subscribe?token=MTYxNjAxOjZjMTEwMzcwYmQzYTY3YzhiYjc4YmUwYTUzNmMxMzMyNTgwNzkyYzE
+time  2026-03-06 10:29:47.350270+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
 
 [https://okztwo.sbs]
 buy  pass
-email  wyyzmxsi113@gmail.com
+email  tiofnbw194@gmail.com
 name  OKZTWO
 sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://apple.clashx.sbs/api/v1/client/subscribe?token=b1298bdb950bc3a5e7bc751ca06e06b3
-time  2026-03-06 10:25:46.045394+08:00
+sub_url  https://apple.clashx.sbs/api/v1/client/subscribe?token=1908b6faefdefdf4205de8ea368714d9
+time  2026-03-06 10:28:58.620395+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
 
@@ -901,11 +905,11 @@ type  v2board
 
 [http://154.83.84.150]
 buy  pass
-email  ehpqlnr360@gmail.com
+email  qmniubop340@gmail.com
 name  eqwewqe
 sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  http://154.83.84.150/api/v1/client/subscribe?token=cb6a285b4638049ed23b619afe878fe4
-time  2026-03-06 10:25:48.166275+08:00
+sub_url  http://154.83.84.150/api/v1/client/subscribe?token=8830a7241b47c20557c6f91de28f88db
+time  2026-03-06 10:28:59.845985+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
 

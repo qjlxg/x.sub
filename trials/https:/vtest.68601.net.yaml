@@ -19,8 +19,8 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id001
-  - 🇺🇸 美国CN2内测精品01 - 小蜜蜂
   - 🇺🇸 美国163普通线路 - 小蜜蜂
+  - 🇺🇸 美国CN2内测精品01 - 小蜜蜂
 - name: 👆🏻 ‍指定
   type: select
   proxies: *id001
@@ -55,8 +55,8 @@ proxy-groups:
   - 🛩️ ‍墙内
   - 💩 ‍广告
 proxies:
-- {name: 🇺🇸 美国CN2内测精品01 - 小蜜蜂, server: jmyd.ny111xx.xin, port: 2433, type: ss, cipher: chacha20-ietf-poly1305, password: d4b4f4de-60f5-48b2-a36e-62464a9de24d, udp: true}
 - {name: 🇺🇸 美国163普通线路 - 小蜜蜂, server: zf.sg-iepl.com, port: 2434, type: ss, cipher: chacha20-ietf-poly1305, password: d4b4f4de-60f5-48b2-a36e-62464a9de24d, udp: true}
+- {name: 🇺🇸 美国CN2内测精品01 - 小蜜蜂, server: jmyd.ny111xx.xin, port: 2433, type: ss, cipher: chacha20-ietf-poly1305, password: d4b4f4de-60f5-48b2-a36e-62464a9de24d, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
