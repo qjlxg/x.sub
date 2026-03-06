@@ -1,916 +1,5145 @@
 [link]
 
-[https://www.hotcloud.store]
-name  Fast Cloud
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(nytbeakxz847@psnator.com): {'message': '验证码有误'}
-
-[http://rk.huige.store]
-api_host  rk.huige.store
-name  Fast Cloud
-type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"qifrmods156@mail.wvwvw.tech","success":"false"}'
-
-[http://www.91ray.com]
-api_host  www.91ray.com
-name  九一加速_ 专业安全稳定机场
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(ebebuqv565@tmails.net): {'message': '邮箱后缀不处于白名单中'}
-
-[https://173.249.208.226]
-
-[http://173.249.208.226]
-buy  pass
-email  ixmbrijfe207@gmail.com
-name  铁蛋
-sub_url  http://118.89.190.200:1222/tiedan168?token=461ee98f33f58b954196db855ec2325e
-time  2026-03-06 10:25:22.999614+08:00
-type  v2board
-更新旧订阅失败  (http://173.249.208.226/tiedan168?token=461ee98f33f58b954196db855ec2325e): 500 Internal Server Error '<!DOCTYPE html>\n<html lang="en">\n <head>\n <meta charset="utf-8">\n <meta name="viewport" content="width=device-width, initial-scale=1">\n\n <title>Server Error</title>\n\n <!-- Fonts -->\n <link rel="preconnect" href="https://fonts.gstatic.com">\n <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">\n\n <style>\n /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent}code{font-family:monospace,monospace;font-size:1em}[hidden]{display:none}html{font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5}*,:after,:before{box-sizing:border-box;border:0 solid #e2e8f0}a{color:inherit;text-decoration:inherit}code{font-family:Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}svg,video{display:block;vertical-align:middle}video{max-width:100%;height:auto}.bg-white{--bg-opacity:1;background-color:#fff;background-color:rgba(255,255,255,var(--bg-opacity))}.bg-gray-100{--bg-opacity:1;background-color:#f7fafc;background-color:rgba(247,250,252,var(--bg-opacity))}.border-gray-200{--border-opacity:1;border-color:#edf2f7;border-color:rgba(237,242,247,var(--border-opacity))}.border-gray-400{--border-opacity:1;border-color:#cbd5e0;border-color:rgba(203,213,224,var(--border-opacity))}.border-t{border-top-width:1px}.border-r{border-right-width:1px}.flex{display:flex}.grid{display:grid}.hidden{display:none}.items-center{align-items:center}.justify-center{justify-content:center}.font-semibold{font-weight:600}.h-5{height:1.25rem}.h-8{height:2rem}.h-16{height:4rem}.text-sm{font-size:.875rem}.text-lg{font-size:1.125rem}.leading-7{line-height:1.75rem}.mx-auto{margin-left:auto;margin-right:auto}.ml-1{margin-left:.25rem}.mt-2{margin-top:.5rem}.mr-2{margin-right:.5rem}.ml-2{margin-left:.5rem}.mt-4{margin-top:1rem}.ml-4{margin-left:1rem}.mt-8{margin-top:2rem}.ml-12{margin-left:3rem}.-mt-px{margin-top:-1px}.max-w-xl{max-width:36rem}.max-w-6xl{max-width:72rem}.min-h-screen{min-height:100vh}.overflow-hidden{overflow:hidden}.p-6{padding:1.5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.pt-8{padding-top:2rem}.fixed{position:fixed}.relative{position:relative}.top-0{top:0}.right-0{right:0}.shadow{box-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06)}.text-center{text-align:center}.text-gray-200{--text-opacity:1;color:#edf2f7;color:rgba(237,242,247,var(--text-opacity))}.text-gray-300{--text-opacity:1;color:#e2e8f0;color:rgba(226,232,240,var(--text-opacity))}.text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}.text-gray-500{--text-opacity:1;color:#a0aec0;color:rgba(160,174,192,var(--text-opacity))}.text-gray-600{--text-opacity:1;color:#718096;color:rgba(113,128,150,var(--text-opacity))}.text-gray-700{--text-opacity:1;color:#4a5568;color:rgba(74,85,104,var(--text-opacity))}.text-gray-900{--text-opacity:1;color:#1a202c;color:rgba(26,32,44,var(--text-opacity))}.uppercase{text-transform:uppercase}.underline{text-decoration:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.tracking-wider{letter-spacing:.05em}.w-5{width:1.25rem}.w-8{width:2rem}.w-auto{width:auto}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}@-webkit-keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@-webkit-keyframes ping{0%{transform:scale(1);opacity:1}75%,to{transform:scale(2);opacity:0}}@keyframes ping{0%{transform:scale(1);opacity:1}75%,to{transform:scale(2);opacity:0}}@-webkit-keyframes pulse{0%,to{opacity:1}50%{opacity:.5}}@keyframes pulse{0%,to{opacity:1}50%{opacity:.5}}@-webkit-keyframes bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:translateY(0);-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}@keyframes bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:translateY(0);-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}@media (min-width:640px){.sm\\:rounded-lg{border-radius:.5rem}.sm\\:block{display:block}.sm\\:items-center{align-items:center}.sm\\:justify-start{justify-content:flex-start}.sm\\:justify-between{justify-content:space-between}.sm\\:h-20{height:5rem}.sm\\:ml-0{margin-left:0}.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\\:pt-0{padding-top:0}.sm\\:text-left{text-align:left}.sm\\:text-right{text-align:right}}@media (min-width:768px){.md\\:border-t-0{border-top-width:0}.md\\:border-l{border-left-width:1px}.md\\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (min-width:1024px){.lg\\:px-8{padding-left:2rem;padding-right:2rem}}@media (prefers-color-scheme:dark){.dark\\:bg-gray-800{--bg-opacity:1;background-color:#2d3748;background-color:rgba(45,55,72,var(--bg-opacity))}.dark\\:bg-gray-900{--bg-opacity:1;background-color:#1a202c;background-color:rgba(26,32,44,var(--bg-opacity))}.dark\\:border-gray-700{--border-opacity:1;border-color:#4a5568;border-color:rgba(74,85,104,var(--border-opacity))}.dark\\:text-white{--text-opacity:1;color:#fff;color:rgba(255,255,255,var(--text-opacity))}.dark\\:text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}}\n </style>\n\n <style>\n body {\n font-family: \'Nunito\', sans-serif;\n }\n </style>\n </head>\n <body class="antialiased">\n <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">\n <div class="max-w-xl mx-auto sm:px-6 lg:px-8">\n <div class="flex items-center pt-8 sm:justify-start sm:pt-0">\n <div class="px-4 text-lg text-gray-500 border-r border-gray-400 tracking-wider">\n 500 </div>\n\n <div class="ml-4 text-lg text-gray-500 uppercase tracking-wider">\n Undefined array key &quot;type&quot; </div>\n </div>\n </div>\n </div>\n </body>\n</html>\n'
-
-[https://138.2.121.84]
-
-[https://107.173.83.210]
-
-[https://162.120.71.243]
-
-[https://107.149.212.175]
-
-[http://154.19.186.71]
-name  光猫
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(pgeptki996@xdanae.com): {'message': '邮箱后缀不处于白名单中'}
-
-[http://103.38.81.15]
-name  火箭加速
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(pzjicvhx238@oakon.com): {'message': '邮箱后缀不处于白名单中'}
-
-[https://sub1.wonderx.link]
-name  𝙒𝙊𝙉𝘿𝙀𝙍𝙓
-type  v2board
-更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
-
-[http://74.48.70.149]
-name  -云上冲浪板-
-type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"uyvyffjey832@965.tmmad.com","success":"false"}'
-
-[https://www.xinamd.com]
-name  xinAMD.com
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(rwzclbbc225@femailtor.com): {'message': '验证码有误'}
-
-[http://www.xinamd.com]
-name  xinAMD.com
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(vraeuikx893@mydefipet.live): {'message': '验证码有误'}
-
-[https://ny.niaoyun.lol]
-name  小鸟☁️全球网络代理
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(rrvpipv501@tmpmail.org): {'message': '邮箱后缀不处于白名单中'}
-
-[http://admin.032710.xyz]
-name  谜之站点
-type  v2board
-更新订阅链接/续费续签失败  注册失败(xesodrmpo129@gmail.com): 本站已关闭注册
-
-[https://lx.527998.xyz]
-name  信息管理系统
-type  v2board
-更新订阅链接/续费续签失败  注册失败(bpurlsf157@gmail.com): 本站已关闭注册
-
-[http://98.126.31.6]
-name  可乐云
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(ccadwrpgs21@tmail.ws): {'message': '邮箱后缀不处于白名单中'}
-
-[https://xny.niaoyun.us]
-name  小鸟☁️全球网络代理
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(vzmunvxtm106@tmpmail.net): {'message': '邮箱后缀不处于白名单中'}
-
-[http://www.jiasu666.top]
-api_host  www.jiasu666.top
-name  CloudTop
-type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"acsmodtw467@vapelato.com","success":"false"}'
-
-[http://70.39.181.210]
-api_host  70.39.181.210
-name  小鸟☁️全球网络代理
-type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"vinryhsar543@lyx13.xyz","success":"false"}'
-
-[https://chukou01.pro]
-name  FireworksChukou☁️
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(rpgdwvy696@pastryofistanbul.com): {'message': '邮箱后缀不处于白名单中'}
-
-[https://admin.032710.xyz]
-name  谜之站点
-type  v2board
-更新订阅链接/续费续签失败  注册失败(zeqzbxzf386@gmail.com): 本站已关闭注册
-
 [http://spw.ntbq.dynu.net]
 name  Sparrow 麻雀加速器
 type  v2board
-更新订阅链接/续费续签失败  注册失败(uuznbbm206@gmail.com): 本站已关闭注册
-
-[http://catcatcat.store]
-name  光猫
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(ytoramo75@mxl001.win): {'message': '邮箱后缀不处于白名单中'}
-
-[http://spw.twty.dynu.net]
-name  Sparrow 麻雀加速器
-type  v2board
-更新订阅链接/续费续签失败  注册失败(lguflwyn824@gmail.com): 本站已关闭注册
-
-[https://spwvpn.com]
-name  Sparrow 麻雀加速器
-type  v2board
-更新订阅链接/续费续签失败  注册失败(iaxhpzpe21@gmail.com): 本站已关闭注册
-
-[https://sky.ash.wf]
-name  微斯人，吾谁与归
-type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"bubhlhf70@ipiso.tmmad.com","success":"false"}'
-
-[https://main.wz-cloud.com]
-name  御鸠云
-type  v2board
-更新订阅链接/续费续签失败  注册失败(swoctut519@gmail.com): 本站已关闭注册
+更新订阅链接/续费续签失败  注册失败(naulonmi426@gmail.com): 本站已关闭注册
 
 [https://spw.ntbq.dynu.net]
 name  Sparrow 麻雀加速器
 type  v2board
-更新订阅链接/续费续签失败  注册失败(zhdzdsx206@gmail.com): 本站已关闭注册
+更新订阅链接/续费续签失败  注册失败(pircgpccb661@gmail.com): 本站已关闭注册
 
 [http://v.spwvpn.com]
 name  Sparrow 麻雀加速器
 type  v2board
-更新订阅链接/续费续签失败  注册失败(frkieovu73@gmail.com): 本站已关闭注册
-
-[https://cn.slte.me]
-buy  pass
-email  zpxmtrvnk796@gmail.com
-name  SLTE
-sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://cn.slte.me/api/v1/client/subscribe?token=0d2544e24f3f8a572031a0104f3105f7
-time  2026-03-06 10:28:33.854954+08:00
-type  v2board
-保存base64/clash订阅失败  'NoneType' object is not iterable
-
-[http://panel.333444.best]
-name  微斯人，吾谁与归
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(sbcpoduo997@moakt.co): {'message': '邮箱后缀不处于白名单中'}
-
-[https://panel.333444.best]
-name  微斯人，吾谁与归
-type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"xardhjikk609@rgzx.tmmad.com","success":"false"}'
-
-[http://45.76.111.225]
-buy  period=onetime_price&plan_id=1
-email  yfwsueigr522@gmail.com
-name  V2Board
-sub_info  0B  1000G  永不过期  (剩余 1000G)
-sub_url  http://45.76.111.225/api/v1/client/subscribe?token=91d0432d7cf55baf099888fc097d8fdf
-time  2026-03-06 10:25:24.808907+08:00
-type  v2board
-保存base64/clash订阅失败  mapping values are not allowed here in "<byte string>", line 67, column 70: ... block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold"> ... ^ (line: 67)
-更新旧订阅失败  int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
-
-[http://spwvpn.com]
-name  Sparrow 麻雀加速器
-type  v2board
-更新订阅链接/续费续签失败  注册失败(jfqdrse913@gmail.com): 本站已关闭注册
-
-[https://xbb.nai99.top]
-buy  period=onetime_price&plan_id=3
-email  drsqagqu344@qq.com
-name  奈奈加速
-node_n  2
-sub_info  0B  2G  永不过期  (剩余 2G)
-sub_url  https://xbb.nai99.top/api/v1/client/subscribe?token=8465b74510410a62d9867840a1cd635f
-time  2026-03-06 10:25:27.002812+08:00
-type  v2board
-更新旧订阅失败  invalid literal for int() with base 10: ''
-
-[http://jkk.nai99.top]
-api_host  jkk.nai99.top
-buy  period=onetime_price&plan_id=3
-email  wfveaaybh79@qq.com
-name  奈奈加速
-node_n  2
-sub_info  0B  2G  永不过期  (剩余 2G)
-sub_url  https://jkk.nai99.top/api/v1/client/subscribe?token=17f2e23246d9dd5b11521f4d552462f5
-time  2026-03-06 10:25:27.140527+08:00
-type  v2board
-更新旧订阅失败  invalid literal for int() with base 10: ''
-
-[http://is.nksea.com]
-email_domain  None
-name  IS
-type  v2board
-更新订阅链接/续费续签失败  注册失败(cwbdlnga355@None): 邮箱后缀不处于白名单中
-
-[http://cn.slte.me]
-buy  pass
-email  wnjpthycp954@gmail.com
-name  SLTE
-sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://cn.slte.me/api/v1/client/subscribe?token=41983079f4d52b6f0e8ac5743d12d416
-time  2026-03-06 10:25:24.401489+08:00
-type  v2board
-保存base64/clash订阅失败  'NoneType' object is not iterable
-更新订阅链接/续费续签失败  注册失败(upjgtvrcd713@gmail.com): 注册频繁，请等待 60 分钟后再次尝试
-
-[http://04.didiaoyun.cc]
-
-[https://is.nksea.com]
-email_domain  None
-name  IS
-type  v2board
-更新订阅链接/续费续签失败  注册失败(nlfdhzr199@None): 邮箱后缀不处于白名单中
-
-[http://218.244.142.188:9001]
-buy  pass
-email  gdvltkis216@gmail.com
-name  抖音加速
-sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  http://218.244.142.188:9002/api/v1/client/subscribe?token=6e7b1793b472dea54f728a4161282444
-time  2026-03-06 10:28:51.072334+08:00
-type  v2board
-保存base64/clash订阅失败  'NoneType' object is not iterable
-
-[http://192.131.142.107]
-name  GOOGO.US
-type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"tsaimeq578@12316hfk.com","success":"false"}'
-
-[http://demo.328671.xyz]
-name  飞流加速
-type  v2board
-更新订阅链接/续费续签失败  注册失败(nphhfwfwa634@gmail.com): 本站已关闭注册
-
-[https://hh.xinamd.com]
-name  xinAMD.com
-type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"lfmhtftah7@x866.cc","success":"false"}'
-
-[http://45.32.34.170]
-name  Netch加速
-type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"sreohera555@12316hfk.com","success":"false"}'
-
-[http://hh.xinamd.com]
-name  xinAMD.com
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(xnvzawcd454@tmpbox.net): {'message': '验证码有误'}
-
-[http://69.197.141.227]
-name  CHCC 尤选专线机场
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(afhaybuqm52@oakon.com): {'message': '邮箱后缀不处于白名单中'}
-
-[https://04.didiaoyun.cc]
+更新订阅链接/续费续签失败  注册失败(ugmaoiw850@gmail.com): 本站已关闭注册
 
 [http://net-yar.com]
-
-[http://38.175.198.124]
-name  小鸟☁️全球网络代理
-type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"hvftiuv840@lyx13.xyz","success":"false"}'
-
-[https://net-yar.com]
-
-[http://151.242.164.97]
-name  VvShop
-type  v2board
-更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
-
-[https://demo.328671.xyz]
-name  飞流加速
-type  v2board
-更新订阅链接/续费续签失败  注册失败(hjoasyk792@gmail.com): 本站已关闭注册
-
-[http://154.19.242.131]
-buy  pass
-email  brfjqxoq989@gmail.com
-name  雷速NEXT
-sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  http://154.19.242.131/api/v1/client/subscribe?token=49f13fba2df513e7285a8365b5597a04
-time  2026-03-06 10:28:53.102912+08:00
-type  v2board
-保存base64/clash订阅失败  'NoneType' object is not iterable
-
-[http://38.92.26.87]
-
-[http://64.176.54.185]
-api_host  64.176.54.185
-name  VvShop
-type  v2board
-更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
-
-[https://ooxx.kncgmo.cn]
-name  三斤云
-type  v2board
-更新订阅链接/续费续签失败  注册失败(zklevpki367@gmail.com): 本站已关闭注册
-
-[http://23.95.247.39]
-email_domain  112004.xyz
-name  aslmhflajhf
-type  v2board
-更新订阅链接/续费续签失败  注册失败(fwhauchfp433@112004.xyz): 遇到了些问题，我们正在进行处理
-
-[http://ooxx.kncgmo.cn]
-api_host  ooxx.kncgmo.cn
-name  三斤云
-type  v2board
-更新订阅链接/续费续签失败  注册失败(chrmarmj576@gmail.com): 本站已关闭注册
-
-[https://www.jiasu666.top]
-name  CloudTop
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(vuidupmdn872@disbox.net): {'message': '邮箱后缀不处于白名单中'}
-
-[http://v2board.imxj.top]
-name  众筹买小鸡
-type  v2board
-更新订阅链接/续费续签失败  注册失败(zpcrbzz166@gmail.com): 本站已关闭注册
-
-[http://chukou01.pro]
-api_host  chukou01.pro
-name  FireworksChukou☁️
-type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"ixitxvd318@vapelato.com","success":"false"}'
-
-[http://77.247.127.43]
-name  Forest
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(vuwnmujwx329@disbox.net): {'message': '邮箱后缀不处于白名单中'}
-
-[http://shandianyunbvcxz.top]
-api_host  shandianyunbvcxz.top
-name  友谊机场
-type  v2board
-更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
-
-[http://new.bedns.club]
-name  Benz
-type  v2board
-更新订阅链接/续费续签失败  注册失败(oexfyxze580@gmail.com): 本站已关闭注册
-
-[https://shandianyunbvcxz.top]
-name  友谊机场
-type  v2board
-更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
-
-[http://50.114.113.245:9001]
-buy  pass
-email  lvfcyitnn853@gmail.com
-name  光年加速
-sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  http://8.138.16.155:10010/api/v1/client/subscribe?token=e3c1f0272186e77a1be63b5c5d59cb55
-time  2026-03-06 10:28:45.982117+08:00
-type  v2board
-保存base64/clash订阅失败  'NoneType' object is not iterable
-
-[https://v22.sealnet.cf]
-name  Moon
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(kczvicz524@tmpmail.net): {'message': '邮箱后缀不处于白名单中'}
-
-[http://v22.sealnet.cf]
-name  Moon
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(tgblhhdd342@guerrillamail.com): {'message': '邮箱后缀不处于白名单中'}
-
-[http://142.91.105.42]
-name  微斯人，吾谁与归
-type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"mtgjycvj261@xdanae.com","success":"false"}'
-
-[https://chukou.co]
-
-[http://103.45.65.35]
-buy  pass
-email  dktrsievi171@gmail.com
-name  熊猫加速器
-sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://xiongmao.dingyue.icu/s?token=bc69b6dca0c2d42fc52298299771340e
-time  2026-03-06 10:28:46.101503+08:00
-type  v2board
-保存base64/clash订阅失败  'NoneType' object is not iterable
-
-[https://new.bedns.club]
-name  Benz
-type  v2board
-更新订阅链接/续费续签失败  注册失败(qnpgmwdl332@gmail.com): 本站已关闭注册
-
-[http://cccndc.top]
-name  光猫
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(pfurfuxhl627@oakon.com): {'message': '邮箱后缀不处于白名单中'}
-
-[https://b.qimengyun.cc]
-
-[http://shandianyun.click]
-
-[http://103.229.54.112]
-name  远方云
-type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"gpgqxwngs731@ipiso.tmmad.com","success":"false"}'
-
-[https://yanhua101.vip]
-name  Fireworks🎆
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(kvighxni688@guerrillamail.net): {'message': '邮箱后缀不处于白名单中'}
-
-[http://139.99.91.197]
-name  BENZ
-type  v2board
-更新订阅链接/续费续签失败  注册失败(dvpkwhuft959@gmail.com): 本站已关闭注册
-
-[http://166.88.57.11]
-name  火神加速
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(oocripkt729@spam4.me): {'message': '邮箱后缀不处于白名单中', 'exception': 'Symfony\\Component\\HttpKernel\\Exception\\HttpException', 'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php', 'line': 1134, 'trace': [{'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php', 'line': 44, 'function': 'abort', 'class': 'Illuminate\\Foundation\\Application', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/app/Http/Controllers/V1/Passport/CommController.php', 'line': 55, 'function': 'abort'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Routing/Controller.php', 'line': 54, 'function': 'sendEmailVerify', 'class': 'App\\Http\\Controllers\\V1\\Passport\\CommController', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php', 'line': 45, 'function': 'callAction', 'class': 'Illuminate\\Routing\\Controller', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Routing/Route.php', 'line': 262, 'function': 'dispatch', 'class': 'Illuminate\\Routing\\ControllerDispatcher', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Routing/Route.php', 'line': 205, 'function': 'runController', 'class': 'Illuminate\\Routing\\Route', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php', 'line': 721, 'function': 'run', 'class': 'Illuminate\\Routing\\Route', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 128, 'function': 'Illuminate\\Routing\\{closure}', 'class': 'Illuminate\\Routing\\Router', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php', 'line': 50, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Illuminate\\Routing\\Middleware\\SubstituteBindings', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/app/Http/Middleware/Language.php', 'line': 15, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'App\\Http\\Middleware\\Language', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/app/Http/Middleware/ForceJson.php', 'line': 20, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'App\\Http\\Middleware\\ForceJson', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 103, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php', 'line': 723, 'function': 'then', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php', 'line': 698, 'function': 'runRouteWithinStack', 'class': 'Illuminate\\Routing\\Router', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php', 'line': 662, 'function': 'runRoute', 'class': 'Illuminate\\Routing\\Router', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php', 'line': 651, 'function': 'dispatchToRoute', 'class': 'Illuminate\\Routing\\Router', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php', 'line': 167, 'function': 'dispatch', 'class': 'Illuminate\\Routing\\Router', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 128, 'function': 'Illuminate\\Foundation\\Http\\{closure}', 'class': 'Illuminate\\Foundation\\Http\\Kernel', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php', 'line': 21, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php', 'line': 31, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php', 'line': 21, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php', 'line': 40, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\TrimStrings', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php', 'line': 27, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php', 'line': 86, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/fideloper/proxy/src/TrustProxies.php', 'line': 57, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Fideloper\\Proxy\\TrustProxies', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/app/Http/Middleware/UAfilter.php', 'line': 56, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'App\\Http\\Middleware\\UAfilter', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/app/Http/Middleware/CORS.php', 'line': 18, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'App\\Http\\Middleware\\CORS', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 103, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php', 'line': 142, 'function': 'then', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php', 'line': 111, 'function': 'sendRequestThroughRouter', 'class': 'Illuminate\\Foundation\\Http\\Kernel', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/start.php', 'line': 63, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Kernel', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/webman.php', 'line': 34, 'function': 'run'}, {'file': '/www/wwwroot/huoshen11.com/vendor/workerman/workerman/src/Connection/TcpConnection.php', 'line': 742, 'function': '{closure}'}, {'file': '/www/wwwroot/huoshen11.com/vendor/workerman/workerman/src/Events/Select.php', 'line': 406, 'function': 'baseRead', 'class': 'Workerman\\Connection\\TcpConnection', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/workerman/workerman/src/Worker.php', 'line': 1756, 'function': 'run', 'class': 'Workerman\\Events\\Select', 'type': '->'}, {'file': '/www/wwwroot/huoshen11.com/vendor/workerman/workerman/src/Worker.php', 'line': 1552, 'function': 'forkOneWorkerForLinux', 'class': 'Workerman\\Worker', 'type': '::'}, {'file': '/www/wwwroot/huoshen11.com/vendor/workerman/workerman/src/Worker.php', 'line': 1532, 'function': 'forkWorkersForLinux', 'class': 'Workerman\\Worker', 'type': '::'}, {'file': '/www/wwwroot/huoshen11.com/vendor/workerman/workerman/src/Worker.php', 'line': 1901, 'function': 'forkWorkers', 'class': 'Workerman\\Worker', 'type': '::'}, {'file': '/www/wwwroot/huoshen11.com/vendor/workerman/workerman/src/Worker.php', 'line': 1836, 'function': 'monitorWorkersForLinux', 'class': 'Workerman\\Worker', 'type': '::'}, {'file': '/www/wwwroot/huoshen11.com/vendor/workerman/workerman/src/Worker.php', 'line': 603, 'function': 'monitorWorkers', 'class': 'Workerman\\Worker', 'type': '::'}, {'file': '/www/wwwroot/huoshen11.com/webman.php', 'line': 40, 'function': 'runAll', 'class': 'Workerman\\Worker', 'type': '::'}]}
-
-[https://cigtpr.site]
-name  光猫
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(ztjyoqj716@moakt.co): {'message': '邮箱后缀不处于白名单中'}
-
-[http://sky.ash.wf]
-name  微斯人，吾谁与归
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(havogca534@psnator.com): {'message': '邮箱后缀不处于白名单中'}
-
-[http://54.38.156.5]
-name  连连看
-type  v2board
-更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
-
-[https://xn--9kqsd13p.top]
-name  古人云
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(nlcldhxxg706@tmpmail.org): {'message': '邮箱后缀不处于白名单中', 'exception': 'Symfony\\Component\\HttpKernel\\Exception\\HttpException', 'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Application.php', 'line': 1134, 'trace': [{'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php', 'line': 44, 'function': 'abort', 'class': 'Illuminate\\Foundation\\Application', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/app/Http/Controllers/V1/Passport/CommController.php', 'line': 55, 'function': 'abort'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/Controller.php', 'line': 54, 'function': 'sendEmailVerify', 'class': 'App\\Http\\Controllers\\V1\\Passport\\CommController', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php', 'line': 45, 'function': 'callAction', 'class': 'Illuminate\\Routing\\Controller', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/Route.php', 'line': 261, 'function': 'dispatch', 'class': 'Illuminate\\Routing\\ControllerDispatcher', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/Route.php', 'line': 205, 'function': 'runController', 'class': 'Illuminate\\Routing\\Route', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/Router.php', 'line': 721, 'function': 'run', 'class': 'Illuminate\\Routing\\Route', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 128, 'function': 'Illuminate\\Routing\\{closure}', 'class': 'Illuminate\\Routing\\Router', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php', 'line': 50, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Illuminate\\Routing\\Middleware\\SubstituteBindings', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/app/Http/Middleware/Language.php', 'line': 15, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'App\\Http\\Middleware\\Language', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/app/Http/Middleware/ForceJson.php', 'line': 20, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'App\\Http\\Middleware\\ForceJson', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 103, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/Router.php', 'line': 719, 'function': 'then', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/Router.php', 'line': 698, 'function': 'runRouteWithinStack', 'class': 'Illuminate\\Routing\\Router', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/Router.php', 'line': 662, 'function': 'runRoute', 'class': 'Illuminate\\Routing\\Router', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Routing/Router.php', 'line': 651, 'function': 'dispatchToRoute', 'class': 'Illuminate\\Routing\\Router', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php', 'line': 167, 'function': 'dispatch', 'class': 'Illuminate\\Routing\\Router', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 128, 'function': 'Illuminate\\Foundation\\Http\\{closure}', 'class': 'Illuminate\\Foundation\\Http\\Kernel', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php', 'line': 21, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php', 'line': 31, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php', 'line': 21, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php', 'line': 40, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\TrimStrings', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php', 'line': 27, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php', 'line': 86, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/fideloper/proxy/src/TrustProxies.php', 'line': 57, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'Fideloper\\Proxy\\TrustProxies', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/app/Http/Middleware/CORS.php', 'line': 18, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 167, 'function': 'handle', 'class': 'App\\Http\\Middleware\\CORS', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php', 'line': 103, 'function': 'Illuminate\\Pipeline\\{closure}', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php', 'line': 142, 'function': 'then', 'class': 'Illuminate\\Pipeline\\Pipeline', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php', 'line': 111, 'function': 'sendRequestThroughRouter', 'class': 'Illuminate\\Foundation\\Http\\Kernel', 'type': '->'}, {'file': '/www/wwwroot/gurenyun.org/public/index.php', 'line': 54, 'function': 'handle', 'class': 'Illuminate\\Foundation\\Http\\Kernel', 'type': '->'}]}
-
-[https://fireworks103.xyz]
-name  Fireworks🎆
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(gwgpcyoxm175@guerrillamail.net): {'message': '邮箱后缀不处于白名单中'}
-
-[http://66.154.104.195]
-name  Stardream
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(fjkohujp9@disbox.org): {'message': '验证码有误'}
-
-[http://51.81.187.228]
-name  泡泡茶壶
-type  v2board
-更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
-
-[http://107.155.55.8]
-buy  pass
-email  kqjkwfed424@gmail.com
-name  idle Duck
-sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://api.idleduck.top/api/v1/client/subscribe?token=487fda49d92df7b15622ed7d5af04c2d
-time  2026-03-06 10:29:07.884587+08:00
-type  v2board
-保存base64/clash订阅失败  'NoneType' object is not iterable
-
-[http://159.198.37.142]
-name  🦋神筆雲(蝴蝶網)
-type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"acmxdbywh772@bccto.cc","success":"false"}'
-
-[http://192.3.248.54]
-banned_domains  xxxhi.cc
-name  无极加速
-type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"slezycufb405@lplso.tmmad.com","success":"false"}'
-
-[http://166.88.97.30]
-buy  pass
-email  btkilsu935@gmail.com
-name  光年加速
-sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  http://8.138.16.155:10011/api/v1/client/subscribe?token=e15ff4dede97279c87bf6f169aa9259f
-time  2026-03-06 10:28:45.497927+08:00
-type  v2board
-保存base64/clash订阅失败  'NoneType' object is not iterable
-
-[http://188.253.112.72]
-name  KooDog
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(yzuocez112@bareed.ws): {'message': '验证码有误'}
-
-[http://104.168.30.114]
-name  鹏鹏加速
-type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"srwfiuhv467@nano-watt.tech","success":"false"}'
-
-[http://182.255.44.202]
-buy  pass
-email  nwkgoqgae71@gmail.com
-name  V2Board
-sub_url  http://182.255.44.202/list?token=e4c674c2bc1de7f4d6ec904219383976
-time  2026-03-06 10:25:37.287259+08:00
-type  v2board
-更新旧订阅失败  (http://182.255.44.202/list?token=e4c674c2bc1de7f4d6ec904219383976): 403 Forbidden '{"ret":0,"msg":"\\u7528\\u6237\\u4e0d\\u53ef\\u7528"}'
-
-[http://108.165.155.8]
-buy  pass
-email  nfbyfnoad13@gmail.com
-name  快牙加速
-sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  http://8.138.16.155:20010/api/v1/client/subscribe?token=ceba615642e523e43a2e682f7b52b2d4
-time  2026-03-06 10:28:47.334489+08:00
-type  v2board
-保存base64/clash订阅失败  'NoneType' object is not iterable
-
-[https://nao3f8pvpggpwvzgv.nodesrr.top]
-name  CloudTop
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(gitscspow901@tmails.net): {'message': '邮箱后缀不处于白名单中'}
-
-[https://www.hailuo.xyz]
-buy  period=three_year_price&plan_id=1
-email  zoydfotdp139@gmail.com
-name  海螺加速器 hailuo.us
-node_n  1
-sub_info  0B  97.66T  2029-03-06 11:25:36+08:00  (剩余 97.66T 1096 days, 0:56:45.866611)
-sub_url  https://hailuo.xyz/svip?token=a2a1672aa78601f76b76c1d5abda6f13
-time  2026-03-06 10:25:38.090809+08:00
-type  v2board
-
-[http://47.79.39.164]
-name  AWEME
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(hdzqjncja351@tmpmail.net): {'message': '邮箱后缀不处于白名单中'}
-
-[http://152.53.118.140]
-name  悠云UO
-type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"tlpdycqdi256@mail.wvwvw.tech","success":"false"}'
-
-[http://dydvehzxk9geah.556699.cfd]
-name  CloudTop
-type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"hcavnmi452@huiplay.com","success":"false"}'
-
-[http://167.179.96.189]
-api_host  167.179.96.189
-name  VvShop
-type  v2board
-更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
-
-[http://198.20.133.209]
-buy  pass
-email  cnckgqzy36@gmail.com
-name  抖音加速
-sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  http://218.244.142.188:20010/api/v1/client/subscribe?token=8dfab37d9ecb0387f514594931e84627
-time  2026-03-06 10:28:57.331086+08:00
-type  v2board
-保存base64/clash订阅失败  'NoneType' object is not iterable
-
-[https://138.201.121.209:2083]
-
-[http://82.29.53.56]
-buy  pass
-email  radboahfh555@gmail.com
-name  Cecil 塞西尔
-node_n  3
-sub_info  0B  3G  2026-03-07 10:25:36+08:00  (剩余 3G 23:56:50.167716)
-sub_url  http://82.29.53.56/api/v1/client/subscribe?token=4a3f19dd1ae1150089a7ea0c18b4b893
-time  2026-03-06 10:25:36.449426+08:00
-type  v2board
-
-[http://192.99.201.189]
-buy  pass
-email  mygdoee777@gmail.com
-name  柚子酱
-node_n  34
-sub_info  0B  1G  2026-03-07 10:25:36+08:00  (剩余 1G 23:56:48.691322)
-sub_url  https://114514.youzizizi.top/api/v1/client/subscribe?token=c99f3074f4e4e373a2c2494ed304a036
-time  2026-03-06 10:25:36.890267+08:00
-type  v2board
-
-[http://107.174.102.16]
-banned_domains  teml.net
-name  快猫
-type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"lfnxyud461@jkd.tmmad.com","success":"false"}'
-
-[http://160.250.132.211]
-
-[https://150.241.207.19]
-
-[http://149.28.22.5]
-name  王者官网
-type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"evxkhxl814@ipiso.tmmad.com","success":"false"}'
-
-[http://45.249.89.109]
-name  MGNB
-type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"ticcdtmg758@ipiso.tmmad.com","success":"false"}'
-
-[https://15.235.186.102]
-
-[https://107.173.159.107]
-
-[http://50.114.113.245]
-buy  pass
-email  gtwciiu459@gmail.com
-name  光年加速
-sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  http://8.138.16.155:10011/api/v1/client/subscribe?token=d3e2ae20f8ff8e0b3067a945b6167228
-time  2026-03-06 10:28:51.581156+08:00
-type  v2board
-保存base64/clash订阅失败  'NoneType' object is not iterable
-
-[https://74.120.175.70]
-
-[https://103.45.65.35]
-
-[http://45.88.223.110]
-banned_domains  disbox.net  femailtor.com
-name  V2Board
-type  v2board
-更新订阅链接/续费续签失败  获取邮箱验证码超时(ljdalke829@femailtor.com)
-
-[http://149.88.69.149]
-name  Fireworks🎆
-type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"fewgyfvpr481@965.tmmad.com","success":"false"}'
-
-[http://148.135.88.180]
-buy  pass
-email  zgvfkey379@gmail.com
-name  光速云
-sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://book.gs009.buzz/api/v1/client/subscribe?token=10954baa12c20eb7c6fe4b8e4adb4591
-time  2026-03-06 10:28:53.608256+08:00
-type  v2board
-保存base64/clash订阅失败  'NoneType' object is not iterable
-
-[http://74.48.160.135]
-name  FireworksChukou☁️
-type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"ttebtzv225@mail.shouyou789.com","success":"false"}'
-
-[http://158.51.111.157]
-name  HIMEMY
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(tixfgxerf889@xxxhi.cc): {'message': '验证码有误'}
-
-[https://79.72.64.70]
-
-[https://156.246.93.109]
-
-[http://ao3f8pvpggpwvzgv.nodesrr.top]
-name  CloudTop
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(bxvucgto265@femailtor.com): {'message': '邮箱后缀不处于白名单中'}
-
-[https://www.stardream.cloud]
-
-[https://142.171.88.222]
-
-[https://104.234.155.6]
-
-[https://5.255.108.33]
-
-[http://172.104.107.223]
-name  wmsxwd
-type  v2board
-更新订阅链接/续费续签失败  注册失败(ctknlrsym592@gmail.com): 本站已关闭注册
 
 [http://tjos.oxcloud.top]
 api_host  tjos.oxcloud.top
 name  OX Cloud
 type  v2board
-更新订阅链接/续费续签失败  注册失败(qrdebwmif851@gmail.com): 本站已关闭注册
+更新订阅链接/续费续签失败  注册失败(bqvuddve311@gmail.com): 本站已关闭注册
 
-[https://th.fastroute.icu]
-name  GaleCloud
+[http://45.12.91.239:2082]
+name  Kaka SurfGo
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(svdluvv824@moakt.ws): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  注册失败(kqevvrp937@gmail.com): 本站已关闭注册
 
-[https://154.9.26.196]
-
-[https://209.17.118.6]
-
-[https://107.175.40.40]
-
-[http://zuzhanghu.com]
-api_host  zuzhanghu.com
-name  速蛙云
+[http://45.12.91.239:2052]
+name  Kaka SurfGo
 type  v2board
-更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+更新订阅链接/续费续签失败  注册失败(gvucfqf33@gmail.com): 本站已关闭注册
 
-[https://202.182.96.137]
-
-[https://38.60.250.150]
-
-[https://192.99.201.189]
-
-[https://118.193.61.61]
-
-[https://172.247.189.63]
-
-[https://165.101.92.88]
-
-[https://ad.cnwjane.xyz]
-name  cnwjane
+[https://p2.03fan.com]
+name  03Fan_v2
 type  v2board
-更新订阅链接/续费续签失败  注册失败(twlrdlys57@gmail.com): 本站已关闭注册
+更新订阅链接/续费续签失败  注册失败(zfbmoufy721@gmail.com): 本站已关闭注册
 
-[https://101.201.67.59]
-
-[https://205.189.160.89]
-
-[https://15.204.10.70]
-
-[https://43.133.169.224]
-
-[https://69.87.191.20]
-
-[https://66.154.104.65]
-
-[https://45.249.89.109]
-
-[https://15.204.56.127]
-
-[https://45.88.223.110]
-
-[https://157.254.53.138]
-
-[http://v2client.wxly365.net]
-name  Clashlayer
+[http://p2.03fan.com]
+api_host  p2.03fan.com
+name  03Fan_v2
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(zwdamnx175@tmpbox.net): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  注册失败(qmbgoaocq395@gmail.com): 本站已关闭注册
 
-[https://38.60.91.110]
+[http://51.81.222.50]
+name  calling network
+type  v2board
+更新订阅链接/续费续签失败  注册失败(rrvjxtvb850@gmail.com): 本站已关闭注册
 
-[https://45.207.200.217]
+[https://140.245.113.171]
 
-[https://node.topmang.com]
+[https://192.9.153.7]
+
+[https://23.94.100.228]
+
+[http://152.53.14.71]
+name  9club
+type  v2board
+更新订阅链接/续费续签失败  注册失败(ltertpbvi341@gmail.com): 本站已关闭注册
+
+[https://104.37.175.223]
+
+[https://feiniaoyun.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(zmzsfkvjk92@tmpbox.net): 邮箱后缀不处于白名单中
+
+[https://140.245.99.14]
+
+[https://192.9.156.122]
+
+[https://klee.clashx.eu]
+name  可莉の蹦蹦炸弹
+type  v2board
+更新订阅链接/续费续签失败  发送邮箱验证码失败(bzhccvx726@lista.cc): {'message': '验证码有误'}
+
+[https://dash.clashx.eu]
+name  可莉の蹦蹦炸弹
+type  v2board
+更新订阅链接/续费续签失败  发送邮箱验证码失败(ztjdjcwbu307@disbox.net): {'message': '验证码有误'}
+
+[https://goods.paimon.eu]
+name  可莉の蹦蹦炸弹
+type  v2board
+更新订阅链接/续费续签失败  发送邮箱验证码失败(hhpejio562@disbox.org): {'message': '验证码有误'}
+
+[https://cloud.clashx.eu]
+name  可莉の蹦蹦炸弹
+type  v2board
+更新订阅链接/续费续签失败  发送邮箱验证码失败(yfzczndp780@teihu.com): {'message': '验证码有误'}
+
+[http://15.235.226.51]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(pxhvqzu353@teml.net): 邮箱后缀不处于白名单中
+
+[https://vip.igpop.vip]
+name  雷雨笔谈
+type  v2board
+更新订阅链接/续费续签失败  注册失败(qfcentcn339@qq.com): 本站已关闭注册
+
+[http://vip.igpop.vip]
+
+[https://47.100.136.238]
+
+[https://147.135.112.169]
+
+[https://103.251.89.118]
+
+[https://173.242.119.97]
+
+[https://152.53.14.71]
+
+[https://47.253.216.147]
+
+[https://15.204.199.208]
+
+[https://152.67.79.49]
+
+[http://v3.199322.xyz]
+
+[http://v2.199322.xyz]
+
+[https://v3.199322.xyz]
+
+[https://v1.199322.xyz]
+
+[https://jc.199322.xyz]
+
+[http://v1.199322.xyz]
+
+[https://v2.199322.xyz]
+
+[http://jc.199322.xyz]
+
+[https://138.2.122.20]
+
+[https://f2.344233.cc]
+banned_domains  x866.cc
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(urlylcn259@x866.cc)
+
+[https://fn2.344233.cc]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(eaxvdihmp238@moakt.ws): 邮箱后缀不处于白名单中
+
+[http://www.feiniaoyun.xyz]
+api_host  www.feiniaoyun.xyz
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(cywvfqz154@sharklasers.com): 邮箱后缀不处于白名单中
+
+[https://fn6.476579.xyz]
+banned_domains  mydefipet.live
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(bohjlxa558@mydefipet.live)
+
+[https://fn3.344233.cc]
+banned_domains  vapeuccino.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(yyutlps886@vapeuccino.com)
+
+[http://fn2.344233.cc]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"jaadgulxe941@mail.wvwvw.tech","success":"false"}'
+
+[http://f3.344233.cc]
+banned_domains  x866.cc
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(nqfzvtd493@x866.cc)
+
+[https://fn3.fnxx.cc]
+banned_domains  tmpnator.live
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(ussghge765@tmpnator.live)
+
+[https://fn1.fnxx.cc]
+banned_domains  snapmail.cc
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(hzvvkpo150@oakon.com): 邮箱后缀不处于白名单中
+
+[http://f2.344233.cc]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"bpykjvl563@huiplay.com","success":"false"}'
+
+[https://f1.344233.cc]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(usqgwqaw583@tmpmail.net): 邮箱后缀不处于白名单中
+
+[http://fn1.344233.cc]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"cmapybe692@xdanae.com","success":"false"}'
+
+[http://f1.344233.cc]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(vgnsboe571@questtechsystems.com): 邮箱后缀不处于白名单中
+
+[https://www.feiniaoyun.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(rdxzcidof957@tmpmail.net): 邮箱后缀不处于白名单中
+
+[https://fn1.344233.cc]
+banned_domains  xdanae.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(yrwxhyeq492@xdanae.com)
+
+[https://f3.344233.cc]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"ongofwmh810@lplso.tmmad.com","success":"false"}'
+
+[http://fn7.476579.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"ntibzsdhl424@nano-watt.tech","success":"false"}'
+
+[https://38.150.6.141]
+
+[http://15.235.226.43]
+name  百事云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"gojkxnul79@jkd.tmmad.com","success":"false"}'
+
+[https://az.757866.xyz]
 buy  pass
-email  ihiylxxp229@gmail.com
-name  拓扑门topman8848.com
-node_n  19
-sub_info  0B  1G  2026-03-07 10:25:40+08:00  (剩余 1G 23:56:45.639246)
-sub_url  http://113.207.49.134:10010/link?token=09ca94835bab2361ee147265679bcfd6
-time  2026-03-06 10:25:42.859866+08:00
-type  v2board
-
-[https://38.175.198.124]
-
-[http://www.okztwo.sbs]
-buy  pass
-email  rriltdbo87@gmail.com
-name  OKZTWO
+email  izarnxoqq645@gmail.com
+name  AZ云
 sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://apple.clashx.sbs/api/v1/client/subscribe?token=929f1cec054828f6c1a6182123ff6052
-time  2026-03-06 10:28:54.986929+08:00
+sub_url  https://az.234923.icu/api/v1/client/subscribe?token=25de79b4b551c12214c34adbe212aca0
+time  2026-03-06 10:35:59.061165+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
 
-[http://mfct.cc]
-api_host  mfct.cc
-buy  period=three_year_price&plan_id=1
-email  nychotpef620@gmail.com
-name  海螺加速器 hailuo.us
-node_n  1
-sub_info  0B  97.66T  2029-03-06 11:25:43+08:00  (剩余 97.66T 1096 days, 0:56:48.884153)
-sub_url  https://bigbee.vip/svip?token=ec534a42c22a057ad858b1928bb4e9a4
-time  2026-03-06 10:25:44.942465+08:00
-type  v2board
+[https://45.145.75.56]
 
-[https://vtest.68601.net]
+[https://194.114.138.48]
+
+[http://106.13.92.162:29015]
+name  🍅
+type  v2board
+更新订阅链接/续费续签失败  注册失败(dljfibghm851@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (404 Not Found 'Not Found')
+
+[https://cnfast.tf05.com]
+name  TFCloud
+type  v2board
+更新订阅链接/续费续签失败  注册失败(hdbvctr390@disbox.org): 邮箱后缀不处于白名单中
+
+[https://dfdff.tf05.com]
+name  TFCloud
+type  v2board
+更新订阅链接/续费续签失败  注册失败(feaahcihy132@youxiang.dev): 邮箱后缀不处于白名单中
+
+[http://101.32.177.183]
+
+[https://jk.aip.sh]
+
+[https://158.179.162.91]
+
+[https://webblog.aasslapp.com]
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[https://yunqi.aiteacherai.me]
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[http://yunqi.aiteacherai.me]
+
+[http://webblog.aasslapp.com]
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[https://154.17.10.117]
+
+[https://101.32.177.183]
+
+[http://18.167.53.243]
+
+[https://a1.342242.icu]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(fnukbql580@bareed.ws): 邮箱后缀不处于白名单中
+
+[http://a1.342242.icu]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(ngdcepzuo765@spam4.me): 邮箱后缀不处于白名单中
+
+[https://77688699.xyz]
+
+[http://77688699.xyz]
+name  9club
+type  v2board
+更新订阅链接/续费续签失败  注册失败(lufutey641@gmail.com): 本站已关闭注册
+
+[http://fn6.233235.xyz]
+banned_domains  tmpnator.live
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(mlajjhsjv443@tmpnator.live)
+
+[http://fn6.170809.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(gholrajzu576@guerrillamail.net): 邮箱后缀不处于白名单中
+
+[https://fn1.476579.xyz]
+banned_domains  mydefipet.live
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(lyidfman46@mydefipet.live)
+
+[http://fn1.170809.xyz]
+banned_domains  lplso.tmmad.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(hrjyfbt107@lplso.tmmad.com)
+
+[http://fn2.435462.xyz]
+banned_domains  ipiso.tmmad.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(myhilqfv843@ipiso.tmmad.com)
+
+[http://fn3.fnxx.cc]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(jcrebef919@pastryofistanbul.com): 邮箱后缀不处于白名单中
+
+[http://f5.352343.cc]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(pxwmbnpwt183@tmails.net): 邮箱后缀不处于白名单中
+
+[http://fn1.233235.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"fmlqzzo107@adtgng.tmmad.com","success":"false"}'
+
+[http://fn6.476579.xyz]
+banned_domains  lista.cc
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(xveobitpv152@youxiang.dev): 邮箱后缀不处于白名单中
+
+[http://fn5.476579.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(efwsqkywp108@moakt.cc): 邮箱后缀不处于白名单中
+
+[http://fn1.fnxx.cc]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(jslclwbhc810@tmails.net): 邮箱后缀不处于白名单中
+
+[https://f3.170809.xyz]
+banned_domains  snapmail.cc  psnator.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(mhbrruie710@psnator.com)
+
+[https://f3.352343.cc]
+banned_domains  mail.shouyou789.com  mxl001.win
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(ciugbyi746@mxl001.win)
+
+[http://fn4.476579.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(ckjiafa788@tmails.net): 邮箱后缀不处于白名单中
+
+[https://f1.453521.xyz]
+banned_domains  rgzx.tmmad.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(ennncrvq107@sharklasers.com): 邮箱后缀不处于白名单中
+
+[http://f1.fnxx.cc]
+banned_domains  51788.top
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(xxxwbsv88@51788.top)
+
+[http://fn3.352343.cc]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(femaqkhc145@youxiang.dev): 邮箱后缀不处于白名单中
+
+[http://fn1.767887.xyz]
+banned_domains  rgzx.tmmad.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(wmfwoowlp631@guerrillamail.de): 邮箱后缀不处于白名单中
+
+[https://fn3.352343.cc]
+banned_domains  adtgng.tmmad.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(rdlrjxnyy504@adtgng.tmmad.com)
+
+[https://fn1.170809.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(egeeitcm602@youxiang.dev): 邮箱后缀不处于白名单中
+
+[https://f2.352343.cc]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"qgvkwya144@12316hfk.com","success":"false"}'
+
+[http://fn6.767887.xyz]
+banned_domains  mail.wvwvw.tech
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(vhuufhy905@mail.wvwvw.tech)
+
+[http://fn5.233235.xyz]
+banned_domains  tmpnator.live
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(cvbxgirq593@tmpnator.live)
+
+[https://fn3.170809.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"mwpghkti778@x866.cc","success":"false"}'
+
+[https://fn9.476579.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"svctdcjeq746@xdanae.com","success":"false"}'
+
+[https://fn6.233235.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(qffpvmd353@oakon.com): 邮箱后缀不处于白名单中
+
+[http://fn8.476579.xyz]
+banned_domains  tmpnator.live
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(pwxjdzs524@tmpnator.live)
+
+[https://fn8.476579.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"vpxcqab232@jkb.tmmad.com","success":"false"}'
+
+[http://fn1.352343.cc]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(vvdxqyq915@tmails.net): 邮箱后缀不处于白名单中
+
+[https://fn6.170809.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"pzgopsro75@xdanae.com","success":"false"}'
+
+[http://fn1.435462.xyz]
+banned_domains  mydefipet.live  xxxhi.cc
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(htpemjtyi418@xxxhi.cc)
+
+[https://fn5.170809.xyz]
+banned_domains  lyx13.xyz
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(asmjxcm978@lyx13.xyz)
+
+[http://f3.453521.xyz]
+banned_domains  x866.cc
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(xcmikipt878@guerrillamail.biz): 邮箱后缀不处于白名单中
+
+[https://f1.170809.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(xqvnuqkv654@tmpmail.org): 邮箱后缀不处于白名单中
+
+[https://fn2.fnxx.cc]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(cpmggewq626@oakon.com): 邮箱后缀不处于白名单中
+
+[http://f4.352343.cc]
+banned_domains  nano-watt.tech
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"wdhuysbn906@12316hfk.com","success":"false"}'
+
+[https://fn1.435462.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(fyyxmbyi916@guerrillamail.com): 邮箱后缀不处于白名单中
+
+[https://f3.fnxx.cc]
+banned_domains  jkd.tmmad.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(pdtyeqt50@guerrillamail.com): 邮箱后缀不处于白名单中
+
+[http://fn2.767887.xyz]
+banned_domains  ipiso.tmmad.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(jiismmeew854@ipiso.tmmad.com)
+
+[http://f3.fnxx.cc]
+banned_domains  xxxhi.cc
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(vtfbdpxy892@xxxhi.cc)
+
+[http://fn2.fnxx.cc]
+banned_domains  lplso.tmmad.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(ngaxeduz989@lplso.tmmad.com)
+
+[http://f3.170809.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(wmmfdqx524@linshiyou.com): 邮箱后缀不处于白名单中
+
+[https://fn2.170809.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"mtxwtsdkr981@huiplay.com","success":"false"}'
+
+[http://f1.453521.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(hksjqhqlz148@guerrillamail.de): 邮箱后缀不处于白名单中
+
+[http://fn2.233235.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(wnxgttg331@guerrillamail.net): 邮箱后缀不处于白名单中
+
+[http://f2.453521.xyz]
+banned_domains  mxl001.win
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(ghvegaata630@mxl001.win)
+
+[http://fn2.170809.xyz]
+banned_domains  tmpnator.live
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(cikwvcx690@tmpnator.live)
+
+[http://fn4.170809.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(lqfklly444@moakt.co): 邮箱后缀不处于白名单中
+
+[http://fn4.767887.xyz]
+banned_domains  psnator.com  vapeuccino.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(bvzuahbb655@vapeuccino.com)
+
+[http://f1.170809.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(jekuxmjcu127@tmpbox.net): 邮箱后缀不处于白名单中
+
+[http://fn3.344233.cc]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(ovgwpwl438@disbox.net): 邮箱后缀不处于白名单中
+
+[http://f2.170809.xyz]
+banned_domains  adtgng.tmmad.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(hlnvmnx950@moakt.cc): 邮箱后缀不处于白名单中
+
+[https://fn3.435462.xyz]
+banned_domains  xxxhi.cc
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(dvbzepm459@guerrillamail.com): 邮箱后缀不处于白名单中
+
+[https://f1.352343.cc]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(xdtxfuyn133@femailtor.com): 邮箱后缀不处于白名单中
+
+[https://fn2.435462.xyz]
+banned_domains  mail.shouyou789.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(kxaghqb149@guerrillamail.com): 邮箱后缀不处于白名单中
+
+[https://fn5.233235.xyz]
+banned_domains  lplso.tmmad.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(szquaawfk222@guerrillamail.biz): 邮箱后缀不处于白名单中
+
+[http://fn3.435462.xyz]
+banned_domains  lyx13.xyz  xxxhi.cc
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(pvtsnub669@xxxhi.cc)
+
+[https://fn7.476579.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"ochpmxr855@vapelato.com","success":"false"}'
+
+[https://fn4.476579.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(fhjmhhhqg774@tmpmail.net): 邮箱后缀不处于白名单中
+
+[https://f3.453521.xyz]
+banned_domains  12316hfk.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(itctcdwyy621@12316hfk.com)
+
+[https://fn5.476579.xyz]
+banned_domains  vapelato.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(uqboawk54@vapelato.com)
+
+[https://fn1.352343.cc]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(qakejsy979@youxiang.dev): 邮箱后缀不处于白名单中
+
+[https://fn3.233235.xyz]
+banned_domains  smartnator.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(jmduwqe94@smartnator.com)
+
+[http://fn2.352343.cc]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(lbqqcinez669@disbox.net): 邮箱后缀不处于白名单中
+
+[http://f3.352343.cc]
+banned_domains  ipiso.tmmad.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(hgiplmxwl26@ipiso.tmmad.com)
+
+[http://fn4.233235.xyz]
+banned_domains  rgzx.tmmad.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(udyoznf786@rgzx.tmmad.com)
+
+[http://fn5.170809.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(qpeucpk686@pastryofistanbul.com): 邮箱后缀不处于白名单中
+
+[https://fn4.233235.xyz]
+banned_domains  psnator.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(vidcbytt354@psnator.com)
+
+[https://fn2.476579.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(ultudbi377@tmpbox.net): 邮箱后缀不处于白名单中
+
+[http://fn1.476579.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(ngbteqp780@tmpeml.com): 邮箱后缀不处于白名单中
+
+[http://fn9.476579.xyz]
+banned_domains  xdanae.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(ythnilhxo711@femailtor.com): 邮箱后缀不处于白名单中
+
+[https://f4.352343.cc]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(mgddmxf202@youxiang.dev): 邮箱后缀不处于白名单中
+
+[https://fn3.476579.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(edrddgo439@tmpmail.org): 邮箱后缀不处于白名单中
+
+[http://fn2.476579.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(dncpuntz347@pastryofistanbul.com): 邮箱后缀不处于白名单中
+
+[http://fn3.233235.xyz]
+banned_domains  mail.wvwvw.tech
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(afqwxgdc976@mail.wvwvw.tech)
+
+[https://47.100.78.136]
+
+[http://store.916789.xyz]
+api_host  store.916789.xyz
 buy  pass
-email  ithvbieg701@gmail.com
-name  小蜜蜂
+email  mcesdgoc896@gmail.com
+name  小虫洞
+sub_info  0B  0B  永不过期  (剩余 0B)
+sub_url  https://wormhole.tunnel4wall.ggff.net/api/v1/client/subscribe?token=3161ca7e2572dabceb032d39e669e04f
+time  2026-03-06 10:45:27.051042+08:00
+type  v2board
+保存base64/clash订阅失败  'NoneType' object is not iterable
+
+[https://store.916789.xyz]
+buy  pass
+email  sysxfodiu977@gmail.com
+name  小虫洞
+sub_info  0B  0B  永不过期  (剩余 0B)
+sub_url  https://wormhole.tunnel4wall.ggff.net/api/v1/client/subscribe?token=f2bc5b8f0be5490b424262496b66b63d
+time  2026-03-06 10:45:39.670949+08:00
+type  v2board
+保存base64/clash订阅失败  'NoneType' object is not iterable
+
+[http://16.162.228.244]
+
+[http://h2.aaap.eu.org]
+
+[https://h2.aaap.eu.org]
+
+[http://www.aie.sh]
+
+[https://www.aie.sh]
+
+[http://www.ait.sh]
+api_host  www.ait.sh
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[https://itsh.app]
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[http://www.aip.sh]
+
+[https://www.aip.sh]
+
+[https://m.aie.sh]
+
+[https://m.aip.sh]
+
+[http://yunqisub.me]
+api_host  yunqisub.me
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[https://yunqisub.me]
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[http://maimaimai.top]
+name  买买买
+type  v2board
+更新订阅链接/续费续签失败  注册失败(xjmpznwt448@gmail.com): 本站已关闭注册
+
+[http://www.maimaimai.top]
+name  买买买
+type  v2board
+更新订阅链接/续费续签失败  注册失败(oatnyjq859@gmail.com): 本站已关闭注册
+
+[https://www.maimaimai.top]
+
+[https://maimaimai.top]
+
+[http://feiniaoyun.xyz]
+api_host  feiniaoyun.xyz
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(dreemoccp119@moakt.ws): 邮箱后缀不处于白名单中
+
+[https://74.48.86.121]
+
+[http://x.bee.ga]
+
+[https://x.bee.ga]
+
+[https://connect.moe.makeup]
+
+[http://18.166.234.144]
+
+[https://jcdy.ml200g.top]
+
+[http://jcdy.ml200g.top]
+
+[https://cdn2.fgbot.me]
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[http://yunxiapp.me]
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[https://cdn2.aasslapp.com]
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[https://cnnoss.feigelink.com]
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[http://cdn2.aasslapp.com]
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[https://yunxiapp.me]
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[http://cnnoss.feigelink.com]
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[http://cdn2.fgbot.me]
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[https://916789.xyz]
+
+[http://f2.352343.cc]
+banned_domains  psnator.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(akcqrzidp857@guerrillamail.de): 邮箱后缀不处于白名单中
+
+[http://fn1.595780.xyz]
+error  <string>:2 Unexpected "(" at column 16
+type  v2board
+更新订阅链接/续费续签失败  注册失败(ckeqrkzn513@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (405 Not Allowed '<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>openresty</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n')
+
+[http://fn3.767887.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(qsvxuqf551@teihu.com): 邮箱后缀不处于白名单中
+
+[https://f2.453521.xyz]
+banned_domains  ipiso.tmmad.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(bqzgwtpfo942@ipiso.tmmad.com)
+
+[http://fn3.170809.xyz]
+banned_domains  xdanae.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(asrgipt638@xdanae.com)
+
+[http://f2.fnxx.cc]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(halrnzh500@guerrillamail.net): 邮箱后缀不处于白名单中
+
+[http://f6.352343.cc]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(kjthkqh650@guerrillamail.net): 邮箱后缀不处于白名单中
+
+[https://f6.352343.cc]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(idqsmjiul626@teihu.com): 邮箱后缀不处于白名单中
+
+[https://fn2.233235.xyz]
+banned_domains  huiplay.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(ewckdgifa503@huiplay.com)
+
+[https://fn2.352343.cc]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(aougfwbhv118@guerrillamail.de): 邮箱后缀不处于白名单中
+
+[https://fn2.595780.xyz]
+error  <string>:2 Unexpected "(" at column 16
+type  v2board
+更新订阅链接/续费续签失败  注册失败(oknolln749@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (405 Method Not Allowed '<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>openresty</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n')
+
+[http://fn2.595780.xyz]
+error  <string>:2 Unexpected "(" at column 16
+type  v2board
+更新订阅链接/续费续签失败  注册失败(gqrmvld565@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (405 Not Allowed '<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>openresty</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n')
+
+[https://f5.352343.cc]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"cjprxopj225@x866.cc","success":"false"}'
+
+[http://feiniaoyun11.life]
+banned_domains  questtechsystems.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(znahjhx942@questtechsystems.com)
+
+[https://feiniaoyun11.life]
+banned_domains  jkd.tmmad.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(xtylieq328@youxiang.dev): 邮箱后缀不处于白名单中
+
+[http://116.198.46.169:9006]
+
+[https://bitfat.top]
+name  bitfat
+type  v2board
+更新订阅链接/续费续签失败  注册失败(jtomvlmw228@gmail.com): 本站已关闭注册
+
+[http://whayheep.cc]
+name  bitfat
+type  v2board
+更新订阅链接/续费续签失败  注册失败(gogvvrt389@gmail.com): 本站已关闭注册
+
+[https://whayheep.cc]
+
+[https://www.fuqiangcn.win]
+name  岁岁念念
+type  v2board
+更新订阅链接/续费续签失败  注册失败(cxwacpjkj925@gmail.com): 本站已关闭注册
+
+[http://malala.fuqiangcn.win]
+api_host  malala.fuqiangcn.win
+name  岁岁念念
+type  v2board
+更新订阅链接/续费续签失败  注册失败(gkajnfs457@gmail.com): 本站已关闭注册
+
+[http://www.fuqiangcn.win]
+api_host  www.fuqiangcn.win
+name  岁岁念念
+type  v2board
+更新订阅链接/续费续签失败  注册失败(yyzhbls112@gmail.com): 本站已关闭注册
+
+[http://dasdasdasd.fuqiangcn.win]
+api_host  dasdasdasd.fuqiangcn.win
+name  岁岁念念
+type  v2board
+更新订阅链接/续费续签失败  注册失败(eqdxtobt345@gmail.com): 本站已关闭注册
+
+[https://v2-cc.onenew.link]
+name  V2-CC
+type  v2board
+更新订阅链接/续费续签失败  注册失败(bibrflbzc510@gmail.com): 本站已关闭注册
+
+[https://az.234923.icu]
+buy  pass
+email  sjioefqe958@gmail.com
+name  AZ云
+sub_info  0B  0B  永不过期  (剩余 0B)
+sub_url  https://az.234923.icu/api/v1/client/subscribe?token=a273c5bfbfc06be8bb97911f40af8a89
+time  2026-03-06 10:35:01.151392+08:00
+type  v2board
+保存base64/clash订阅失败  'NoneType' object is not iterable
+
+[http://az.234923.icu]
+buy  pass
+email  jnabrmus823@gmail.com
+name  AZ云
+sub_info  0B  0B  永不过期  (剩余 0B)
+sub_url  https://az.234923.icu/api/v1/client/subscribe?token=eb5b95fd3284496810629317086a39a2
+time  2026-03-06 10:35:01.145253+08:00
+type  v2board
+保存base64/clash订阅失败  'NoneType' object is not iterable
+
+[https://w1.355666.icu]
+
+[http://w1.355666.icu]
+
+[https://v2.fq.ax]
+name  V2FQ
+type  v2board
+更新订阅链接/续费续签失败  注册失败(xrfvvxub640@gmail.com): 本站已关闭注册
+
+[http://7day.wsssapt.org]
+
+[https://7day.wsssapt.org]
+
+[https://tokens.wsssapt.org]
+
+[http://80.251.209.203]
+
+[https://37.114.38.25]
+
+[https://www.sadzxc.xyz]
+
+[http://www.sadzxc.xyz]
+
+[http://fn6.757866.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(nkfeujet364@disbox.org): 邮箱后缀不处于白名单中
+
+[https://fn3.757866.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(gvfzsimao844@sharklasers.com): 邮箱后缀不处于白名单中
+
+[https://fn4.170809.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(ojblcaps393@bareed.ws): 邮箱后缀不处于白名单中
+
+[https://fn1.757866.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(ymttbwm577@moakt.cc): 邮箱后缀不处于白名单中
+
+[http://fn1.757866.xyz]
+banned_domains  rgzx.tmmad.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(evfewhkba845@rgzx.tmmad.com)
+
+[https://fn3.595780.xyz]
+error  <string>:2 Unexpected "(" at column 16
+type  v2board
+更新订阅链接/续费续签失败  注册失败(zalebnx52@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (405 Method Not Allowed '<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>openresty</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n')
+
+[https://fn5.757866.xyz]
+banned_domains  12316hfk.com  psnator.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(rrfkzinl687@psnator.com)
+
+[https://fn4.757866.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(leuxxaf692@tmpmail.net): 邮箱后缀不处于白名单中
+
+[https://fn6.757866.xyz]
+banned_domains  jkb.tmmad.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(qlbgaatnj53@jkb.tmmad.com)
+
+[https://f2.170809.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(jkxydbv757@bareed.ws): 邮箱后缀不处于白名单中
+
+[http://fn5.767887.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(tzhgfnh585@tmpbox.net): 邮箱后缀不处于白名单中
+
+[https://f2.fnxx.cc]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(etkmhdmjb295@teml.net): 邮箱后缀不处于白名单中
+
+[http://fn3.757866.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(rynmwvdif275@tmails.net): 邮箱后缀不处于白名单中
+
+[https://fn1.595780.xyz]
+error  <string>:2 Unexpected "(" at column 16
+type  v2board
+更新订阅链接/续费续签失败  注册失败(bcbvlbn4@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (405 Method Not Allowed '<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>openresty</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n')
+
+[http://fn3.595780.xyz]
+error  <string>:2 Unexpected "(" at column 16
+type  v2board
+更新订阅链接/续费续签失败  注册失败(zbmncyd204@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (405 Not Allowed '<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>openresty</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n')
+
+[http://fn5.757866.xyz]
+banned_domains  mydefipet.live
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(ngcikvev283@mydefipet.live)
+
+[https://80.251.209.203]
+
+[http://116.198.46.169:2086]
+
+[http://688cloud.xyz]
+name  9club
+type  v2board
+更新订阅链接/续费续签失败  注册失败(wtlevldnr732@gmail.com): 本站已关闭注册
+
+[https://688cloud.xyz]
+name  9club
+type  v2board
+更新订阅链接/续费续签失败  注册失败(tdjsddh459@gmail.com): 本站已关闭注册
+
+[http://sdw.jslianchi.com]
+
+[http://15.235.226.43:5566]
+buy  pass
+email  gbjobwx124@disbox.org
+name  互联云
+sub_info  0B  0B  永不过期  (剩余 0B)
+sub_url  https://47.242.141.112:11238/api/v1/client/subscribe?token=3e07b71a17cdc4827a3392418def3c31
+time  2026-03-06 10:35:48.622433+08:00
+type  v2board
+保存base64/clash订阅失败  'NoneType' object is not iterable
+
+[http://15.235.226.51:5566]
+banned_domains  smartnator.com
+name  闪联云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(erkfvzwd394@smartnator.com)
+
+[http://116.198.46.169:51007]
+
+[http://slsafe.com]
+banned_domains  vapeuccino.com  vapelato.com
+name  闪联云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(resusmpwc262@vapelato.com)
+
+[https://slsafe.com]
+banned_domains  x866.cc
+name  闪联云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(mjpkgwfak24@guerrillamail.biz): 邮箱后缀不处于白名单中
+
+[http://15.235.226.51:8899]
+name  快牛云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(jspchwn974@spam4.me): 邮箱后缀不处于白名单中
+
+[https://sadzxc.xyz]
+
+[http://15.235.226.43:8899]
+banned_domains  adtgng.tmmad.com
+name  百事云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(jkfkmmf604@adtgng.tmmad.com)
+
+[http://142.91.102.189:8998]
+
+[http://51.81.222.50:7788]
+name  calling network
+type  v2board
+更新订阅链接/续费续签失败  注册失败(egiiamx628@gmail.com): 本站已关闭注册
+
+[https://103.172.41.3]
+
+[http://176.126.114.217:9480]
+name  可莉の蹦蹦炸弹
+type  v2board
+更新订阅链接/续费续签失败  发送邮箱验证码失败(mavsnfjhf251@12316hfk.com): {'message': '验证码有误'}
+
+[http://v2.fq.ax]
+api_host  v2.fq.ax
+name  V2FQ
+type  v2board
+更新订阅链接/续费续签失败  注册失败(jythulv583@gmail.com): 本站已关闭注册
+
+[https://cloud.paimon.eu]
+name  派蒙风の翼
+type  v2board
+更新订阅链接/续费续签失败  发送邮箱验证码失败(amakpcyc534@youxiang.dev): {'message': '验证码有误'}
+
+[https://47.100.215.55]
+
+[https://142.171.30.103]
+
+[http://f1.352343.cc]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(bmwoyqe142@tmpbox.net): 邮箱后缀不处于白名单中
+
+[https://fn1.233235.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(lqcuxoy105@spam4.me): 邮箱后缀不处于白名单中
+
+[http://7.feiniaoyun.top]
+
+[http://fn2.757866.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(qzdtcxdmz96@tmpeml.com): 邮箱后缀不处于白名单中
+
+[https://fn2.757866.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(psabhmz212@grr.la): 邮箱后缀不处于白名单中
+
+[https://f1.fnxx.cc]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(rkybgcun354@femailtor.com): 邮箱后缀不处于白名单中
+
+[http://feiniaoyun.top]
+
+[https://feiniaoyun.top]
+
+[http://fn4.757866.xyz]
+banned_domains  mail.shouyou789.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(oxeznlc662@mail.shouyou789.com)
+
+[http://15.235.226.51:7788]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(ryvfytenu462@sharklasers.com): 邮箱后缀不处于白名单中
+
+[https://x3.344211.cc]
+banned_domains  xdanae.com
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(fqstjzuzc375@xdanae.com)
+
+[http://66.112.217.234:9105]
+name  🍅
+type  v2board
+更新订阅链接/续费续签失败  注册失败(ahdkqsf990@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (404 Not Found 'Not Found')
+
+[http://176.126.114.231:9580]
+name  派蒙风の翼
+type  v2board
+更新订阅链接/续费续签失败  发送邮箱验证码失败(hfrdsszfn447@psnator.com): {'message': '验证码有误'}
+
+[https://earth.sismvp.com]
+name  Earth
+type  v2board
+更新订阅链接/续费续签失败  注册失败(hgyumvtec449@gmail.com): 'NoneType' object is not subscriptable
+
+[http://earth.sismvp.com]
+api_host  earth.sismvp.com
+name  Earth
+type  v2board
+更新订阅链接/续费续签失败  注册失败(ejzzprkal223@gmail.com): 'NoneType' object is not subscriptable
+
+[https://144.24.83.229]
+
+[http://47.76.150.220:22335]
+
+[https://sdw.jslianchi.com]
+
+[https://v2.zaipinai.icu]
+
+[http://v2b.zyfast001.xyz:6490]
+
+[https://fn2.767887.xyz]
+
+[https://139.224.13.90]
+
+[http://15.235.226.43:7788]
+buy  pass
+email  yxehpqvqd814@gmail.com
+name  互联Cloud-NN
+sub_info  0B  0B  永不过期  (剩余 0B)
+sub_url  https://47.242.141.112:12138/profile/login-service?token=4e88dd50ae34ecc126686de1acb68168
+time  2026-03-06 10:36:48.244358+08:00
+type  v2board
+保存base64/clash订阅失败  'NoneType' object is not iterable
+
+[http://tuistzz.cc]
+name  bitfat
+type  v2board
+更新订阅链接/续费续签失败  注册失败(wcevfjej477@gmail.com): 本站已关闭注册
+
+[https://tuistzz.cc]
+
+[http://108.160.130.163:5432]
+
+[https://101.132.121.216]
+
+[https://45.142.112.246]
+
+[http://tokens.wsssapt.org]
+
+[http://07.nfsq.us]
+
+[https://11.nfsq.us]
+
+[https://05.nfsq.us]
+
+[https://03.nfsq.us]
+
+[http://05.nfsq.us]
+
+[http://03.nfsq.us]
+
+[http://11.nfsq.us]
+
+[https://47.117.118.130]
+
+[http://15.235.207.17]
+
+[https://pan.lydia0.cn]
+
+[https://fly.lydia0.cn]
+
+[http://fly.lydia0.cn]
+
+[https://fly-sub.lydia0.cn]
+
+[http://fly-sub.lydia0.cn]
+
+[https://31.57.67.25]
+
+[http://140.245.98.230]
+
+[https://gittabhack.top]
+
+[http://gittabhack.top]
+
+[http://kog.nai99.top]
+
+[https://joo.nai99.top]
+
+[http://joo.nai99.top]
+
+[https://kk.nai99.top]
+
+[https://45.32.126.163]
+
+[https://140.245.98.230]
+
+[https://193.122.146.79]
+
+[https://142.171.114.162]
+
+[https://23.94.70.162]
+
+[http://v2.bqsuya.ng]
+
+[https://v2.bqsuya.ng]
+
+[https://106.14.55.130]
+
+[https://fn5.767887.xyz]
+
+[https://fn3.170203.xyz]
+
+[http://fn3.476579.xyz]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(frnuzpn880@teihu.com): 邮箱后缀不处于白名单中
+
+[https://test.boom233.eu]
+
+[https://b.aid.sh]
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[http://a.aid.sh]
+api_host  a.aid.sh
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[https://www.aid.sh]
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[http://www.aid.sh]
+api_host  www.aid.sh
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[https://a.aid.sh]
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[https://129.150.47.221]
+
+[https://172.245.73.180]
+
+[https://45.78.29.125:8443]
+
+[http://kk.nai99.top]
+
+[https://fbcdn.fengchiyx.xyz]
+
+[https://v2.mkrke.uk]
+
+[http://v2.mkrke.uk]
+
+[http://xh.666mall.top]
+
+[https://xh.666mall.top]
+
+[https://sub.cyber188.com]
+
+[http://api.cyber188.com]
+
+[http://admin.cyber188.com]
+
+[https://admin.cyber188.com]
+
+[https://api.cyber188.com]
+
+[http://yqait.net]
+api_host  yqait.net
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[https://yqait.net]
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[http://my.testbedeh.com]
+name  d
+type  v2board
+更新订阅链接/续费续签失败  注册失败(iuanzer397@gmail.com): 本站已关闭注册
+
+[https://epicgame.boom233.eu]
+
+[http://a.aasslapp.com]
+
+[https://a.aasslapp.com]
+
+[https://101.132.120.248]
+
+[https://cc.199322.xyz]
+
+[https://35.240.180.121]
+
+[http://66.112.217.234:27017]
+name  🍅
+type  v2board
+更新订阅链接/续费续签失败  注册失败(gmwgrndfw390@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (404 Not Found 'Not Found')
+
+[https://80.251.210.20:8443]
+
+[https://rioo.nai99.top]
+
+[https://kog.nai99.top]
+
+[http://rioo.nai99.top]
+
+[http://subapi.a-it.xyz]
+
+[https://clientapi.a-it.xyz]
+
+[http://clientapi.a-it.xyz]
+
+[http://panel.rainbowfox.net]
+name  RainbowFox
+type  v2board
+更新订阅链接/续费续签失败  注册失败(iffxomqb437@gmail.com): 'NoneType' object is not subscriptable
+
+[https://103.117.103.27]
+
+[https://15.235.207.17]
+
+[https://v2202306200854230159.luckysrv.de]
+
+[http://test.darein.top]
+name  V2Board
+type  v2board
+更新订阅链接/续费续签失败  注册失败(xpkoyefko543@gmail.com): 遇到了些问题，我们正在进行处理
+
+[http://152.53.14.71:8848]
+name  9club
+type  v2board
+更新订阅链接/续费续签失败  注册失败(hlbfcadbb147@gmail.com): 本站已关闭注册
+
+[http://m.ssh21.top]
+
+[http://m.aish.sh]
+
+[https://m.ssh21.top]
+
+[https://m.ssh22.top]
+
+[http://m.aie.sh]
+
+[https://m.aish.sh]
+
+[http://m.ssh22.top]
+
+[https://dash.nxvm.org]
+
+[http://dash.nxvm.org]
+
+[https://img.nxvm.org]
+
+[https://142.171.133.110]
+
+[http://test.boom233.eu]
+
+[http://lolyun.top]
+
+[http://manage.nxvm.org]
+
+[https://lolyun.top]
+
+[https://manage.nxvm.org]
+
+[https://user-securverif3j.ns02.biz]
+
+[https://shop.yunxiapp.app]
+
+[https://web.yunxiapp.app]
+
+[https://aimcp.yunxiapp.app]
+
+[http://aimcp.yunxiapp.app]
+
+[http://shop.yunxiapp.app]
+
+[http://web.yunxiapp.app]
+
+[http://cc.199322.xyz]
+
+[https://15.235.185.87]
+
+[https://152.69.219.58]
+
+[http://qiyun.feigelink.me]
+
+[https://azure.feigelink.me]
+
+[http://m.tf05.com]
+api_host  m.tf05.com
+banned_domains  xdanae.com
+name  TFCloud
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(vtinlqtpg472@xdanae.com)
+
+[https://103.75.184.133]
+
+[https://qiyun.feigelink.me]
+
+[http://azure.feigelink.me]
+
+[https://38.175.108.107]
+
+[https://sdnet.pro]
+
+[https://www.sdnet.pro]
+
+[http://sadzxc.xyz]
+
+[https://us.sdnet.pro]
+
+[https://85.113.71.140]
+
+[https://152.67.255.62]
+
+[https://www.subyunqiapp.buzz]
+
+[http://www.subyunqiapp.buzz]
+
+[https://subyunqiapp.buzz]
+
+[https://www02.managecloud.cc]
+buy  pass
+email  ghockavn576@gmail.com
+name  manage cloud
+sub_info  0B  0B  永不过期  (剩余 0B)
+sub_url  https://www02.managecloud.cc/api/v1/client/subscribe?token=aa62a7241b472403fb991a3a3cfdd034
+time  2026-03-06 10:37:40.003709+08:00
+type  v2board
+保存base64/clash订阅失败  'NoneType' object is not iterable
+
+[http://subyunqiapp.buzz]
+
+[https://jk.aie.sh]
+
+[http://jk.aie.sh]
+
+[http://v2b.timmm.cloud]
+
+[https://v2b.timmm.cloud]
+
+[https://onesth.com]
+
+[http://onesth.com]
+
+[https://jsq.wxdk.eu.org]
+
+[https://ecycloud.site]
+
+[https://az.170203.xyz]
+
+[http://az.170203.xyz]
+
+[http://158.69.125.72:8899]
+
+[https://a-it.xyz]
+
+[http://a-it.xyz]
+
+[https://subapi.a-it.xyz]
+
+[https://sh.aip.sh]
+
+[http://jk.aip.sh]
+
+[https://www.ssh22.top]
+
+[https://a.aip.sh]
+
+[http://m.aip.sh]
+
+[http://shop.yunqisec.com]
+api_host  shop.yunqisec.com
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[http://demo.yunqisec.com]
+api_host  demo.yunqisec.com
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[http://www.yunqisec.com]
+api_host  www.yunqisec.com
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[https://m.yunqisec.com]
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[https://www.yunqisec.com]
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[http://m.yunqisec.com]
+api_host  m.yunqisec.com
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[https://demo.yunqisec.com]
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[https://shop.yunqisec.com]
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[http://b.hotyun.xyz]
+
+[https://b1tf1t.top]
+
+[http://b1tf1t.top]
+
+[https://xh.755667.xyz]
+
+[http://app.yunxiapp.me]
+
+[https://duc5g.shop]
+
+[http://duc5g.shop]
+
+[https://app.yunxiapp.me]
+
+[http://webapi.yunxi.me]
+
+[https://auio.appyunqi.com]
+
+[http://auio.appyunqi.com]
+
+[https://webapi.yunxi.me]
+
+[https://bt.v2tech.xyz]
+name  V2Board
+type  v2board
+更新订阅链接/续费续签失败  注册失败(gaajbnfm612@gmail.com): 本站已关闭注册
+
+[https://usersecurverf6j.ns02.biz]
+
+[https://www.usersecurverf6j.ns02.biz]
+
+[https://www.usersecurverif03j.ns02.biz]
+
+[http://123.249.83.198:446]
+
+[http://51.81.48.232]
+
+[http://ccv.mlvpn.cloudns.ch]
+
+[http://one-pass.s900323.uk]
+
+[https://one-free.skyboy30432.work]
+
+[https://ydzmk.ccml.us.kg]
+
+[https://ccv.wrd.us.kg]
+
+[http://ccv.wrd.us.kg]
+
+[https://one-pass.s900323.uk]
+
+[https://160.187.247.198]
+
+[http://ydzmk.ccml.us.kg]
+
+[http://one-free.skyboy30432.work]
+
+[https://ccv.mlvpn.cloudns.ch]
+
+[https://acecloud.shop]
+
+[http://acecloud.shop]
+
+[https://sub.ecycloud.site]
+
+[https://sub01.xn--4kqp3gtw3b.com]
+
+[http://sub01.xn--4kqp3gtw3b.com]
+
+[https://us-la-2h.stoven.me]
+
+[http://sub.ecycloud.site]
+
+[http://api.xn--4kqp3gtw3b.com]
+
+[https://api.xn--4kqp3gtw3b.com]
+
+[https://cc.drchi.icu]
+buy  period=onetime_price&plan_id=3
+email  kngdjtzy43@qq.com
+name  奈奈加速
 node_n  2
-sub_info  0B  1G  2026-03-06 11:25:02+08:00  (剩余 1G 0:56:10.160108)
-sub_url  https://v.68601.net/html/system/bee/html?token=1088760c7ffbef08697caeae3e289070
-time  2026-03-06 10:25:43.456666+08:00
+sub_info  0B  2G  永不过期  (剩余 2G)
+sub_url  https://xbb.nai99.top/api/v1/client/subscribe?token=895ac3d52090cfa0236de1073917d093
+time  2026-03-06 10:38:01.343519+08:00
 type  v2board
 
-[https://ppoe.mmcloud.top]
-name  星河云
+[http://142.171.125.196]
+
+[https://hotyun.xyz]
+
+[http://hotyun.xyz]
+
+[http://ecycloud.cc]
+
+[https://ecycloud.cc]
+
+[http://sub.ecycloud.cc]
+
+[https://sub.ecycloud.cc]
+
+[https://bt.wrd01bet.uk]
+
+[https://ccv.wrd01bet.uk]
+
+[http://m.shtec.cloud]
+
+[https://m.shtec.cloud]
+
+[https://107.175.249.28]
+
+[http://158.69.125.72]
+
+[http://m.appyunqi.app]
+
+[https://www.appyunqi.app]
+
+[https://app.appyunqi.app]
+
+[http://p.appyunqi.app]
+
+[http://app.appyunqi.app]
+
+[https://p.appyunqi.app]
+
+[https://m.appyunqi.app]
+
+[http://www.appyunqi.app]
+
+[https://120.232.166.139:4443]
+
+[https://64.23.223.229]
+
+[https://140.235.39.103]
+
+[https://cn.vpvvip.xyz]
+
+[http://cn.vpvvip.xyz]
+
+[https://108.165.145.104]
+
+[https://www.slsafe.com]
+
+[http://o2.zhenxxin.com]
+api_host  o2.zhenxxin.com
+name  O2
+type  v2board
+更新订阅链接/续费续签失败  注册失败(stmbzzg398@gmail.com): 本站已关闭注册
+
+[https://o2.zhenxxin.com]
+name  O2
+type  v2board
+更新订阅链接/续费续签失败  注册失败(owowvzqn195@gmail.com): 本站已关闭注册
+
+[http://www.hlxk.xyz]
+name  calling network
+type  v2board
+更新订阅链接/续费续签失败  注册失败(pckbkfmag638@gmail.com): 本站已关闭注册
+
+[https://51.81.48.232]
+
+[https://www.aaafast.cc]
+
+[http://www.aaafast.cc]
+
+[https://xts963981.aaafast.cc]
+
+[http://a.hlxk.xyz]
+name  calling network
+type  v2board
+更新订阅链接/续费续签失败  注册失败(ggzutdvd595@gmail.com): 本站已关闭注册
+
+[https://a.hlxk.xyz]
+
+[http://b.hlxk.xyz]
+name  calling network
+type  v2board
+更新订阅链接/续费续签失败  注册失败(yrcqnjygy806@gmail.com): 本站已关闭注册
+
+[https://b.hlxk.xyz]
+
+[http://com.comyunqi.com]
+
+[https://fnreposter.likangfeng.eu.org]
+name  飞鸟云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(ctueeriw784@gmail.com): The given data was invalid.
+
+[https://com.comyunqi.com]
+
+[https://103.178.235.225]
+
+[https://m.sysuapp.com]
+name  云栖
 type  v2board
 更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
 
-[https://5.255.98.61]
-
-[https://204.152.192.182]
-
-[https://mfct.cc]
-buy  period=three_year_price&plan_id=1
-email  ijqldbv84@gmail.com
-name  海螺加速器 hailuo.us
-node_n  1
-sub_info  0B  97.66T  2029-03-06 11:25:44+08:00  (剩余 97.66T 1096 days, 0:56:05.077195)
-sub_url  https://hailuo.xyz/svip?token=2a1d2594be519f50dd9cdb87052cfc8f
-time  2026-03-06 10:25:45.570192+08:00
-type  v2board
-
-[https://65.75.209.97]
-
-[https://166.88.97.30]
-
-[https://143.20.204.12]
-
-[https://74.48.84.163]
-
-[https://193.111.30.50]
-
-[https://82.29.53.56]
-
-[https://156.245.247.216]
-
-[https://167.179.96.189]
-name  VvShop
+[https://edu.sysuapp.com]
+name  云栖
 type  v2board
 更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
 
-[http://hou.funoneplus.com]
-api_host  hou.funoneplus.com
-name  Funplus
+[http://www.sysuapp.com]
+api_host  www.sysuapp.com
+name  云栖
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(fjdkfgji125@lista.cc): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
 
-[https://15.235.216.58]
+[https://www.sysuapp.com]
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
 
-[https://162.43.35.66]
+[http://m.sysuapp.com]
+api_host  m.sysuapp.com
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
 
-[https://23.95.242.7]
+[http://edu.sysuapp.com]
+api_host  edu.sysuapp.com
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
 
-[https://31.22.111.166]
+[http://www.appyunqi.com]
 
-[https://a.xcvpn.us]
+[http://app.appyunqi.com]
+
+[https://app.appyunqi.com]
+
+[https://shop.appyunqi.com]
+
+[http://shop.appyunqi.com]
+
+[https://www.appyunqi.com]
+
+[https://m.comyunqi.com]
+
+[https://edu.comyunqi.com]
+
+[http://edu.comyunqi.com]
+
+[http://a.aip.sh]
+
+[https://tz66.site]
+
+[http://tz66.site]
+
+[http://fj.tftd.cc]
+api_host  fj.tftd.cc
+name  TFCloud
+type  v2board
+更新订阅链接/续费续签失败  注册失败(lrvapuk485@guerrillamail.net): 邮箱后缀不处于白名单中
+
+[https://fj.tftd.cc]
+name  TFCloud
+type  v2board
+更新订阅链接/续费续签失败  注册失败(chldltd34@tmpmail.org): 邮箱后缀不处于白名单中
+
+[https://m.yunxi.me]
+
+[http://www.yunxi.me]
+api_host  www.yunxi.me
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[https://www.yunxi.me]
+name  云栖
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[http://m.yunxi.me]
+
+[http://a.yunxi.me]
+
+[https://a.yunxi.me]
+
+[https://www.managecloud.cc]
 buy  pass
-email  jlmxmamm706@gmail.com
-name  白月光
+email  bdfhbaz924@gmail.com
+name  manage cloud
 sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://a.xcvpn.us/api/v1/client/subscribe?token=MTYxNjAxOjZjMTEwMzcwYmQzYTY3YzhiYjc4YmUwYTUzNmMxMzMyNTgwNzkyYzE
-time  2026-03-06 10:29:47.350270+08:00
+sub_url  https://www.managecloud.cc/api/v1/client/subscribe?token=fb1590657287f3af668198c23e0f4acf
+time  2026-03-06 10:38:51.469520+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
 
-[https://okztwo.sbs]
+[https://pc.onetives.com]
+
+[http://pc.onetives.com]
+
+[https://zy.moslycloud.cc]
+
+[http://zy.moslycloud.cc]
+
+[http://51.81.48.232:7788]
+
+[https://bn.666mall.top]
+
+[http://coo1.lol]
+
+[https://coo1.lol]
+
+[http://bn.666mall.top]
+
+[https://board.greatlab.eu.org]
+
+[https://107.173.180.246]
+
+[http://102888.xyz]
+
+[https://102888.xyz]
+
+[https://fn3.170809.xyz.phphou.cn]
+
+[https://595678.xyz]
+
+[https://www.azyun.xyz]
+
+[http://qqq.feitutu.top]
+name  新飞兔
+type  v2board
+更新订阅链接/续费续签失败  注册失败(ubitzfmg65@gmail.com): 本站已关闭注册
+
+[http://ssfly1.ssflycn.net]
+
+[https://ww.sakas.vip]
+
+[https://www.cafed.top]
+
+[https://ssflycn.net]
+
+[http://ssflycn.net]
+
+[https://zhuye2.sulink.one]
+
+[http://ssfly4.ssflycn.net]
+
+[https://ssfly1.ssflycn.net]
+
+[https://ssfly4.ssflycn.net]
+
+[https://ssfly2.ssflycn.net]
+
+[http://ww.sakas.vip]
+
+[https://susulian.cyou]
+
+[https://835678.xyz]
+
+[https://290888.xyz]
+
+[http://290888.xyz]
+
+[https://page.sulink.one]
+
+[http://ssfly5.ssflycn.net]
+
+[http://ssfly3.ssflycn.net]
+
+[https://198.181.38.161]
+
+[https://695678.xyz]
+
+[http://lanshow.lemonying.cfd]
+
+[https://lanshow.lemonying.cfd]
+
+[https://www.susulian.cyou]
+
+[https://test.caiyezi.cc]
+
+[https://20010030.me]
+
+[http://dydl.80jm.com]
+
+[https://chatliu.cn]
+
+[http://ssfly2.ssflycn.net]
+
+[http://ssfly6.ssflycn.net]
+
+[https://ssfly5.ssflycn.net]
+
+[https://ssfly6.ssflycn.net]
+
+[https://ssfly3.ssflycn.net]
+
+[http://sub.xn--4kqp3gtw3b.com]
+
+[http://test.caiyezi.cc]
+
+[http://20010030.me]
+
+[https://dydl.80jm.com]
+
+[https://acc.mil0.top]
+name  Micro 五金店
+type  v2board
+更新订阅链接/续费续签失败  注册失败(mqmffeip390@gmail.com): 'NoneType' object is not subscriptable
+
+[http://qbkgr2gt.stardream.cloud]
+
+[https://192.210.231.83]
+
+[https://qbkgr2gt.stardream.cloud]
+
+[https://v2-kjyx.onenew.link]
+
+[http://v2-kjyx.onenew.link]
+
+[https://xcloud.kfcvivo50.net]
+
+[http://xcloud.kfcvivo50.net]
+
+[http://www.appyunqi.net]
+
+[https://www.appyunqi.net]
+
+[http://www.ssh21.top]
+
+[https://www.ssh21.top]
+
+[http://www.ssh22.top]
+
+[https://xbfeniao.ttxxvv.cn]
+
+[http://xbfeniao.ttxxvv.cn]
+
+[https://8.216.86.24]
+
+[https://vpshk01.111987.xyz]
+
+[http://vpshk01.111987.xyz]
+
+[https://rack.eziocloud.eu.org]
+
+[https://157.119.103.11]
+
+[https://213.35.114.74]
+
+[http://sub.20010030.me]
+
+[https://sub.20010030.me]
+
+[https://kr.916789.xyz]
+
+[http://v2r.zzyym.top]
+
+[https://v2r.zzyym.top]
+name  zzyym v2
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[https://192.227.175.142]
+
+[http://hd.weirdstar.cyou]
+
+[https://hd.weirdstar.cyou]
+
+[https://203.156.222.200:4443]
+
+[https://sub.szooe.cn]
+
+[http://admin.szooe.cn]
+
+[https://admin.szooe.cn]
+
+[http://sub.szooe.cn]
+
+[http://www.szooe.cn]
+
+[https://xn--9kq09fiwbs1umg5e.top]
+
+[http://xn--9kq09fiwbs1umg5e.xyz]
+
+[https://103.77.241.168]
+
+[https://www.mywebapp.top]
+name  个人网盘
+type  v2board
+更新订阅链接/续费续签失败  注册失败(frclyrdc585@gmail.com): 本站已关闭注册
+
+[http://web3.tf05.com]
+api_host  web3.tf05.com
+banned_domains  xdanae.com
+name  TFCloud
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(sxvakyso685@xdanae.com)
+
+[https://api.heima2u.com]
+
+[http://api.heima2u.com]
+
+[http://api.heima4u.com]
+
+[https://api.heima4u.com]
+
+[https://web4.tf05.com]
+banned_domains  psnator.com
+name  TFCloud
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(mexgmwlek884@psnator.com)
+
+[https://web3.tf05.com]
+name  TFCloud
+type  v2board
+更新订阅链接/续费续签失败  注册失败(thkxxmcll872@tmpbox.net): 邮箱后缀不处于白名单中
+
+[http://node.wy.wiki]
+
+[https://node.wy.wiki]
+
+[https://dash.wy.wiki]
+
+[https://cloud-port.xyz]
+
+[http://cloud-port.xyz]
+
+[http://www.szooe.me]
+
+[https://v2.boom233.eu]
+name  你好
+type  v2board
+更新订阅链接/续费续签失败  注册失败(htninpx571@gmail.com): 本站已关闭注册
+
+[http://157.119.103.11]
+
+[https://185.77.225.218]
+
+[https://v.guqi.ltd]
+
+[http://v.guqi.ltd]
+
+[https://fny.588580.xyz]
+
+[http://fny.588580.xyz]
+
+[http://rwind.run.place]
+
+[https://rwind.run.place]
+
+[https://595780.xyz]
+error  <string>:2 Unexpected "(" at column 16
+type  v2board
+更新订阅链接/续费续签失败  注册失败(ufelxmjqx232@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (405 Method Not Allowed '<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>openresty</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n')
+
+[http://www.tftd.cc]
+api_host  www.tftd.cc
+banned_domains  mail.wvwvw.tech
+name  TFCloud
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(sgimgngfn445@mail.wvwvw.tech)
+
+[https://www.tftd.cc]
+banned_domains  mydefipet.live
+name  TFCloud
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(briizji462@mydefipet.live)
+
+[http://b.tftd.cc]
+api_host  b.tftd.cc
+banned_domains  ipiso.tmmad.com
+name  TFCloud
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(cswhlak472@ipiso.tmmad.com)
+
+[https://a.tftd.cc]
+banned_domains  snapmail.cc
+name  TFCloud
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(fxwpmsh170@snapmail.cc)
+
+[https://b.tftd.cc]
+name  TFCloud
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"oxihoyzo554@jkd.tmmad.com","success":"false"}'
+
+[http://a.tftd.cc]
+api_host  a.tftd.cc
+banned_domains  tmpnator.live
+name  TFCloud
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(beuinrf667@tmpnator.live)
+
+[https://subapi.szooe.me]
+
+[http://subapi.szooe.me]
+
+[http://us.sdnet.pro]
+
+[https://vps-4a353245.vps.ovh.ca]
+
+[http://bitfat.top]
+name  bitfat
+type  v2board
+更新订阅链接/续费续签失败  注册失败(jpzrlwn407@gmail.com): 本站已关闭注册
+
+[https://149.88.80.142]
+
+[https://gpcrcn.top]
+
+[https://173.249.200.180]
+
+[https://137.175.123.214]
+
+[http://142.171.75.82:2052]
+
+[http://142.171.75.82:2082]
+
+[https://8.134.210.233]
+
+[http://8.216.86.24]
+
+[https://103.163.119.151]
+
+[https://85.239.238.32]
+
+[http://fn3.170809.xyz.phphou.cn]
+
+[https://jc.bee.ga]
+
+[http://jc.bee.ga]
+
+[https://my.testbedeh.com]
+name  d
+type  v2board
+更新订阅链接/续费续签失败  注册失败(qlbseis607@gmail.com): 本站已关闭注册
+
+[http://b0.oufu-elevators.com]
+
+[http://b0.qqq3.vip]
+api_host  b6.dlfrp.cn:10061
+name  远大港湾网络服务
+type  v2board
+更新订阅链接/续费续签失败  注册失败(qnxfbuw493@gmail.com): 'NoneType' object is not subscriptable
+
+[https://b0.qqq3.vip]
+api_host  b6.dlfrp.cn:10061
+name  远大港湾网络服务
+type  v2board
+更新订阅链接/续费续签失败  注册失败(sqfhcrbl434@gmail.com): 'NoneType' object is not subscriptable
+
+[http://b0.school.free.hr]
+
+[https://b0.school.free.hr]
+
+[https://b0.oufu-elevators.com]
+
+[https://b4.qqq3.vip]
+
+[http://b4.qqq3.vip]
+
+[https://sdsd0715.ts123.cc]
+name  Loading...
+type  sspanel
+更新订阅链接/续费续签失败  注册失败(hhyxebo157@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (302 Found 'Redirecting')
+
+[http://sdsd0715.ts123.cc]
+
+[http://85.239.238.32]
+
+[http://8.216.86.24:82]
+
+[https://portal.momonechinoi.com]
+
+[http://rack.eziocloud.eu.org]
+
+[http://85.239.238.34]
+
+[https://815678.xyz]
+
+[https://thaotua4g.top]
+
+[https://www.thaotua4g.top]
+
+[http://thaotua4g.top]
+
+[https://198.46.160.168]
+
+[http://gpcrcn.top]
+
+[http://148.135.124.84:8082]
+
+[http://atawatan.shop]
+
+[https://atawatan.shop]
+
+[https://www.szooe.me]
+
+[http://www.c25.shop]
+
+[https://c25.shop]
+
+[https://www.c25.shop]
+
+[http://c25.shop]
+
+[http://www.shoebillstech.xyz]
+
+[https://www.shoebillstech.xyz]
+
+[https://www.coinmao.com]
+
+[https://coinmao.com]
+
+[http://www.coinmao.com]
+
+[https://715678.xyz]
+
+[https://141.98.197.49]
+
+[https://jiji.9090990.xyz]
+
+[http://xiaotukp.net]
+
+[https://www.xiaotukp.net]
+
+[http://jiji.9090990.xyz]
+
+[http://board.greatlab.eu.org]
+
+[https://173.249.198.15]
+
+[https://apiapiapi.qjfjc.top]
+
+[http://a1.qjfjc.top]
+
+[http://520.qjfjc.top]
+
+[http://apiapiapi.qjfjc.top]
+
+[https://520.qjfjc.top]
+
+[https://a1.qjfjc.top]
+
+[https://air.haxwoi.eu.org]
+
+[http://subscription-01.simonvpn.one]
+
+[http://8.217.100.36]
+
+[http://haoma.eu.org]
+
+[https://130.61.174.34]
+
+[http://38.6.178.242:4321]
+
+[https://w.kzyun.top]
+
+[https://agb.gecs.top]
+
+[http://agb.gecs.top]
+
+[https://arm.mulder.giize.com]
+
+[https://arm.gecs.top]
+
+[http://154.19.70.177]
+
+[https://kr.bba.kim]
+
+[https://whois6.domaintraffic.ch]
+
+[http://az.feniao.top]
+
+[https://az.feniao.top]
+
+[https://www.hoxx.top]
+
+[http://v2.huangzhenjkl.top]
+
+[https://v2.huangzhenjkl.top]
+
+[https://155.248.176.185]
+
+[https://157.254.21.45]
+
+[https://74.48.219.237]
+
+[https://103.240.6.253]
+
+[https://395678.xyz]
+
+[https://275678.xyz]
+
+[https://admin.vip.edu.kg]
+name  牛马云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(szaoigm957@gmail.com): 'NoneType' object is not subscriptable
+
+[http://admin.vip.edu.kg]
+api_host  admin.vip.edu.kg
+name  牛马云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(cdjxuxcby98@gmail.com): 'NoneType' object is not subscriptable
+
+[https://khdapi.tiyun.pro]
+
+[http://khdapi.qiguangyicai.xyz]
+
+[http://khdapi.tiyun.pro]
+
+[https://khdapi.qiguangyicai.xyz]
+
+[https://139.185.41.253]
+
+[https://www.dwz.cab]
+
+[https://nb.xddga.eu.org]
+
+[http://jgfw.store]
+
+[https://jgfw.store]
+
+[https://www.jgfw.store]
+
+[http://www.jgfw.store]
+
+[http://coinmao.com]
+
+[https://103.240.6.113]
+
+[http://xj.xjyun.me]
+
+[https://xj.xjyun.me]
+
+[http://154.17.2.21:7001]
+
+[http://www.xjyun.top]
+
+[https://www.xjyun.top]
+
+[http://xjyun.top]
+
+[https://xjyun.top]
+
+[https://nodesubscription.buzz]
+
+[http://nodesubscription.buzz]
+
+[https://65.75.209.90]
+
+[http://dash.740710.xyz]
+
+[https://node.pkq.cc]
+
+[http://www.pkq.cc]
+
+[https://www.pkq.cc]
+
+[https://dash.740710.xyz]
+
+[http://node.pkq.cc]
+
+[https://141.11.132.79]
+
+[https://198.16.63.217]
+
+[http://www.bee.ga]
+
+[https://www.bee.ga]
+
+[http://wozhen.file.cao.zhendebushini.life]
+
+[https://xjyun.me]
+
+[http://www.xjyun.me]
+
+[https://www.xjyun.me]
+
+[http://xjyun.me]
+
+[https://158.69.125.72]
+
+[https://rhksflwk.fastcat.app]
+
+[http://rhksflwk.fastcat.app]
+
+[http://138108.xyz]
+
+[https://138108.xyz]
+
+[http://15.235.207.17:4321]
+
+[https://pvy5anpmnsvoy5ip.466660.xyz]
+
+[https://935678.xyz]
+
+[https://605678.xyz]
+
+[https://be2hk.top]
+
+[http://be2hk.top]
+
+[https://206.237.10.211]
+
+[http://www.108126.xyz]
+
+[https://www.108126.xyz]
+
+[http://108126.xyz]
+
+[https://108126.xyz]
+
+[http://154.19.70.89]
+
+[https://b.xiaow.cc]
+name  小江 の 节点(2026)
+type  v2board
+更新订阅链接/续费续签失败  注册失败(cubusyc397@gmail.com): 'NoneType' object is not subscriptable
+
+[https://core2.bibihy.top]
+name  BTCHide🚀
+type  v2board
+更新订阅链接/续费续签失败  注册失败(dpabson171@gmail.com): Код подтверждения электронной почты не может быть пустым.
+
+[https://z.odxx.net]
+
+[https://js.tix233.cc]
+
+[https://10i.cycy888.shop]
+
+[https://15zz.cycy888.shop]
+
+[http://14z1z.cycy888.shop]
+
+[http://15zz.cycy888.shop]
+
+[https://13z.i.cycy888.shop]
+
+[https://gg.mqs.xyz]
+
+[http://gg.mqs.xyz]
+
+[http://z.odxx.net]
+
+[http://b.xiaow.cc]
+name  小江 の 节点(2026)
+type  v2board
+更新订阅链接/续费续签失败  注册失败(qmurunfiu349@gmail.com): 'NoneType' object is not subscriptable
+
+[http://10i.cycy888.shop]
+
+[https://154.19.70.84]
+
+[https://api.quicss.com]
+
+[http://api.quicss.com]
+
+[http://11i.cycy888.shop]
+
+[https://11i.cycy888.shop]
+
+[http://13z.i.cycy888.shop]
+
+[https://12a.cycy888.shop]
+
+[http://154.19.70.84]
+
+[https://14z1z.cycy888.shop]
+
+[http://12a.cycy888.shop]
+
+[https://154.19.70.89]
+
+[https://375678.xyz]
+
+[https://305678.xyz]
+
+[http://305678.xyz]
+
+[http://375678.xyz]
+
+[https://xiaotukp.net]
+
+[https://board.196629.xyz]
+name  None
+type  v2board
+更新订阅链接/续费续签失败  注册失败(vlygqwrz516@gmail.com): 'NoneType' object is not subscriptable
+
+[http://board.196629.xyz]
+name  None
+type  v2board
+更新订阅链接/续费续签失败  注册失败(zrsewty465@gmail.com): 'NoneType' object is not subscriptable
+
+[http://2.59.135.221]
+
+[http://cloud.pengyo.top]
+
+[https://azyun.xyz]
+
+[https://cloud.pengyo.top]
+
+[https://2.59.135.221]
+
+[https://35.220.161.68]
+
+[https://aispeed.pp.ua]
+
+[https://107.173.149.110]
+
+[https://5.104.81.78]
+
+[https://www.jutsuyun.top]
+
+[https://aa-11.aauuu.shop]
+name  SimonVPN
+type  v2board
+更新订阅链接/续费续签失败  注册失败(phhngfk917@gmail.com): 'NoneType' object is not subscriptable
+
+[http://aa-11.aauuu.shop]
+name  SimonVPN
+type  v2board
+更新订阅链接/续费续签失败  注册失败(xlhmfvdjh420@gmail.com): 'NoneType' object is not subscriptable
+
+[https://167.235.118.243]
+
+[https://103.77.240.4]
+
+[https://moggy.me]
+
+[https://181.214.240.140]
+
+[https://154.208.10.52]
+
+[http://154.23.243.226:4441]
+
+[https://api123.52pokemon.site]
+
+[https://fddongwang.dongwang.sbs]
+
+[http://run.icpro.top]
+
+[http://fddongwang.dongwang.sbs]
+
+[https://run.icpro.top]
+
+[https://www.poke-mon.xyz]
+
+[http://www.poke-mon.xyz]
+
+[https://45.130.23.174]
+
+[https://clash.ltd]
+name  Clash
+type  v2board
+更新订阅链接/续费续签失败  发送邮箱验证码失败(nxcsere381@moakt.ws): {'message': '邮箱后缀不处于白名单中'}
+
+[http://clash.ltd]
+api_host  clash.ltd
+name  Clash
+type  v2board
+更新订阅链接/续费续签失败  发送邮箱验证码失败(pvczavfle49@vapeuccino.com): {'message': '邮箱后缀不处于白名单中'}
+
+[http://test.wonderx.link]
+
+[https://test.wonderx.link]
+
+[https://mianban.ianong.cn]
+
+[http://kc.ianong.cn]
+
+[http://mianban.ianong.cn]
+
+[https://kc.ianong.cn]
+
+[https://www.sryjs.shop]
+
+[http://www.sryjs.shop]
+
+[https://172.84.93.185]
+
+[https://fenian.top]
+
+[http://fenian.top]
+
+[https://103.146.140.35]
+
+[https://admin.heima4u.com]
+
+[https://205.198.65.232]
+
+[http://110.40.47.15:2080]
+
+[https://154.204.179.177]
+
+[https://etime.vip]
+api_host  b6.dlfrp.cn:10061
+name  远大港湾网络服务
+type  v2board
+更新订阅链接/续费续签失败  注册失败(bblubviz682@gmail.com): 'NoneType' object is not subscriptable
+
+[https://140.238.28.240]
+
+[https://jcloud.kfcvivo50.net]
+name  Xcloud
+type  v2board
+更新订阅链接/续费续签失败  注册失败(evwaixdf486@gmail.com): 'NoneType' object is not subscriptable
+
+[http://jcloud.kfcvivo50.net]
+api_host  jcloud.kfcvivo50.net
+name  Xcloud
+type  v2board
+更新订阅链接/续费续签失败  注册失败(vqnwwwdmm447@gmail.com): 'NoneType' object is not subscriptable
+
+[https://kx.chatliu.cn]
+
+[https://cf.chatliu.cn]
+
+[https://ck.chatliu.cn]
+
+[https://haoma.eu.org]
+
+[https://v2.001letao.xyz]
+
+[https://hoxx.top]
+
+[http://hoxx.top]
+
+[http://api.feniao.top]
+
+[https://173.249.207.161]
+
+[https://naccdy.xyz]
+
+[http://naccdy.xyz]
+
+[https://103.214.22.102]
+
+[https://109.123.229.59]
+
+[http://tb88.asia]
+
+[https://tb88.asia]
+
+[https://hjdns.top]
+
+[http://hjdns.top]
+
+[https://hjhjhj.hjdns.top]
+
+[https://www.iplc9.top]
+
+[http://www.iplc9.top]
+
+[https://www.iplc8.top]
+
+[http://www.iplc8.top]
+
+[https://iplc8.top]
+
+[https://iplc9.top]
+
+[http://iplc9.top]
+
+[http://iplc8.top]
+
+[https://tjos.oxcloud.top]
+name  OX Cloud
+type  v2board
+更新订阅链接/续费续签失败  注册失败(kvdxlwcy896@gmail.com): 本站已关闭注册
+
+[https://4gmienphi.net]
+
+[https://139.185.52.75]
+
+[https://www.fanqie2024.top]
+
+[http://www.fanqie2024.top]
+
+[http://sandalplus.com]
+
+[https://sandalplus.com]
+
+[http://152.53.65.174:3000]
+
+[http://45.125.12.181:88]
+
+[https://149.104.20.98]
+
+[https://52.187.147.235]
+
+[https://23.98.91.131]
+
+[https://13.78.127.127]
+
+[https://34.143.195.179]
+
+[https://api.zzzzzl.me]
+
+[http://api.zzzzzl.me]
+
+[https://23.98.95.211]
+
+[https://k.nitro1937.cloudns.org]
+
+[http://k.nitro1937.cloudns.org]
+
+[https://89.213.164.165]
+
+[https://speed.scut.edu.pl]
+
+[http://speed.scut.edu.pl]
+
+[http://www.caiyun525.org]
+
+[https://www.caiyun525.org]
+
+[http://feniao.top]
+
+[https://feniao.top]
+
+[http://102.129.195.51]
+
+[https://api.feniao.top]
+
+[http://ss.aolikeji.top]
+
+[https://ss.aolikeji.top]
+
+[https://rockmail.dynv6.net]
+
+[http://rockmail.dynv6.net]
+
+[https://34.92.65.114]
+
+[https://5.180.253.242]
+
+[https://103.43.9.218]
+
+[http://ccv.wrd01bet.uk]
+
+[https://149.28.71.216]
+
+[https://34.87.52.32]
+
+[http://802888.xyz]
+
+[https://802888.xyz]
+
+[http://306888.xyz]
+
+[https://306888.xyz]
+
+[http://pz.iocone.com]
+
+[https://pz.iocone.com]
+
+[http://wandou01.phantasy.life]
+
+[https://wandou01.phantasy.life]
+
+[http://fvoqkmiji.laotang123.com:1080]
+
+[http://guxtegitlab.laotang123.com:1080]
+
+[http://159.138.154.126:12254]
+
+[http://air.112004.xyz]
+
+[https://air.112004.xyz]
+
+[https://jutsuyun.top]
+
+[http://jutsuyun.top]
+
+[https://jc.514321.xyz]
+
+[http://hl.ksr.icu]
+
+[https://hl.ksr.icu]
+
+[https://51.81.222.50]
+
+[http://www.toujiasu.xyz]
+
+[https://panel.luqi.org]
+
+[http://panel.luqi.org]
+
+[http://be2vpn.com]
+
+[https://be2vpn.top]
+
+[http://be2vpn.top]
+
+[https://be2vpn.com]
+
+[https://originbegin.com]
+
+[http://originbegin.com]
+
+[http://www.011409.xyz]
+
+[https://www.011409.xyz]
+
+[http://v2.maixuanfeng.xyz]
+
+[https://v2.maixuanfeng.xyz]
+
+[https://yvyv.fun]
+
+[http://yvyv.fun]
+
+[https://152.32.171.197]
+
+[https://34.81.74.33]
+
+[https://45.77.46.144]
+
+[http://sub1-oldman.bingredtea.xyz]
+
+[https://neko1.hneko.life]
+
+[https://sub1-oldman.bingredtea.xyz]
+
+[http://lucky.bingredtea.xyz]
+
+[https://lucky.bingredtea.xyz]
+
+[http://v2b.sheinway.com]
+
+[http://vip.200779.xyz]
+
+[https://v2b.sheinway.com]
+
+[https://hifu8.com]
+name  超越地平线
+type  v2board
+更新订阅链接/续费续签失败  发送邮箱验证码失败(lcgibtdw286@sharklasers.com): {'message': '邮箱后缀不处于白名单中'}
+
+[https://vip.200779.xyz]
+
+[http://hifu8.com]
+api_host  hifu8.com
+name  超越地平线
+type  v2board
+更新订阅链接/续费续签失败  发送邮箱验证码失败(mvwhbraet750@tmpbox.net): {'message': '邮箱后缀不处于白名单中'}
+
+[https://test.rctkm.net]
+
+[http://test.rctkm.net]
+
+[http://www.ofonet.net]
+
+[https://www.ofonet.net]
+
+[https://ofonet.net]
+
+[https://hysteria2.site]
+
+[https://35.198.208.85]
+
+[http://v2.kuaiche321.xyz]
+
+[https://v2.kuaiche321.xyz]
+
+[https://34.142.209.160]
+
+[https://sub2-sxvpn.xyz]
+
+[https://console.betternetcn.com]
+
+[http://console.betternetcn.com]
+
+[https://vv.wrd01bet.uk]
+
+[http://vv.wrd01bet.uk]
+
+[https://vpn10086vpn.wr2d.top]
+
+[http://vpn10086vpn.wr2d.top]
+
+[https://sub1-sxvpn.xyz]
+
+[https://www.sub1-sxvpn.xyz]
+
+[http://sub1-sxvpn.xyz]
+
+[https://lgm.qc77.cn]
+
+[http://lgm.qc77.cn]
+
+[http://aispeed.pp.ua]
+
+[http://by.9527664.xyz]
+
+[https://by.9527664.xyz]
+
+[https://dash.youke.dev]
+
+[http://45.32.113.59:84]
+
+[https://157.119.101.201]
+
+[http://89.116.70.118:10443]
+
+[http://115.238.185.243:9999]
+
+[http://8.134.210.233:10443]
+
+[https://vipjiasuqi.net]
+type  v2board
+更新订阅链接/续费续签失败  发送邮箱验证码失败(slmswiwf567@tmpmail.net): {'message': 'The given data was invalid.', 'errors': {'email': ['邮箱不能为空']}}
+
+[http://42.202.35.127:8081]
+
+[https://blackcat03.com]
+
+[https://trvpn.net]
+
+[http://trvpn.net]
+
+[http://www.yishanju.xyz]
+
+[https://yishanju.xyz]
+
+[https://www.yishanju.xyz]
+
+[http://yishanju.xyz]
+
+[http://hd.pangzi5.top]
+name  胖子
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[https://hd.pangzi5.top]
+name  胖子
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[https://5308.one]
+
+[http://5308.one]
+
+[http://www.cgvpn.top]
+
+[http://cgvpn.top]
+
+[https://cgvpn.top]
+
+[https://www.cgvpn.top]
+
+[https://154.38.116.173]
+
+[https://yuntiyunip.qiguangyicai.xyz]
+
+[https://fandai-khdip.qiguangyicai.xyz]
+
+[https://de-fdip.qiguangyicai.xyz]
+
+[http://2.yunxiaozhan.xyz]
+
+[https://2.yunxiaozhan.xyz]
+
+[https://34.94.117.92]
+
+[http://test.besnow.work]
+
+[https://test.besnow.work]
+
+[https://45.77.184.101]
+
+[https://qqq.feitutu.top]
+name  新飞兔
+type  v2board
+更新订阅链接/续费续签失败  注册失败(wjlytclod768@gmail.com): 本站已关闭注册
+
+[https://16.163.5.242]
+
+[https://vapi.luama.vip]
+
+[http://vapi.luama.vip]
+
+[https://77.90.2.64]
+
+[https://103.75.183.151]
+
+[http://fue1.zkakandaduyun.top]
+
+[https://fue1.zkakandaduyun.top]
+
+[https://45.78.18.118]
+
+[http://tz.ssrlink.fyi]
+
+[https://url.ssrlink.fyi]
+
+[https://20.89.129.172]
+
+[https://dl.9527664.xyz]
+
+[https://v2.sanarara.xyz]
+
+[http://01.didiaoyun.cc]
+
+[http://45.32.113.59]
+
+[https://88888888yun.com]
+
+[https://cn70s.xyz]
+
+[http://cn70s.xyz]
+
+[http://www.cn70s.xyz]
+
+[https://www.cn70s.xyz]
+
+[https://www.commafamily.top]
+
+[http://www.commafamily.top]
+
+[http://main.cn70s.xyz]
+name  点击下方链接
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[http://www.lolimiao.xyz]
+
+[https://www.lolimiao.xyz]
+
+[https://i.wahlap.sb]
+
+[http://dj.my77779999.top]
+
+[https://156.251.182.8]
+
+[https://198.46.176.158]
+
+[https://wap.wr2d.top]
+
+[https://ccv.wr2d.top]
+
+[http://ccv.wr2d.top]
+
+[http://wap.wr2d.top]
+
+[http://sync-api.123972.xyz]
+
+[https://sync-api.123972.xyz]
+
+[https://test.backupchina.com]
+
+[http://test.backupchina.com]
+
+[https://217.145.75.24]
+
+[https://67.230.175.140:58888]
+
+[https://yyds.fttapp.cc]
+banned_domains  bareed.ws
+name  佛跳墙
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(dwlssbk748@bareed.ws)
+
+[https://ftt.fttapp.cc]
+banned_domains  mydefipet.live
+name  佛跳墙
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(vfmjnrix497@mydefipet.live)
+
+[http://yyds.fttapp.cc]
+api_host  yyds.fttapp.cc
+banned_domains  tmpeml.com
+name  佛跳墙
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(uqpawpgdh730@tmpeml.com)
+
+[http://ftt.fttapp.cc]
+api_host  ftt.fttapp.cc
+banned_domains  tmpmail.net
+name  佛跳墙
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(vdpynetr859@tmpmail.net)
+
+[http://egg2.tutucloud.top]
+
+[http://egg1.tutucloud.top]
+
+[http://23.224.121.37:7001]
+
+[http://bay.66cdn.cc]
+
+[https://bay.66cdn.cc]
+
+[https://5gmedia.site]
+
+[https://172.83.158.217]
+
+[http://5gmedia.site]
+
+[https://103.180.147.234]
+
+[https://209.250.250.92]
+
+[https://13.71.151.178]
+
+[https://20.188.11.91]
+
+[http://86.lytma.xyz]
+
+[https://eat52swqviulje3d.466660.xyz]
+
+[http://123-abcde.simonvpn.com]
+
+[https://123-abcde.simonvpn.com]
+
+[http://sharelink.operamini.store]
+
+[https://103.67.197.142]
+
+[http://haotizi.shop]
+
+[https://www.haotizi.shop]
+
+[https://haotizi.shop]
+
+[http://w.kxyjc.xyz]
+
+[https://w.kxyjc.xyz]
+
+[https://v.kxyjc.xyz]
+
+[http://v.kxyjc.xyz]
+
+[https://20.243.141.44]
+
+[https://20.222.148.172]
+
+[https://103.77.241.189]
+
+[http://gg.g314.pp.ua]
+
+[https://s.v22.top]
+email_domain  langsdom.com
+type  v2board
+更新订阅链接/续费续签失败  注册失败(lxaobqrh125@langsdom.com): 'NoneType' object is not subscriptable
+
+[http://v22.top]
+
+[http://s.v22.top]
+email_domain  langsdom.com
+type  v2board
+更新订阅链接/续费续签失败  注册失败(weolfldzr45@langsdom.com): 'NoneType' object is not subscriptable
+
+[https://v22.top]
+
+[https://23.26.114.214]
+
+[https://16.163.129.4]
+
+[http://air.haxwoi.eu.org]
+
+[http://portal.momonechinoi.com]
+
+[http://45.42.200.156:8081]
+
+[https://onedollar.cloud]
+
+[http://www.220688.xyz]
+
+[https://www.220688.xyz]
+
+[http://220688.xyz]
+
+[http://v2b.37313.cc]
+
+[https://220688.xyz]
+
+[http://opacloud.fpzxhub.net]
+
+[https://hdapi.doudoucs.com]
+
+[https://www.songshuyun.cc]
+
+[http://api357546.doudoucs.com]
+
+[https://74.48.137.194]
+
+[https://38.47.239.201]
+
+[http://jc.514321.xyz]
+
+[http://airport.lemonying.cfd]
+
+[http://hk02.poke-mon.xyz]
+
+[https://airport.lemonying.cfd]
+
+[http://my.skycity.link]
+
+[http://ldvps.eu.org]
+
+[https://ldvps.eu.org]
+
+[https://sinsocloud.top]
+
+[http://sinsocloud.top]
+
+[http://154.9.242.205:88]
+
+[http://samei.eu]
+
+[https://samei.eu]
+
+[https://panel.anycastpi.com]
+
+[https://45.159.209.60]
+
+[http://panel.anycastpi.com]
+
+[https://syk.6665555.xyz]
+
+[http://shop4.proxylink.xyz]
+
+[https://62.106.70.212]
+
+[https://shop1.proxylink.xyz]
+
+[https://shop3.proxylink.xyz]
+
+[https://shop4.proxylink.xyz]
+
+[https://v2.186718.xyz]
+
+[http://v2.186718.xyz]
+
+[https://xn--vcs832f.xn--io0a7i]
+
+[https://fk.chat-jbt.com]
+
+[http://fk.chat-jbt.com]
+
+[https://8.219.255.66]
+
+[https://linkvao1xbet.com]
+
+[https://www.linkvao1xbet.com]
+
+[http://linkvao1xbet.com]
+
+[http://www.007idc.fun]
+
+[https://www.007idc.fun]
+
+[https://caihong168.top]
+
+[http://www.caihong168.top]
+
+[https://www.caihong168.top]
+
+[http://caihong168.top]
+
+[https://i.brz.bar]
+
+[https://141.11.130.146]
+
+[http://172.252.72.235]
+
+[https://167.71.201.0]
+
+[https://107.174.121.232]
+
+[https://103.77.246.204]
+
+[http://xx.odxx.net]
+
+[https://xx.odxx.net]
+
+[https://vip.lynca.tech]
+name  零卡极速云
+type  v2board
+更新订阅链接/续费续签失败  发送邮箱验证码失败(mlsmebtb851@guerrillamail.biz): {'message': '邮箱后缀不处于白名单中'}
+
+[http://www.qwerqaq.com]
+
+[https://www.qwerqaq.com]
+
+[https://98.159.100.95]
+
+[https://199.119.138.81]
+
+[http://paperfield.iukorin.com]
+
+[https://paperfield.iukorin.com]
+
+[http://39.106.30.114]
+
+[http://htafast5g.xyz]
+
+[https://htafast5g.xyz]
+
+[https://103.180.147.236]
+
+[http://zyv2.954321.xyz]
+
+[https://185.220.251.55]
+
+[https://subfbcdn.xjqxz.top]
+
+[http://subfbcdn.xjqxz.top]
+
+[https://a.miladmobile.cloud]
+
+[https://api.tiko.eu.org]
+
+[https://git.tiko.eu.org]
+
+[http://www.tiko.eu.org]
+
+[http://a.miladmobile.cloud]
+
+[http://git.tiko.eu.org]
+
+[http://prox.host2.jireh.xyz]
+
+[https://prox.host2.jireh.xyz]
+
+[https://www.tiko.eu.org]
+
+[http://jiwoyun.qasd.eu.org]
+
+[https://aj.banananaaa.top]
+
+[http://aj.banananaaa.top]
+
+[https://jiwoyun.qasd.eu.org]
+
+[https://onepi.xyz]
+
+[https://www.onepi.xyz]
+
+[http://onepi.xyz]
+
+[http://www.eduvpn.net]
+api_host  www.eduvpn.net
+name  ENP2S
+type  v2board
+更新订阅链接/续费续签失败  发送邮箱验证码失败(acfbovnm731@tmails.net): {'message': '邮箱后缀不处于白名单中'}
+
+[http://s.spwvpn.com]
+
+[https://s.spwvpn.com]
+
+[https://165.227.143.101]
+
+[https://103.238.235.104]
+
+[https://220.135.245.12]
+
+[https://app.toufq.uk]
+
+[https://www.toujiasu.xyz]
+
+[https://de2-vless.toufq.uk]
+
+[https://de1-vless.toufq.uk]
+
+[https://xx-vless.toufq.uk]
+
+[http://app.toufq.uk]
+
+[https://31.129.53.89]
+
+[http://38.6.167.23:7002]
+
+[https://ww1.suyun.club]
+
+[http://ww1.suyun.club]
+
+[http://sub.lafusees.uk]
+
+[http://1sock.life]
+
+[http://1sock.xyz]
+
+[https://1sock.xyz]
+
+[https://1sock.life]
+
+[https://mjk.wiki]
+
+[https://shandianyun.top]
 buy  pass
-email  tiofnbw194@gmail.com
-name  OKZTWO
+email  bynvqkm149@gmail.com
+sub_url  http://47.115.173.43:16625/ts/open/sub/web/index?token=bf1b25802dc34eb38bb8d637d98cb79c
+time  2026-03-06 10:49:08.886517+08:00
+type  v2board
+获取订阅失败  can only concatenate str (not "NoneType") to str
+
+[http://mjk.wiki]
+
+[https://s5.shandianyun.top]
+
+[https://s1.shandianyun.top]
+
+[http://s2.shandianyun.top]
+
+[https://s2.shandianyun.top]
+
+[http://s3.shandianyun.top]
+
+[http://s1.shandianyun.top]
+
+[http://s4.shandianyun.top]
+
+[https://s3.shandianyun.top]
+
+[http://s5.shandianyun.top]
+
+[https://s4.shandianyun.top]
+
+[http://shandianyun.top]
+buy  pass
+email  sgdnemah85@gmail.com
+sub_url  http://47.115.173.43:16625/ts/open/sub/web/index?token=38c60167f2dd62ce13991dddaffffa2a
+time  2026-03-06 10:49:11.926128+08:00
+type  v2board
+获取订阅失败  can only concatenate str (not "NoneType") to str
+
+[https://45.137.183.172]
+
+[http://p.kardokmobile.org]
+
+[http://panel.shirazmobile.org]
+
+[https://ttos.pro]
+
+[http://m.xxmiao.com]
+api_host  m.xxmiao.com
+name  渣渣喵
+type  v2board
+更新订阅链接/续费续签失败  注册失败(nxdcijy66@gmail.com): 本站已关闭注册
+
+[https://m.xxmiao.com]
+name  渣渣喵
+type  v2board
+更新订阅链接/续费续签失败  注册失败(ujheksiyb6@gmail.com): 本站已关闭注册
+
+[https://43.155.76.93:60000]
+
+[http://575678.xyz]
+
+[https://575678.xyz]
+
+[https://commafamily.top]
+
+[https://22v.v22.top]
+email_domain  langsdom.com
+name  XV22
+type  v2board
+更新订阅链接/续费续签失败  注册失败(xosucdkd217@langsdom.com): 'NoneType' object is not subscriptable
+
+[http://22v.v22.top]
+email_domain  langsdom.com
+name  XV22
+type  v2board
+更新订阅链接/续费续签失败  注册失败(wgwxvuk158@langsdom.com): 'NoneType' object is not subscriptable
+
+[https://15a17byis.lhg168.com]
+
+[https://tsapps.ru]
+
+[http://52.179.97.152]
+
+[https://youf.in]
+
+[http://youf.in]
+
+[http://fufu.pikandabdhduyun.top]
+
+[https://fufu.pikandabdhduyun.top]
+
+[https://egg2.tutucloud.top]
+
+[https://qianwun.top]
+
+[http://www.qianwun.top]
+
+[http://qianwun.top]
+
+[https://www.qianwun.top]
+
+[https://154.9.242.205]
+
+[http://onedollar.cloud]
+
+[http://www.cafed.top]
+
+[https://103.218.123.53]
+
+[http://91.107.249.178:8484]
+
+[http://zennet.cc]
+
+[https://zennet.cc]
+
+[https://78.110.122.11]
+
+[http://meiyou.me]
+
+[http://qazwsx.kzyun.top]
+
+[https://qazwsx.kzyun.top]
+
+[http://182.237.2.225:4433]
+
+[https://simonvpn.com]
+
+[http://simonvpn.com]
+
+[http://bao.swdyun.cc]
+
+[https://api.toujiasu.xyz]
+
+[https://viettel4g.pro]
+
+[https://154.40.46.27]
+
+[https://www.forestnet.cc]
+
+[http://www.forestnet.cc]
+
+[https://103.106.190.193]
+
+[https://23.95.115.4]
+
+[http://89.116.70.118:8080]
+
+[https://518547.xyz]
+
+[http://test.aurorafast.top]
+
+[https://test.aurorafast.top]
+
+[https://154.216.2.137]
+
+[https://www.kuaqiaoa.xyz]
+
+[https://kuaqiaoa.xyz]
+
+[http://kuaqiaoa.xyz]
+
+[http://www.kuaqiaoa.xyz]
+
+[https://148.135.80.205]
+
+[http://xx1050.xyz]
+api_host  xx1050.xyz
+buy  pass
+email  gkmqfaufl992@gmail.com
+name  星云科技
 sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://apple.clashx.sbs/api/v1/client/subscribe?token=1908b6faefdefdf4205de8ea368714d9
-time  2026-03-06 10:28:58.620395+08:00
+sub_url  https://xx1050.xyz/xy?token=83fa9dde5990b4bcfcda5c3cbb5da13c
+time  2026-03-06 10:49:41.359418+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
 
-[https://156.245.144.244]
+[http://a.hzgroup-sharing.net]
 
-[https://108.171.193.121]
-
-[https://156.226.174.254]
-
-[https://172.96.142.65]
-
-[https://45.128.220.120]
-
-[https://74.48.202.158]
-
-[https://131.143.243.89]
-
-[https://5.83.147.221]
-
-[https://116.202.114.56]
-
-[https://160.250.132.211]
-
-[https://152.67.132.136]
-
-[https://198.20.133.209]
-
-[http://154.83.84.150]
+[https://xx1050.xyz]
 buy  pass
-email  qmniubop340@gmail.com
-name  eqwewqe
+email  weoszcwz810@gmail.com
+name  星云科技
 sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  http://154.83.84.150/api/v1/client/subscribe?token=8830a7241b47c20557c6f91de28f88db
-time  2026-03-06 10:28:59.845985+08:00
+sub_url  https://xx1050.xyz/xy?token=46d28c00496e22df4112d2e40cf95363
+time  2026-03-06 10:49:41.765700+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
 
-[http://152.53.169.197]
+[https://a.hzgroup-sharing.net]
+
+[http://api.seeker.pp.ua]
+
+[https://seeker.pp.ua]
+
+[http://seeker.pp.ua]
+
+[https://main.cn70s.xyz]
+name  点击下方链接
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[https://cn.pro.vn]
+
+[http://cn.pro.vn]
+
+[http://i.wahlap.sb]
+
+[https://43.250.106.139]
+
+[http://viettel4g.top]
+
+[https://viettel4g.top]
+
+[https://45.14.106.66]
+
+[https://103.245.237.81]
+
+[http://68.233.114.104:9527]
+
+[http://overseaview.com]
+api_host  overseaview.com
+name  OverseaView
+type  v2board
+更新订阅链接/续费续签失败  发送邮箱验证码失败(aeyqnif297@51788.top): {'message': '邮箱后缀不处于白名单中'}
+
+[https://xn--4gq62f.cn]
+
+[http://xn--4gq62f.cn]
+
+[https://b3.111336.xyz]
+api_host  b6.dlfrp.cn:10061
+name  远大港湾网络服务
+type  v2board
+更新订阅链接/续费续签失败  注册失败(duchedko392@gmail.com): 'NoneType' object is not subscriptable
+
+[http://b3.111336.xyz]
+api_host  b6.dlfrp.cn:10061
+name  远大港湾网络服务
+type  v2board
+更新订阅链接/续费续签失败  注册失败(dqplxfw158@gmail.com): 'NoneType' object is not subscriptable
+
+[https://dashboard.x6k84kigyemdqtak.top]
+
+[http://18.167.173.71:8021]
+
+[https://154.39.79.67]
+
+[https://test.darein.top]
+
+[https://66.112.216.77]
+
+[https://punpn.com]
+
+[http://punpn.com]
+
+[https://157.254.21.82]
+
+[https://209888.xyz]
+
+[http://core.bibihy.top]
+
+[https://ff.gentvs.buzz]
+
+[https://neo.arrowsuper.tech]
+
+[http://neo.arrowsuper.tech]
+
+[https://149.28.59.184]
+
+[https://39.106.30.114]
+
+[http://syk.6665555.xyz]
+
+[https://202.81.229.119]
+
+[https://asia.52l.site]
+
+[http://asia.52l.site]
+
+[https://34.94.183.63]
+
+[https://190888.xyz]
+
+[https://www.m2.gs]
+
+[http://194.87.2.177]
+
+[https://aaa.ch123.xyz]
+
+[http://aaa.ch123.xyz]
+
+[https://vpn.vipmall7.com]
+
+[http://vpn.vipmall7.com]
+
+[https://v2b.37313.cc]
+
+[https://38.182.122.198]
+
+[https://103.69.86.161]
+
+[http://154.9.242.205:8865]
+
+[https://103.67.196.254]
+
+[https://104.245.107.113]
+
+[http://no.s4b.top]
+
+[http://virtua.com.br.s4b.top]
+
+[http://publicbt.com.s4b.top]
+
+[http://com.br.s4b.top]
+
+[https://publicbt.com.s4b.top]
+
+[http://jp.s4b.top]
+
+[http://br.s4b.top]
+
+[http://ap.nuro.jp.s4b.top]
+
+[http://nuro.jp.s4b.top]
+
+[https://ap.nuro.jp.s4b.top]
+
+[https://nuro.jp.s4b.top]
+
+[https://jp.s4b.top]
+
+[https://uct.cl.s4b.top]
+
+[https://static.uct.cl.s4b.top]
+
+[https://cl.s4b.top]
+
+[http://id.s4b.top]
+
+[http://fast.net.id.s4b.top]
+
+[http://net.id.s4b.top]
+
+[https://mkfssion.com.s4b.top]
+
+[http://uct.cl.s4b.top]
+
+[http://static.uct.cl.s4b.top]
+
+[http://cl.s4b.top]
+
+[http://mkfssion.com.s4b.top]
+
+[https://net.id.s4b.top]
+
+[http://uat.s4b.top]
+
+[https://uat.s4b.top]
+
+[https://fast.net.id.s4b.top]
+
+[https://id.s4b.top]
+
+[http://ru.s4b.top]
+
+[http://yota.ru.s4b.top]
+
+[https://cnyes.cool.s4b.top]
+
+[https://jpp.cnyes.cool.s4b.top]
+
+[http://prod.jpp.cnyes.cool.s4b.top]
+
+[https://virtua.com.br.s4b.top]
+
+[https://cool.s4b.top]
+
+[http://cnyes.cool.s4b.top]
+
+[https://com.br.s4b.top]
+
+[https://prod.jpp.cnyes.cool.s4b.top]
+
+[http://cool.s4b.top]
+
+[http://com.s4b.top]
+
+[https://br.s4b.top]
+
+[http://jpp.cnyes.cool.s4b.top]
+
+[http://p.s4b.top]
+
+[https://p.s4b.top]
+
+[http://secondsiren.com.s4b.top]
+
+[https://hkdltgia.s4b.top]
+
+[http://xyz.s4b.top]
+
+[https://xyz.s4b.top]
+
+[https://yota.ru.s4b.top]
+
+[https://com.s4b.top]
+
+[https://secondsiren.com.s4b.top]
+
+[https://ru.s4b.top]
+
+[https://no.s4b.top]
+
+[http://vhnkjcloud.s4b.top]
+
+[https://wxakfdownload.s4b.top]
+
+[http://loxmso69iay0p.fast.net.id.s4b.top]
+
+[http://tjprltor-exit-node.no.s4b.top]
+
+[https://vxgzmtx.s4b.top]
+
+[https://eltzgipc690a551.ap.nuro.jp.s4b.top]
+
+[https://mndeko69iay0p.colocrossing.com.s4b.top]
+
+[https://nfeesip.s4b.top]
+
+[https://qmzncboard.s4b.top]
+
+[https://dns.s4b.top]
+
+[https://www.p.s4b.top]
+
+[https://nezxcboard.s4b.top]
+
+[https://loxmso69iay0p.fast.net.id.s4b.top]
+
+[https://bwaroo69iay0p.mkfssion.com.s4b.top]
+
+[https://elasticsearch.uat.s4b.top]
+
+[http://roviloc-chun.s4b.top]
+
+[https://woscftracker.publicbt.com.s4b.top]
+
+[http://bozjzo69iay0p.static.uct.cl.s4b.top]
+
+[http://qmzncboard.s4b.top]
+
+[http://woscftracker.publicbt.com.s4b.top]
+
+[https://ali.s4b.top]
+
+[https://kngdjspeedtest.s4b.top]
+
+[http://vxgzmtx.s4b.top]
+
+[https://vdmlrtrojan-gia.s4b.top]
+
+[http://srccuclient.yota.ru.s4b.top]
+
+[http://cahsvbace93f2.virtua.com.br.s4b.top]
+
+[http://wxakfdownload.s4b.top]
+
+[http://vdmlrtrojan-gia.s4b.top]
+
+[http://eltzgipc690a551.ap.nuro.jp.s4b.top]
+
+[https://roviloc-chun.s4b.top]
+
+[http://mndeko69iay0p.colocrossing.com.s4b.top]
+
+[https://app.s4b.top]
+
+[http://dns.s4b.top]
+
+[http://nfeesip.s4b.top]
+
+[http://elasticsearch.uat.s4b.top]
+
+[http://bwaroo69iay0p.mkfssion.com.s4b.top]
+
+[http://ali.s4b.top]
+
+[http://kngdjspeedtest.s4b.top]
+
+[http://app.s4b.top]
+
+[https://fniwzab-log.prod.jpp.cnyes.cool.s4b.top]
+
+[http://fniwzab-log.prod.jpp.cnyes.cool.s4b.top]
+
+[https://jfouymobile-dev.secondsiren.com.s4b.top]
+
+[http://jfouymobile-dev.secondsiren.com.s4b.top]
+
+[https://vhnkjcloud.s4b.top]
+
+[https://cahsvbace93f2.virtua.com.br.s4b.top]
+
+[https://oc-tokyo-test.s4b.top]
+
+[https://srccuclient.yota.ru.s4b.top]
+
+[http://www.p.s4b.top]
+
+[http://oc-tokyo-test.s4b.top]
+
+[http://hkdltgia.s4b.top]
+
+[https://sspxojohnforge.xyz.s4b.top]
+
+[https://bozjzo69iay0p.static.uct.cl.s4b.top]
+
+[http://nezxcboard.s4b.top]
+
+[https://tjprltor-exit-node.no.s4b.top]
+
+[http://sspxojohnforge.xyz.s4b.top]
+
+[https://enp2s.com]
+name  ENP2S
+type  v2board
+更新订阅链接/续费续签失败  发送邮箱验证码失败(dtzbglwn823@teml.net): {'message': '邮箱后缀不处于白名单中'}
+
+[http://www.enp2s.com]
+api_host  nova.enp2s.com
+name  ENP2S
+type  v2board
+更新订阅链接/续费续签失败  发送邮箱验证码失败(mgxvixil645@femailtor.com): {'message': '邮箱后缀不处于白名单中'}
+
+[https://www.enp2s.com]
+name  ENP2S
+type  v2board
+更新订阅链接/续费续签失败  发送邮箱验证码失败(knmrafwm902@lyx13.xyz): {'message': '邮箱后缀不处于白名单中'}
+
+[http://enp2s.com]
+api_host  nova.enp2s.com
+name  ENP2S
+type  v2board
+更新订阅链接/续费续签失败  发送邮箱验证码失败(bxigfpyqp707@guerrillamail.biz): {'message': 'Too many requests, please try again later.'}
+
+[https://dog.qszz.xyz]
+
+[http://dog.qszz.xyz]
+
+[https://213.218.254.198]
+
+[https://www.xiashany.top]
+
+[http://www.xiashany.top]
+
+[https://18.140.151.242]
+
+[https://b.yunxiaozhan.xyz]
+
+[http://b.yunxiaozhan.xyz]
+
+[https://ruu.mazafa.ru]
+
+[https://hackdata.click]
+
+[https://zyv2.954321.xyz]
+
+[http://x.kxyjc.xyz]
+
+[https://firewall.wangandi.com]
+
+[https://board.mazafa.ru]
+
+[http://firewall.wangandi.com]
+
+[https://cfyun01.sbs]
+
+[https://ax4.xyz]
+
+[http://de.tomcat9.site]
+
+[http://board.mazafa.ru]
+
+[https://www.youbt.ltd]
+
+[http://www.youbt.ltd]
+
+[http://ax4.xyz]
+
+[https://de.tomcat9.site]
+
+[http://vp.xiaohayun.top]
+
+[https://vp.xiaohayun.top]
+
+[https://api1.fastx.vip]
+
+[http://api1.fastx.vip]
+
+[https://103.152.221.118]
+
+[https://xzx02.pengyo.top]
+
+[https://funny.cdnaa.com]
+
+[https://bei.youbt.ltd]
+
+[http://funny.cdnaa.com]
+
+[https://8.217.14.115]
+
+[https://www.igpop.xyz]
+
+[https://igpop.xyz]
+
+[http://igpop.xyz]
+
+[http://207.246.109.171]
+
+[https://www.chatliu.cn]
+
+[http://chatliu.cn]
+
+[https://66.112.209.8]
+
+[https://98.142.137.12]
+
+[https://fbcdn000.shop]
+
+[http://fbcdn000.shop]
+
+[https://boss.hy2.cc]
+
+[http://boss.hy2.cc:88]
+
+[http://www.ccluck.onflashdrive.app]
+
+[https://www.ccluck.onflashdrive.app]
+
+[https://ht4g.pro]
+
+[http://ht4g.pro]
+
+[https://23.94.84.113]
+
+[http://www.songfx.shop]
+
+[https://173.249.207.217]
+
+[https://188.40.208.184]
+
+[https://www.songfx.shop]
+
+[http://xiaoji.laoo.cc]
+
+[https://xiaoji.laoo.cc]
+
+[http://stuv50.tech]
+
+[https://stuv50.tech]
+
+[https://35.211.124.246]
+
+[https://xn-9kq613aqija.cc]
+
+[http://xn-9kq613aqija.cc]
+
+[https://103.156.185.177]
+
+[https://www.mangguo2024.top]
+
+[http://mangguo2024.top]
+api_host  mangguo2024.top
+banned_domains  smartnator.com
+name  芒果加速🥭
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(dqzkcbi418@smartnator.com)
+
+[https://mangguo2024.top]
+banned_domains  tmpnator.live
+name  芒果加速🥭
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(bskvmpvb534@tmpnator.live)
+
+[http://dd.k.vu]
+
+[https://dd.k.vu]
+
+[https://46.226.165.14]
+
+[https://8.130.46.26]
+
+[http://89.116.164.82]
+
+[http://klee.clashx.eu]
+api_host  klee.clashx.eu
+name  可莉の蹦蹦炸弹
+type  v2board
+更新订阅链接/续费续签失败  发送邮箱验证码失败(hlolcvfio538@nano-watt.tech): {'message': '验证码有误'}
+
+[https://www.ssflycn.net]
+
+[http://www.ssflycn.net]
+
+[http://hy2222.52pokemon.top]
+
+[https://hy2222.52pokemon.top]
+
+[https://nana.hy2.cc]
+
+[http://2.cycy888.shop]
+
+[https://2.cycy888.shop]
+
+[https://sohoney.link]
+
+[http://sohoney.link]
+
+[https://www.sohoney.link]
+
+[https://104.245.36.126]
+
+[http://www.amekiri.top]
+
+[https://www.amekiri.top]
+
+[http://ml.wvpn.cloudns.ch]
+
+[https://ml.wvpn.cloudns.ch]
+
+[https://62.60.202.238]
+
+[https://185.83.183.253]
+
+[https://149.104.23.2]
+
+[http://dabaojian.jichangshop.xyz]
+
+[https://dabaojian.jichangshop.xyz]
+
+[http://jc.586688.xyz]
+
+[https://jc.586688.xyz]
+
+[https://47.236.85.90]
+
+[http://518547.xyz]
+
+[https://gg.g314.pp.ua]
+
+[http://47.242.82.134:8800]
+
+[http://thesurfboard.art]
+
+[https://mtf.pub]
+
+[http://www.thesurfboard.art]
+
+[http://mtf.pub]
+
+[https://sulink.pro]
+
+[http://sulink.pro]
+
+[http://172.245.251.23]
+
+[https://lazyzone.jestdoitnow.com]
+
+[http://lazyzone.jestdoitnow.com]
+
+[https://202.81.235.206]
+
+[https://xcx.xiaochengshiguduo.xyz]
+
+[http://xcx.xiaochengshiguduo.xyz]
+
+[https://52.77.171.219]
+
+[https://sd.sygame.top]
+
+[http://sd.sygame.top]
+
+[http://51yun.shop]
+
+[http://www.51yun.shop]
+
+[https://51yun.shop]
+
+[https://svip.weichengyun.com]
+
+[https://www.51yun.shop]
+
+[http://svip.weichengyun.com]
+
+[http://www.suyun.club]
+
+[https://www.suyun.club]
+
+[https://k11.spwvpn.com]
+
+[https://m3.spwvpn.com]
+
+[https://m1.spwvpn.com]
+
+[http://m22.spwvpn.com]
+
+[https://m22.spwvpn.com]
+
+[http://k11.spwvpn.com]
+
+[http://m1.spwvpn.com]
+
+[http://m3.spwvpn.com]
+
+[https://141.11.125.247]
+
+[https://client.ttcloud.cloud]
+
+[https://z.kxyjc.xyz]
+
+[http://z.kxyjc.xyz]
+
+[https://x.kxyjc.xyz]
+
+[https://app.gjy188.com]
+
+[http://gjy666.com]
+
+[http://gjy168.info]
+
+[http://app.gjy666.com]
+
+[https://gjy666.com]
+
+[https://app.gjy168.info]
+
+[http://hieu5g.shop]
+
+[https://web.rctm.cc]
+
+[http://web.rctm.asia]
+
+[http://web.rctm.org.tr]
+
+[https://web.rctm.net.tr]
+
+[http://web.rctm.cc]
+
+[http://web.rctm.fun]
+
+[http://web.rctm.info]
+
+[https://web.rctm.org.tr]
+
+[https://web.rctm.asia]
+
+[https://web.rctm.fun]
+
+[http://web.rctm.com.tr]
+
+[https://web.rctm.info]
+
+[https://web.rctm.net]
+name  🚀ROCKET CLOUD☁️
+type  v2board
+更新订阅链接/续费续签失败  注册失败(tkxroybt364@gmail.com): Код подтверждения по электронной почте не может быть пустым
+
+[https://web.rctm.com.tr]
+
+[https://cloud.woshiwoshiwo.top]
+
+[http://cloud.woshiwoshiwo.top]
+
+[https://pyjc.xyz]
+
+[http://susu.usero.cn]
+
+[https://susu.usero.cn]
+
+[https://43.138.162.133]
+
+[https://lin.990720.xyz]
+
+[https://cloud.alma-learning.top]
+
+[http://cloud.alma-learning.top]
+
+[https://23.166.24.217]
+
+[http://149.248.19.158]
+
+[https://punpn.net]
+
+[http://punpn.net]
+
+[https://67.219.97.96]
+
+[https://15.235.199.42]
+
+[http://154.40.49.205:88]
+
+[https://free.hy2.lol]
+
+[http://free.hy2.lol]
+
+[http://pro.netbell.io]
+
+[https://pro.netbell.io]
+
+[http://subs.danesh.store]
+
+[http://23.158.24.134]
+
+[http://kxyjc.xyz]
+
+[https://kxyjc.xyz]
+
+[https://150.230.102.198]
+
+[https://103.77.209.30]
+
+[https://www.hysality.com]
+
+[http://hysality.com]
+
+[https://hysality.com]
+
+[http://my.hy2.cc]
+
+[https://trust.92sangna.com]
+
+[https://aaa.us123.icu]
+
+[https://38.6.227.193]
+
+[https://46.250.255.179]
+
+[https://hungcon.asia]
+
+[http://www.hungcon.asia]
+
+[https://103.186.67.44]
+
+[https://154.38.163.48]
+
+[http://wz3.651651.xyz]
+
+[https://cc2.651651.xyz]
+
+[https://wz3.651651.xyz]
+
+[http://cc2.651651.xyz]
+
+[https://101.230.179.117]
+
+[https://101.230.179.116]
+
+[https://101.230.179.114]
+
+[https://101.230.179.122]
+
+[https://172.245.251.23]
+
+[https://101.230.179.115]
+
+[https://101.230.179.118]
+
+[https://subs.xiaoli-forever.top]
+
+[http://subs.xiaoli-forever.top]
+
+[https://38.6.179.17]
+
+[http://js.dafengche.shop]
+
+[https://js.dafengche.shop]
+
+[http://hackdata.click]
+
+[https://m2.spwvpn.com]
+
+[https://k1.spwvpn.com]
+
+[http://sc.ubs.dynuddns.com]
+
+[https://sc.ubs.dynuddns.com]
+
+[http://tsapps.ru]
+
+[https://54.150.197.247]
+
+[http://www.s4b.top]
+
+[https://www.s4b.top]
+
+[http://dy.qiansu.cloud]
+
+[https://dy.qiansu.cloud]
+
+[https://38.60.251.41]
+
+[https://149.28.70.7]
+
+[https://3848438.xyz]
+
+[http://3848438.xyz]
+
+[http://home.commafamily.top]
+
+[https://home.commafamily.top]
+
+[https://13.251.39.227]
+
+[http://www.ddspeed.top]
+
+[http://api.hankhu.xyz]
+
+[https://api.hankhu.xyz]
+
+[https://www.ddspeed.top]
+
+[https://songshuyun.cc]
+
+[http://speeddog.oyxm.xyz]
+api_host  speeddog.oyxm.xyz
+name  闪电狗
+type  v2board
+更新订阅链接/续费续签失败  注册失败(whfelwllm112@gmail.com): 'NoneType' object is not subscriptable
+
+[http://amini.vsubscription.space]
+
+[http://hy.k.vu]
+
+[http://fly.346492.xyz]
+api_host  fly.346492.xyz
+name  遥遥领先
+type  v2board
+更新订阅链接/续费续签失败  发送邮箱验证码失败(rtyrgswxk80@rgzx.tmmad.com): {'message': '邮箱后缀不处于白名单中'}
+
+[https://hy.k.vu]
+
+[https://speeddog.oyxm.xyz]
+name  闪电狗
+type  v2board
+更新订阅链接/续费续签失败  注册失败(nyekzwmv307@gmail.com): 'NoneType' object is not subscriptable
+
+[https://154.23.241.40]
+
+[https://fly.346492.xyz]
+name  遥遥领先
+type  v2board
+更新订阅链接/续费续签失败  发送邮箱验证码失败(ebssthun586@linshiyou.com): {'message': '邮箱后缀不处于白名单中'}
+
+[http://nb.xddga.eu.org]
+
+[http://mouse.23334567.xyz]
+
+[https://mouse.23334567.xyz]
+
+[https://154154.xyz]
+
+[http://154154.xyz]
+
+[https://23.158.24.134]
+
+[https://www.kaipol.me]
+
+[https://kaipol.me]
+
+[http://kaipol.me]
+
+[https://tminhvpn.site]
+
+[http://nhh4gdata.site]
+
+[http://tminhvpn.site]
+
+[https://nhh4gdata.site]
+
+[https://103.162.29.98]
+
+[https://mtuan4g.click]
+
+[http://mtuan4g.click]
+
+[https://opacloud.fpzxhub.net]
+
+[https://207.246.99.237]
+
+[https://5ggiasinhvien.store]
+
+[https://jisu-mb.top]
+
+[http://jisu-mb.top]
+
+[http://fei.lat]
+
+[https://fei.lat]
+
+[https://www.fei.lat]
+
+[https://13.231.236.180]
+
+[https://103.67.197.144]
+
+[http://test.cyberflaresecure.com]
+
+[https://test.cyberflaresecure.com]
+
+[https://my.hy2.cc]
+
+[https://didiao.92sangna.com]
+
+[https://111.230.228.229]
+
+[http://didiao.92sangna.com]
+
+[https://www.sjiy.xyz]
+
+[http://www.sjiy.xyz]
+
+[https://www.leka.wiki]
+
+[http://www.leka.wiki]
+
+[https://157.254.21.23]
+
+[https://152.67.197.13]
+
+[https://103.79.77.35]
+
+[https://103.162.29.137]
+
+[https://38.181.65.118]
+
+[http://4gdatasieutoc.top]
+
+[https://www.4gdatasieutoc.top]
+
+[https://4gdatasieutoc.top]
+
+[https://103.167.88.224]
+
+[https://api.52pokemon.top]
+
+[http://www.52pokemon.top]
+
+[http://yyds.52pokemon.top]
+
+[https://yyds.52pokemon.top]
+
+[https://www.52pokemon.top]
+
+[http://api.52pokemon.top]
+
+[http://s.ssrr.today]
+
+[https://s.ssrr.today]
+
+[https://acjp.alma-learning.top]
+
+[https://103.232.213.176]
+
+[https://ac.alma-learning.top]
+error  <string>:1 Unexpected "#" at column 14
+type  v2board
+更新订阅链接/续费续签失败  发送邮箱验证码失败(ejcblpgys908@tmpnator.live): {'message': '验证码有误'}
+
+[http://ac.alma-learning.top]
+api_host  ac.alma-learning.top
+error  <string>:1 Unexpected "#" at column 14
+type  v2board
+更新订阅链接/续费续签失败  发送邮箱验证码失败(ffymlqfiy551@guerrillamail.net): {'message': '验证码有误'}
+
+[https://xn--3lun57da.icu]
+
+[http://seeu-u.com]
+name  SEEU.DEV
+type  v2board
+更新订阅链接/续费续签失败  发送邮箱验证码失败(szazkowj416@mydefipet.live): {'message': '验证码有误'}
+
+[https://seeu-u.com]
+name  SEEU.DEV
+type  v2board
+更新订阅链接/续费续签失败  发送邮箱验证码失败(uszecopgi191@jkb.tmmad.com): {'message': '验证码有误'}
+
+[https://new.seeu-u.com]
+name  SEEU.DEV
+type  v2board
+更新订阅链接/续费续签失败  发送邮箱验证码失败(ciybljtpv70@psnator.com): {'message': '验证码有误'}
+
+[https://209.146.125.244]
+
+[http://131.186.20.70]
+
+[http://4gmaxre.site]
+
+[https://4gmaxre.site]
+
+[http://38.181.65.118]
+
+[http://nguyen4g.online]
+
+[http://datare.site]
+
+[https://datare.site]
+
+[https://www.frostboutiques.top]
+
+[http://www.frostboutiques.top]
+
+[https://usbt.frostboutiques.top]
+
+[http://usbt.frostboutiques.top]
+name  Frost
+type  v2board
+更新订阅链接/续费续签失败  发送邮箱验证码失败(ujocktv822@mail.shouyou789.com): {'message': '邮箱后缀不处于白名单中'}
+
+[https://4gsieucap.pro]
+
+[http://4gsieucap.pro]
+
+[http://nekocloud.011217.xyz]
+
+[https://nekocloud.011217.xyz]
+
+[https://38.6.224.200]
+
+[https://achk.alma-learning.top]
+
+[https://ce.mudidi1.com]
+
+[https://66.42.73.24]
+
+[http://ce.mudidi1.com]
+
+[https://157.10.52.4]
+
+[http://v.dicloud.cc]
+
+[https://v.dicloud.cc]
+
+[https://34.125.180.124]
+
+[http://78.46.105.207]
+
+[https://v1.toofast.top]
+
+[http://crm.rvcloud.org]
+
+[https://cloud.dabaojian.cc]
+
+[http://cloud.dabaojian.cc]
+
+[http://5.9.60.143]
+
+[https://103.154.63.211]
+
+[https://usboard.alma-learning.top]
+
+[https://166.0.188.66]
+
+[https://v2b.hld.edu.eu.org]
+
+[http://v2b.hld.edu.eu.org]
+
+[https://144.24.87.58]
+
+[https://api.betternetcn.com]
+
+[http://api.betternetcn.com]
+
+[http://freenet.lol]
+
+[https://freenet.lol]
+
+[http://120.79.88.128:9443]
+
+[https://jcycloud.net]
+
+[https://43.228.215.194]
+
+[http://jcycloud.net]
+
+[https://jcycloud.cc]
+
+[https://www.jcycloud.net]
+
+[http://www.jcycloud.net]
+
+[http://jcycloud.cc]
+api_host  www.jcycloud.cc
+error  <string>:2 Unexpected "(" at column 16
+type  v2board
+更新订阅链接/续费续签失败  注册失败(edelqqpqk313@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (405 Not Allowed '<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>openresty</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n')
+
+[https://thesurfboard.art]
+
+[https://www.thesurfboard.art]
+
+[http://newv2pan.mxgcloud.site]
+
+[https://newv2pan.mxgcloud.site]
+
+[https://go.90hahas.top]
+
+[https://45.78.26.205]
+
+[https://v.yinss.net]
+
+[http://v.yinss.net]
+
+[https://199.119.138.168]
+
+[https://103.77.172.30]
+
+[http://vclouds.info]
+
+[https://sys-clouds.com]
+
+[http://sys-clouds.com]
+
+[https://vclouds.info]
+
+[https://godeep.cc]
+
+[http://godeep.cc]
+
+[https://149.248.57.197]
+
+[https://xinyi.vtcss.top]
+
+[https://103.116.52.75]
+
+[http://web.rctm.net.tr]
+
+[http://web.rctm.net]
+api_host  web.rctm.net
+name  🚀ROCKET CLOUD☁️
+type  v2board
+更新订阅链接/续费续签失败  注册失败(qqbsfwr481@gmail.com): Код подтверждения по электронной почте не может быть пустым
+
+[http://toofast.top]
+
+[https://toofast.top]
+
+[http://www.iplco.top]
+
+[https://www.iplco.top]
+
+[http://iplco.top]
+
+[https://iplco.top]
+
+[http://sub1.781234.xyz]
+api_host  sub1.781234.xyz
+name  V2Board
+type  v2board
+更新订阅链接/续费续签失败  注册失败(pqrinusw635@gmail.com): 本站已关闭注册
+
+[https://sub1.781234.xyz]
+name  V2Board
+type  v2board
+更新订阅链接/续费续签失败  注册失败(hxbgcmveq419@gmail.com): 本站已关闭注册
+
+[http://172.93.32.251]
+
+[https://www.iplck.top]
+
+[http://www.iplck.top]
+
+[http://iplck.top]
+
+[https://iplck.top]
+
+[https://aoyi.io.vn]
+
+[http://172.83.157.149]
+
+[http://159.75.83.139]
+
+[https://website.www.92sangna.com]
+
+[https://lede.92sangna.com]
+
+[https://www.www.92sangna.com]
+
+[https://bb.ccc.dddd.92sangna.com]
+
+[https://ccc.dddd.92sangna.com]
+
+[https://a.bb.ccc.dddd.92sangna.com]
+
+[https://dddd.92sangna.com]
+
+[https://o69iay0p.92sangna.com]
+
+[https://wbsubdomain.a.bb.ccc.dddd.92sangna.com]
+
+[https://store.92sangna.com]
+
+[https://wbsubdomain.a.bb.ccc.dddd.www.92sangna.com]
+
+[https://admin.92sangna.com]
+
+[https://what.website.www.92sangna.com]
+
+[https://what.website.92sangna.com]
+
+[https://onyfmwbsubdomain.a.bb.ccc.dddd.www.92sangna.com]
+
+[https://mail.92sangna.com]
+
+[https://45895.xyz]
+
+[http://45895.xyz]
+
+[https://jc.soyoung.cf]
+
+[http://jc.soyoung.cf]
+
+[https://dash.mantavpn.com]
+
+[http://azxc.chituma.buzz]
+
+[https://azxc.chituma.buzz]
+
+[https://52.184.82.37]
+
+[https://v2b.shinx.xyz]
+
+[http://v2b.shinx.xyz]
+
+[http://tenvpndata.click]
+
+[http://crm.negarcloud.org]
+
+[https://crm.negarcloud.org]
+
+[https://tenvpndata.click]
+
+[https://www.tenvpndata.click]
+
+[https://vpn.takeshi.dev]
+
+[http://vpn.takeshi.dev]
+
+[https://188.253.5.247]
+
+[https://test-seeu.xyx-xy-01.com]
+
+[http://test-seeu.xyx-xy-01.com]
+
+[https://91.205.228.253]
+
+[https://104.168.64.248]
+
+[https://138.2.61.129]
+
+[http://mfsnt.xyz]
+
+[http://www.mfsnt.xyz]
+
+[https://www.mfsnt.xyz]
+
+[https://mfsnt.xyz]
+
+[https://v2.heyimyh.cn]
+
+[https://54.179.9.105]
+
+[https://103.195.5.249]
+
+[https://api.chuwanfeng.top]
+
+[http://api.chuwanfeng.top]
+
+[http://vapi.yinss.net]
+
+[https://vapi.yinss.net]
+
+[https://tz.xddgm.icu]
+
+[https://tz.xddg.tk]
+
+[http://tz.xddgm.icu]
+
+[https://dash.fscloud.cc]
+
+[http://tz.xddg.tk]
+
+[https://www.chuwanfeng.top]
+
+[https://45.32.45.103]
+
+[https://hneko.life]
+
+[https://www.hneko.life]
+
+[https://45.32.248.252]
+
+[https://38.72.148.124]
+
+[https://m.heycloud.uk]
+
+[http://m.heycloud.uk]
+
+[https://104.199.220.76]
+
+[http://v2b.laoo.cc]
+
+[https://v2b.laoo.cc]
+
+[https://ameko.amekiri.top]
+
+[http://ameko.amekiri.top]
+
+[https://45.137.180.203]
+
+[https://23.158.136.129]
+
+[https://crm.rvcloud.org]
+
+[https://www.wmjl.net]
+
+[https://wmjl.net]
+
+[http://www.wmjl.net]
+
+[http://wmjl.net]
+
+[https://149.248.12.142]
+
+[http://v.luama.vip]
+
+[https://v.luama.vip]
+
+[http://steamcdn.net]
+api_host  steamcdn.net
+name  蒸汽加速
+type  v2board
+更新订阅链接/续费续签失败  注册失败(bgitraq627@gmail.com): 'NoneType' object is not subscriptable
+
+[https://steamcdn.net]
+name  蒸汽加速
+type  v2board
+更新订阅链接/续费续签失败  注册失败(qyhynmqm246@gmail.com): 'NoneType' object is not subscriptable
+
+[http://149.248.12.142]
+
+[http://new-fov.b-cdn.net]
+
+[http://lazyzone.seeyo.top]
+
+[https://lazyzone.seeyo.top]
+
+[https://csmb.gptaibot.top]
+
+[http://csmb.gptaibot.top]
+
+[http://95.216.217.110]
+
+[https://a.yunxiaozhan.xyz]
+
+[http://a.yunxiaozhan.xyz]
+
+[https://131.186.46.116]
+
+[https://137.184.40.116]
