@@ -11,6 +11,10 @@ proxy-groups:
   proxies:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
+  - 🇺🇸 ‍美国
+  - 🎏 ‍其他
+  - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🎏 ‍其他
   - DIRECT
   - REJECT
 - name: ⚡ ‍低延迟
@@ -19,6 +23,9 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id001
+  - 🇺🇸 usa - Ghost
+  - 🇺🇸 usa - Ghost 2
+  - 🇺🇸 usa - Ghost 3
   - xinjiapo - Ghost
   - xinjiapo - Ghost 2
   - xinjiapo - Ghost 3
@@ -47,7 +54,11 @@ proxy-groups:
 - name: 🤖 ‍AI
   type: select
   proxies:
+  - 🇺🇸 ‍美国
+  - 🎏 ‍其他
   - ✈️ ‍起飞
+  - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🎏 ‍其他
   - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
@@ -56,11 +67,39 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
+- name: 🇺🇸 ‍美国
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 300
+  proxies: &id002
+  - 🇺🇸 usa - Ghost
+  - 🇺🇸 usa - Ghost 2
+  - 🇺🇸 usa - Ghost 3
+- name: 🎏 ‍其他
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
+  tolerance: 100
+  proxies: &id003
+  - xinjiapo - Ghost
+  - xinjiapo - Ghost 2
+  - xinjiapo - Ghost 3
+  - xinjiapor - Ghost
+- name: 👆🏻🇺🇸 ‍美国
+  type: select
+  proxies: *id002
+- name: 👆🏻🎏 ‍其他
+  type: select
+  proxies: *id003
 proxies:
-- {name: xinjiapo - Ghost, server: g3.dzghost.com, port: 1083, type: trojan, password: 798beee3-f9ed-470d-990c-f23ce2879bb0, sni: g3.dzghost.com, skip-cert-verify: true, udp: true}
-- {name: xinjiapo - Ghost 2, server: g2.dzghost.com, port: 1082, type: ss, cipher: chacha20-ietf-poly1305, password: 798beee3-f9ed-470d-990c-f23ce2879bb0, udp: true}
-- {name: xinjiapo - Ghost 3, server: g1.dzghost.com, port: 1084, type: vmess, uuid: 798beee3-f9ed-470d-990c-f23ce2879bb0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: g2.dzghost.com, network: ws, ws-opts: {path: /dzghost123, headers: {Host: www.bing.com}}, udp: true}
-- {name: xinjiapor - Ghost, server: g1.dzghost.com, port: 443, type: vmess, uuid: 798beee3-f9ed-470d-990c-f23ce2879bb0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: g1.dzghost.com, udp: true}
+- {name: 🇺🇸 usa - Ghost, server: d3.dzghost.com, port: 500, type: trojan, password: 7cad5090-bf16-460f-8547-5b5b2d32bccc, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 usa - Ghost 2, server: d1.dzghost.com, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 7cad5090-bf16-460f-8547-5b5b2d32bccc, udp: true}
+- {name: 🇺🇸 usa - Ghost 3, server: d2.dzghost.com, port: 80, type: vmess, uuid: 7cad5090-bf16-460f-8547-5b5b2d32bccc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk, udp: true}
+- {name: xinjiapo - Ghost, server: g3.dzghost.com, port: 1083, type: trojan, password: 7cad5090-bf16-460f-8547-5b5b2d32bccc, sni: g3.dzghost.com, skip-cert-verify: true, udp: true}
+- {name: xinjiapo - Ghost 2, server: g2.dzghost.com, port: 1082, type: ss, cipher: chacha20-ietf-poly1305, password: 7cad5090-bf16-460f-8547-5b5b2d32bccc, udp: true}
+- {name: xinjiapo - Ghost 3, server: g1.dzghost.com, port: 1084, type: vmess, uuid: 7cad5090-bf16-460f-8547-5b5b2d32bccc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: g2.dzghost.com, network: ws, ws-opts: {path: /dzghost123, headers: {Host: www.bing.com}}, udp: true}
+- {name: xinjiapor - Ghost, server: g1.dzghost.com, port: 443, type: vmess, uuid: 7cad5090-bf16-460f-8547-5b5b2d32bccc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: g1.dzghost.com, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT

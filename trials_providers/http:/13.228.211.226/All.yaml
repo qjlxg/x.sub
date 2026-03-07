@@ -1,5 +1,5 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇮🇪 爱尔兰-都柏林 - 神盾, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 0a79ad40-6c90-4f3c-9990-e98305c32d6f, udp: true}
-- {name: 🇭🇰 香港-线路1 - 神盾, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 0a79ad40-6c90-4f3c-9990-e98305c32d6f, udp: true}
+- {name: 🇮🇪 爱尔兰-都柏林 - 神盾, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: f0a9f11b-b7e6-44d5-9b18-88876a7018f7, udp: true}
+- {name: 🇭🇰 香港-线路1 - 神盾, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: f0a9f11b-b7e6-44d5-9b18-88876a7018f7, udp: true}

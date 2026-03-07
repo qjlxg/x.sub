@@ -1,4 +1,4 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇸🇬 VIP-SG - XBoard, server: 103.47.225.69, port: 443, type: ss, cipher: aes-256-gcm, password: 9ae9c892-6d1d-4f86-9cae-2a6e176579f6, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: p16-tiktokcdn-com.akamaized.net, path: /, tls: false, mux: false, skip-cert-verify: true}, udp: true}
+- {name: 🇸🇬 VIP-SG - XBoard, server: 103.47.225.69, port: 443, type: ss, cipher: aes-256-gcm, password: 899c7e30-50c7-4b63-a0a0-f26ac572d4f9, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: p16-tiktokcdn-com.akamaized.net, path: /, tls: false, mux: false, skip-cert-verify: true}, udp: true}

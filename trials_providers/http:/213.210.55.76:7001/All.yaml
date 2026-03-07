@@ -1,4 +1,4 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇬🇧 GB-Coventry - Climb Platform, server: 213.210.55.76, port: 10417, type: ss, cipher: chacha20-ietf-poly1305, password: 0d024840-6731-48e6-aa64-8be9c83e6911, udp: true}
+- {name: 🇬🇧 GB-Coventry - Climb Platform, server: 213.210.55.76, port: 10417, type: ss, cipher: chacha20-ietf-poly1305, password: 4474ced5-0021-430a-aee2-b6ee7d4cbbf0, udp: true}

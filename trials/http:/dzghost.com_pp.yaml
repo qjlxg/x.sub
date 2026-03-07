@@ -11,9 +11,9 @@ proxy-groups:
   proxies:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
-  - 🇭🇰 ‍香港
+  - 🇺🇸 ‍美国
   - 🎏 ‍其他
-  - 👆🏻🇭🇰 ‍香港
+  - 👆🏻🇺🇸 ‍美国
   - 👆🏻🎏 ‍其他
   - DIRECT
   - REJECT
@@ -21,7 +21,7 @@ proxy-groups:
   type: url-test
   tolerance: 100
   use: &id001
-  - HK
+  - US
   - Other
 - name: 👆🏻 ‍指定
   type: select
@@ -42,15 +42,15 @@ proxy-groups:
   type: select
   proxies:
   - 🛩️ ‍墙内
-  - 🇭🇰 ‍香港
   - ✈️ ‍起飞
-  - 👆🏻🇭🇰 ‍香港
   - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
+  - 🇺🇸 ‍美国
   - 🎏 ‍其他
   - ✈️ ‍起飞
+  - 👆🏻🇺🇸 ‍美国
   - 👆🏻🎏 ‍其他
   - 👆🏻 ‍指定
   - 🛩️ ‍墙内
@@ -60,28 +60,28 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-- name: 🇭🇰 ‍香港
+- name: 🇺🇸 ‍美国
   type: url-test
-  tolerance: 100
+  tolerance: 300
   use: &id002
-  - HK
+  - US
 - name: 🎏 ‍其他
   type: url-test
   tolerance: 100
   use: &id003
   - Other
-- name: 👆🏻🇭🇰 ‍香港
+- name: 👆🏻🇺🇸 ‍美国
   type: select
   use: *id002
 - name: 👆🏻🎏 ‍其他
   type: select
   use: *id003
 proxy-providers:
-  HK:
+  US:
     type: http
-    url: https://raw.kgithub.com/qjlxg/x.sub/main/trials_providers/http://dzghost.com/HK.yaml
+    url: https://raw.kgithub.com/qjlxg/x.sub/main/trials_providers/http://dzghost.com/US.yaml
     interval: 180
-    path: trials_providers/http://dzghost.com/HK.yaml
+    path: trials_providers/http://dzghost.com/US.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204

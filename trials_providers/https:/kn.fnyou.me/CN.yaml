@@ -1,7 +1,7 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇭🇰 HK 香港 1 - 快鸟云, server: video.woaibilibili.live, port: 35410, type: ss, cipher: aes-128-gcm, password: af2e1883-accc-48ff-8a4c-4f4748d173c1, udp: true}
-- {name: 🇭🇰 HK 香港 2 - 快鸟云, server: movie.woaibilibili.live, port: 35411, type: ss, cipher: aes-128-gcm, password: af2e1883-accc-48ff-8a4c-4f4748d173c1, udp: true}
-- {name: 🇹🇼 TW 台湾 1 - 快鸟云, server: video.woaibilibili.live, port: 35420, type: ss, cipher: aes-128-gcm, password: af2e1883-accc-48ff-8a4c-4f4748d173c1, udp: true}
-- {name: 🇹🇼 TW 台湾 2 - 快鸟云, server: movie.woaibilibili.live, port: 35421, type: ss, cipher: aes-128-gcm, password: af2e1883-accc-48ff-8a4c-4f4748d173c1, udp: true}
+- {name: 🇭🇰 HK 香港 1 - 快鸟云, server: video.woaibilibili.live, port: 35410, type: ss, cipher: aes-128-gcm, password: f74f0d61-3301-47da-b755-a680f0d90c60, udp: true}
+- {name: 🇭🇰 HK 香港 2 - 快鸟云, server: movie.woaibilibili.live, port: 35411, type: ss, cipher: aes-128-gcm, password: f74f0d61-3301-47da-b755-a680f0d90c60, udp: true}
+- {name: 🇹🇼 TW 台湾 1 - 快鸟云, server: video.woaibilibili.live, port: 35420, type: ss, cipher: aes-128-gcm, password: f74f0d61-3301-47da-b755-a680f0d90c60, udp: true}
+- {name: 🇹🇼 TW 台湾 2 - 快鸟云, server: movie.woaibilibili.live, port: 35421, type: ss, cipher: aes-128-gcm, password: f74f0d61-3301-47da-b755-a680f0d90c60, udp: true}

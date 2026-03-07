@@ -1,0 +1,4 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇹🇼 台湾 - 快捷VPN, server: 27.152.180.32, port: 28081, type: ss, cipher: chacha20-ietf-poly1305, password: ba5d5d03-b5d5-43ee-80bf-c859f029fca2, udp: true}

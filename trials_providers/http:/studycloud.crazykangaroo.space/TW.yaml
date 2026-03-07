@@ -1,0 +1,5 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇹🇼 台湾01 - 学术云, server: tw01.academicbest.dpdns.org, port: 7005, type: ss, cipher: aes-256-gcm, password: 8129570b-ac6c-4fae-adf4-28e3ee726f5b, udp: true}
+- {name: 🇹🇼 台湾02 - 学术云, server: tw02.academicbest.dpdns.org, port: 7006, type: ss, cipher: aes-256-gcm, password: 8129570b-ac6c-4fae-adf4-28e3ee726f5b, udp: true}

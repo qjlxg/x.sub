@@ -1,0 +1,4 @@
+%YAML 1.1
+---
+proxies:
+- {name: Free - Xboard, server: 103.97.178.98, port: 20000, type: ss, cipher: chacha20-ietf-poly1305, password: 208c1e6d-a61f-4bd7-b881-0d7c4f205950, udp: true}

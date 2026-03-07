@@ -1,5 +1,5 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇯🇵 日本01 - 学术云, server: jp01.academicbest.dpdns.org, port: 7007, type: ss, cipher: aes-256-gcm, password: ece9f981-9069-4ed4-9593-680dec198a43, udp: true}
-- {name: 🇯🇵 日本02 - 学术云, server: jp02.academicbest.dpdns.org, port: 7008, type: ss, cipher: aes-256-gcm, password: ece9f981-9069-4ed4-9593-680dec198a43, udp: true}
+- {name: 🇯🇵 日本01 - 学术云, server: jp01.academicbest.dpdns.org, port: 7007, type: ss, cipher: aes-256-gcm, password: ed19c227-90af-4d65-a8b0-3c26e5d3f1f8, udp: true}
+- {name: 🇯🇵 日本02 - 学术云, server: jp02.academicbest.dpdns.org, port: 7008, type: ss, cipher: aes-256-gcm, password: ed19c227-90af-4d65-a8b0-3c26e5d3f1f8, udp: true}
