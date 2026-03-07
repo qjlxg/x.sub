@@ -1,15 +1,15 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇭🇰 HK 香港 1 - 快鸟云, server: video.woaibilibili.live, port: 35410, type: ss, cipher: aes-128-gcm, password: a546583e-ba83-4546-9971-69a4d6abbe38, udp: true}
-- {name: 🇭🇰 HK 香港 2 - 快鸟云, server: movie.woaibilibili.live, port: 35411, type: ss, cipher: aes-128-gcm, password: a546583e-ba83-4546-9971-69a4d6abbe38, udp: true}
-- {name: 🇹🇼 TW 台湾 1 - 快鸟云, server: video.woaibilibili.live, port: 35420, type: ss, cipher: aes-128-gcm, password: a546583e-ba83-4546-9971-69a4d6abbe38, udp: true}
-- {name: 🇹🇼 TW 台湾 2 - 快鸟云, server: movie.woaibilibili.live, port: 35421, type: ss, cipher: aes-128-gcm, password: a546583e-ba83-4546-9971-69a4d6abbe38, udp: true}
-- {name: 🇯🇵 JP 日本 1 - 快鸟云, server: video.woaibilibili.live, port: 35430, type: ss, cipher: aes-128-gcm, password: a546583e-ba83-4546-9971-69a4d6abbe38, udp: true}
-- {name: 🇯🇵 JP 日本 2 - 快鸟云, server: movie.woaibilibili.live, port: 35431, type: ss, cipher: aes-128-gcm, password: a546583e-ba83-4546-9971-69a4d6abbe38, udp: true}
-- {name: 🇻🇳 VN 越南 1 - 快鸟云, server: video.woaibilibili.live, port: 35495, type: ss, cipher: aes-128-gcm, password: a546583e-ba83-4546-9971-69a4d6abbe38, udp: true}
-- {name: 🇻🇳 VN 越南 2 - 快鸟云, server: movie.woaibilibili.live, port: 35496, type: ss, cipher: aes-128-gcm, password: a546583e-ba83-4546-9971-69a4d6abbe38, udp: true}
-- {name: 🇸🇬 SG 新加坡 1 - 快鸟云, server: video.woaibilibili.live, port: 35440, type: ss, cipher: aes-128-gcm, password: a546583e-ba83-4546-9971-69a4d6abbe38, udp: true}
-- {name: 🇸🇬 SG 新加坡 2 - 快鸟云, server: movie.woaibilibili.live, port: 35443, type: ss, cipher: aes-128-gcm, password: a546583e-ba83-4546-9971-69a4d6abbe38, udp: true}
-- {name: 🇺🇸 US 美国 1 - 快鸟云, server: video.woaibilibili.live, port: 35450, type: ss, cipher: aes-128-gcm, password: a546583e-ba83-4546-9971-69a4d6abbe38, udp: true}
-- {name: 🇺🇸 US 美国 2 - 快鸟云, server: movie.woaibilibili.live, port: 35451, type: ss, cipher: aes-128-gcm, password: a546583e-ba83-4546-9971-69a4d6abbe38, udp: true}
+- {name: 🇭🇰 HK 香港 1 - 快鸟云, server: video.woaibilibili.live, port: 35410, type: ss, cipher: aes-128-gcm, password: 72b9999d-ce88-4223-b11d-899058b09733, udp: true}
+- {name: 🇭🇰 HK 香港 2 - 快鸟云, server: movie.woaibilibili.live, port: 35411, type: ss, cipher: aes-128-gcm, password: 72b9999d-ce88-4223-b11d-899058b09733, udp: true}
+- {name: 🇹🇼 TW 台湾 1 - 快鸟云, server: video.woaibilibili.live, port: 35420, type: ss, cipher: aes-128-gcm, password: 72b9999d-ce88-4223-b11d-899058b09733, udp: true}
+- {name: 🇹🇼 TW 台湾 2 - 快鸟云, server: movie.woaibilibili.live, port: 35421, type: ss, cipher: aes-128-gcm, password: 72b9999d-ce88-4223-b11d-899058b09733, udp: true}
+- {name: 🇯🇵 JP 日本 1 - 快鸟云, server: video.woaibilibili.live, port: 35430, type: ss, cipher: aes-128-gcm, password: 72b9999d-ce88-4223-b11d-899058b09733, udp: true}
+- {name: 🇯🇵 JP 日本 2 - 快鸟云, server: movie.woaibilibili.live, port: 35431, type: ss, cipher: aes-128-gcm, password: 72b9999d-ce88-4223-b11d-899058b09733, udp: true}
+- {name: 🇻🇳 VN 越南 1 - 快鸟云, server: video.woaibilibili.live, port: 35495, type: ss, cipher: aes-128-gcm, password: 72b9999d-ce88-4223-b11d-899058b09733, udp: true}
+- {name: 🇻🇳 VN 越南 2 - 快鸟云, server: movie.woaibilibili.live, port: 35496, type: ss, cipher: aes-128-gcm, password: 72b9999d-ce88-4223-b11d-899058b09733, udp: true}
+- {name: 🇸🇬 SG 新加坡 1 - 快鸟云, server: video.woaibilibili.live, port: 35440, type: ss, cipher: aes-128-gcm, password: 72b9999d-ce88-4223-b11d-899058b09733, udp: true}
+- {name: 🇸🇬 SG 新加坡 2 - 快鸟云, server: movie.woaibilibili.live, port: 35443, type: ss, cipher: aes-128-gcm, password: 72b9999d-ce88-4223-b11d-899058b09733, udp: true}
+- {name: 🇺🇸 US 美国 1 - 快鸟云, server: video.woaibilibili.live, port: 35450, type: ss, cipher: aes-128-gcm, password: 72b9999d-ce88-4223-b11d-899058b09733, udp: true}
+- {name: 🇺🇸 US 美国 2 - 快鸟云, server: movie.woaibilibili.live, port: 35451, type: ss, cipher: aes-128-gcm, password: 72b9999d-ce88-4223-b11d-899058b09733, udp: true}

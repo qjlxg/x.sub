@@ -83,8 +83,8 @@ proxy-groups:
   type: select
   proxies: *id003
 proxies:
-- {name: 🇯🇵移动优化|测试节点 - OKX, server: 154.83.94.7, port: 30043, type: ss, cipher: chacha20-ietf-poly1305, password: a442b1ca-2875-46f1-b63e-092b4f57effe, udp: true}
-- {name: 联通电信暂不提供优化测试 - OKX, server: 156.231.115.233, port: 30044, type: ss, cipher: chacha20-ietf-poly1305, password: a442b1ca-2875-46f1-b63e-092b4f57effe, udp: true}
+- {name: 🇯🇵移动优化|测试节点 - OKX, server: 154.83.94.7, port: 30043, type: ss, cipher: chacha20-ietf-poly1305, password: db63f5ea-c763-4400-ab68-a2238e1c17d2, udp: true}
+- {name: 联通电信暂不提供优化测试 - OKX, server: 156.231.115.233, port: 30044, type: ss, cipher: chacha20-ietf-poly1305, password: db63f5ea-c763-4400-ab68-a2238e1c17d2, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
