@@ -15,14 +15,12 @@ proxy-groups:
   - REJECT
 - name: ⚡ ‍低延迟
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 30
   tolerance: 100
-  proxies: &id001
-  - 🇯🇵 日本 - V2Board
+  use: &id001
+  - All
 - name: 👆🏻 ‍指定
   type: select
-  proxies: *id001
+  use: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -53,8 +51,16 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-proxies:
-- {name: 🇯🇵 日本 - V2Board, server: 43.167.238.198, port: 3002, type: vmess, uuid: 319bfd8d-0a59-4c0e-972b-e74990da668e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+proxy-providers:
+  All:
+    type: http
+    url: https://raw.kgithub.com/qjlxg/x.sub/main/trials_providers/https://sub.thugiping.info/All.yaml
+    interval: 180
+    path: trials_providers/https://sub.thugiping.info/All.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT

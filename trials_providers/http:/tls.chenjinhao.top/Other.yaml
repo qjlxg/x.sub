@@ -1,6 +1,6 @@
 %YAML 1.1
 ---
 proxies:
-- {name: trojan - TTEESSTT, server: xrayr.chenjinhao.top, port: 3333, type: trojan, password: 8aeac5ce-5321-4edc-9faf-0c44aa5f2c6a, sni: xrayr.chenjinhao.top, skip-cert-verify: true, udp: true}
-- {name: ss - TTEESSTT, server: xrayr.chenjinhao.top, port: 12345, type: ss, cipher: chacha20-ietf-poly1305, password: 8aeac5ce-5321-4edc-9faf-0c44aa5f2c6a, udp: true}
-- {name: vmess - TTEESSTT, server: xrayr.chenjinhao.top, port: 2222, type: vmess, uuid: 8aeac5ce-5321-4edc-9faf-0c44aa5f2c6a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /123, headers: {Host: 123*.com}}, udp: true}
+- {name: trojan - TTEESSTT, server: xrayr.chenjinhao.top, port: 3333, type: trojan, password: 49a382ae-fc9a-488c-b2cf-760c36ee9235, sni: xrayr.chenjinhao.top, skip-cert-verify: true, udp: true}
+- {name: ss - TTEESSTT, server: xrayr.chenjinhao.top, port: 12345, type: ss, cipher: chacha20-ietf-poly1305, password: 49a382ae-fc9a-488c-b2cf-760c36ee9235, udp: true}
+- {name: vmess - TTEESSTT, server: xrayr.chenjinhao.top, port: 2222, type: vmess, uuid: 49a382ae-fc9a-488c-b2cf-760c36ee9235, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /123, headers: {Host: 123*.com}}, udp: true}

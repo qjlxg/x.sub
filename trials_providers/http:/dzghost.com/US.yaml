@@ -1,6 +1,6 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇺🇸 usa - Ghost, server: d3.dzghost.com, port: 500, type: trojan, password: 0d0fdd7c-f3c9-4af9-ad2c-a73f7756392b, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 usa - Ghost 2, server: d1.dzghost.com, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 0d0fdd7c-f3c9-4af9-ad2c-a73f7756392b, udp: true}
-- {name: 🇺🇸 usa - Ghost 3, server: d2.dzghost.com, port: 80, type: vmess, uuid: 0d0fdd7c-f3c9-4af9-ad2c-a73f7756392b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk, udp: true}
+- {name: 🇺🇸 usa - Ghost, server: d3.dzghost.com, port: 500, type: trojan, password: ba8fcdf8-cbf7-4fdd-9755-6768ecc0ecc0, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 usa - Ghost 2, server: d1.dzghost.com, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: ba8fcdf8-cbf7-4fdd-9755-6768ecc0ecc0, udp: true}
+- {name: 🇺🇸 usa - Ghost 3, server: d2.dzghost.com, port: 80, type: vmess, uuid: ba8fcdf8-cbf7-4fdd-9755-6768ecc0ecc0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk, udp: true}
