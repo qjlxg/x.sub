@@ -60,7 +60,7 @@ def main():
     print(f"Total URLs to check: {len(urls)}")
 
     # 增加并发数到 15 提高速度
-    with ThreadPoolExecutor(max_workers=15) as executor:
+    with ThreadPoolExecutor(max_workers=85) as executor:
         results = list(executor.map(check_url, urls))
 
     # 过滤结果
