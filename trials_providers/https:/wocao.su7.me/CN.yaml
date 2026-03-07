@@ -1,7 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: 🇭🇰 香港代理01 - 美心TG, server: hkt.karyl.cc, port: 40404, type: socks5, username: 4916f815-c496-44c2-8070-6d66be4a97c1, password: 4916f815-c496-44c2-8070-6d66be4a97c1, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾代理01 - 美心TG, server: hkt.karyl.cc, port: 40604, type: socks5, username: 4916f815-c496-44c2-8070-6d66be4a97c1, password: 4916f815-c496-44c2-8070-6d66be4a97c1, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港代理02 - 美心TG, server: hkt.karyl.cc, port: 40404, type: socks5, username: 4916f815-c496-44c2-8070-6d66be4a97c1, password: 4916f815-c496-44c2-8070-6d66be4a97c1, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾代理02 - 美心TG, server: hkt.karyl.cc, port: 40604, type: socks5, username: 4916f815-c496-44c2-8070-6d66be4a97c1, password: 4916f815-c496-44c2-8070-6d66be4a97c1, skip-cert-verify: true, udp: true}

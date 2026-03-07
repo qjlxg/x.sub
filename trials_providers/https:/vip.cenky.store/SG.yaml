@@ -1,4 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: 🇸🇬 trojan | 新加坡 | 1 - 火箭加速, server: xsg1.vncky.app, port: 38492, type: trojan, password: ad2056ed-3458-3622-b1e4-4bb15d404283, sni: xsg1.vncky.app, skip-cert-verify: true, udp: true}

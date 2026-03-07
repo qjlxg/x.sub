@@ -1,5 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: 🇹🇼 台湾 01〖中转-CN2线路〗 - QinggoCloud, server: gz-1.jdweblink.live, port: 12337, type: vmess, uuid: 44c407b6-ba75-3674-9dfa-b7cc5d12629c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: www.bing.com}}, udp: true}
-- {name: 🇹🇼 台湾 02〖中转-CN2线路〗 - QinggoCloud, server: gz-2.jdweblink.live, port: 12377, type: vmess, uuid: 44c407b6-ba75-3674-9dfa-b7cc5d12629c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: www.bing.com}}, udp: true}

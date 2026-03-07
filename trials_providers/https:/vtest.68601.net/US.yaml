@@ -1,5 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: 🇺🇸 美国163普通线路 - 小蜜蜂, server: jmyd.ny111xx.xin, port: 3369, type: ss, cipher: chacha20-ietf-poly1305, password: 3cd39b0d-fdb4-4aa4-bdc3-97b50ffe5948, udp: true}
-- {name: 🇺🇸 美国CN2内测精品01 - 小蜜蜂, server: jmyd.ny111xx.xin, port: 2433, type: ss, cipher: chacha20-ietf-poly1305, password: 3cd39b0d-fdb4-4aa4-bdc3-97b50ffe5948, udp: true}

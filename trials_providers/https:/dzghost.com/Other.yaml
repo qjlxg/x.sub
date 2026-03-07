@@ -1,7 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: xinjiapo - Ghost, server: g3.dzghost.com, port: 1083, type: trojan, password: 14ee4265-1bc8-4661-8238-7fcded273ddb, sni: g3.dzghost.com, skip-cert-verify: true, udp: true}
-- {name: xinjiapo - Ghost 2, server: g2.dzghost.com, port: 1082, type: ss, cipher: chacha20-ietf-poly1305, password: 14ee4265-1bc8-4661-8238-7fcded273ddb, udp: true}
-- {name: xinjiapo - Ghost 3, server: g1.dzghost.com, port: 1084, type: vmess, uuid: 14ee4265-1bc8-4661-8238-7fcded273ddb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: g2.dzghost.com, network: ws, ws-opts: {path: /dzghost123, headers: {Host: www.bing.com}}, udp: true}
-- {name: xinjiapor - Ghost, server: g1.dzghost.com, port: 443, type: vmess, uuid: 14ee4265-1bc8-4661-8238-7fcded273ddb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: g1.dzghost.com, udp: true}

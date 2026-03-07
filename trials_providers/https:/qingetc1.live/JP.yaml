@@ -1,9 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: 🇯🇵 日本 01〖中转-CN2线路〗 - QinggoCloud, server: gz-1.jdweblink.live, port: 12380, type: vmess, uuid: 97774328-0bc1-30b9-8f79-980366da93de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: www.bing.com}}, udp: true}
-- {name: 🇯🇵 日本 02〖中转-广州移动〗 - QinggoCloud, server: gz-2.jdweblink.live, port: 12381, type: vmess, uuid: 97774328-0bc1-30b9-8f79-980366da93de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: www.bing.com}}, udp: true}
-- {name: 🇯🇵 日本 03 〖中转-CN2线路〗 - QinggoCloud, server: gzcm1.jdweblink.live, port: 12382, type: vmess, uuid: 97774328-0bc1-30b9-8f79-980366da93de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: www.bing.com}}, udp: true}
-- {name: 🇯🇵 日本 04 〖中转-广州移动〗 - QinggoCloud, server: gzcm2.jdweblink.live, port: 12387, type: vmess, uuid: 97774328-0bc1-30b9-8f79-980366da93de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: www.bing.com}}, udp: true}
-- {name: 🇯🇵 日本 05 〖直连-CN2线路〗 - QinggoCloud, server: gzcm1.jdweblink.live, port: 12382, type: vmess, uuid: 97774328-0bc1-30b9-8f79-980366da93de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: www.bing.com}}, udp: true}
-- {name: 🇯🇵 日本 06 〖直连-CN2线路〗 - QinggoCloud, server: gzcm2.jdweblink.live, port: 12387, type: vmess, uuid: 97774328-0bc1-30b9-8f79-980366da93de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: www.bing.com}}, udp: true}
