@@ -1,5 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: 🇸🇬 新加坡IEPL 01 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 21502, type: ss, cipher: aes-128-gcm, password: f2e534f1-4010-4ebc-9222-a600a0299a66, udp: true}
-- {name: 🇸🇬 新加坡IEPL 02 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 21502, type: ss, cipher: aes-128-gcm, password: f2e534f1-4010-4ebc-9222-a600a0299a66, udp: true}

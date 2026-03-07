@@ -1,4 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: '🇹🇼 [ss]台湾1-SS - 鸿蒙遨游', server: hmtw.my169vip.top, port: 31300, type: ss, cipher: aes-128-gcm, password: 476b46bd-c9d1-46ea-a306-dba3149350f6, udp: true}

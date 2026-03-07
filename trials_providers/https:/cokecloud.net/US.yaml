@@ -1,4 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: 🇺🇸 US.美国 | 试用 - 𝘾𝙤𝙠𝙚𝘾𝙡𝙤𝙪𝙙, server: us.cokecloud.link, port: 40793, type: ss, cipher: chacha20-ietf-poly1305, password: 254a7d2e-1285-482c-8526-de30d31d8c91, udp: true}

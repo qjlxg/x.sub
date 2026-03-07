@@ -1,4 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: 🇸🇬 SGP.新加坡 | 试用 - 𝘾𝙤𝙠𝙚𝘾𝙡𝙤𝙪𝙙, server: sgp.cokecloud.link, port: 43461, type: ss, cipher: aes-128-gcm, password: 254a7d2e-1285-482c-8526-de30d31d8c91, udp: true}

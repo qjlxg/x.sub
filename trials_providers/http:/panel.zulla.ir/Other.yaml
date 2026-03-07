@@ -1,5 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: ⛔اشتراک را تمدید کنید⛔ - 101, server: empty.node, port: 443, type: trojan, password: 90b8a4e9-be9c-4233-be34-ceb879a49244, sni: empty.node, skip-cert-verify: true, udp: true}
-- {name: ⛔اشتراک منقضی شده است⛔ - 101, server: empty.node, port: 443, type: trojan, password: 90b8a4e9-be9c-4233-be34-ceb879a49244, sni: empty.node, skip-cert-verify: true, udp: true}
