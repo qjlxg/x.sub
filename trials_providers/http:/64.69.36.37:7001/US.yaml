@@ -1,0 +1,6 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇺🇸美国1 - 宝格, server: shrimp-door-9527.gym0boy.com, port: 23318, type: ss, cipher: chacha20-ietf-poly1305, password: 29ea06a6-62f8-454a-96bb-12a08d8b377a, udp: true}
+- {name: 🇺🇸美国2 - 宝格, server: shrimp-door-9527.gym0boy.com, port: 16325, type: ss, cipher: chacha20-ietf-poly1305, password: 29ea06a6-62f8-454a-96bb-12a08d8b377a, udp: true}
+- {name: 🇺🇸美国4 - 宝格, server: shrimp-door-9527.gym0boy.com, port: 17779, type: ss, cipher: chacha20-ietf-poly1305, password: 29ea06a6-62f8-454a-96bb-12a08d8b377a, udp: true}
