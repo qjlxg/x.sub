@@ -19,16 +19,13 @@ proxy-groups:
   - REJECT
 - name: ⚡ ‍低延迟
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 30
   tolerance: 100
-  proxies: &id001
-  - 🇯🇵 日本电信IEPL-001 - 小蜜蜂
-  - 🇺🇸 美国163普通线路 - 小蜜蜂
-  - 🇺🇸 美国CN2内测精品01 - 小蜜蜂
+  use: &id001
+  - JP
+  - US
 - name: 👆🏻 ‍指定
   type: select
-  proxies: *id001
+  use: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -65,29 +62,39 @@ proxy-groups:
   - 💩 ‍广告
 - name: 🇯🇵 ‍日本
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 100
-  proxies: &id002
-  - 🇯🇵 日本电信IEPL-001 - 小蜜蜂
+  use: &id002
+  - JP
 - name: 🇺🇸 ‍美国
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 300
-  proxies: &id003
-  - 🇺🇸 美国163普通线路 - 小蜜蜂
-  - 🇺🇸 美国CN2内测精品01 - 小蜜蜂
+  use: &id003
+  - US
 - name: 👆🏻🇯🇵 ‍日本
   type: select
-  proxies: *id002
+  use: *id002
 - name: 👆🏻🇺🇸 ‍美国
   type: select
-  proxies: *id003
-proxies:
-- {name: 🇯🇵 日本电信IEPL-001 - 小蜜蜂, server: jmyd.ny111xx.xin, port: 33001, type: ss, cipher: chacha20-ietf-poly1305, password: 3cd39b0d-fdb4-4aa4-bdc3-97b50ffe5948, udp: true}
-- {name: 🇺🇸 美国163普通线路 - 小蜜蜂, server: jmyd.ny111xx.xin, port: 3369, type: ss, cipher: chacha20-ietf-poly1305, password: 3cd39b0d-fdb4-4aa4-bdc3-97b50ffe5948, udp: true}
-- {name: 🇺🇸 美国CN2内测精品01 - 小蜜蜂, server: jmyd.ny111xx.xin, port: 2433, type: ss, cipher: chacha20-ietf-poly1305, password: 3cd39b0d-fdb4-4aa4-bdc3-97b50ffe5948, udp: true}
+  use: *id003
+proxy-providers:
+  JP:
+    type: http
+    url: https://raw.kgithub.com/qjlxg/x.sub/main/trials_providers/http://172.96.142.65:9001/JP.yaml
+    interval: 180
+    path: trials_providers/http://172.96.142.65:9001/JP.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  US:
+    type: http
+    url: https://raw.kgithub.com/qjlxg/x.sub/main/trials_providers/http://172.96.142.65:9001/US.yaml
+    interval: 180
+    path: trials_providers/http://172.96.142.65:9001/US.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT

@@ -1,0 +1,4 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇯🇵 日本电信IEPL-001 - 小蜜蜂, server: jmyd.ny111xx.xin, port: 33001, type: ss, cipher: chacha20-ietf-poly1305, password: ed2aa592-2b83-455d-8967-d338b35d07ca, udp: true}

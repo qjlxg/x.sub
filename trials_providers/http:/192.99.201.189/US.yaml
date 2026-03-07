@@ -1,8 +1,8 @@
 %YAML 1.1
 ---
 proxies:
-- {name: Lv1-🇺🇸美国1「1X」 - 柚子酱, server: T570zUi9Lqdr3yktpvjM.01.karyl.top, port: 32104, type: trojan, password: d71c2ed4-2f99-4ed4-8a1f-078218bdd5c1, sni: us.karyl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us.karyl.cc}}, udp: true}
-- {name: Lv1-🇺🇸美国2「1X」 - 柚子酱, server: SZ0lbjXQNdJsxv4OtUC7.02.karyl.top, port: 32104, type: trojan, password: d71c2ed4-2f99-4ed4-8a1f-078218bdd5c1, sni: us.karyl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us.karyl.cc}}, udp: true}
-- {name: Lv1-🇺🇸美国3「1X」 - 柚子酱, server: sCd1BIwTD4G7okVvMAX2.03.karyl.top, port: 32104, type: trojan, password: d71c2ed4-2f99-4ed4-8a1f-078218bdd5c1, sni: us.karyl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us.karyl.cc}}, udp: true}
-- {name: Lv2-🇺🇸美国01流媒体「1X」 - 柚子酱, server: hdOMDBvbTmiGCQtU3uJW.a.karyl.top, port: 32205, type: trojan, password: d71c2ed4-2f99-4ed4-8a1f-078218bdd5c1, sni: s1.hdslb.com, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.hdslb.com}}, udp: true}
-- {name: Lv2-🇺🇸美国02流媒体「1X」 - 柚子酱, server: gziHrDFCbUA4wRScmE5t.b.karyl.top, port: 32205, type: trojan, password: d71c2ed4-2f99-4ed4-8a1f-078218bdd5c1, sni: s1.hdslb.com, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.hdslb.com}}, udp: true}
+- {name: Lv1-🇺🇸美国1「1X」 - 柚子酱, server: T4qEKH2xtpA0eyShFmbG.01.karyl.top, port: 32104, type: trojan, password: d71c2ed4-2f99-4ed4-8a1f-078218bdd5c1, sni: us.karyl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us.karyl.cc}}, udp: true}
+- {name: Lv1-🇺🇸美国2「1X」 - 柚子酱, server: x14O7hGWREF35rgqlSwZ.02.karyl.top, port: 32104, type: trojan, password: d71c2ed4-2f99-4ed4-8a1f-078218bdd5c1, sni: us.karyl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us.karyl.cc}}, udp: true}
+- {name: Lv1-🇺🇸美国3「1X」 - 柚子酱, server: uXSyD5f7PEVN0vkmHxps.03.karyl.top, port: 32104, type: trojan, password: d71c2ed4-2f99-4ed4-8a1f-078218bdd5c1, sni: us.karyl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us.karyl.cc}}, udp: true}
+- {name: Lv2-🇺🇸美国01流媒体「1X」 - 柚子酱, server: 8xZpUVrblgRFyhX2w4aB.a.karyl.top, port: 32205, type: trojan, password: d71c2ed4-2f99-4ed4-8a1f-078218bdd5c1, sni: s1.hdslb.com, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.hdslb.com}}, udp: true}
+- {name: Lv2-🇺🇸美国02流媒体「1X」 - 柚子酱, server: oPBUHZS63zsNDcdyVxki.b.karyl.top, port: 32205, type: trojan, password: d71c2ed4-2f99-4ed4-8a1f-078218bdd5c1, sni: s1.hdslb.com, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.hdslb.com}}, udp: true}
