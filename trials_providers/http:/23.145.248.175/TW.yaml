@@ -1,0 +1,5 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇹🇼 🇨🇳 台湾台北IEPL 01 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 27207, type: ss, cipher: aes-128-gcm, password: 41953624-b3d0-4ebb-825c-cfbbc5e7a558, udp: true}
+- {name: 🇹🇼 🇨🇳 台湾台北IEPL 02 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 27207, type: ss, cipher: aes-128-gcm, password: 41953624-b3d0-4ebb-825c-cfbbc5e7a558, udp: true}

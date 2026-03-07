@@ -1,0 +1,9 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇯🇵 日本东京IEPL 01 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 41898, type: ss, cipher: aes-128-gcm, password: 41953624-b3d0-4ebb-825c-cfbbc5e7a558, udp: true}
+- {name: 🇯🇵 日本东京IEPL 02 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 41898, type: ss, cipher: aes-128-gcm, password: 41953624-b3d0-4ebb-825c-cfbbc5e7a558, udp: true}
+- {name: 🇯🇵 日本大阪IEPL 01 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 20492, type: ss, cipher: aes-128-gcm, password: 41953624-b3d0-4ebb-825c-cfbbc5e7a558, udp: true}
+- {name: 🇯🇵 日本大阪IEPL 02 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 20492, type: ss, cipher: aes-128-gcm, password: 41953624-b3d0-4ebb-825c-cfbbc5e7a558, udp: true}
+- {name: 🇯🇵 日本东京IEPL 03 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 30533, type: ss, cipher: aes-128-gcm, password: 41953624-b3d0-4ebb-825c-cfbbc5e7a558, udp: true}
+- {name: 🇯🇵 日本东京IEPL 04 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 30533, type: ss, cipher: aes-128-gcm, password: 41953624-b3d0-4ebb-825c-cfbbc5e7a558, udp: true}

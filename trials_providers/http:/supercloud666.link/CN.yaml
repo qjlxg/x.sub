@@ -1,0 +1,17 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇭🇰 如遇不能使用，请先更新订阅 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 26037, type: ss, cipher: aes-128-gcm, password: f2e534f1-4010-4ebc-9222-a600a0299a66, udp: true}
+- {name: '🇭🇰 倍率: IEPL1-2x IPLC15x - ɢᴛᴀ ᴄʟᴏᴜᴅ', server: gz.gtacdnsub.work, port: 26037, type: ss, cipher: aes-128-gcm, password: f2e534f1-4010-4ebc-9222-a600a0299a66, udp: true}
+- {name: 🇭🇰 香港IEPL 01 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 26037, type: ss, cipher: aes-128-gcm, password: f2e534f1-4010-4ebc-9222-a600a0299a66, udp: true}
+- {name: 🇭🇰 香港IEPL 02 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 26037, type: ss, cipher: aes-128-gcm, password: f2e534f1-4010-4ebc-9222-a600a0299a66, udp: true}
+- {name: 🇭🇰 香港IEPL 05 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 30511, type: ss, cipher: aes-128-gcm, password: f2e534f1-4010-4ebc-9222-a600a0299a66, udp: true}
+- {name: 🇭🇰 香港IEPL 06 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 30511, type: ss, cipher: aes-128-gcm, password: f2e534f1-4010-4ebc-9222-a600a0299a66, udp: true}
+- {name: 🇭🇰 香港IEPL 07 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 13066, type: ss, cipher: aes-128-gcm, password: f2e534f1-4010-4ebc-9222-a600a0299a66, udp: true}
+- {name: 🇭🇰 香港IEPL 08 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 13066, type: ss, cipher: aes-128-gcm, password: f2e534f1-4010-4ebc-9222-a600a0299a66, udp: true}
+- {name: 🇭🇰 香港IEPL 09 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 24397, type: ss, cipher: aes-128-gcm, password: f2e534f1-4010-4ebc-9222-a600a0299a66, udp: true}
+- {name: 🇭🇰 香港IEPL 10 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 24397, type: ss, cipher: aes-128-gcm, password: f2e534f1-4010-4ebc-9222-a600a0299a66, udp: true}
+- {name: 🇭🇰 香港IEPL 11 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 27355, type: ss, cipher: aes-128-gcm, password: f2e534f1-4010-4ebc-9222-a600a0299a66, udp: true}
+- {name: 🇭🇰 香港IEPL 12 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 27355, type: ss, cipher: aes-128-gcm, password: f2e534f1-4010-4ebc-9222-a600a0299a66, udp: true}
+- {name: 🇹🇼 🇨🇳 台湾台北IEPL 01 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 27207, type: ss, cipher: aes-128-gcm, password: f2e534f1-4010-4ebc-9222-a600a0299a66, udp: true}
+- {name: 🇹🇼 🇨🇳 台湾台北IEPL 02 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 27207, type: ss, cipher: aes-128-gcm, password: f2e534f1-4010-4ebc-9222-a600a0299a66, udp: true}

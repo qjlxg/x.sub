@@ -1,0 +1,7 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇭🇰 HK 香港 1 - 快鸟云, server: video.woaibilibili.live, port: 35410, type: ss, cipher: aes-128-gcm, password: 5fdfed6e-a75a-4073-82a8-d8ca49626d6c, udp: true}
+- {name: 🇭🇰 HK 香港 2 - 快鸟云, server: movie.woaibilibili.live, port: 35411, type: ss, cipher: aes-128-gcm, password: 5fdfed6e-a75a-4073-82a8-d8ca49626d6c, udp: true}
+- {name: 🇹🇼 TW 台湾 1 - 快鸟云, server: video.woaibilibili.live, port: 35420, type: ss, cipher: aes-128-gcm, password: 5fdfed6e-a75a-4073-82a8-d8ca49626d6c, udp: true}
+- {name: 🇹🇼 TW 台湾 2 - 快鸟云, server: movie.woaibilibili.live, port: 35421, type: ss, cipher: aes-128-gcm, password: 5fdfed6e-a75a-4073-82a8-d8ca49626d6c, udp: true}

@@ -1,0 +1,7 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇭🇰 香港 01 优化 - TeraCloud, server: 43.139.22.161, port: 20005, type: trojan, password: b16bff34-2035-4a4e-8d99-c52eee62999c, sni: node8.1000ws.top, skip-cert-verify: true, network: grpc, grpc-opts: {grpc-service-name: grpchongkong3}, udp: true}
+- {name: 🇭🇰 香港 02 优化 - TeraCloud, server: 157.254.32.57, port: 443, type: trojan, password: b16bff34-2035-4a4e-8d99-c52eee62999c, sni: node8.1000ws.top, skip-cert-verify: true, network: grpc, grpc-opts: {grpc-service-name: grpchongkong3}, udp: true}
+- {name: 🇭🇰 香港 03 优化 - TeraCloud, server: 43.139.22.161, port: 20031, type: trojan, password: b16bff34-2035-4a4e-8d99-c52eee62999c, sni: node8.1000ws.top, skip-cert-verify: true, network: grpc, grpc-opts: {grpc-service-name: grpchongkong3}, udp: true}
+- {name: 🇭🇰 香港 04 优化 - TeraCloud, server: 14.215.39.204, port: 11021, type: trojan, password: b16bff34-2035-4a4e-8d99-c52eee62999c, sni: node8.1000ws.top, skip-cert-verify: true, network: grpc, grpc-opts: {grpc-service-name: grpchongkong3}, udp: true}
