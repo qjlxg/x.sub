@@ -1,0 +1,7 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇺🇸 US02 - V2WORD Pro, server: 142.171.108.118, port: 23000, type: ss, cipher: 2022-blake3-aes-256-gcm, password: OGJmYjE2NWUyOTdjZGNhZTg0ZmNiZmNiMWRmYmQ5YmU=:ZmFhNjRlNjEtNzJhYi00MzFmLTliNjUtZDUxOWRiOWI=, udp: true}
+- {name: '🇺🇸 US02[JMSWYHEDU2026] - V2WORD Pro', server: jmswyh.edu2026.cn, port: 23000, type: ss, cipher: 2022-blake3-aes-256-gcm, password: OGJmYjE2NWUyOTdjZGNhZTg0ZmNiZmNiMWRmYmQ5YmU=:ZmFhNjRlNjEtNzJhYi00MzFmLTliNjUtZDUxOWRiOWI=, udp: true}
+- {name: 🇺🇸 US03 - V2WORD Pro, server: 142.171.108.102, port: 22000, type: ss, cipher: 2022-blake3-aes-256-gcm, password: OGJmYjE2NWUyOTdjZGNhZTg0ZmNiZmNiMWRmYmQ5YmU=:ZmFhNjRlNjEtNzJhYi00MzFmLTliNjUtZDUxOWRiOWI=, udp: true}
+- {name: '🇺🇸 US03[JMSWYHEDU2026] - V2WORD Pro', server: jmswyh.edu2026.cn, port: 22000, type: ss, cipher: 2022-blake3-aes-256-gcm, password: OGJmYjE2NWUyOTdjZGNhZTg0ZmNiZmNiMWRmYmQ5YmU=:ZmFhNjRlNjEtNzJhYi00MzFmLTliNjUtZDUxOWRiOWI=, udp: true}

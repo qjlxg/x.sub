@@ -1,0 +1,7 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇲🇾 MY01 - V2WORD Pro, server: 111.90.149.23, port: 20110, type: ss, cipher: aes-256-gcm, password: faa64e61-72ab-431f-9b65-d519db9b8ac4, udp: true}
+- {name: '🇲🇾 MY01[JMSWYHEDU2026] - V2WORD Pro', server: jmswyh.edu2026.cn, port: 20110, type: ss, cipher: aes-256-gcm, password: faa64e61-72ab-431f-9b65-d519db9b8ac4, udp: true}
+- {name: 🇳🇬 Nigeria01 - V2WORD Pro, server: 176.97.192.121, port: 20282, type: ss, cipher: 2022-blake3-aes-256-gcm, password: OGJmYjE2NWUyOTdjZGNhZTg0ZmNiZmNiMWRmYmQ5YmU=:ZmFhNjRlNjEtNzJhYi00MzFmLTliNjUtZDUxOWRiOWI=, udp: true}
+- {name: '🇳🇬 Nigeria01[JMSWYHEDU2026] - V2WORD Pro', server: jmswyh.edu2026.cn, port: 20282, type: ss, cipher: 2022-blake3-aes-256-gcm, password: OGJmYjE2NWUyOTdjZGNhZTg0ZmNiZmNiMWRmYmQ5YmU=:ZmFhNjRlNjEtNzJhYi00MzFmLTliNjUtZDUxOWRiOWI=, udp: true}

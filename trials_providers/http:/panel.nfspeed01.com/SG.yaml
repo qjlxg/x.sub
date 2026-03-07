@@ -1,0 +1,4 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇸🇬 新加坡 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - Newflix加速器, server: cdntwa.xiaomispeed.com, port: 43301, type: trojan, password: 68b2be85-fc17-49c4-a0e8-91ce604c83f5, sni: cdntwa.xiaomispeed.com, skip-cert-verify: true, udp: true}

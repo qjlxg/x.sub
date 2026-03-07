@@ -1,0 +1,5 @@
+%YAML 1.1
+---
+proxies:
+- {name: 鲨鱼云-免费节点 - 鲨鱼云, server: 127.0.0.1, port: 11111, type: ss, cipher: aes-128-gcm, password: b663cd5a-6b8b-47aa-82df-849125ecb083, udp: true}
+- {name: ℹ️ 订阅：snip.798777.xyz/shayu - 鲨鱼云, server: snip.798777.xyz/shayu, port: 11111, type: ss, cipher: aes-128-gcm, password: b663cd5a-6b8b-47aa-82df-849125ecb083, udp: true}
