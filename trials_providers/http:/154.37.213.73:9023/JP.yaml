@@ -1,4 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: 🇯🇵 日本东京 - OurFast, server: node6.ourfast.asia, port: 443, type: vmess, uuid: 8f9b6fd0-7a81-4d4b-9176-f5ac196fad8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: node6.ourfast.asia}}, udp: true}

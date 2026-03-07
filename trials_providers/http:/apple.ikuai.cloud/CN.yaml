@@ -1,7 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: 🇭🇰 D線中轉香港-NFHK - iKuai加速器, server: ikuai.bot.nu, port: 50852, type: trojan, password: e316ce7e-d20c-3ba0-800e-2471d5fa5d54, sni: ikuai.bot.nu, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 直連香港v6-NFHK - iKuai加速器, server: ikuai.uk.to, port: 50852, type: trojan, password: e316ce7e-d20c-3ba0-800e-2471d5fa5d54, sni: ikuai.uk.to, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 D線中轉香港-NFHK - iKuai加速器 2, server: ikuai.bot.nu, port: 50852, type: trojan, password: e316ce7e-d20c-3ba0-800e-2471d5fa5d54, sni: ikuai.bot.nu, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 直連香港v6-NFHK - iKuai加速器 2, server: ikuai.uk.to, port: 50852, type: trojan, password: e316ce7e-d20c-3ba0-800e-2471d5fa5d54, sni: ikuai.uk.to, skip-cert-verify: true, udp: true}

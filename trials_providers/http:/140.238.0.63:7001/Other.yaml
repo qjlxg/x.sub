@@ -1,6 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: 🇰🇷 韩国-91 - 阿里云云, server: 140.238.0.63, port: 37805, type: ss, cipher: chacha20-ietf-poly1305, password: 0e02b699-91f2-4f7c-af9a-1937698cc787, udp: true}
-- {name: 🇰🇷 ss-韩国143 - 阿里云云, server: 193.123.248.143, port: 37800, type: ss, cipher: chacha20-ietf-poly1305, password: 0e02b699-91f2-4f7c-af9a-1937698cc787, udp: true}
-- {name: 🇰🇷 kr-1224 - 阿里云云, server: 152.70.239.30, port: 39300, type: ss, cipher: chacha20-ietf-poly1305, password: 0e02b699-91f2-4f7c-af9a-1937698cc787, udp: true}

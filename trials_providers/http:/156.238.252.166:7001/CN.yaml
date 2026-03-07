@@ -1,5 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: 🇭🇰 jpiij-深港IX - AD的妙妙屋, server: 120.76.156.1, port: 29568, type: vmess, uuid: 74dfa6ab-84ad-4903-8646-436dd2e14be2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 jpiij-深港IX-备用 - AD的妙妙屋, server: dix.yiandrive.com, port: 59511, type: vmess, uuid: 74dfa6ab-84ad-4903-8646-436dd2e14be2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}

@@ -1,4 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: vmess 测试 - Apptest, server: 98.tw-nodes.xyz, port: 443, type: vmess, uuid: 8faa8cdd-3184-326c-a57d-d3202f293b6e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 98.tw-nodes.xyz, network: ws, ws-opts: {path: /jkl, headers: {Host: 98.tw-nodes.xyz}}, udp: true}

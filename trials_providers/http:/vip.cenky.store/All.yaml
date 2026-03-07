@@ -1,8 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: 'ℹ️ 官网: xhj.bnsrf.com - 火箭加速', server: xsg2.vncky.app, port: 38493, type: trojan, password: 79a1480f-d615-3bfc-be74-f69a22be5d98, sni: xsg2.vncky.app, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 trojan | 日本 | 2 - 火箭加速, server: xjp2.vncky.app, port: 33843, type: trojan, password: 79a1480f-d615-3bfc-be74-f69a22be5d98, sni: xjp2.vncky.app, skip-cert-verify: true, udp: true}
-- {name: 🇺🇲 trojan | 美国 | 1 - 火箭加速, server: xus1.vncky.app, port: 33910, type: trojan, password: 79a1480f-d615-3bfc-be74-f69a22be5d98, sni: xus1.vncky.app, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 trojan | 新加坡 | 1 - 火箭加速, server: xsg1.vncky.app, port: 38492, type: trojan, password: 79a1480f-d615-3bfc-be74-f69a22be5d98, sni: xsg1.vncky.app, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 trojan | 日本 | 1 - 火箭加速, server: xjp1.vncky.app, port: 33842, type: trojan, password: 79a1480f-d615-3bfc-be74-f69a22be5d98, sni: xjp1.vncky.app, skip-cert-verify: true, udp: true}

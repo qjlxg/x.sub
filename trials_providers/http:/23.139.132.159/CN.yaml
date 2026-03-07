@@ -1,4 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: 🇭🇰 hk-100g.dns.dosocks.com - dosocks.com, server: hk-100g.dns.dosocks.com, port: 25331, type: ss, cipher: chacha20-ietf-poly1305, password: 6267971b-4573-4ad6-ae43-f0424e366a4e, udp: true}

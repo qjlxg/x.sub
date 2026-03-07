@@ -1,5 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: 🇭🇰 Hk 香港 1 - 爱快, server: 01.ikuaivpn.uk, port: 53531, type: ss, cipher: chacha20-ietf-poly1305, password: 0a84fc18-273a-47dd-8991-5cbf7fec626b, udp: true}
-- {name: 🇭🇰 Hk 香港 2 - 爱快, server: 02.ikuaivpn.uk, port: 53532, type: ss, cipher: chacha20-ietf-poly1305, password: 0a84fc18-273a-47dd-8991-5cbf7fec626b, udp: true}

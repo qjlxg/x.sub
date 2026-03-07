@@ -1,4 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: 🇭🇰 香港高速节点 一机一节点 - hk糖水铺, server: 206.237.28.189, port: 443, type: vmess, uuid: 8cdae3a2-6db8-4176-9694-90642144f13e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}

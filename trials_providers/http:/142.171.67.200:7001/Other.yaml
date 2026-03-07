@@ -1,4 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: '[trojan]Trojan - XBoard', server: 142.171.67.200, port: 12345, type: trojan, password: 1c1f2ec2-c0d6-4aeb-a4cd-2f184621f00a, sni: hy2.heatwarm.top, skip-cert-verify: true, udp: true}

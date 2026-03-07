@@ -1,4 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: ℹ️ 【注意】请SSR用户尽快更换为V2ray网站首页有教程！ - greatdeal, server: 【注意】请SSR用户尽快更换为V2ray网站首页有教程！, port: 543, type: ssr, cipher: aes-256-cfb, password: !<str> 543, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 7718:CKAUBf, obfs-param: becc17718.wns.windows.com, udp: true}

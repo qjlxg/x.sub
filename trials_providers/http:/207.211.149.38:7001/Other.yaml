@@ -1,4 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: 🇦🇺 墨尔本 - Xboard, server: 20250424-5r6z5aSn5Y-65079.xuxiaoshan.top, port: 25088, type: trojan, password: b205e905-e368-4f36-9eca-638078586496, skip-cert-verify: true, udp: true}

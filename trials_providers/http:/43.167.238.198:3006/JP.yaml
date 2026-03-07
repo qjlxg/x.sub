@@ -1,4 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: 🇯🇵 日本 - V2Board, server: 43.167.238.198, port: 3002, type: vmess, uuid: 319bfd8d-0a59-4c0e-972b-e74990da668e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}

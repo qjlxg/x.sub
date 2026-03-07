@@ -1,4 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: 🇺🇲 trojan | 美国 | 1 - 火箭加速, server: xus1.vncky.app, port: 33910, type: trojan, password: 79a1480f-d615-3bfc-be74-f69a22be5d98, sni: xus1.vncky.app, skip-cert-verify: true, udp: true}
