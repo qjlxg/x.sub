@@ -1,0 +1,4 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇯🇵 日本--（Huateng） - Huateng, server: node.huateng123.top, port: 443, type: trojan, password: b595d527-e553-43a5-b234-79df827643c5, sni: node.huateng123.top, skip-cert-verify: true, udp: true}

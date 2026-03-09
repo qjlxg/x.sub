@@ -1,0 +1,4 @@
+%YAML 1.1
+---
+proxies:
+- {name: '[trojan]trojan_1 - Xboard', server: 184.168.126.62, port: 30443, type: trojan, password: 71236c3a-e4f8-41ea-855d-40967f32f4f8, sni: hy2.btfull.info, skip-cert-verify: true, udp: true}

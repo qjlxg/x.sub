@@ -1,0 +1,7 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇺🇸美国 01 | 专线 - 一绝站点, server: us1.18864e74-2f23-73c1-1aea-371ddec8a8a1.36a8c922.the-best-airport.com, port: 443, type: trojan, password: a241cf26-0a35-4a8e-9340-dba53dd00491, sni: new.download.the-best-airport.com, skip-cert-verify: true, udp: true, tfo: true}
+- {name: 🇺🇸美国 02 | 专线 - 一绝站点, server: us2.18864e74-2f23-73c1-1aea-371ddec8a8a1.2f6cd430.the-best-airport.com, port: 443, type: trojan, password: a241cf26-0a35-4a8e-9340-dba53dd00491, sni: new.download.the-best-airport.com, skip-cert-verify: true, udp: true, tfo: true}
+- {name: 🇺🇸美国 03 | 专线 - 一绝站点, server: us3.18864e74-2f23-73c1-1aea-371ddec8a8a1.47253001.the-best-airport.com, port: 443, type: trojan, password: a241cf26-0a35-4a8e-9340-dba53dd00491, sni: new.download.the-best-airport.com, skip-cert-verify: true, udp: true, tfo: true}
+- {name: 🇺🇸美国 04 | 专线 - 一绝站点, server: us4.18864e74-2f23-73c1-1aea-371ddec8a8a1.30d6a0d0.the-best-airport.com, port: 443, type: trojan, password: a241cf26-0a35-4a8e-9340-dba53dd00491, sni: new.download.the-best-airport.com, skip-cert-verify: true, udp: true, tfo: true}

@@ -1,0 +1,5 @@
+%YAML 1.1
+---
+proxies:
+- {name: 一元机场.asia - 一绝站点, server: 0.0.0.0, port: 443, type: trojan, password: a241cf26-0a35-4a8e-9340-dba53dd00491, sni: 0.0.0.0, skip-cert-verify: true, udp: true, tfo: true}
+- {name: ℹ️ 请立即到官网下载新客户端！ - 一绝站点, server: 0.0.0.0, port: 443, type: trojan, password: a241cf26-0a35-4a8e-9340-dba53dd00491, sni: 0.0.0.0, skip-cert-verify: true, udp: true, tfo: true}

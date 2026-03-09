@@ -1,0 +1,4 @@
+%YAML 1.1
+---
+proxies:
+- {name: ℹ️ 备用地址：vip.thenlink.cloud - Thenlink, server: 154.36.144.253, port: 443, type: trojan, password: 6a2bd0ed-6039-494d-b966-d2b169cabf17, sni: hk01.thenlink.one, skip-cert-verify: true, network: ws, ws-opts: {path: '', headers: {Host: hk01.thenlink.one}}, udp: true}
