@@ -1,0 +1,10 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇨🇦 加拿大 1 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 36493, type: ss, cipher: aes-128-gcm, password: aa47efb4-47ed-4d12-bc18-35d89c47f3d5, udp: true}
+- {name: 🇻🇳 越南 河内IEPL 01 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 44144, type: ss, cipher: aes-128-gcm, password: aa47efb4-47ed-4d12-bc18-35d89c47f3d5, udp: true}
+- {name: 🇻🇳 越南 河内IEPL 02 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 36968, type: ss, cipher: aes-128-gcm, password: aa47efb4-47ed-4d12-bc18-35d89c47f3d5, udp: true}
+- {name: 🇻🇳 越南 河内IEPL 03 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 11506, type: ss, cipher: aes-128-gcm, password: aa47efb4-47ed-4d12-bc18-35d89c47f3d5, udp: true}
+- {name: 🇰🇿 哈萨克斯坦IEPL 01 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 19054, type: ss, cipher: aes-128-gcm, password: aa47efb4-47ed-4d12-bc18-35d89c47f3d5, udp: true}
+- {name: 🇦🇪  阿联酋 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 22651, type: ss, cipher: aes-128-gcm, password: aa47efb4-47ed-4d12-bc18-35d89c47f3d5, udp: true}
+- {name: 🇩🇪 德国纽伦堡 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: 103.181.165.140, port: 15625, type: ss, cipher: aes-128-gcm, password: aa47efb4-47ed-4d12-bc18-35d89c47f3d5, udp: true}

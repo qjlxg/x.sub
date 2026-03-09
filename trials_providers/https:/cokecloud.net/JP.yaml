@@ -1,0 +1,5 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇯🇵 JP.日本 | 试用 - 𝘾𝙤𝙠𝙚𝘾𝙡𝙤𝙪𝙙, server: jp.cokecloud.link, port: 13215, type: ss, cipher: chacha20-ietf-poly1305, password: 95e47f5b-0d8e-4ce6-bbd8-8dbc78ec2661, udp: true}
+- {name: 🇯🇵 日本（海外专用） - 𝘾𝙤𝙠𝙚𝘾𝙡𝙤𝙪𝙙, server: xj.cokecloud.link, port: 32283, type: trojan, password: 95e47f5b-0d8e-4ce6-bbd8-8dbc78ec2661, sni: xj.cokecloud.link, skip-cert-verify: true, udp: true}

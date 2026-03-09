@@ -1,0 +1,16 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇰🇷 KR.韩国 | 试用 - 𝘾𝙤𝙠𝙚𝘾𝙡𝙤𝙪𝙙, server: kr.cokecloud.link, port: 28595, type: ss, cipher: chacha20-ietf-poly1305, password: 1e124bbe-81fe-4f3b-a3e8-cfb41fb49e20, udp: true}
+- {name: 🇲🇾 ML.马来西亚 | 试用 - 𝘾𝙤𝙠𝙚𝘾𝙡𝙤𝙪𝙙, server: ml.cokecloud.link, port: 32128, type: ss, cipher: chacha20-ietf-poly1305, password: 1e124bbe-81fe-4f3b-a3e8-cfb41fb49e20, udp: true}
+- {name: 🇵🇭 PH.菲律宾 | 试用 - 𝘾𝙤𝙠𝙚𝘾𝙡𝙤𝙪𝙙, server: ph.cokecloud.link, port: 11277, type: ss, cipher: chacha20-ietf-poly1305, password: 1e124bbe-81fe-4f3b-a3e8-cfb41fb49e20, udp: true}
+- {name: 🇮🇩 ID.印度尼西亚 | 试用 - 𝘾𝙤𝙠𝙚𝘾𝙡𝙤𝙪𝙙, server: idn.cokecloud.link, port: 15447, type: ss, cipher: chacha20-ietf-poly1305, password: 1e124bbe-81fe-4f3b-a3e8-cfb41fb49e20, udp: true}
+- {name: 🇹🇷 TUR.土耳其 | 试用 - 𝘾𝙤𝙠𝙚𝘾𝙡𝙤𝙪𝙙, server: tur.cokecloud.link, port: 35495, type: ss, cipher: chacha20-ietf-poly1305, password: 1e124bbe-81fe-4f3b-a3e8-cfb41fb49e20, udp: true}
+- {name: 🇹🇭 TH.泰国 | 试用 - 𝘾𝙤𝙠𝙚𝘾𝙡𝙤𝙪𝙙, server: th.cokecloud.link, port: 15085, type: ss, cipher: chacha20-ietf-poly1305, password: 1e124bbe-81fe-4f3b-a3e8-cfb41fb49e20, udp: true}
+- {name: 🇻🇳 VN.越南 | 试用 - 𝘾𝙤𝙠𝙚𝘾𝙡𝙤𝙪𝙙, server: vn.cokecloud.link, port: 17463, type: ss, cipher: chacha20-ietf-poly1305, password: 1e124bbe-81fe-4f3b-a3e8-cfb41fb49e20, udp: true}
+- {name: 🇦🇺 AU.澳洲 | 试用 - 𝘾𝙤𝙠𝙚𝘾𝙡𝙤𝙪𝙙, server: au.cokecloud.link, port: 18071, type: ss, cipher: chacha20-ietf-poly1305, password: 1e124bbe-81fe-4f3b-a3e8-cfb41fb49e20, udp: true}
+- {name: 🇮🇳 IN.印度 | 试用 - 𝘾𝙤𝙠𝙚𝘾𝙡𝙤𝙪𝙙, server: id.cokecloud.link, port: 32725, type: ss, cipher: chacha20-ietf-poly1305, password: 1e124bbe-81fe-4f3b-a3e8-cfb41fb49e20, udp: true}
+- {name: 🇬🇧 UK.英国 | 试用 - 𝘾𝙤𝙠𝙚𝘾𝙡𝙤𝙪𝙙, server: uk.cokecloud.link, port: 54446, type: vmess, uuid: 1e124bbe-81fe-4f3b-a3e8-cfb41fb49e20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇩🇪 DE.德国 | 试用 - 𝘾𝙤𝙠𝙚𝘾𝙡𝙤𝙪𝙙, server: de.cokecloud.link, port: 13646, type: vmess, uuid: 1e124bbe-81fe-4f3b-a3e8-cfb41fb49e20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇷🇺 RU.俄国 | 试用 - 𝘾𝙤𝙠𝙚𝘾𝙡𝙤𝙪𝙙, server: ru.cokecloud.link, port: 49879, type: ss, cipher: chacha20-ietf-poly1305, password: 1e124bbe-81fe-4f3b-a3e8-cfb41fb49e20, udp: true}
+- {name: ℹ️ 导航页：www.可乐云.net - 𝘾𝙤𝙠𝙚𝘾𝙡𝙤𝙪𝙙, server: de.cokecloud.link, port: 13646, type: vmess, uuid: 1e124bbe-81fe-4f3b-a3e8-cfb41fb49e20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}

@@ -1,0 +1,4 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇭🇰 HK.香港 | 试用 - 𝘾𝙤𝙠𝙚𝘾𝙡𝙤𝙪𝙙, server: hk.cokecloud.link, port: 45861, type: vmess, uuid: 1e124bbe-81fe-4f3b-a3e8-cfb41fb49e20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
