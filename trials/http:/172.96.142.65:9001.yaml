@@ -24,8 +24,8 @@ proxy-groups:
   tolerance: 100
   proxies: &id001
   - 🇯🇵 日本电信IEPL-001 - 小蜜蜂
-  - 🇺🇸 美国CN2内测精品01 - 小蜜蜂
   - 🇺🇸 美国163普通线路 - 小蜜蜂
+  - 🇺🇸 美国CN2内测精品01 - 小蜜蜂
 - name: 👆🏻 ‍指定
   type: select
   proxies: *id001
@@ -76,8 +76,8 @@ proxy-groups:
   interval: 15
   tolerance: 300
   proxies: &id003
-  - 🇺🇸 美国CN2内测精品01 - 小蜜蜂
   - 🇺🇸 美国163普通线路 - 小蜜蜂
+  - 🇺🇸 美国CN2内测精品01 - 小蜜蜂
 - name: 👆🏻🇯🇵 ‍日本
   type: select
   proxies: *id002
@@ -85,9 +85,9 @@ proxy-groups:
   type: select
   proxies: *id003
 proxies:
-- {name: 🇯🇵 日本电信IEPL-001 - 小蜜蜂, server: jmyd.ny111xx.xin, port: 33001, type: ss, cipher: chacha20-ietf-poly1305, password: 726c7fae-b246-438c-9e52-b38e33a27b89, udp: true}
-- {name: 🇺🇸 美国CN2内测精品01 - 小蜜蜂, server: jmyd.ny111xx.xin, port: 2433, type: ss, cipher: chacha20-ietf-poly1305, password: 726c7fae-b246-438c-9e52-b38e33a27b89, udp: true}
-- {name: 🇺🇸 美国163普通线路 - 小蜜蜂, server: jmyd.ny111xx.xin, port: 3369, type: ss, cipher: chacha20-ietf-poly1305, password: 726c7fae-b246-438c-9e52-b38e33a27b89, udp: true}
+- {name: 🇺🇸 美国163普通线路 - 小蜜蜂, server: jmyd.ny111xx.xin, port: 3369, type: ss, cipher: chacha20-ietf-poly1305, password: c4af0e3d-d38f-4417-9b15-e520a49dafc5, udp: true}
+- {name: 🇯🇵 日本电信IEPL-001 - 小蜜蜂, server: jmyd.ny111xx.xin, port: 33001, type: ss, cipher: chacha20-ietf-poly1305, password: c4af0e3d-d38f-4417-9b15-e520a49dafc5, udp: true}
+- {name: 🇺🇸 美国CN2内测精品01 - 小蜜蜂, server: jmyd.ny111xx.xin, port: 2433, type: ss, cipher: chacha20-ietf-poly1305, password: c4af0e3d-d38f-4417-9b15-e520a49dafc5, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT

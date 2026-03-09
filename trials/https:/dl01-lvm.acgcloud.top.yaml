@@ -54,7 +54,7 @@ proxy-groups:
   - 🛩️ ‍墙内
   - 💩 ‍广告
 proxies:
-- {name: 🇭🇰 HK测试2-中转 - Acgcloud, server: gby5e0ay2o.accccggggdns.top, port: 50001, type: vmess, uuid: d122b2ef-e2cd-4b57-b63e-08338458a2fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hkshow, headers: {Host: baidu.com}}, udp: true}
+- {name: 🇭🇰 HK测试2-中转 - Acgcloud, server: gby5e0ay2o.accccggggdns.top, port: 50001, type: vmess, uuid: 46ad2e7c-692c-436c-8b7e-0ab64f591092, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hkshow, headers: {Host: baidu.com}}, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT

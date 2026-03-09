@@ -1,9 +1,9 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇯🇵 日本-1 - 7-Eleven, server: 166.88.100.19, port: 28666, type: vmess, uuid: cc620a54-eba0-489a-95db-b98074ac3748, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.bilibili.com, udp: true}
-- {name: 🇯🇵 日本-2 - 7-Eleven, server: 205.198.89.155, port: 28666, type: vmess, uuid: cc620a54-eba0-489a-95db-b98074ac3748, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.bilibili.com, udp: true}
-- {name: 🇯🇵 日本-3 - 7-Eleven, server: 205.198.89.157, port: 28666, type: vmess, uuid: cc620a54-eba0-489a-95db-b98074ac3748, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.bilibili.com, udp: true}
-- {name: 🇯🇵 日本-4 - 7-Eleven, server: 205.198.89.158, port: 28666, type: vmess, uuid: cc620a54-eba0-489a-95db-b98074ac3748, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.bilibili.com, udp: true}
-- {name: 🇯🇵 日本-5 - 7-Eleven, server: 205.198.89.160, port: 28666, type: vmess, uuid: cc620a54-eba0-489a-95db-b98074ac3748, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.bilibili.com, udp: true}
-- {name: 🇯🇵 日本-6 - 7-Eleven, server: 205.198.89.161, port: 28666, type: vmess, uuid: cc620a54-eba0-489a-95db-b98074ac3748, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.bilibili.com, udp: true}
+- {name: 🇯🇵 日本-1 - 7-Eleven, server: 166.88.100.19, port: 28666, type: vmess, uuid: da85506a-73ea-4dec-befb-a2e432f16572, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.bilibili.com, udp: true}
+- {name: 🇯🇵 日本-2 - 7-Eleven, server: 205.198.89.155, port: 28666, type: vmess, uuid: da85506a-73ea-4dec-befb-a2e432f16572, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.bilibili.com, udp: true}
+- {name: 🇯🇵 日本-3 - 7-Eleven, server: 205.198.89.157, port: 28666, type: vmess, uuid: da85506a-73ea-4dec-befb-a2e432f16572, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.bilibili.com, udp: true}
+- {name: 🇯🇵 日本-4 - 7-Eleven, server: 205.198.89.158, port: 28666, type: vmess, uuid: da85506a-73ea-4dec-befb-a2e432f16572, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.bilibili.com, udp: true}
+- {name: 🇯🇵 日本-5 - 7-Eleven, server: 205.198.89.160, port: 28666, type: vmess, uuid: da85506a-73ea-4dec-befb-a2e432f16572, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.bilibili.com, udp: true}
+- {name: 🇯🇵 日本-6 - 7-Eleven, server: 205.198.89.161, port: 28666, type: vmess, uuid: da85506a-73ea-4dec-befb-a2e432f16572, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.bilibili.com, udp: true}
