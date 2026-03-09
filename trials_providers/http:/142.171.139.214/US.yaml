@@ -1,0 +1,4 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇺🇸 美国 ×0.1 - MouseCloud, server: 107.175.220.20, port: 58443, type: vmess, uuid: 7e3912dd-47bb-4dab-a472-c3742186c645, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: grpc, servername: '', grpc-opts: {grpc-service-name: envoy.service.discovery.v2.AggregatedDiscoveryService}, udp: true}

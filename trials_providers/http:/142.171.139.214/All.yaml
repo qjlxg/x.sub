@@ -1,0 +1,8 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇭🇰 香港(移动优化)  ×1 - MouseCloud, server: 23.175.201.231, port: 8080, type: vmess, uuid: 7e3912dd-47bb-4dab-a472-c3742186c645, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: grpc, servername: '', grpc-opts: {grpc-service-name: drive.files.v2.FileService}, udp: true}
+- {name: 🇭🇰 香港  ×0.5 - MouseCloud, server: 156.226.169.116, port: 50051, type: vmess, uuid: 7e3912dd-47bb-4dab-a472-c3742186c645, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: grpc, servername: '', grpc-opts: {grpc-service-name: drive.files.v2.FileService}, udp: true}
+- {name: 🇺🇸 美国 ×0.1 - MouseCloud, server: 107.175.220.20, port: 58443, type: vmess, uuid: 7e3912dd-47bb-4dab-a472-c3742186c645, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: grpc, servername: '', grpc-opts: {grpc-service-name: envoy.service.discovery.v2.AggregatedDiscoveryService}, udp: true}
+- {name: 试用需等待2分钟激活 - MouseCloud, server: 23.175.201.231, port: 8080, type: vmess, uuid: 7e3912dd-47bb-4dab-a472-c3742186c645, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: grpc, servername: '', grpc-opts: {grpc-service-name: drive.files.v2.FileService}, udp: true}
+- {name: 启动不了换流量试试 - MouseCloud, server: 23.175.201.231, port: 8080, type: vmess, uuid: 7e3912dd-47bb-4dab-a472-c3742186c645, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: grpc, servername: '', grpc-opts: {grpc-service-name: drive.files.v2.FileService}, udp: true}

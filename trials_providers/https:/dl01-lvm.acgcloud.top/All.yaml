@@ -1,0 +1,4 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇭🇰 HK测试2-中转 - Acgcloud, server: gby5e0ay2o.accccggggdns.top, port: 50001, type: vmess, uuid: d122b2ef-e2cd-4b57-b63e-08338458a2fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hkshow, headers: {Host: baidu.com}}, udp: true}
