@@ -1,5 +1,5 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇸🇬 新加坡01 - 学术云, server: sg01.academicbest.dpdns.org, port: 7009, type: ss, cipher: aes-256-gcm, password: 52590dd0-d9c9-4b16-bebe-f1a6450e2826, udp: true}
-- {name: 🇸🇬 新加坡02 - 学术云, server: sg02.academicbest.dpdns.org, port: 7010, type: ss, cipher: aes-256-gcm, password: 52590dd0-d9c9-4b16-bebe-f1a6450e2826, udp: true}
+- {name: 🇸🇬 新加坡01 - 学术云, server: sg01.academicbest.dpdns.org, port: 7009, type: ss, cipher: aes-256-gcm, password: e411e1b3-7620-4ab9-893c-49f1c9f1c7ef, udp: true}
+- {name: 🇸🇬 新加坡02 - 学术云, server: sg02.academicbest.dpdns.org, port: 7010, type: ss, cipher: aes-256-gcm, password: e411e1b3-7620-4ab9-893c-49f1c9f1c7ef, udp: true}

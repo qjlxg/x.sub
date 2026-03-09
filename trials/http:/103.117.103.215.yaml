@@ -54,7 +54,7 @@ proxy-groups:
   - 🛩️ ‍墙内
   - 💩 ‍广告
 proxies:
-- {name: 🇯🇵 日本--（Huateng） - Huateng, server: node.huateng123.top, port: 443, type: trojan, password: b595d527-e553-43a5-b234-79df827643c5, sni: node.huateng123.top, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本--（Huateng） - Huateng, server: node.huateng123.top, port: 443, type: trojan, password: 0d5bae75-ca5d-4cf3-a4fb-999bb2fa9f65, sni: node.huateng123.top, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT

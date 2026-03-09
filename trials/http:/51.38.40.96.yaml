@@ -83,8 +83,8 @@ proxy-groups:
   type: select
   proxies: *id003
 proxies:
-- {name: ℹ️ 备用地址：vip.thenlink.cloud - Thenlink, server: 154.36.144.253, port: 443, type: trojan, password: 6a2bd0ed-6039-494d-b966-d2b169cabf17, sni: hk01.thenlink.one, skip-cert-verify: true, network: ws, ws-opts: {path: '', headers: {Host: hk01.thenlink.one}}, udp: true}
-- {name: 🇺🇸 美国US-01 - Thenlink, server: 167.88.180.76, port: 10010, type: trojan, password: 6a2bd0ed-6039-494d-b966-d2b169cabf17, sni: a1.thenlink.one, skip-cert-verify: true, network: ws, ws-opts: {path: '', headers: {Host: a1.thenlink.one}}, udp: true}
+- {name: ℹ️ 备用地址：vip.thenlink.cloud - Thenlink, server: 154.36.144.253, port: 443, type: trojan, password: 2abb712a-e730-439f-ad15-982786e9f1f4, sni: hk01.thenlink.one, skip-cert-verify: true, network: ws, ws-opts: {path: '', headers: {Host: hk01.thenlink.one}}, udp: true}
+- {name: 🇺🇸 美国US-01 - Thenlink, server: 167.88.180.76, port: 10010, type: trojan, password: 2abb712a-e730-439f-ad15-982786e9f1f4, sni: a1.thenlink.one, skip-cert-verify: true, network: ws, ws-opts: {path: '', headers: {Host: a1.thenlink.one}}, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT

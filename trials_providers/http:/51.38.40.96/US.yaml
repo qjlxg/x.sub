@@ -1,4 +1,4 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇺🇸 美国US-01 - Thenlink, server: 167.88.180.76, port: 10010, type: trojan, password: 6a2bd0ed-6039-494d-b966-d2b169cabf17, sni: a1.thenlink.one, skip-cert-verify: true, network: ws, ws-opts: {path: '', headers: {Host: a1.thenlink.one}}, udp: true}
+- {name: 🇺🇸 美国US-01 - Thenlink, server: 167.88.180.76, port: 10010, type: trojan, password: 2abb712a-e730-439f-ad15-982786e9f1f4, sni: a1.thenlink.one, skip-cert-verify: true, network: ws, ws-opts: {path: '', headers: {Host: a1.thenlink.one}}, udp: true}
