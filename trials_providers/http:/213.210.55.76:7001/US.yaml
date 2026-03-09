@@ -1,0 +1,4 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇺🇸 US - Los Angeles - Climb Platform, server: us.njust.org, port: 443, type: trojan, password: cf5df166-4252-42f5-9c54-624d837d1d9f, sni: us.njust.org, skip-cert-verify: true, udp: true}
