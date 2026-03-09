@@ -56,9 +56,9 @@ proxy-groups:
   - 🛩️ ‍墙内
   - 💩 ‍广告
 proxies:
-- {name: trojan - TTEESSTT, server: xrayr.chenjinhao.top, port: 3333, type: trojan, password: a580d5a6-6379-4088-b87f-b2b31267001d, sni: xrayr.chenjinhao.top, skip-cert-verify: true, udp: true}
-- {name: ss - TTEESSTT, server: xrayr.chenjinhao.top, port: 12345, type: ss, cipher: chacha20-ietf-poly1305, password: a580d5a6-6379-4088-b87f-b2b31267001d, udp: true}
-- {name: vmess - TTEESSTT, server: xrayr.chenjinhao.top, port: 2222, type: vmess, uuid: a580d5a6-6379-4088-b87f-b2b31267001d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /123, headers: {Host: 123*.com}}, udp: true}
+- {name: trojan - TTEESSTT, server: xrayr.chenjinhao.top, port: 3333, type: trojan, password: a1421767-4593-4813-b18c-380cf758912f, sni: xrayr.chenjinhao.top, skip-cert-verify: true, udp: true}
+- {name: ss - TTEESSTT, server: xrayr.chenjinhao.top, port: 12345, type: ss, cipher: chacha20-ietf-poly1305, password: a1421767-4593-4813-b18c-380cf758912f, udp: true}
+- {name: vmess - TTEESSTT, server: xrayr.chenjinhao.top, port: 2222, type: vmess, uuid: a1421767-4593-4813-b18c-380cf758912f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /123, headers: {Host: 123*.com}}, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT

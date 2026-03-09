@@ -1,5 +1,5 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇬🇧 GB - Coventry - Climb Platform, server: gb.njust.org, port: 443, type: trojan, password: cf5df166-4252-42f5-9c54-624d837d1d9f, sni: gb.njust.org, skip-cert-verify: true, udp: true}
-- {name: 🇦🇲 DE - Frankfurt am Main - Climb Platform, server: de.njust.org, port: 443, type: trojan, password: cf5df166-4252-42f5-9c54-624d837d1d9f, sni: de.njust.org, skip-cert-verify: true, udp: true}
+- {name: 🇬🇧 GB - Coventry - Climb Platform, server: gb.njust.org, port: 443, type: trojan, password: a7584b92-d6ce-414b-b6b8-1d844eb1198d, sni: gb.njust.org, skip-cert-verify: true, udp: true}
+- {name: 🇦🇲 DE - Frankfurt am Main - Climb Platform, server: de.njust.org, port: 443, type: trojan, password: a7584b92-d6ce-414b-b6b8-1d844eb1198d, sni: de.njust.org, skip-cert-verify: true, udp: true}

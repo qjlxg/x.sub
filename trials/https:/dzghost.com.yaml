@@ -93,13 +93,13 @@ proxy-groups:
   type: select
   proxies: *id003
 proxies:
-- {name: 🇺🇸 usa - Ghost, server: d3.dzghost.com, port: 500, type: trojan, password: 088e0bf5-a454-45c1-a18c-8cfc27207745, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 usa - Ghost 2, server: d1.dzghost.com, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 088e0bf5-a454-45c1-a18c-8cfc27207745, udp: true}
-- {name: 🇺🇸 usa - Ghost 3, server: d2.dzghost.com, port: 80, type: vmess, uuid: 088e0bf5-a454-45c1-a18c-8cfc27207745, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk, udp: true}
-- {name: xinjiapo - Ghost, server: g3.dzghost.com, port: 1083, type: trojan, password: 088e0bf5-a454-45c1-a18c-8cfc27207745, sni: g3.dzghost.com, skip-cert-verify: true, udp: true}
-- {name: xinjiapo - Ghost 2, server: g2.dzghost.com, port: 1082, type: ss, cipher: chacha20-ietf-poly1305, password: 088e0bf5-a454-45c1-a18c-8cfc27207745, udp: true}
-- {name: xinjiapo - Ghost 3, server: g1.dzghost.com, port: 1084, type: vmess, uuid: 088e0bf5-a454-45c1-a18c-8cfc27207745, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: g2.dzghost.com, network: ws, ws-opts: {path: /dzghost123, headers: {Host: www.bing.com}}, udp: true}
-- {name: xinjiapor - Ghost, server: g1.dzghost.com, port: 443, type: vmess, uuid: 088e0bf5-a454-45c1-a18c-8cfc27207745, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: g1.dzghost.com, udp: true}
+- {name: 🇺🇸 usa - Ghost, server: d3.dzghost.com, port: 500, type: trojan, password: 9308ae6b-0ac0-45c3-a786-6d0285dbe680, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 usa - Ghost 2, server: d1.dzghost.com, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 9308ae6b-0ac0-45c3-a786-6d0285dbe680, udp: true}
+- {name: 🇺🇸 usa - Ghost 3, server: d2.dzghost.com, port: 80, type: vmess, uuid: 9308ae6b-0ac0-45c3-a786-6d0285dbe680, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk, udp: true}
+- {name: xinjiapo - Ghost, server: g3.dzghost.com, port: 1083, type: trojan, password: 9308ae6b-0ac0-45c3-a786-6d0285dbe680, sni: g3.dzghost.com, skip-cert-verify: true, udp: true}
+- {name: xinjiapo - Ghost 2, server: g2.dzghost.com, port: 1082, type: ss, cipher: chacha20-ietf-poly1305, password: 9308ae6b-0ac0-45c3-a786-6d0285dbe680, udp: true}
+- {name: xinjiapo - Ghost 3, server: g1.dzghost.com, port: 1084, type: vmess, uuid: 9308ae6b-0ac0-45c3-a786-6d0285dbe680, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: g2.dzghost.com, network: ws, ws-opts: {path: /dzghost123, headers: {Host: www.bing.com}}, udp: true}
+- {name: xinjiapor - Ghost, server: g1.dzghost.com, port: 443, type: vmess, uuid: 9308ae6b-0ac0-45c3-a786-6d0285dbe680, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: g1.dzghost.com, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
