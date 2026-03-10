@@ -1,10 +1,10 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇯🇵 IEPL · 日本JP · 105 - 悟空加速器, server: 45.250.185.142, port: 16102, type: ss, cipher: chacha20-ietf-poly1305, password: 1b3bac8f-1166-457b-9d20-9374e11712ac, udp: true}
-- {name: 🇯🇵 IEPL · 日本JP · 176 - 悟空加速器, server: 45.250.185.142, port: 16103, type: ss, cipher: chacha20-ietf-poly1305, password: 1b3bac8f-1166-457b-9d20-9374e11712ac, udp: true}
-- {name: 🇯🇵 IEPL · 日本JP · 222 - 悟空加速器, server: 45.250.185.142, port: 16104, type: ss, cipher: chacha20-ietf-poly1305, password: 1b3bac8f-1166-457b-9d20-9374e11712ac, udp: true}
-- {name: 🇯🇵 IEPL · 日本JP · 129 - 悟空加速器, server: 45.250.185.142, port: 16105, type: ss, cipher: chacha20-ietf-poly1305, password: 1b3bac8f-1166-457b-9d20-9374e11712ac, udp: true}
-- {name: 🇯🇵 IEPL · 日本JP · 89 - 悟空加速器, server: 45.250.185.142, port: 16106, type: ss, cipher: chacha20-ietf-poly1305, password: 1b3bac8f-1166-457b-9d20-9374e11712ac, udp: true}
-- {name: 🇯🇵 IEPL · 日本JP · 209 - 悟空加速器, server: 45.250.185.142, port: 16107, type: ss, cipher: chacha20-ietf-poly1305, password: 1b3bac8f-1166-457b-9d20-9374e11712ac, udp: true}
-- {name: 🇯🇵 IEPL · 日本JP · 48 - 悟空加速器, server: 45.250.185.142, port: 16108, type: ss, cipher: chacha20-ietf-poly1305, password: 1b3bac8f-1166-457b-9d20-9374e11712ac, udp: true}
+- {name: 🇯🇵 IEPL · 日本JP · 105 - 悟空加速器, server: 45.250.185.142, port: 16102, type: ss, cipher: chacha20-ietf-poly1305, password: 23a8e7d8-93fb-47fd-8a54-2cf7b5a3895a, udp: true}
+- {name: 🇯🇵 IEPL · 日本JP · 176 - 悟空加速器, server: 45.250.185.142, port: 16103, type: ss, cipher: chacha20-ietf-poly1305, password: 23a8e7d8-93fb-47fd-8a54-2cf7b5a3895a, udp: true}
+- {name: 🇯🇵 IEPL · 日本JP · 222 - 悟空加速器, server: 45.250.185.142, port: 16104, type: ss, cipher: chacha20-ietf-poly1305, password: 23a8e7d8-93fb-47fd-8a54-2cf7b5a3895a, udp: true}
+- {name: 🇯🇵 IEPL · 日本JP · 129 - 悟空加速器, server: 45.250.185.142, port: 16105, type: ss, cipher: chacha20-ietf-poly1305, password: 23a8e7d8-93fb-47fd-8a54-2cf7b5a3895a, udp: true}
+- {name: 🇯🇵 IEPL · 日本JP · 89 - 悟空加速器, server: 45.250.185.142, port: 16106, type: ss, cipher: chacha20-ietf-poly1305, password: 23a8e7d8-93fb-47fd-8a54-2cf7b5a3895a, udp: true}
+- {name: 🇯🇵 IEPL · 日本JP · 209 - 悟空加速器, server: 45.250.185.142, port: 16107, type: ss, cipher: chacha20-ietf-poly1305, password: 23a8e7d8-93fb-47fd-8a54-2cf7b5a3895a, udp: true}
+- {name: 🇯🇵 IEPL · 日本JP · 48 - 悟空加速器, server: 45.250.185.142, port: 16108, type: ss, cipher: chacha20-ietf-poly1305, password: 23a8e7d8-93fb-47fd-8a54-2cf7b5a3895a, udp: true}

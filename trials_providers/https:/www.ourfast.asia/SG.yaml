@@ -1,0 +1,4 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇸🇬 新加坡 - OurFast, server: node7.ourfast.asia, port: 443, type: vmess, uuid: 6ea17702-41ff-42b1-89d7-ba461cbe3052, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: node7.ourfast.asia}}, udp: true}

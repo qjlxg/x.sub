@@ -1,7 +1,7 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇺🇸 IEPL · 美国US · 220 - 悟空加速器, server: 45.250.185.142, port: 16109, type: ss, cipher: chacha20-ietf-poly1305, password: 1b3bac8f-1166-457b-9d20-9374e11712ac, udp: true}
-- {name: 🇺🇸 IEPL · 美国US · 40 - 悟空加速器, server: 45.250.185.142, port: 16110, type: ss, cipher: chacha20-ietf-poly1305, password: 1b3bac8f-1166-457b-9d20-9374e11712ac, udp: true}
-- {name: 🇺🇸 IEPL · 美国US · 36 - 悟空加速器, server: 45.250.185.142, port: 16111, type: ss, cipher: chacha20-ietf-poly1305, password: 1b3bac8f-1166-457b-9d20-9374e11712ac, udp: true}
-- {name: 🇺🇸 IEPL · 美国US · 88 - 悟空加速器, server: 45.250.185.142, port: 16112, type: ss, cipher: chacha20-ietf-poly1305, password: 1b3bac8f-1166-457b-9d20-9374e11712ac, udp: true}
+- {name: 🇺🇸 IEPL · 美国US · 220 - 悟空加速器, server: 45.250.185.142, port: 16109, type: ss, cipher: chacha20-ietf-poly1305, password: 23a8e7d8-93fb-47fd-8a54-2cf7b5a3895a, udp: true}
+- {name: 🇺🇸 IEPL · 美国US · 40 - 悟空加速器, server: 45.250.185.142, port: 16110, type: ss, cipher: chacha20-ietf-poly1305, password: 23a8e7d8-93fb-47fd-8a54-2cf7b5a3895a, udp: true}
+- {name: 🇺🇸 IEPL · 美国US · 36 - 悟空加速器, server: 45.250.185.142, port: 16111, type: ss, cipher: chacha20-ietf-poly1305, password: 23a8e7d8-93fb-47fd-8a54-2cf7b5a3895a, udp: true}
+- {name: 🇺🇸 IEPL · 美国US · 88 - 悟空加速器, server: 45.250.185.142, port: 16112, type: ss, cipher: chacha20-ietf-poly1305, password: 23a8e7d8-93fb-47fd-8a54-2cf7b5a3895a, udp: true}

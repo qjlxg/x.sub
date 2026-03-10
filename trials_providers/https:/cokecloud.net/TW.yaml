@@ -1,4 +1,4 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇹🇼 TW.台湾 | 试用 - 𝘾𝙤𝙠𝙚𝘾𝙡𝙤𝙪𝙙, server: tw.cokecloud.link, port: 21073, type: ss, cipher: chacha20-ietf-poly1305, password: 95e47f5b-0d8e-4ce6-bbd8-8dbc78ec2661, udp: true}
+- {name: 🇹🇼 TW.台湾 | 试用 - 𝘾𝙤𝙠𝙚𝘾𝙡𝙤𝙪𝙙, server: tw.cokecloud.link, port: 21073, type: ss, cipher: chacha20-ietf-poly1305, password: 71f39d60-88bd-4fe9-b7f5-f09143e51423, udp: true}

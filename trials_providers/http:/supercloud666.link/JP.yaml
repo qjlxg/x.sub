@@ -1,9 +1,9 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇯🇵 日本东京IEPL 01 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 41898, type: ss, cipher: aes-128-gcm, password: acc9d48a-8e97-43b4-b108-0eb90715cda2, udp: true}
-- {name: 🇯🇵 日本东京IEPL 02 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 41898, type: ss, cipher: aes-128-gcm, password: acc9d48a-8e97-43b4-b108-0eb90715cda2, udp: true}
-- {name: 🇯🇵 日本大阪IEPL 01 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 20492, type: ss, cipher: aes-128-gcm, password: acc9d48a-8e97-43b4-b108-0eb90715cda2, udp: true}
-- {name: 🇯🇵 日本大阪IEPL 02 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 20492, type: ss, cipher: aes-128-gcm, password: acc9d48a-8e97-43b4-b108-0eb90715cda2, udp: true}
-- {name: 🇯🇵 日本东京IEPL 03 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 30533, type: ss, cipher: aes-128-gcm, password: acc9d48a-8e97-43b4-b108-0eb90715cda2, udp: true}
-- {name: 🇯🇵 日本东京IEPL 04 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 30533, type: ss, cipher: aes-128-gcm, password: acc9d48a-8e97-43b4-b108-0eb90715cda2, udp: true}
+- {name: 🇯🇵 日本东京IEPL 01 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 41898, type: ss, cipher: aes-128-gcm, password: deeaacf2-2139-402c-b836-e9e751e4edbb, udp: true}
+- {name: 🇯🇵 日本东京IEPL 02 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 41898, type: ss, cipher: aes-128-gcm, password: deeaacf2-2139-402c-b836-e9e751e4edbb, udp: true}
+- {name: 🇯🇵 日本大阪IEPL 01 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 20492, type: ss, cipher: aes-128-gcm, password: deeaacf2-2139-402c-b836-e9e751e4edbb, udp: true}
+- {name: 🇯🇵 日本大阪IEPL 02 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 20492, type: ss, cipher: aes-128-gcm, password: deeaacf2-2139-402c-b836-e9e751e4edbb, udp: true}
+- {name: 🇯🇵 日本东京IEPL 03 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 30533, type: ss, cipher: aes-128-gcm, password: deeaacf2-2139-402c-b836-e9e751e4edbb, udp: true}
+- {name: 🇯🇵 日本东京IEPL 04 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 30533, type: ss, cipher: aes-128-gcm, password: deeaacf2-2139-402c-b836-e9e751e4edbb, udp: true}

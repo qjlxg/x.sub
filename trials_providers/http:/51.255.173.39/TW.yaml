@@ -1,5 +1,5 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇹🇼 V1 | 台湾1 - Bingo加速, server: tw91.appmimi.com, port: 49021, type: ss, cipher: aes-256-gcm, password: 445c3c1b-84bd-4176-9df2-95f2b7444270, udp: true}
-- {name: 🇹🇼 V1 | 台湾2 - Bingo加速, server: tw92.appmimi.com, port: 49022, type: ss, cipher: aes-256-gcm, password: 445c3c1b-84bd-4176-9df2-95f2b7444270, udp: true}
+- {name: 🇹🇼 V1 | 台湾1 - Bingo加速, server: tw91.appmimi.com, port: 49021, type: ss, cipher: aes-256-gcm, password: 694bba64-8bc3-46ac-802e-943117010f4e, udp: true}
+- {name: 🇹🇼 V1 | 台湾2 - Bingo加速, server: tw92.appmimi.com, port: 49022, type: ss, cipher: aes-256-gcm, password: 694bba64-8bc3-46ac-802e-943117010f4e, udp: true}

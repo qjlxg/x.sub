@@ -1,4 +1,4 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇰🇷 韩国 - V2Board, server: sk.aoyate.com, port: 443, type: vmess, uuid: 281d99e1-a710-472a-9451-abdc4667b351, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: sk.aoyate.com, grpc-opts: {grpc-service-name: /}, udp: true}
+- {name: 🇰🇷 韩国 - V2Board, server: sk.aoyate.com, port: 443, type: vmess, uuid: b7f1b741-c6ee-4f05-a3d4-9f9cb003949e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: sk.aoyate.com, grpc-opts: {grpc-service-name: /}, udp: true}

@@ -1,7 +1,7 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇺🇸 美国洛杉矶 1 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 37673, type: ss, cipher: aes-128-gcm, password: acc9d48a-8e97-43b4-b108-0eb90715cda2, udp: true}
-- {name: 🇺🇸 美国洛杉矶 2 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 37673, type: ss, cipher: aes-128-gcm, password: acc9d48a-8e97-43b4-b108-0eb90715cda2, udp: true}
-- {name: 🇺🇸 美国凤凰城 3 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 31429, type: ss, cipher: aes-128-gcm, password: acc9d48a-8e97-43b4-b108-0eb90715cda2, udp: true}
-- {name: 🇺🇸 美国凤凰城 4 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 31429, type: ss, cipher: aes-128-gcm, password: acc9d48a-8e97-43b4-b108-0eb90715cda2, udp: true}
+- {name: 🇺🇸 美国洛杉矶 1 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 37673, type: ss, cipher: aes-128-gcm, password: deeaacf2-2139-402c-b836-e9e751e4edbb, udp: true}
+- {name: 🇺🇸 美国洛杉矶 2 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 37673, type: ss, cipher: aes-128-gcm, password: deeaacf2-2139-402c-b836-e9e751e4edbb, udp: true}
+- {name: 🇺🇸 美国凤凰城 3 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 31429, type: ss, cipher: aes-128-gcm, password: deeaacf2-2139-402c-b836-e9e751e4edbb, udp: true}
+- {name: 🇺🇸 美国凤凰城 4 - ɢᴛᴀ ᴄʟᴏᴜᴅ, server: gz.gtacdnsub.work, port: 31429, type: ss, cipher: aes-128-gcm, password: deeaacf2-2139-402c-b836-e9e751e4edbb, udp: true}
