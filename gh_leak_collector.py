@@ -20,7 +20,7 @@ def get_github_leaks():
     bot_name = os.getenv('MY_BOT_NAME', 'GitHub_Collector')
     
     # 搜寻过去 48 小时内的代码，保证索引已经建立
-    search_hours = 48 
+    search_hours = 72 
     headers = {"Accept": "application/vnd.github.v3+json"}
     if token:
         headers["Authorization"] = f"token {token}"
