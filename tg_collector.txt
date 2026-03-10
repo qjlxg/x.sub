@@ -4,14 +4,16 @@ http://dy.changyouVPN.top/api/v1/client/subscribe?token=2d4a161571330be113d27101
 http://dy.changyouVPN.top/api/v1/client/subscribe?token=92bb524fed594758d91477746169e3b2
 http://dy.changyouVPN.top/api/v1/client/subscribe?token=ae2d46b360f66cfb6c3e7e0d651c2a86
 http://dy.changyouvpn.top/api/v1/client/subscribe?token=4e85554dae1c9858676693ae38d50c15
+https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=3a50317771a2cc4eb04e2622bc6a7745 [剩余: -8.97GB / 总量: 60GB]
 https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=5a40b07c81898719dcb08fea26ca6cca [剩余: -4.26GB / 总量: 60GB]
 https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=dc4ee3f123d0df127dbd38b95d717677 [剩余: -2.52GB / 总量: 60GB]
 https://api.e687699.top/api/v1/client/subscribe?token=8dddcaa2e9a12fe2d7caebd1a9487219
-https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=0ed11fa06b864a45993e7c42d4c516ee [剩余: 14.91GB / 总量: 80GB]
-https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=35cbdd9cc10ba9c8e265008ba9f466e2 [剩余: 63.39GB / 总量: 80GB]
+https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=0ed11fa06b864a45993e7c42d4c516ee [剩余: -0.11GB / 总量: 80GB]
+https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=259516e4752a41662ee83277d978dfbc [剩余: 10.71GB / 总量: 80GB]
+https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=35cbdd9cc10ba9c8e265008ba9f466e2 [剩余: 39.97GB / 总量: 80GB]
 https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=4602d5c116c2b43f6da31cdd917c4357 [剩余: -0.03GB / 总量: 80GB]
-https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=c636b265ec2dc3000492b77802279ffc [剩余: 57.48GB / 总量: 80GB]
-https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=d5470d05bda1c3b20a325052596dafdc [剩余: 37.50GB / 总量: 80GB]
+https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=c636b265ec2dc3000492b77802279ffc [剩余: 44.43GB / 总量: 80GB]
+https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=d5470d05bda1c3b20a325052596dafdc [剩余: -0.16GB / 总量: 80GB]
 https://ch.cukug.website/api/v1/client/subscribe?token=3e4ad9ef197db68d199e5d1a4e27eee3
 https://ch.cukug.website/api/v1/client/subscribe?token=d96b48a34918ab096906275485b162bb
 https://dy.naisicloud.xyz/api/v1/client/subscribe?token=595fbffde599301c81e579547896c942
@@ -26,25 +28,21 @@ https://mojie.app/api/v1/client/subscribe?token=c29fd54ea0ea81c44af5dc7db74be219
 https://mojie.app/api/v1/client/subscribe?token=d7ab24ce4eec70b4ea969c488bd9491e
 https://onlysub.mjurl.com/api/v1/client/subscribe?token=6dbf0b92279e3ca9448b883496d8870f [剩余: -0.12GB / 总量: 2GB]
 https://onlysub.mjurl.com/api/v1/client/subscribe?token=e2fcc87633358515fbace9aab9f1cdad
-https://platform.djjc.cfd/api/v1/client/subscribe?token=7b7beb3a13f6aac12987c68d8bc36692 [剩余: -58.08GB / 总量: 1000GB]
 https://pro.xn--l9qyaz082a.cn/api/v1/client/subscribe?token=8b0b7baf2e4fea6d23144f110b993519
-https://qq.xlm.plus/api/v1/client/subscribe?token=9e5db95336ab586ac6c4e2306c4d25a9
+https://qq.xlm.plus/api/v1/client/subscribe?token=9e5db95336ab586ac6c4e2306c4d25a9 [剩余: 9938615.38GB / 总量: 10000000GB]
 https://sub.mogufan.com/api/v1/client/subscribe?token=a777f6de3cd257d32d75a456c687afdf
 https://sub.xn--4gq62ffxz.net/api/v1/client/subscribe?token=38aa18a604421977a22c85144068e7c0
 https://sub.xn--4gq62ffxz.net/api/v1/client/subscribe?token=3acf3eb92210f48ac3921fa482910b49
 https://sub.xn--4gq62ffxz.net/api/v1/client/subscribe?token=795d342b0713836ef95e430ed524d3b7
 https://sub.xn--4gqp1u.com/api/v1/client/subscribe?token=0ef2b15705e5fb6133987be061fbafdb
 https://sub.xn--4gqp1u.com/api/v1/client/subscribe?token=292d67dab3b28cef1f9e680d3f1a00e6
-https://suba.f2vip.net/api/v1/client/subscribe?token=615b2d17d77f83528611acdb61177d87 [剩余: -0.62GB / 总量: 100GB]
-https://suba.f2vip.net/api/v1/client/subscribe?token=8eb78e83430094caefa8f8a5bc8abcfd [剩余: -0.02GB / 总量: 100GB]
+https://suba.f2vip.net/api/v1/client/subscribe?token=bc141010197e65c26b94e841d8f1c9dd [剩余: -0.03GB / 总量: 100GB]
 https://suba.f2vip.net/api/v1/client/subscribe?token=e37a2b4ec0f5c40c7589ab10dee63760 [剩余: -0.02GB / 总量: 100GB]
-https://suba.f2vip.net/api/v1/client/subscribe?token=f863588c6ca4fee4f4ec9bd1c75e5a14 [剩余: -1.99GB / 总量: 100GB]
-https://xfapp.quickbeevpn.com/api/v1/client/subscribe?token=f29a710191d5672892c2401084c5eb07 [剩余: 9999211.64GB / 总量: 9999999GB]
+https://xfapp.quickbeevpn.com/api/v1/client/subscribe?token=f29a710191d5672892c2401084c5eb07 [剩余: 9999203.33GB / 总量: 9999999GB]
 https://yfjc.xyz/api/v1/client/subscribe?token=2ac90b3e8b7e5f9838eaab831adba36f
 https://youxiu8168.xiaofeixia.info/api/v1/client/subscribe?token=7bca42b442b158dbc47db249d25651b7
 
 # === 机场注册入口 ===
-https://02513.hk
 https://172.lot-ml.com
 https://1liuyun.com
 https://51.ruyo.net
@@ -59,8 +57,11 @@ https://a.v2yd6.top
 https://acghelper.com
 https://actorawards.org
 https://ag.bnpm.dynu.net
+https://air.dev
 https://alwaysdata.com
 https://alwaysdata.net
+https://amber85.qjty.buzz
+https://amz.awsy.top
 https://anran.3kla.top
 https://api.e687699.top
 https://api.oaibest.com
@@ -70,12 +71,12 @@ https://app.shokichan.com
 https://apps.apple.com
 https://arxiv.org
 https://ascsgg.com
-https://autoglm.zhipuai.cn
 https://baipiaoyun-oss.freeloadcloud.eu
 https://baiyangstar.com
 https://bangpi.top
 https://bbghy.00890604.xyz
 https://biquge.bf
+https://blog.arduino.cc
 https://blog.google
 https://bnm.222560.xyz
 https://book.clouds.pp.ua
@@ -101,14 +102,17 @@ https://d888.nxxbbf.com
 https://danke.sbs
 https://dapei0402.github.io
 https://dash.f9vip.net
+https://dash.sjakd.store
 https://dashboard.singlinkvpn.com
 https://dddffghju.857657.xyz
 https://dfg.ae1autumn.cc.cd
+https://durex001.ggff.net
 https://dy.changyouvpn.top
 https://dy.naisicloud.xyz
 https://dy11.baipiaoyes.com
 https://eduboost.net
 https://emm-7zy.pages.dev
+https://exswap.net
 https://fffffg.890602.pp.ua
 https://fffvg.7777125.xyz
 https://fghy.00890604.xyz
@@ -120,6 +124,7 @@ https://ggghj.www890604.dpdns.org
 https://ghj.apocalypse.cc.cd
 https://golden57.qjty.buzz
 https://gpdbnext.console.aliyun.com
+https://haowallpaper.com
 https://harryyifei.notion.site
 https://hexo-anran-world.vercel.app
 https://hhhhhhhhj.191266.xyz
@@ -152,11 +157,13 @@ https://linlujs.men
 https://linux.do
 https://liulangdiqiu.cc
 https://lllo.x19890604.qzz.io
+https://lowendtalk.com
 https://luv.xem.lat
 https://ly.ccwink.cc
 https://matcha.su
 https://mcp.dpenly.org
 https://mojie.app
+https://momo.best
 https://mp.weixin.qq.com
 https://my.nekocloud.top
 https://naisicloud.xyz
@@ -164,6 +171,7 @@ https://nanbei.cloud
 https://navi.onamae.com
 https://netlib.re
 https://news.bloomberglaw.com
+https://news.skhynix.com
 https://nnmjk.wc0.ccwu.cc
 https://nnnnnmj.huangshang.site
 https://npccloud.xyz
@@ -171,24 +179,23 @@ https://o0o00o.eu.org
 https://omdia.tech.informa.com
 https://onlysub.mjurl.com
 https://openai.com
+https://pastebin.com
 https://pay.nodedns.xyz
 https://pc.ctyun.cn
 https://personal.dtcpay.com
 https://picjumbo.com
-https://platform.djjc.cfd
 https://postimg.cc
 https://pro.xn--l9qyaz082a.cn
 https://proxypool.dmit.dpdns.org
 https://pythoncat.top
+https://qixi.best
 https://qq.xlm.plus
 https://qr.alipay.com
 https://r5t6.00890604.xyz
-https://report.check.place
 https://rktun.co
 https://roam.virginconnect.com
 https://rrrrrrrrrrrghhh.857657.xyz
 https://s1.trojanflare.one
-https://scsc.fefeef.cn
 https://shop.88hy.top
 https://shz.al
 https://simpleyun.top
@@ -201,9 +208,7 @@ https://smu.cc.cd
 https://sni.111000.dynv6.net
 https://spflyfish.top
 https://ss.ejejje.com
-https://status.deepseek.com
 https://steel68.qjty.buzz
-https://store.steampowered.com
 https://sub.derrick.us.kg
 https://sub.mogufan.com
 https://sub.scpnb.top
@@ -217,6 +222,7 @@ https://sulianv.com
 https://sun1.sunbirds.top
 https://super.jack991.filegear-sg.me
 https://supercmd.sh
+https://techcrunch.com
 https://telega.io
 https://telegra.ph
 https://tg.apocalypse.cc.cd
@@ -246,6 +252,7 @@ https://www.bilibili.com
 https://www.bloomberg.com
 https://www.bybit.eu
 https://www.chuzhan888.xyz
+https://www.clawdi.ai
 https://www.cnbc.com
 https://www.cnbeta.com.tw
 https://www.crosswall.org
@@ -258,6 +265,8 @@ https://www.hescat.com
 https://www.hissl.net
 https://www.huawei.com
 https://www.ifanr.com
+https://www.jetbrains.com
+https://www.jiemian.com
 https://www.latepost.com
 https://www.lg.gov.cn
 https://www.macrumors.com
@@ -272,7 +281,6 @@ https://www.paypal.com
 https://www.radio.cn
 https://www.readyserver.sg
 https://www.scnet.cn
-https://www.shidianguji.com
 https://www.singlinkapp.com
 https://www.theinformation.com
 https://www.thelec.net
@@ -280,6 +288,7 @@ https://www.theverge.com
 https://www.topcashback.de
 https://www.v2ex.com
 https://www.w3.org
+https://www.wired.com
 https://www.xiaobot.net
 https://www.xn--9kqx21a0sv.top
 https://www.xn--9kqz09d4qq.com
@@ -296,6 +305,7 @@ https://xn--ehq00hgtfdmt.net
 https://xn--ehqa22b.site
 https://xn--wtq35pfyd55o.co
 https://xunda.icu
+https://y.dbf88.sbs
 https://yfjc.xyz
 https://yinyun365.org
 https://youhui.plus
