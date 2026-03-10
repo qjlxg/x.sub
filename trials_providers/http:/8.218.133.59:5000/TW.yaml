@@ -1,0 +1,4 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇹🇼台湾 - 宝格, server: shrimp-door-9527.gym0boy.com, port: 14275, type: ss, cipher: chacha20-ietf-poly1305, password: 0a7803ec-de7d-4801-8b29-3cb77b25a047, udp: true}

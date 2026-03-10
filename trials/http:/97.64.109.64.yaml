@@ -54,7 +54,7 @@ proxy-groups:
   - 🛩️ ‍墙内
   - 💩 ‍广告
 proxies:
-- {name: ℹ️ 【注意】请SSR用户尽快更换为V2ray网站首页有教程！ - greatdeal, server: 【注意】请SSR用户尽快更换为V2ray网站首页有教程！, port: 543, type: ssr, cipher: aes-256-cfb, password: !<str> 543, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 7722:jbOPpr, obfs-param: edbce7722.wns.windows.com, udp: true}
+- {name: ℹ️ 【注意】请SSR用户尽快更换为V2ray网站首页有教程！ - greatdeal, server: 【注意】请SSR用户尽快更换为V2ray网站首页有教程！, port: 543, type: ssr, cipher: aes-256-cfb, password: !<str> 543, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 7723:w1STPH, obfs-param: ddac57723.wns.windows.com, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
