@@ -1,20 +1,23 @@
-name: tg_collector
+name: GitHub Leak Collector
 
 on:
-  workflow_dispatch: # 手动触发
+  workflow_dispatch:
   push:
+    # 核心变动：监控以下文件的 push 行为
     paths:
-      - 'tg_collector.py'
-      - '.github/workflows/tg_collector.yml'
+      - 'gh_leak_collector.py'
+      - '.github/workflows/gh_leak.yml'
+  schedule:
+    - cron: '0 */2 * * *'
 
 jobs:
-  collect-and-push:
+  collect:
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -22,26 +25,23 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Install Dependencies
-        run: |
-          pip install requests
+      - name: Install dependencies
+        run: pip install requests
 
-      - name: Run TG Collector
-        run: python tg_collector.py
+      - name: Run GitHub Leak Script
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python gh_leak_collector.py
 
-      - name: Commit and Push Changes
+      - name: Commit and Push
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          
-          # 确保文件存在
-          touch tg_collector.txt
-          git add tg_collector.txt
-          
+          git add github_leaks.txt
           if git diff --cached --quiet; then
-            echo "域名列表无变动，跳过提交。"
+            echo "No new leaks found."
           else
             export TZ='Asia/Shanghai'
-            git commit -m "Update domains: $(date +'%Y-%m-%d %H:%M:%S')"
+            git commit -m "Auto-trigger Update: $(date +'%Y-%m-%d %H:%M:%S')"
             git push
           fi
