@@ -1,0 +1,44 @@
+name: tg_collector
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'tg_collector.py'
+      - '.github/workflows/tg_collector.yml'
+  schedule:
+    - cron: '0 0,12 * * *' # 每天早晚8点自动运行
+
+jobs:
+  run-collector:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install
+        run: pip install requests
+
+      - name: Collect
+        run: python tg_collector.py
+
+      - name: Push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add tg_collector.txt
+          if git diff --cached --quiet; then
+            echo "No changes detected."
+          else
+            export TZ='Asia/Shanghai'
+            git commit -m "Update subs and domains: $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
