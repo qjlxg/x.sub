@@ -3,14 +3,18 @@ import re
 import os
 from urllib.parse import urlparse
 
-# 定义要抓取的 Telegram 频道（后缀）
+
+
 CHANNELS = [
     'jichangbaipiao', 
     'Airport_News', 
     'v2board_trial', 
     'baipiaojichang',
     'jichangtuijian',
-    'baipiao_ml'
+    'baipiao_ml',
+    'AirPort_Survey',
+    'jichang_0',
+    'v2board_airport'
 ]
 
 def fetch_from_tg():
