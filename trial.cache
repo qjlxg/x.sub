@@ -1,613 +1,3 @@
-[link]
-
-[http://89.116.247.152:82]
-name  GFP
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(fjtlxjb672@gmail.com): 未开放注册。
-
-[https://18.179.230.107]
-
-[https://74.48.78.144]
-
-[http://47.79.136.10]
-
-[https://97.64.17.129]
-
-[http://23.106.143.224]
-auto_invite  F
-buy  pass
-email  hfxelcxg952@gmail.com
-last_checkin  2026-03-10 08:39:26.477572+08:00
-name  友善
-node_n  3
-sub_url  https://ghjkolk.fsgyaa8.xyz/link/KHVT9x6YxWl0nYJT?sub=3
-time  2026-03-10 08:39:27.484913+08:00
-type  sspanel
-保存订阅信息失败  could not convert string to float: '1773175163;'
-
-[http://97.64.109.64]
-auto_invite  F
-buy  pass
-email  pswigfo579@gmail.com
-last_checkin  2026-03-10 08:39:23.818572+08:00
-name  greatdeal
-node_n  1
-sub_url  http://greatdeal.life/link/Y5VzvNVS3HxeEAqt?sub=3
-time  2026-03-10 08:39:24.248451+08:00
-type  sspanel
-保存订阅信息失败  could not convert string to float: '1804639162;'
-
-[http://45.62.112.139]
-name  UIM-SPFA
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(djrojczo18@gmail.com): 系统无法接受你的验证结果，请刷新页面后重试。
-
-[https://212.50.232.231]
-
-[https://45.62.112.139]
-
-[https://108.61.246.141]
-
-[https://152.32.219.253]
-
-[https://108.61.192.105]
-
-[https://www.wushujin369.com]
-name  SSPanel-UIM
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(vmftbjhc440@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (500 Internal Server Error '<br />\n<b>Warning</b>: Attempt to read property "type" on null in <b>/www/wwwroot/default/SSPanel-UIM-25.1.0/src/Models/Config.php</b> on line <b>34</b><br />\n<br />\n<b>Warning</b>: Attempt to read property "value" on null in <b>/www/wwwroot/default/SSPanel-UIM-25.1.0/src/Models/Config.php</b> on line <b>38</b><br />\n<!doctype html>\n<html lang="zh-CN" data-bs-theme="auto">\n\n<head>\n <meta charset="utf-8"/>\n <meta name="robots" content="noindex">\n <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>\n <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>\n <meta http-equiv="X-UA-Compatible" content="ie=edge"/>\n <title>SSPanel-UIM</title>\n <!-- Auto dark mode -->\n <script>\n ;(function () {\n const htmlElement = document.querySelector("html")\n const theme = htmlElement.getAttribute("data-bs-theme");\n\n if(theme === \'dark-auto\' || theme === \'auto\') {\n function updateTheme() {\n htmlElement.setAttribute("data-bs-theme",\n window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")\n }\n window.matchMedia(\'(prefers-color-scheme: dark)\').addEventListener(\'change\', updateTheme)\n updateTheme()\n }\n })()\n </script>\n <!-- CSS files -->\n <link href="//fastly.jsdelivr.net/npm/@tabler/core@latest/dist/css/tabler.min.css" rel="stylesheet"/>\n <link href="//fastly.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" rel="stylesheet"/>\n <!-- JS files -->\n <script src="/assets/js/fuck.min.js"></script>\n <script src="//fastly.jsdelivr.net/npm/htmx.org@v2/dist/htmx.min.js"></script>\n</head>\n\n<body class="border-top-wide border-primary d-flex flex-column">\n<div class="page page-center">\n <div class="container-tight my-auto">\n <div class="empty">\n <div class="empty-header">500</div>\n <p class="empty-title">服务器内部错误</p>\n <p class="empty-subtitle text-secondary">\n Take me home, country roads, to the place, I belong... Oh wait the server is down.\n </p>\n <div class="empty-action">\n <a href="/" class="btn btn-primary">\n <i class="icon ti ti-chevron-left"></i>\n 返回主页\n </a>\n </div>\n </div>\n </div>\n</div>\n\n<div class="modal modal-blur fade" id="success-dialog" tabindex="-1" role="dialog" aria-hidden="true">\n <div class="modal-dialog modal-sm modal-dialog-centered" role="document">\n <div class="modal-content">\n <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>\n <div class="modal-status bg-success"></div>\n <div class="modal-body text-center py-4">\n <i class="ti ti-circle-check icon mb-2 text-green icon-lg" style="font-size:3.5rem;"></i>\n <p id="success-message" class="text-secondary">成功</p>\n </div>\n <div class="modal-footer">\n <div class="w-100">\n <div class="row">\n <div class="col">\n <a id="success-confirm" href="" class="btn w-100" data-bs-dismiss="modal">\n 好\n </a>\n </div>\n </div>\n </div>\n </div>\n </div>\n </div>\n</div>\n\n<div class="modal modal-blur fade" id="fail-dialog" tabindex="-1" role="dialog" aria-hidden="true">\n <div class="modal-dialog modal-sm modal-dialog-centered" role="document">\n <div class="modal-content">\n <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>\n <div class="modal-status bg-danger"></div>\n <div class="modal-body text-center py-4">\n <i class="ti ti-circle-x icon mb-2 text-danger icon-lg" style="font-size:3.5rem;"></i>\n <p id="fail-message" class="text-secondary">失败</p>\n </div>\n <div class="modal-footer">\n <div class="w-100">\n <div class="row">\n <div class="col">\n <a href="" class="btn btn-danger w-100" data-bs-dismiss="modal">\n 确认\n </a>\n </div>\n </div>\n </div>\n </div>\n </div>\n </div>\n</div>\n\n<script src="//fastly.jsdelivr.net/npm/@tabler/core@latest/dist/js/tabler.min.js"></script>\n\n<script>\n let successDialog = new tabler.bootstrap.Modal(document.getElementById(\'success-dialog\'));\n let failDialog = new tabler.bootstrap.Modal(document.getElementById(\'fail-dialog\'));\n\n htmx.on("htmx:afterRequest", function(evt) {\n if (evt.detail.xhr.getResponseHeader(\'HX-Redirect\'))\n {\n return;\n }\n\n let res = JSON.parse(evt.detail.xhr.response);\n\n if (evt.detail.elt.id === \'send-verify-email\') {\n document.getElementById(\'send-verify-email\').disabled = true;\n }\n\n if (res.ret === 1) {\n document.getElementById("success-message").innerHTML = res.msg;\n successDialog.show();\n } else {\n document.getElementById("fail-message").innerHTML = res.msg;\n failDialog.show();\n }\n });\n</script>\n\n\n\n</body>\n\n</html>\n')
-
-[http://wushujin369.com]
-api_host  wushujin369.com
-name  SSPanel-UIM
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(axcohog855@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (500 Internal Server Error '<br />\n<b>Warning</b>: Attempt to read property "type" on null in <b>/www/wwwroot/default/SSPanel-UIM-25.1.0/src/Models/Config.php</b> on line <b>34</b><br />\n<br />\n<b>Warning</b>: Attempt to read property "value" on null in <b>/www/wwwroot/default/SSPanel-UIM-25.1.0/src/Models/Config.php</b> on line <b>38</b><br />\n<!doctype html>\n<html lang="zh-CN" data-bs-theme="auto">\n\n<head>\n <meta charset="utf-8"/>\n <meta name="robots" content="noindex">\n <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>\n <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>\n <meta http-equiv="X-UA-Compatible" content="ie=edge"/>\n <title>SSPanel-UIM</title>\n <!-- Auto dark mode -->\n <script>\n ;(function () {\n const htmlElement = document.querySelector("html")\n const theme = htmlElement.getAttribute("data-bs-theme");\n\n if(theme === \'dark-auto\' || theme === \'auto\') {\n function updateTheme() {\n htmlElement.setAttribute("data-bs-theme",\n window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")\n }\n window.matchMedia(\'(prefers-color-scheme: dark)\').addEventListener(\'change\', updateTheme)\n updateTheme()\n }\n })()\n </script>\n <!-- CSS files -->\n <link href="//fastly.jsdelivr.net/npm/@tabler/core@latest/dist/css/tabler.min.css" rel="stylesheet"/>\n <link href="//fastly.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" rel="stylesheet"/>\n <!-- JS files -->\n <script src="/assets/js/fuck.min.js"></script>\n <script src="//fastly.jsdelivr.net/npm/htmx.org@v2/dist/htmx.min.js"></script>\n</head>\n\n<body class="border-top-wide border-primary d-flex flex-column">\n<div class="page page-center">\n <div class="container-tight my-auto">\n <div class="empty">\n <div class="empty-header">500</div>\n <p class="empty-title">服务器内部错误</p>\n <p class="empty-subtitle text-secondary">\n Take me home, country roads, to the place, I belong... Oh wait the server is down.\n </p>\n <div class="empty-action">\n <a href="/" class="btn btn-primary">\n <i class="icon ti ti-chevron-left"></i>\n 返回主页\n </a>\n </div>\n </div>\n </div>\n</div>\n\n<div class="modal modal-blur fade" id="success-dialog" tabindex="-1" role="dialog" aria-hidden="true">\n <div class="modal-dialog modal-sm modal-dialog-centered" role="document">\n <div class="modal-content">\n <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>\n <div class="modal-status bg-success"></div>\n <div class="modal-body text-center py-4">\n <i class="ti ti-circle-check icon mb-2 text-green icon-lg" style="font-size:3.5rem;"></i>\n <p id="success-message" class="text-secondary">成功</p>\n </div>\n <div class="modal-footer">\n <div class="w-100">\n <div class="row">\n <div class="col">\n <a id="success-confirm" href="" class="btn w-100" data-bs-dismiss="modal">\n 好\n </a>\n </div>\n </div>\n </div>\n </div>\n </div>\n </div>\n</div>\n\n<div class="modal modal-blur fade" id="fail-dialog" tabindex="-1" role="dialog" aria-hidden="true">\n <div class="modal-dialog modal-sm modal-dialog-centered" role="document">\n <div class="modal-content">\n <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>\n <div class="modal-status bg-danger"></div>\n <div class="modal-body text-center py-4">\n <i class="ti ti-circle-x icon mb-2 text-danger icon-lg" style="font-size:3.5rem;"></i>\n <p id="fail-message" class="text-secondary">失败</p>\n </div>\n <div class="modal-footer">\n <div class="w-100">\n <div class="row">\n <div class="col">\n <a href="" class="btn btn-danger w-100" data-bs-dismiss="modal">\n 确认\n </a>\n </div>\n </div>\n </div>\n </div>\n </div>\n </div>\n</div>\n\n<script src="//fastly.jsdelivr.net/npm/@tabler/core@latest/dist/js/tabler.min.js"></script>\n\n<script>\n let successDialog = new tabler.bootstrap.Modal(document.getElementById(\'success-dialog\'));\n let failDialog = new tabler.bootstrap.Modal(document.getElementById(\'fail-dialog\'));\n\n htmx.on("htmx:afterRequest", function(evt) {\n if (evt.detail.xhr.getResponseHeader(\'HX-Redirect\'))\n {\n return;\n }\n\n let res = JSON.parse(evt.detail.xhr.response);\n\n if (evt.detail.elt.id === \'send-verify-email\') {\n document.getElementById(\'send-verify-email\').disabled = true;\n }\n\n if (res.ret === 1) {\n document.getElementById("success-message").innerHTML = res.msg;\n successDialog.show();\n } else {\n document.getElementById("fail-message").innerHTML = res.msg;\n failDialog.show();\n }\n });\n</script>\n\n\n\n</body>\n\n</html>\n')
-
-[https://wushujin369.com]
-name  SSPanel-UIM
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(ufwcymjeh616@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (500 Internal Server Error '<br />\n<b>Warning</b>: Attempt to read property "type" on null in <b>/www/wwwroot/default/SSPanel-UIM-25.1.0/src/Models/Config.php</b> on line <b>34</b><br />\n<br />\n<b>Warning</b>: Attempt to read property "value" on null in <b>/www/wwwroot/default/SSPanel-UIM-25.1.0/src/Models/Config.php</b> on line <b>38</b><br />\n<!doctype html>\n<html lang="zh-CN" data-bs-theme="auto">\n\n<head>\n <meta charset="utf-8"/>\n <meta name="robots" content="noindex">\n <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>\n <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>\n <meta http-equiv="X-UA-Compatible" content="ie=edge"/>\n <title>SSPanel-UIM</title>\n <!-- Auto dark mode -->\n <script>\n ;(function () {\n const htmlElement = document.querySelector("html")\n const theme = htmlElement.getAttribute("data-bs-theme");\n\n if(theme === \'dark-auto\' || theme === \'auto\') {\n function updateTheme() {\n htmlElement.setAttribute("data-bs-theme",\n window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")\n }\n window.matchMedia(\'(prefers-color-scheme: dark)\').addEventListener(\'change\', updateTheme)\n updateTheme()\n }\n })()\n </script>\n <!-- CSS files -->\n <link href="//fastly.jsdelivr.net/npm/@tabler/core@latest/dist/css/tabler.min.css" rel="stylesheet"/>\n <link href="//fastly.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" rel="stylesheet"/>\n <!-- JS files -->\n <script src="/assets/js/fuck.min.js"></script>\n <script src="//fastly.jsdelivr.net/npm/htmx.org@v2/dist/htmx.min.js"></script>\n</head>\n\n<body class="border-top-wide border-primary d-flex flex-column">\n<div class="page page-center">\n <div class="container-tight my-auto">\n <div class="empty">\n <div class="empty-header">500</div>\n <p class="empty-title">服务器内部错误</p>\n <p class="empty-subtitle text-secondary">\n Take me home, country roads, to the place, I belong... Oh wait the server is down.\n </p>\n <div class="empty-action">\n <a href="/" class="btn btn-primary">\n <i class="icon ti ti-chevron-left"></i>\n 返回主页\n </a>\n </div>\n </div>\n </div>\n</div>\n\n<div class="modal modal-blur fade" id="success-dialog" tabindex="-1" role="dialog" aria-hidden="true">\n <div class="modal-dialog modal-sm modal-dialog-centered" role="document">\n <div class="modal-content">\n <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>\n <div class="modal-status bg-success"></div>\n <div class="modal-body text-center py-4">\n <i class="ti ti-circle-check icon mb-2 text-green icon-lg" style="font-size:3.5rem;"></i>\n <p id="success-message" class="text-secondary">成功</p>\n </div>\n <div class="modal-footer">\n <div class="w-100">\n <div class="row">\n <div class="col">\n <a id="success-confirm" href="" class="btn w-100" data-bs-dismiss="modal">\n 好\n </a>\n </div>\n </div>\n </div>\n </div>\n </div>\n </div>\n</div>\n\n<div class="modal modal-blur fade" id="fail-dialog" tabindex="-1" role="dialog" aria-hidden="true">\n <div class="modal-dialog modal-sm modal-dialog-centered" role="document">\n <div class="modal-content">\n <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>\n <div class="modal-status bg-danger"></div>\n <div class="modal-body text-center py-4">\n <i class="ti ti-circle-x icon mb-2 text-danger icon-lg" style="font-size:3.5rem;"></i>\n <p id="fail-message" class="text-secondary">失败</p>\n </div>\n <div class="modal-footer">\n <div class="w-100">\n <div class="row">\n <div class="col">\n <a href="" class="btn btn-danger w-100" data-bs-dismiss="modal">\n 确认\n </a>\n </div>\n </div>\n </div>\n </div>\n </div>\n </div>\n</div>\n\n<script src="//fastly.jsdelivr.net/npm/@tabler/core@latest/dist/js/tabler.min.js"></script>\n\n<script>\n let successDialog = new tabler.bootstrap.Modal(document.getElementById(\'success-dialog\'));\n let failDialog = new tabler.bootstrap.Modal(document.getElementById(\'fail-dialog\'));\n\n htmx.on("htmx:afterRequest", function(evt) {\n if (evt.detail.xhr.getResponseHeader(\'HX-Redirect\'))\n {\n return;\n }\n\n let res = JSON.parse(evt.detail.xhr.response);\n\n if (evt.detail.elt.id === \'send-verify-email\') {\n document.getElementById(\'send-verify-email\').disabled = true;\n }\n\n if (res.ret === 1) {\n document.getElementById("success-message").innerHTML = res.msg;\n successDialog.show();\n } else {\n document.getElementById("fail-message").innerHTML = res.msg;\n failDialog.show();\n }\n });\n</script>\n\n\n\n</body>\n\n</html>\n')
-
-[https://42.240.135.221]
-
-[https://143.14.189.254]
-
-[https://shejimao.trade]
-name  新设计猫
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(jfnnkfu767@gmail.com): 未开放注册。
-
-[http://shejimao.club]
-api_host  shejimao.club
-name  新设计猫
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(utlhtvqz659@gmail.com): 未开放注册。
-
-[http://shejimao.trade]
-api_host  shejimao.trade
-name  新设计猫
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(jhayycwc350@gmail.com): 未开放注册。
-
-[http://shejimao.xyz]
-api_host  shejimao.xyz
-name  新设计猫
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(hgfgqyv777@gmail.com): 未开放注册。
-
-[https://www.shejimao.trade]
-name  新设计猫
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(wzcpajvut636@gmail.com): 未开放注册。
-
-[https://www.shejimao.xyz]
-name  新设计猫
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(uoqhfvlio946@gmail.com): 未开放注册。
-
-[https://shejimao.xyz]
-name  新设计猫
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(gjhurrpx583@gmail.com): 未开放注册。
-
-[https://shejimao.club]
-name  新设计猫
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(zttbabthu135@gmail.com): 未开放注册。
-
-[http://www.shejimao.xyz]
-api_host  www.shejimao.xyz
-name  新设计猫
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(iuzaiqg10@gmail.com): 未开放注册。
-
-[https://64.181.246.37]
-
-[https://173.208.130.2]
-
-[https://129.159.241.89]
-
-[https://129.211.169.198]
-
-[https://116.202.86.27]
-
-[https://64.225.37.184]
-
-[https://107.173.87.64]
-
-[http://dj.zuoyou.org.uk]
-api_host  dj.zuoyou.org.uk
-name  ZUOYOU加速
-type  sspanel
-更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
-
-[https://dj.zuoyou.org.uk]
-name  ZUOYOU加速
-type  sspanel
-更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
-
-[https://198.13.37.132]
-
-[https://118.99.6.217]
-
-[https://138.2.17.86]
-
-[https://47.79.136.10]
-
-[https://209.126.13.61]
-
-[https://140.238.36.123]
-
-[https://47.238.84.86]
-
-[https://178.128.83.131]
-
-[https://103.127.218.108]
-
-[https://167.179.113.154]
-
-[http://hddolby.de]
-api_host  hddolby.de
-name  SSPanel-UIM
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(firikmv779@gmail.com): 未开放注册。
-
-[https://hddolby.de]
-name  SSPanel-UIM
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(hcsahuhc298@gmail.com): 未开放注册。
-
-[https://62.84.172.196]
-
-[https://89.208.105.235]
-
-[https://baibai.dodaci.xyz]
-name  百百小小乐
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(njhshueq943@gmail.com): 未开放注册。
-
-[http://baibai.dodaci.xyz]
-name  百百小小乐
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(vzmnmkdip572@gmail.com): 未开放注册。
-
-[https://49.128.218.82]
-
-[https://43.201.5.143]
-
-[http://23.230.253.106:8080]
-
-[https://198.181.40.206]
-
-[http://205.234.253.15]
-name  ok
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(iflygcciu969@gmail.com): 未开放注册。
-
-[http://149.28.200.119]
-name  SSPanel-UIM
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(xhmwpjorr727@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (500 Internal Server Error '<!doctype html>\n<html lang="zh">\n\n<head>\n <meta charset="utf-8"/>\n <meta name="robots" content="noindex">\n <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>\n <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>\n <meta http-equiv="X-UA-Compatible" content="ie=edge"/>\n <title>SSPanel-UIM</title>\n <!-- CSS files -->\n <link href="//fastly.jsdelivr.net/npm/@tabler/core@latest/dist/css/tabler.min.css" rel="stylesheet"/>\n <link href="//fastly.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" rel="stylesheet"/>\n <!-- JS files -->\n <script src="/assets/js/fuck.min.js"></script>\n <script src="//fastly.jsdelivr.net/npm/htmx.org@latest/dist/htmx.min.js"></script>\n</head>\n\n<body class="border-top-wide border-primary d-flex flex-column">\n<div class="page page-center">\n <div class="container-tight my-auto">\n <div class="empty">\n <div class="empty-header">500</div>\n <p class="empty-title">服务器内部错误</p>\n <p class="empty-subtitle text-secondary">\n Take me home, country roads, to the place, I belong... Oh wait the server is down.\n </p>\n <div class="empty-action">\n <a href="/" class="btn btn-primary">\n <i class="icon ti ti-chevron-left"></i>\n 返回主页\n </a>\n </div>\n </div>\n </div>\n</div>\n\n<div class="modal modal-blur fade" id="success-dialog" tabindex="-1" role="dialog" aria-hidden="true">\n <div class="modal-dialog modal-sm modal-dialog-centered" role="document">\n <div class="modal-content">\n <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>\n <div class="modal-status bg-success"></div>\n <div class="modal-body text-center py-4">\n <i class="ti ti-circle-check icon mb-2 text-green icon-lg" style="font-size:3.5rem;"></i>\n <p id="success-message" class="text-secondary">成功</p>\n </div>\n <div class="modal-footer">\n <div class="w-100">\n <div class="row">\n <div class="col">\n <a id="success-confirm" href="" class="btn w-100" data-bs-dismiss="modal">\n 好\n </a>\n </div>\n </div>\n </div>\n </div>\n </div>\n </div>\n</div>\n\n<div class="modal modal-blur fade" id="fail-dialog" tabindex="-1" role="dialog" aria-hidden="true">\n <div class="modal-dialog modal-sm modal-dialog-centered" role="document">\n <div class="modal-content">\n <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>\n <div class="modal-status bg-danger"></div>\n <div class="modal-body text-center py-4">\n <i class="ti ti-circle-x icon mb-2 text-danger icon-lg" style="font-size:3.5rem;"></i>\n <p id="fail-message" class="text-secondary">失败</p>\n </div>\n <div class="modal-footer">\n <div class="w-100">\n <div class="row">\n <div class="col">\n <a href="" class="btn btn-danger w-100" data-bs-dismiss="modal">\n 确认\n </a>\n </div>\n </div>\n </div>\n </div>\n </div>\n </div>\n</div>\n\n<script src="//fastly.jsdelivr.net/npm/@tabler/core@latest/dist/js/tabler.min.js"></script>\n\n<script>\n htmx.on("htmx:afterRequest", function(evt) {\n if (evt.detail.xhr.getResponseHeader(\'HX-Redirect\'))\n {\n return;\n }\n\n let res = JSON.parse(evt.detail.xhr.response);\n let successDialog = new bootstrap.Modal(document.getElementById(\'success-dialog\'));\n let failDialog = new bootstrap.Modal(document.getElementById(\'fail-dialog\'));\n\n if (evt.detail.elt.id === \'send-verify-email\') {\n document.getElementById(\'send-verify-email\').disabled = true;\n }\n\n if (res.ret === 1) {\n document.getElementById("success-message").innerHTML = res.msg;\n successDialog.show();\n } else {\n document.getElementById("fail-message").innerHTML = res.msg;\n failDialog.show();\n }\n });\n</script>\n\n\n\n</body>\n\n</html>\n')
-
-[https://18.138.160.152]
-
-[https://18.190.156.41]
-
-[http://129.226.12.182]
-name  SSPanel-UIM
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(comrzusiq732@gmail.com): 未开放注册。
-
-[http://139.162.110.25]
-
-[https://biubiubiu.mmybest.top]
-name  mmyun
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(epgiwtd136@gmail.com): 未开放注册。
-
-[http://biubiubiu.mmybest.top]
-name  mmyun
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(xoinuuz743@gmail.com): 未开放注册。
-
-[http://52.41.231.29]
-
-[http://43.154.239.129]
-name  SSPanel-UIM
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(kdzutcfbw867@gmail.com): 未开放注册。
-
-[http://89.187.28.201]
-name  蓝莓
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(yowtlfbs880@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (500 Internal Server Error '<!doctype html><html lang="en"> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <title>Slim Application Error</title> <style> body{margin:0;padding:30px;font:12px/1.5 Helvetica,Arial,Verdana,sans-serif} h1{margin:0;font-size:48px;font-weight:normal;line-height:48px} strong{display:inline-block;width:65px} </style> </head> <body> <h1>Slim Application Error</h1> <div><p>The application could not run because of the following error:</p><h2>Details</h2><div><strong>Type:</strong> TypeError</div><div><strong>Code:</strong> 0</div><div><strong>Message:</strong> trim(): Argument #1 ($string) must be of type string, null given</div><div><strong>File:</strong> /usr/local/sspanel/src/Controllers/AuthController.php</div><div><strong>Line:</strong> 490</div><h2>Trace</h2><pre>#0 /usr/local/sspanel/src/Controllers/AuthController.php(490): trim()\n#1 /usr/local/sspanel/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(38): App\\Controllers\\AuthController-&gt;registerHandle()\n#2 /usr/local/sspanel/vendor/slim/slim/Slim/Routing/Route.php(358): Slim\\Handlers\\Strategies\\RequestResponse-&gt;__invoke()\n#3 /usr/local/sspanel/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Slim\\Routing\\Route-&gt;handle()\n#4 /usr/local/sspanel/src/Middleware/Guest.php(26): Slim\\MiddlewareDispatcher-&gt;handle()\n#5 /usr/local/sspanel/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): App\\Middleware\\Guest-&gt;process()\n#6 /usr/local/sspanel/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Psr\\Http\\Server\\RequestHandlerInterface@anonymous-&gt;handle()\n#7 /usr/local/sspanel/vendor/slim/slim/Slim/Routing/Route.php(315): Slim\\MiddlewareDispatcher-&gt;handle()\n#8 /usr/local/sspanel/vendor/slim/slim/Slim/Routing/RouteRunner.php(68): Slim\\Routing\\Route-&gt;run()\n#9 /usr/local/sspanel/src/Middleware/ErrorHandler.php(44): Slim\\Routing\\RouteRunner-&gt;handle()\n#10 /usr/local/sspanel/vendor/slim/slim/Slim/MiddlewareDispatcher.php(121): App\\Middleware\\ErrorHandler-&gt;process()\n#11 /usr/local/sspanel/vendor/slim/slim/Slim/MiddlewareDispatcher.php(65): Psr\\Http\\Server\\RequestHandlerInterface@anonymous-&gt;handle()\n#12 /usr/local/sspanel/vendor/slim/slim/Slim/App.php(199): Slim\\MiddlewareDispatcher-&gt;handle()\n#13 /usr/local/sspanel/vendor/slim/slim/Slim/App.php(183): Slim\\App-&gt;handle()\n#14 /usr/local/sspanel/public/index.php(54): Slim\\App-&gt;run()\n#15 {main}</pre></div> <a href="#" onclick="window.history.go(-1)">Go Back</a> </body></html>')
-
-[http://132.226.170.164]
-banned_domains  questtechsystems.com
-name  纸飞机
-type  sspanel
-更新订阅链接/续费续签失败  获取邮箱验证码超时(aymcgsdde29@questtechsystems.com)
-
-[http://185.217.109.250]
-
-[http://202.73.4.245:7001]
-name  流苏云
-type  v2board
-更新订阅链接/续费续签失败  注册失败(gkrjnmvro735@gmail.com): 'NoneType' object is not subscriptable
-
-[https://107.173.199.102]
-
-[http://speed.xsyysx.top]
-api_host  speed.xsyysx.top
-name  9204 Chat
-type  v2board
-更新订阅链接/续费续签失败  注册失败(yrnpyer57@gmail.com): 'NoneType' object is not subscriptable
-
-[https://speed.xsyysx.top]
-name  9204 Chat
-type  v2board
-更新订阅链接/续费续签失败  注册失败(nyfpdmwgr571@gmail.com): 'NoneType' object is not subscriptable
-
-[https://xboard.xsyysx.top]
-name  9204 Chat
-type  v2board
-更新订阅链接/续费续签失败  注册失败(jgtqnlcu592@gmail.com): 'NoneType' object is not subscriptable
-
-[http://xboard.xsyysx.top]
-api_host  xboard.xsyysx.top
-name  9204 Chat
-type  v2board
-更新订阅链接/续费续签失败  注册失败(hfackyowi400@gmail.com): 'NoneType' object is not subscriptable
-
-[http://45.62.100.101:7001]
-buy  pass
-email  wdfmmsgq822@gmail.com
-name  Xboard
-sub_url  http://45.62.100.101:7001/s/21891ff650f7b60a6ae52b16fb9f70db
-time  2026-03-10 08:39:25.726425+08:00
-type  v2board
-获取订阅失败  (http://45.62.100.101:7001/s/21891ff650f7b60a6ae52b16fb9f70db): 403 Forbidden ''
-
-[http://47.112.213.199:5001]
-name  华纳加速器
-type  v2board
-更新订阅链接/续费续签失败  注册失败(xzlievts144@gmail.com): 'NoneType' object is not subscriptable
-
-[https://103.112.97.42]
-
-[https://51.38.40.96]
-
-[https://13.250.9.187]
-
-[https://173.249.203.223]
-
-[https://38.207.164.76]
-
-[https://www.panameras.org]
-name  GoGoCloud
-type  v2board
-更新订阅链接/续费续签失败  注册失败(boknfew995@gmail.com): 'NoneType' object is not subscriptable
-
-[http://183.179.197.93:199]
-name  阿狗的狗窝
-type  v2board
-更新订阅链接/续费续签失败  注册失败(cwjfqojiq835@gmail.com): 'NoneType' object is not subscriptable
-
-[https://152.53.89.164]
-
-[http://47.83.21.191:7001]
-buy  pass
-email  tywqxlzo259@gmail.com
-name  管理面板
-sub_url  https://panel.storemi.cn/s/52c56c35175e4a34ca72b1a9e8abe6c2
-time  2026-03-10 08:39:26.942686+08:00
-type  v2board
-获取订阅失败  (http://47.83.21.191:7001/s/52c56c35175e4a34ca72b1a9e8abe6c2): 403 Forbidden ''
-
-[https://152.53.184.107]
-
-[http://38.146.30.189:7001]
-name  ikun云
-type  v2board
-更新订阅链接/续费续签失败  注册失败(laidsvjs20@gmail.com): 'NoneType' object is not subscriptable
-
-[https://38.55.131.206]
-
-[https://107.173.82.41]
-
-[https://42.98.143.129]
-
-[http://154.36.163.233:7001]
-buy  pass
-email  cpygarf813@gmail.com
-name  XBoard
-sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  http://154.36.163.233:7001/api/v1/client/subscribe?token=1755cafed4a552761dca1671f98ef5c9
-time  2026-03-10 08:39:27.074666+08:00
-type  v2board
-保存base64/clash订阅失败  'NoneType' object is not iterable
-
-[http://8.218.133.59:5000]
-buy  pass
-email  cvkmymw850@gmail.com
-name  宝格
-node_n  27
-sub_info  0B  50G  2026-03-10 10:39:28+08:00  (剩余 50G 1:59:49.942279)
-sub_url  http://q.baoge.me:5000/s/1e17d932f99bc7908369e66b77d58d73
-time  2026-03-10 08:39:29.724335+08:00
-type  v2board
-
-[https://67.215.255.55]
-
-[http://www.nodesgo.top]
-name  NodesGo
-type  v2board
-更新订阅链接/续费续签失败  注册失败(ynlqknel366@gmail.com): 'NoneType' object is not subscriptable
-
-[https://nodesgo.top]
-name  NodesGo
-type  v2board
-更新订阅链接/续费续签失败  注册失败(jkztsaju404@gmail.com): 'NoneType' object is not subscriptable
-
-[http://nodesgo.top]
-name  NodesGo
-type  v2board
-更新订阅链接/续费续签失败  注册失败(qcstgtwt207@gmail.com): 'NoneType' object is not subscriptable
-
-[https://www.nodesgo.top]
-name  NodesGo
-type  v2board
-更新订阅链接/续费续签失败  注册失败(iuwkacnp379@gmail.com): 'NoneType' object is not subscriptable
-
-[https://107.173.52.189]
-
-[http://panel.backupneal.com]
-api_host  panel.backupneal.com
-buy  period=year_price&plan_id=2
-email  lxzvilf902@gmail.com
-name  Lounge By Neal
-sub_info  0B  150G  2027-03-10 08:39:27+08:00  (剩余 150G 364 days, 23:55:33.736000)
-sub_url  https://panel.backupneal.com/s/bf1fe64b79a7a2bf3ec51ce633c4da05
-time  2026-03-10 08:39:27.545473+08:00
-type  v2board
-保存base64/clash订阅失败  string indices must be integers
-
-[https://62.3.15.123]
-
-[https://107.173.61.139]
-
-[http://132.226.174.142:443]
-name  阿狗的狗窝
-type  v2board
-更新订阅链接/续费续签失败  注册失败(nvjflzph683@gmail.com): 'NoneType' object is not subscriptable
-
-[http://47.86.165.180:5000]
-buy  pass
-email  gxdnykg875@gmail.com
-name  宝格
-node_n  27
-sub_info  0B  50G  2026-03-10 10:39:28+08:00  (剩余 50G 1:59:55.262962)
-sub_url  http://q.baoge.me:5000/s/1fad6255a162cb4aaac516bc0816f37f
-time  2026-03-10 08:39:30.302634+08:00
-type  v2board
-
-[https://47.79.79.2]
-
-[https://23.224.49.26]
-
-[https://15.235.167.36]
-
-[https://45.32.58.103]
-
-[http://47.79.89.203:9999]
-buy  pass
-email  qukwgxjii870@gmail.com
-name  XBoard
-sub_url  https://xb.qazwsx01.com/s/b71bc161d920019173214cf0c22ebdc4
-time  2026-03-10 08:39:27.781699+08:00
-type  v2board
-获取订阅失败  (http://47.79.89.203:9999/s/b71bc161d920019173214cf0c22ebdc4): 403 Forbidden ''
-
-[https://103.219.195.25]
-
-[http://tizer.dev]
-api_host  tizer.dev
-name  tizer.dev
-type  v2board
-更新订阅链接/续费续签失败  注册失败(vkarpoqbc790@gmail.com): 'NoneType' object is not subscriptable
-
-[https://tizer.dev]
-name  tizer.dev
-type  v2board
-更新订阅链接/续费续签失败  注册失败(atedeog979@gmail.com): 'NoneType' object is not subscriptable
-
-[https://5.78.46.79]
-
-[https://212.81.47.52]
-
-[https://107.175.53.27]
-
-[https://ss.menghuan168.ru]
-name  VVM
-type  v2board
-更新订阅链接/续费续签失败  注册失败(obitpjtd652@gmail.com): 'NoneType' object is not subscriptable
-
-[http://ss.menghuan168.ru]
-name  VVM
-type  v2board
-更新订阅链接/续费续签失败  注册失败(joarrqh922@gmail.com): 'NoneType' object is not subscriptable
-
-[https://141.11.138.165]
-
-[https://103.219.195.13]
-
-[https://108.61.217.141]
-
-[https://15.235.204.108]
-
-[https://38.55.104.254]
-
-[https://144.202.125.21]
-
-[https://38.244.60.24]
-
-[https://13.73.233.148]
-
-[https://8.218.158.230]
-
-[https://167.71.149.209]
-
-[https://45.150.227.236]
-
-[http://104.224.156.15:443]
-name  HaoBaCloud
-type  v2board
-更新订阅链接/续费续签失败  注册失败(cazbnvjv957@gmail.com): 'NoneType' object is not subscriptable
-
-[https://107.174.2.244]
-
-[https://64.176.45.6]
-
-[http://board.default.ccwu.cc]
-api_host  board.default.ccwu.cc
-name  XBoard
-type  v2board
-更新订阅链接/续费续签失败  注册失败(pqzdntncb699@gmail.com): 'NoneType' object is not subscriptable
-
-[https://board.default.ccwu.cc]
-name  XBoard
-type  v2board
-更新订阅链接/续费续签失败  注册失败(piyukqyyy476@gmail.com): 'NoneType' object is not subscriptable
-
-[https://146.235.201.61]
-
-[https://35.79.196.77]
-
-[http://23.159.248.198:7777]
-name  CloudSurf
-type  v2board
-更新订阅链接/续费续签失败  注册失败(hjyeocp329@gmail.com): 'NoneType' object is not subscriptable
-
-[https://47.82.65.246]
-
-[https://vmess.primidao.top]
-
-[http://47.83.123.211:9999]
-name  huge cloud
-type  v2board
-更新订阅链接/续费续签失败  注册失败(lutgjcpk420@gmail.com): 'NoneType' object is not subscriptable
-
-[https://185.242.234.195]
-
-[https://107.173.148.187]
-
-[http://185.242.234.195:7001]
-buy  pass
-email  sihsxxcj796@gmail.com
-name  一圆云
-sub_url  http://185.242.234.195:7001/s/aad0f3f7f05e494b0cdab30b7bd8688f
-time  2026-03-10 08:39:31.141477+08:00
-type  v2board
-获取订阅失败  (http://185.242.234.195:7001/s/aad0f3f7f05e494b0cdab30b7bd8688f): 403 Forbidden ''
-
-[https://pay.nodedns.xyz]
-name  外婆云
-type  v2board
-更新订阅链接/续费续签失败  注册失败(etqodlqpk728@gmail.com): 'NoneType' object is not subscriptable
-
-[https://cdn.waipo.xyz]
-name  外婆云
-type  v2board
-更新订阅链接/续费续签失败  注册失败(bhzufjq545@gmail.com): 'NoneType' object is not subscriptable
-
-[http://pay.nodedns.xyz]
-api_host  pay.nodedns.xyz
-name  外婆云
-type  v2board
-更新订阅链接/续费续签失败  注册失败(vyrpiim746@gmail.com): 'NoneType' object is not subscriptable
-
-[http://181.215.6.131:7001]
-name  XBoard
-type  v2board
-更新订阅链接/续费续签失败  注册失败(ckqaxmtb358@gmail.com): 'NoneType' object is not subscriptable
-
-[https://150.230.207.238]
-
-[https://88.151.34.8]
-
-[https://103.143.80.122]
-
-[http://37.114.48.26:7001]
-name  肥喵云
-type  v2board
-更新订阅链接/续费续签失败  注册失败(oiruleec115@gmail.com): 'NoneType' object is not subscriptable
-
-[https://1.fishmix70.com]
-name  Fishmix.VPN
-type  v2board
-更新订阅链接/续费续签失败  注册失败(nxsbkvwl737@gmail.com): 'NoneType' object is not subscriptable
-
-[https://top.fishmix70.com]
-name  Fishmix.VPN
-type  v2board
-更新订阅链接/续费续签失败  注册失败(bbptdtyq546@gmail.com): 'NoneType' object is not subscriptable
-
-[http://1.fishmix70.com]
-api_host  1.fishmix70.com
-name  Fishmix.VPN
-type  v2board
-更新订阅链接/续费续签失败  注册失败(zqtkokjoq316@gmail.com): 'NoneType' object is not subscriptable
-
-[http://top.fishmix70.com]
-api_host  top.fishmix70.com
-name  Fishmix.VPN
-type  v2board
-更新订阅链接/续费续签失败  注册失败(qlwhvgyy223@gmail.com): 'NoneType' object is not subscriptable
-
-[https://46.250.233.123]
-
-[http://37.114.48.99:7001]
-name  五毛机场
-type  v2board
-更新订阅链接/续费续签失败  注册失败(iwupytxtc511@gmail.com): 'NoneType' object is not subscriptable
-
-[https://104.234.4.41]
-
-[https://43.134.69.154]
-
-[https://139.180.191.188]
-
-[https://154.208.10.33]
-
-[https://23.95.254.124]
-
-[https://69.63.200.58]
-
-[http://216.230.233.49:20000]
-name  HRET
-type  v2board
-更新订阅链接/续费续签失败  注册失败(litfcpszp69@gmail.com): 'NoneType' object is not subscriptable
-
 [https://207.148.96.227]
 
 [https://107.173.155.159]
@@ -621,7 +11,7 @@ name  三元SanYuan
 sub_url  https://sanyuandingyue.751334.xyz/api/4afaded115dd7cade06ceda10576c0cd
 time  2026-03-10 08:39:33.783970+08:00
 type  v2board
-获取订阅失败  (https://sytx.354873.xyz/api/4afaded115dd7cade06ceda10576c0cd): 403 Forbidden ''
+更新旧订阅失败  (https://sytx.354873.xyz/api/4afaded115dd7cade06ceda10576c0cd): 403 Forbidden ''
 
 [http://sytx.354873.xyz]
 buy  pass
@@ -630,7 +20,7 @@ name  三元SanYuan
 sub_url  https://sanyuandingyue.751334.xyz/api/48e21182c1e6b8e27e45cc9f94a27c29
 time  2026-03-10 08:39:33.178599+08:00
 type  v2board
-获取订阅失败  (http://sytx.354873.xyz/api/48e21182c1e6b8e27e45cc9f94a27c29): 403 Forbidden ''
+更新旧订阅失败  (http://sytx.354873.xyz/api/48e21182c1e6b8e27e45cc9f94a27c29): 403 Forbidden ''
 
 [https://185.58.159.94]
 
@@ -638,13 +28,13 @@ type  v2board
 api_host  www.husu.xyz
 name  十元机场
 type  v2board
-更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"bvbqwrtpg177@vapeuccino.com","success":"false"}'
+更新订阅链接/续费续签失败  注册失败(snpwcqsfj911@tmpbox.net): 邮箱后缀不处于白名单中
 
 [https://www.husu.xyz]
-banned_domains  adtgng.tmmad.com
+banned_domains  adtgng.tmmad.com  vapeuccino.com
 name  十元机场
 type  v2board
-更新订阅链接/续费续签失败  获取邮箱验证码超时(mbfpxov675@adtgng.tmmad.com)
+更新订阅链接/续费续签失败  获取邮箱验证码超时(kpaunrhf958@vapeuccino.com)
 
 [https://47.128.166.153]
 
@@ -654,7 +44,7 @@ type  v2board
 banned_domains  guerrillamail.org
 name  西瓜加速
 type  v2board
-更新订阅链接/续费续签失败  获取邮箱验证码超时(tcinoeqs941@guerrillamail.org)
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"ibsajofh975@mxl001.win","success":"false"}'
 
 [https://74.48.99.24]
 
@@ -670,17 +60,17 @@ type  v2board
 api_host  gocats.io
 name  GoCats
 type  v2board
-更新订阅链接/续费续签失败  注册失败(ljbnqajyr335@gmail.com): 本站已关闭注册
+更新订阅链接/续费续签失败  注册失败(buawfoa77@gmail.com): 本站已关闭注册
 
 [https://gocats.io]
 name  GoCats
 type  v2board
-更新订阅链接/续费续签失败  注册失败(jzjkhcvgu103@gmail.com): 本站已关闭注册
+更新订阅链接/续费续签失败  注册失败(jzzqdhdut11@gmail.com): 本站已关闭注册
 
 [https://www.gocats.io]
 name  GoCats
 type  v2board
-更新订阅链接/续费续签失败  注册失败(cevcxkmx300@gmail.com): 本站已关闭注册
+更新订阅链接/续费续签失败  注册失败(njvtiig162@gmail.com): 本站已关闭注册
 
 [https://103.179.188.38]
 
@@ -738,11 +128,11 @@ type  v2board
 
 [https://47.242.128.61]
 buy  pass
-email  vxyqqaxs639@gmail.com
+email  gaxgyirve903@gmail.com
 name  魔戒.net
 sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://msub.xn--m7r52rosihxm.com/api/v1/client/subscribe?token=d7d114ac1864c2691f47ae6fe225c72e
-time  2026-03-10 08:39:38.335544+08:00
+sub_url  https://msub.xn--m7r52rosihxm.com/api/v1/client/subscribe?token=dd6002c775d21e7a7b27f8f5b5f1b41a
+time  2026-03-10 09:38:40.743027+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
 
@@ -756,12 +146,12 @@ type  v2board
 [http://152.69.220.142:18080]
 name  yyds
 type  v2board
-更新订阅链接/续费续签失败  注册失败(ifizyetg3@gmail.com): 本站已关闭注册
+更新订阅链接/续费续签失败  注册失败(qxztwyri93@gmail.com): 本站已关闭注册
 
 [http://38.47.52.1:10001]
 name  FastFox
 type  v2board
-更新订阅链接/续费续签失败  注册失败(sywlacp905@gmail.com): 'NoneType' object is not subscriptable
+更新订阅链接/续费续签失败  注册失败(feihcelp998@gmail.com): 'NoneType' object is not subscriptable
 
 [https://132.145.61.26]
 
@@ -776,11 +166,11 @@ type  v2board
 
 [http://104.249.156.176:9527]
 buy  pass
-email  jhkkqbo974@gmail.com
+email  aeexqncv311@gmail.com
 name  CCXBoard
 sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  http://104.249.156.176:9527/api/v1/client/subscribe?token=8e98836175878649443f67c6f02735de
-time  2026-03-10 08:39:36.377454+08:00
+sub_url  http://104.249.156.176:9527/api/v1/client/subscribe?token=99285dddab7c50ed3df86979e269a7e3
+time  2026-03-10 09:38:42.457240+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
 
@@ -794,3 +184,157 @@ type  v2board
 [https://116.203.130.215]
 
 [https://15.204.191.52]
+
+[https://208.87.242.69]
+
+[https://107.174.41.2]
+
+[https://14.225.220.83]
+
+[https://173.248.244.126]
+
+[https://209.17.118.6]
+
+[https://www.fhfox.com]
+buy  pass
+email  vcptioqwc824@gmail.com
+name  飞狐网络
+sub_info  0B  0B  永不过期  (剩余 0B)
+sub_url  https://dy.v6v.eu/api/v1/client/subscribe?token=00b361854970449f526ddfba4bb3b8df
+time  2026-03-10 09:38:38.859214+08:00
+type  v2board
+保存base64/clash订阅失败  'NoneType' object is not iterable
+
+[https://fh.shenlan.eu.org]
+buy  pass
+email  tyiiakne349@gmail.com
+name  飞狐网络
+sub_info  0B  0B  永不过期  (剩余 0B)
+sub_url  https://dy.v6v.eu/api/v1/client/subscribe?token=5f36f7ab4233da6f24f554e9de66dedf
+time  2026-03-10 09:38:38.692045+08:00
+type  v2board
+保存base64/clash订阅失败  'NoneType' object is not iterable
+
+[http://www.fhfox.com]
+buy  pass
+email  wnjabnnf735@gmail.com
+name  飞狐网络
+sub_info  0B  0B  永不过期  (剩余 0B)
+sub_url  https://dy.v6v.eu/api/v1/client/subscribe?token=d0c20493154a1b1d9601da3ee01af72c
+time  2026-03-10 09:38:38.934949+08:00
+type  v2board
+保存base64/clash订阅失败  'NoneType' object is not iterable
+
+[http://fh.shenlan.eu.org]
+buy  pass
+email  bytljba663@gmail.com
+name  飞狐网络
+sub_info  0B  0B  永不过期  (剩余 0B)
+sub_url  https://dy.v6v.eu/api/v1/client/subscribe?token=dccc4ed466170d8aedccf34f4df629d7
+time  2026-03-10 09:38:38.372138+08:00
+type  v2board
+保存base64/clash订阅失败  'NoneType' object is not iterable
+
+[https://116.203.224.73]
+
+[https://62.204.54.177]
+
+[https://152.53.118.140]
+
+[http://www.oriwerkz.com]
+api_host  www.oriwerkz.com
+name  星辰大海
+type  v2board
+更新订阅链接/续费续签失败  注册失败(hwfsuvhy382@gmail.com): 本站已关闭注册
+
+[https://www.oriwerkz.com]
+name  星辰大海
+type  v2board
+更新订阅链接/续费续签失败  注册失败(txustpve266@gmail.com): 本站已关闭注册
+
+[https://163.223.211.85]
+
+[https://167.179.96.189]
+name  VvShop
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[https://94.130.110.79]
+
+[https://154.201.83.220]
+
+[http://152.32.131.158:10000]
+buy  pass
+email  nkjuxtznm400@gmail.com
+name  idle Duck
+sub_info  0B  0B  永不过期  (剩余 0B)
+sub_url  https://api.idleduck.top/api/v1/client/subscribe?token=67d24c6960c9808b7faec9b2a1071519
+time  2026-03-10 09:38:40.172620+08:00
+type  v2board
+保存base64/clash订阅失败  'NoneType' object is not iterable
+
+[http://45.249.89.109:18080]
+name  MGNB
+type  v2board
+更新订阅链接/续费续签失败  发送邮箱验证码失败(yocviijg487@xdanae.com): {'message': '邮箱后缀不处于白名单中'}
+
+[https://107.175.249.44]
+
+[https://154.94.238.110]
+
+[https://192.99.201.189]
+
+[https://74.48.43.240]
+
+[https://38.150.6.141]
+
+[https://103.231.190.45]
+
+[https://192.9.156.122]
+
+[https://23.80.80.158]
+
+[https://api2.teclamos.com]
+name  RSS订阅管理
+type  v2board
+更新订阅链接/续费续签失败  注册失败(kaeoznyqw556@gmail.com): 本站已关闭注册
+
+[https://199.115.228.26]
+
+[https://157.173.101.77]
+
+[https://vpn.xhjvpn.cn]
+name  火箭极速版
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱失败: 设置 rootsh.com 账户失败: 200 OK '{"message":"邮箱申请太频繁，请2秒后再试！","user":"xhzmygtz299@jkb.tmmad.com","success":"false"}'
+
+[https://111.231.13.45]
+
+[http://45.154.13.164:18080]
+name  远洋三号
+type  v2board
+更新订阅链接/续费续签失败  注册失败(sxcewfgk741@gmail.com): 本站已关闭注册
+
+[https://139.180.213.67]
+banned_domains  adtgng.tmmad.com
+name  234Cloud
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(nsnidtw383@adtgng.tmmad.com)
+
+[https://36.50.135.98]
+
+[https://168.138.3.19]
+
+[https://166.88.77.180]
+
+[https://43.156.15.166]
+
+[https://5gdailoan.shop]
+name  SHOP 5GDAILOAN
+type  v2board
+更新订阅链接/续费续签失败  注册失败(sqnliaqqr462@gmail.com): Có thể web đang quá tải, liên hệ admin để được giải quyết.
+
+[http://5gdailoan.shop]
+name  SHOP 5GDAILOAN
+type  v2board
+更新订阅链接/续费续签失败  注册失败(msjlgfwhp400@gmail.com): Có thể web đang quá tải, liên hệ admin để được giải quyết.
