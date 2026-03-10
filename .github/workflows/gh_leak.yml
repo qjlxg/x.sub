@@ -29,9 +29,10 @@ jobs:
 
       - name: Run GitHub Leak Script
         env:
+        
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
-          MY_BOT_NAME: ${{ secrets.BOT }}
+        
+          MY_BOT_NAME: ${{ vars.BOT }}
         run: python gh_leak_collector.py
 
       - name: Commit and Push
@@ -39,11 +40,11 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add github_leaks.txt
+          
           if git diff --cached --quiet; then
-            echo "No changes."
+            echo "No changes detected."
           else
             export TZ='Asia/Shanghai'
-            # Secret 在命令行直接打印会是空或星号，这里用变量名占位
-            git commit -m "Auto-Update by LeakBot at $(date +'%Y-%m-%d %H:%M:%S')"
+            git commit -m "Auto-Update: $(date +'%Y-%m-%d %H:%M:%S')"
             git push
           fi
