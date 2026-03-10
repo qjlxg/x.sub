@@ -1,18 +1,19 @@
 name: GitHub Leak Collector
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:      # 支持点击 Actions 页面上的按钮手动触发
   push:
+    # 只要你改动了脚本或工作流，立即触发运行
     paths:
       - 'gh_leak_collector.py'
       - '.github/workflows/gh_leak.yml'
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: '0 */2 * * *'  # 每 2 小时自动运行一次
 
 jobs:
   collect:
     runs-on: ubuntu-latest
-    # 赋予 Actions 写入权限，否则无法更新 txt 文件
+    # 必须开启写入权限，否则无法更新 github_leaks.txt
     permissions:
       contents: write
 
@@ -30,8 +31,10 @@ jobs:
 
       - name: Run GitHub Leak Script
         env:
-         
+          
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+         
+          MY_BOT_NAME: ${{ vars.BOT }}
         run: python gh_leak_collector.py
 
       - name: Commit and Push
@@ -39,10 +42,12 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add github_leaks.txt
+          
+          # 检查是否有新内容更新，避免无意义的提交
           if git diff --cached --quiet; then
-            echo "No new leaks found."
+            echo "No new links found this time."
           else
             export TZ='Asia/Shanghai'
-            git commit -m "Auto-trigger Update: $(date +'%Y-%m-%d %H:%M:%S')"
+            git commit -m "[$MY_BOT_NAME] Leaks Updated: $(date +'%Y-%m-%d %H:%M:%S')"
             git push
           fi
