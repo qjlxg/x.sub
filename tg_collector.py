@@ -34,16 +34,33 @@ CHANNELS = [
     'freemason6',       # 机场观测（白嫖无罪，0元包）
     'jichangbaipiao'    # 机场白嫖（基础库）
 ]
+
+def get_sub_status(url):
+    """新增：探测订阅链接的剩余流量和有效期"""
+    try:
+        # 必须模拟机场常用客户端头，否则会被拦截
+        headers = {'User-Agent': 'ClashforWindows/0.19.0'}
+        r = requests.head(url, headers=headers, timeout=5, allow_redirects=True)
+        # 获取面板返回的流量信息头
+        info = r.headers.get('subscription-userinfo')
+        if info:
+            # 数据解析: upload=xxx; download=xxx; total=xxx; expire=xxx
+            parts = dict(item.split('=') for item in info.split('; '))
+            total = int(parts.get('total', 0)) / (1024**3)
+            used = (int(parts.get('upload', 0)) + int(parts.get('download', 0))) / (1024**3)
+            remain = total - used
+            # 如果有过期时间，转换成天数（可选）
+            return f" [剩余: {remain:.2f}GB / 总量: {total:.0f}GB]"
+    except:
+        pass
+    return ""
+
 def fetch_tg_data():
-    all_domains = set()      # 存放机场官网（用于注册）
-    direct_subs = set()      # 存放直接可用的订阅链接
+    all_domains = set()
+    direct_subs = set()
     
-    # 正则表达式
-    # 1. 匹配订阅链接 (包含 sub, token, subscribe 等关键字)
     sub_pattern = re.compile(r'https?://[a-zA-Z0-9][-a-zA-Z0-9.]+\.[a-zA-Z]{2,10}/(?:api/v1/client/)?subscribe\?token=[a-zA-Z0-9]+')
     generic_sub = re.compile(r'https?://[a-zA-Z0-9][-a-zA-Z0-9.]+\.[a-zA-Z]{2,10}/sub\?token=[a-zA-Z0-9]+')
-    
-    # 2. 匹配基础域名 (用于注册)
     domain_pattern = re.compile(r'https?://([a-zA-Z0-9][-a-zA-Z0-9]{0,62}(?:\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+)')
     
     exclude_list = ['t.me', 'telegram.org', 'google.com', 'github.com', 'baidu.com', 'yandex.com', 'v2ray', 'clash']
@@ -56,34 +73,30 @@ def fetch_tg_data():
             headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
             r = requests.get(url, headers=headers, timeout=15)
             if r.status_code == 200:
-                # 提取直接订阅链接
                 subs = sub_pattern.findall(r.text) + generic_sub.findall(r.text)
                 for s in subs:
                     direct_subs.add(s)
                 
-                # 提取基础域名
                 found_domains = domain_pattern.findall(r.text)
                 for d in found_domains:
                     d = d.lower()
                     if not any(ex in d for ex in exclude_list):
-                        clean_url = f"https://{d}"
-                        # 简单的去重逻辑，如果已经有了这个域名的订阅链接，仍保留域名用于以后注册
-                        all_domains.add(clean_url)
+                        all_domains.add(f"https://{d}")
                 
                 print(f"✅ 频道 [{channel}]: 提取到 {len(subs)} 条直接订阅, {len(found_domains)} 个域名")
         except Exception as e:
             print(f"❌ 频道 {channel} 抓取失败: {e}")
 
-    # 写入结果文件
     output_file = 'tg_collector.txt'
     with open(output_file, 'w', encoding='utf-8') as f:
-        # 先写直接订阅链接 (高优先级)
         if direct_subs:
-            f.write("# === 直接可用订阅链接 ===\n")
-            f.write('\n'.join(sorted(list(direct_subs))))
-            f.write('\n\n')
+            f.write("# === 直接可用订阅链接 (带流量探测) ===\n")
+            # 探测每个订阅链接的状态
+            for s in sorted(list(direct_subs)):
+                status = get_sub_status(s)
+                f.write(f"{s}{status}\n")
+            f.write('\n')
         
-        # 再写注册入口域名
         if all_domains:
             f.write("# === 机场注册入口 ===\n")
             f.write('\n'.join(sorted(list(all_domains))))
