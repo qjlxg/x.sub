@@ -1,0 +1,37 @@
+%YAML 1.1
+---
+proxies:
+- {name: ℹ️ 官网：yoo.dog - Digilink, server: ot72xzztjmds.api.unfjiry.cn, port: 52001, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 A - Digilink, server: ot72xzztjmds.api.unfjiry.cn, port: 52001, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 B - Digilink, server: ob82-oeli-iwou-oeli.nykobvvb.cn, port: 52002, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 C - Digilink, server: oc03-owik-uejy-uqj8.mgocokc.cn, port: 52003, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 A - Digilink, server: ot72xzztjmds.api.unfjiry.cn, port: 52004, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 B - Digilink, server: ob82-oeli-iwou-oeli.nykobvvb.cn, port: 52005, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 C - Digilink, server: oc03-owik-uejy-uqj8.mgocokc.cn, port: 52006, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国 A - Digilink, server: ot72xzztjmds.api.unfjiry.cn, port: 52007, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国 B - Digilink, server: ob82-oeli-iwou-oeli.nykobvvb.cn, port: 52008, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国 C - Digilink, server: oc03-owik-uejy-uqj8.mgocokc.cn, port: 52009, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡 A - Digilink, server: ot72xzztjmds.api.unfjiry.cn, port: 52010, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡 B - Digilink, server: ob82-oeli-iwou-oeli.nykobvvb.cn, port: 52011, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡 C - Digilink, server: oc03-owik-uejy-uqj8.mgocokc.cn, port: 52112, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾 A - Digilink, server: ot72xzztjmds.api.unfjiry.cn, port: 52013, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾 B - Digilink, server: ob82-oeli-iwou-oeli.nykobvvb.cn, port: 52014, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾 C - Digilink, server: oc03-owik-uejy-uqj8.mgocokc.cn, port: 52015, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇰🇷 韩国 A - Digilink, server: ot72xzztjmds.api.unfjiry.cn, port: 52016, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇰🇷 韩国 B - Digilink, server: ob82-oeli-iwou-oeli.nykobvvb.cn, port: 52017, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇰🇷 韩国 C - Digilink, server: oc03-owik-uejy-uqj8.mgocokc.cn, port: 52018, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇲🇴 澳门 - Digilink, server: cucc.s8mmcf.cn, port: 49001, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇻🇳 越南 - Digilink, server: cucc.s8mmcf.cn, port: 49002, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇭 泰国 - Digilink, server: cucc.s8mmcf.cn, port: 49003, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇬🇧 英国 - Digilink, server: cucc.s8mmcf.cn, port: 49004, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇩🇪 德国 - Digilink, server: cucc.s8mmcf.cn, port: 49005, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇫🇷 法国 - Digilink, server: cucc.s8mmcf.cn, port: 49006, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇮🇩 印尼 - Digilink, server: cucc.s8mmcf.cn, port: 49008, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇮🇳 印度 - Digilink, server: cucc.s8mmcf.cn, port: 49012, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇪🇸 西班牙 - Digilink, server: cucc.s8mmcf.cn, port: 49011, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇷🇺 俄罗斯 - Digilink, server: cucc.s8mmcf.cn, port: 49007, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇲🇾 马来西亚 - Digilink, server: cucc.s8mmcf.cn, port: 49009, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇦🇺 澳大利亚 - Digilink, server: cucc.s8mmcf.cn, port: 49010, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇳🇱 荷兰 - Digilink, server: cucc.s8mmcf.cn, port: 49111, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇷 土耳其 - Digilink, server: cucc.s8mmcf.cn, port: 49112, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇳🇿 新西兰 - Digilink, server: cucc.s8mmcf.cn, port: 49113, type: trojan, password: 0433b035-6ddb-48b9-9e3a-f0df1e5b41bc, sni: www.bing.com, skip-cert-verify: true, udp: true}
