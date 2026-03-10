@@ -14,6 +14,7 @@ CHANNELS = [
     'baipiao_ml',
     'AirPort_Survey',
     'jichang_0',
+    'jichang_list',
     'v2board_airport'
 ]
 
