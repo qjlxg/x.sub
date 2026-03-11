@@ -1,0 +1,8 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇯🇵 日本中转✈️01 - 菜鸟机场, server: cu1.xcuuu.cn, port: 41473, type: ss, cipher: aes-128-gcm, password: 8453a352-cc9c-4ff4-a52c-15448f157ac7, udp: true}
+- {name: 🇯🇵 日本中转✈️02 - 菜鸟机场, server: cu1.xcuuu.cn, port: 25578, type: ss, cipher: aes-128-gcm, password: 8453a352-cc9c-4ff4-a52c-15448f157ac7, udp: true}
+- {name: 🇯🇵 日本中转✈️03 - 菜鸟机场, server: gzct.xcuuu.cn, port: 49821, type: ss, cipher: aes-128-gcm, password: 8453a352-cc9c-4ff4-a52c-15448f157ac7, udp: true}
+- {name: 🇯🇵 日本中转✈️04 - 菜鸟机场, server: jmswyh.edu2026.cn, port: 44666, type: ss, cipher: aes-128-gcm, password: 8453a352-cc9c-4ff4-a52c-15448f157ac7, udp: true}
+- {name: 🇯🇵 日本中转✈️05 - 菜鸟机场, server: jmswyh.edu2026.cn, port: 23476, type: ss, cipher: aes-128-gcm, password: 8453a352-cc9c-4ff4-a52c-15448f157ac7, udp: true}

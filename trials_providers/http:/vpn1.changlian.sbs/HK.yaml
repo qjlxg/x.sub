@@ -1,0 +1,5 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇭🇰 hk01 - changlian, server: admingmail.sgkbdc.cn, port: 35180, type: ss, cipher: aes-128-gcm, password: 4997c455-a7c5-49ed-89af-bf4bc7813a58, udp: true}
+- {name: 🇭🇰 hk02 - changlian, server: admingmail.sgkbdc.cn, port: 31605, type: ss, cipher: aes-128-gcm, password: 4997c455-a7c5-49ed-89af-bf4bc7813a58, udp: true}

@@ -1,0 +1,14 @@
+%YAML 1.1
+---
+proxies:
+- {name: ℹ️ 建议有事没事都更新一下订阅 - 菜鸟机场, server: 666666, port: 6666, type: ss, cipher: aes-128-gcm, password: e9eda374-4976-4b35-b1d2-8afada61ac99, udp: true}
+- {name: ℹ️ 官网收藏地址  cainiao444.top - 菜鸟机场, server: 666666, port: 6666, type: ss, cipher: aes-128-gcm, password: e9eda374-4976-4b35-b1d2-8afada61ac99, udp: true}
+- {name: 🇻🇳 越南✈️中转 - 菜鸟机场, server: cu1.xcuuu.cn, port: 21071, type: ss, cipher: aes-128-gcm, password: e9eda374-4976-4b35-b1d2-8afada61ac99, udp: true}
+- {name: 🇦🇪 阿联酋共和国✈️中转 - 菜鸟机场, server: cu1.xcuuu.cn, port: 21059, type: ss, cipher: aes-128-gcm, password: e9eda374-4976-4b35-b1d2-8afada61ac99, udp: true}
+- {name: 🇲🇾 马来西亚✈️中转 - 菜鸟机场, server: cu1.xcuuu.cn, port: 56360, type: ss, cipher: aes-128-gcm, password: e9eda374-4976-4b35-b1d2-8afada61ac99, udp: true}
+- {name: 🇹🇷 土耳其✈️中转 - 菜鸟机场, server: cu1.xcuuu.cn, port: 21047, type: ss, cipher: aes-128-gcm, password: e9eda374-4976-4b35-b1d2-8afada61ac99, udp: true}
+- {name: 🇰🇿 哈萨克斯坦✈️中转 - 菜鸟机场, server: cu1.xcuuu.cn, port: 57274, type: ss, cipher: aes-128-gcm, password: e9eda374-4976-4b35-b1d2-8afada61ac99, udp: true}
+- {name: 🇮🇩 印度尼西亚✈️中转 - 菜鸟机场, server: cu1.xcuuu.cn, port: 21063, type: ss, cipher: aes-128-gcm, password: e9eda374-4976-4b35-b1d2-8afada61ac99, udp: true}
+- {name: 🇩🇪 德国✈️中转 - 菜鸟机场, server: cu1.xcuuu.cn, port: 21093, type: ss, cipher: aes-128-gcm, password: e9eda374-4976-4b35-b1d2-8afada61ac99, udp: true}
+- {name: 🇸🇪 瑞典✈️中转 - 菜鸟机场, server: cu1.xcuuu.cn, port: 22538, type: ss, cipher: aes-128-gcm, password: e9eda374-4976-4b35-b1d2-8afada61ac99, udp: true}
+- {name: 下方为备用节点。 - 菜鸟机场, server: 7777, port: 37096, type: ss, cipher: aes-128-gcm, password: e9eda374-4976-4b35-b1d2-8afada61ac99, udp: true}

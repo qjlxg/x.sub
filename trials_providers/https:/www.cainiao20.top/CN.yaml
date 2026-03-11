@@ -1,0 +1,13 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇭🇰 香港中转✈️01 - 菜鸟机场, server: cu1.xcuuu.cn, port: 43804, type: ss, cipher: aes-128-gcm, password: 68ac9b44-3555-41df-bd80-3804194d6da1, udp: true}
+- {name: 🇭🇰 香港中转✈️02 - 菜鸟机场, server: cu1.xcuuu.cn, port: 19946, type: ss, cipher: aes-128-gcm, password: 68ac9b44-3555-41df-bd80-3804194d6da1, udp: true}
+- {name: 🇭🇰 香港中转✈️03 - 菜鸟机场, server: gzct.xcuuu.cn, port: 54804, type: ss, cipher: aes-128-gcm, password: 68ac9b44-3555-41df-bd80-3804194d6da1, udp: true}
+- {name: 🇭🇰 香港中转✈️04 - 菜鸟机场, server: jmswyh.edu2026.cn, port: 23298, type: ss, cipher: aes-128-gcm, password: 68ac9b44-3555-41df-bd80-3804194d6da1, udp: true}
+- {name: 🇭🇰 香港中转✈️05 - 菜鸟机场, server: jmswyh.edu2026.cn, port: 35249, type: ss, cipher: aes-128-gcm, password: 68ac9b44-3555-41df-bd80-3804194d6da1, udp: true}
+- {name: 🇹🇼 台湾中转✈️01 - 菜鸟机场, server: cu1.xcuuu.cn, port: 50555, type: ss, cipher: aes-128-gcm, password: 68ac9b44-3555-41df-bd80-3804194d6da1, udp: true}
+- {name: 🇹🇼 台湾中转✈️02 - 菜鸟机场, server: cu1.xcuuu.cn, port: 37926, type: ss, cipher: aes-128-gcm, password: 68ac9b44-3555-41df-bd80-3804194d6da1, udp: true}
+- {name: 🇹🇼 台湾中转✈️03 - 菜鸟机场, server: gzct.xcuuu.cn, port: 12729, type: ss, cipher: aes-128-gcm, password: 68ac9b44-3555-41df-bd80-3804194d6da1, udp: true}
+- {name: 🇹🇼 台湾中转✈️04 - 菜鸟机场, server: jmswyh.edu2026.cn, port: 54022, type: ss, cipher: aes-128-gcm, password: 68ac9b44-3555-41df-bd80-3804194d6da1, udp: true}
+- {name: 🇹🇼 台湾中转✈️05 - 菜鸟机场, server: jmswyh.edu2026.cn, port: 50417, type: ss, cipher: aes-128-gcm, password: 68ac9b44-3555-41df-bd80-3804194d6da1, udp: true}
