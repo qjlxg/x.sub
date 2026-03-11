@@ -1,7 +1,15 @@
 import requests
 import re
 import os
+import threading
 from urllib.parse import urlparse
+from concurrent.futures import ThreadPoolExecutor
+from tqdm import tqdm
+import logging
+
+# 配置日志
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
 CHANNELS = [
     # --- 搜索结果中的“白嫖/试用”大户 ---
@@ -73,25 +81,68 @@ CHANNELS = [
     'freekankan',
     'awxdy666'
 ]
+
+# 全员变量用于存储有效结果
+airport_list = []
+list_lock = threading.Lock()
+
 def get_sub_status(url):
-    """新增：探测订阅链接的剩余流量和有效期"""
+    """探测订阅链接的剩余流量和有效期"""
     try:
-        # 必须模拟机场常用客户端头，否则会被拦截
         headers = {'User-Agent': 'ClashforWindows/0.19.0'}
         r = requests.head(url, headers=headers, timeout=5, allow_redirects=True)
-        # 获取面板返回的流量信息头
         info = r.headers.get('subscription-userinfo')
         if info:
-            # 数据解析: upload=xxx; download=xxx; total=xxx; expire=xxx
-            parts = dict(item.split('=') for item in info.split('; '))
-            total = int(parts.get('total', 0)) / (1024**3)
-            used = (int(parts.get('upload', 0)) + int(parts.get('download', 0))) / (1024**3)
+            parts = {m.group(1): int(m.group(2)) for m in re.finditer(r'(\w+)=(\d+)', info)}
+            total = parts.get('total', 0) / (1024**3)
+            used = (parts.get('upload', 0) + parts.get('download', 0)) / (1024**3)
             remain = total - used
-            # 如果有过期时间，转换成天数（可选）
             return f" [剩余: {remain:.2f}GB / 总量: {total:.0f}GB]"
     except:
         pass
     return ""
+
+def url_check_valid(target, url, bar):
+    """检测单个URL是否有效并存入列表"""
+    global airport_list
+    try:
+        headers = {'User-Agent': 'ClashforWindows/0.19.0'}
+        # 使用 HEAD 请求快速检测
+        r = requests.head(url, headers=headers, timeout=8, allow_redirects=True)
+        if r.status_code == 200:
+            status_info = get_sub_status(url)
+            with list_lock:
+                airport_list.append(f"{url}{status_info}")
+    except:
+        pass
+    finally:
+        bar.update(1)
+
+def write_url_config(url_file, url_list, target):
+    """执行多线程检测并写入文件"""
+    logger.info(f'🚀 开始检测 {target} 订阅节点有效性 (共 {len(url_list)} 条)')
+    
+    global airport_list
+    airport_list = [] # 重置列表
+
+    bar = tqdm(total=len(url_list), desc=f'{target}检测')
+    
+    # 使用线程池控制并发，避免瞬间压力过大
+    with ThreadPoolExecutor(max_workers=15) as executor:
+        for url in url_list:
+            executor.submit(url_check_valid, target, url, bar)
+            
+    bar.close()
+    
+    # 处理路径替换逻辑
+    final_file = url_file.replace('sub_store', target) if 'sub_store' in url_file else f"{target}_{url_file}"
+    
+    write_str = '\n'.join(airport_list)
+    with open(final_file, 'w', encoding='utf-8') as f:
+        f.write(f"# === {target} 有效节点汇总 ===\n")
+        f.write(write_str)
+    
+    logger.info(f'✅ {target} 检测完成，有效节点已保存至: {final_file}')
 
 def fetch_tg_data():
     all_domains = set()
@@ -108,7 +159,7 @@ def fetch_tg_data():
     for channel in CHANNELS:
         url = f"https://t.me/s/{channel}"
         try:
-            headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
+            headers = {'User-Agent': 'Mozilla/5.0'}
             r = requests.get(url, headers=headers, timeout=15)
             if r.status_code == 200:
                 subs = sub_pattern.findall(r.text) + generic_sub.findall(r.text)
@@ -121,26 +172,21 @@ def fetch_tg_data():
                     if not any(ex in d for ex in exclude_list):
                         all_domains.add(f"https://{d}")
                 
-                print(f"✅ 频道 [{channel}]: 提取到 {len(subs)} 条直接订阅, {len(found_domains)} 个域名")
+                print(f"✅ 频道 [{channel}]: 提取到 {len(subs)} 条直接订阅")
         except Exception as e:
             print(f"❌ 频道 {channel} 抓取失败: {e}")
 
-    output_file = 'tg_collector.txt'
-    with open(output_file, 'w', encoding='utf-8') as f:
-        if direct_subs:
-            f.write("# === 直接可用订阅链接 (带流量探测) ===\n")
-            # 探测每个订阅链接的状态
-            for s in sorted(list(direct_subs)):
-                status = get_sub_status(s)
-                f.write(f"{s}{status}\n")
-            f.write('\n')
-        
-        if all_domains:
+    # --- 关键：合并原有保存逻辑与新检测逻辑 ---
+    if direct_subs:
+        # 调用你要求的检测函数
+        write_url_config('tg_collector.txt', list(direct_subs), 'valid_subs')
+
+    if all_domains:
+        with open('airport_entrances.txt', 'w', encoding='utf-8') as f:
             f.write("# === 机场注册入口 ===\n")
             f.write('\n'.join(sorted(list(all_domains))))
-            f.write('\n')
-            
-    print(f"\n✨ 任务完成！共保存 {len(direct_subs)} 条直连订阅和 {len(all_domains)} 个注册入口。")
+
+    print(f"\n✨ 任务全部完成！")
 
 if __name__ == "__main__":
     fetch_tg_data()
