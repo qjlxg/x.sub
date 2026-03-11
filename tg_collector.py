@@ -2,30 +2,86 @@ import requests
 import re
 import os
 import threading
+import base64
+import binascii
+import datetime
+import logging
 from concurrent.futures import ThreadPoolExecutor
 from tqdm import tqdm
-import logging
 
 # 配置日志
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 CHANNELS = [
-    # --- 频道列表保持不变 ---
-    'dingyue_Center', 'pgkj666', 'anranbp', 'hkaa0', 'wxgqlfx', 
-    'freeVPNjd', 'arzhecn', 'schpd', 'jichang_list',
-    'linux_do_channel', 'nodeseekc', 'hostloc_pro', 'serveruniverse',
-    'sharecentrepro', 'Impart_Cloud', 'helingqi', 'AI_News_CN', 
-    'Newlearner', 'DocOfCard', 'baipiao_ml', 'jichangtuijian', 
-    'Airport_News', 'freemason6', 'jichangbaipiao',
-    'v2ray_configs_pool', 'IP_CF_Config', 'FreakConfig', 'oneclickvpnkeys',
-    'PrivateVPNs', 'DirectVPN', 'VlessConfig', 'manVPN', 'ELiV2RAY',
-    'Outline_Vpn', 'PPT_f66_zHk2ZDY8', 'V2rayNGX', 'ccbaohe', 'wangcai_8',
-    'vpn_3000', 'academi_vpn', 'freedatazone1', 'freev2rayi', 'mypremium98',
-    'inikotesla', 'v2rayngalpha', 'v2rayngalphagamer', 'jiedian_share',
-    'vpn_mafia', 'dr_v2ray', 'allv2board', 'bigsmoke_config', 'vpn_443',
-    'prossh', 'mftizi', 'qun521', 'v2rayng_my2', 'go4sharing', 'trand_farsi',
-    'vpnplusee_free', 'freekankan', 'awxdy666'
+    # --- 搜索结果中的“白嫖/试用”大户 ---
+    'dingyue_Center',    # 订阅分享中心（流量之王）
+    'pgkj666',          # 白嫖分享社（0元优惠码基地）
+    'anranbp',          # 我爱白嫖（无需验证、反复注册）
+    'hkaa0',            # 五叶TG节点（1.95T超大流量）
+    'wxgqlfx',          # 翻墙世界的梯子（100G/月，0元购）
+    'freeVPNjd',        # 免费高速订阅节点（含专属优惠码）
+    'arzhecn',          # 一群🐂🐎的机场（新站首发地）
+    'schpd',            # 山茶花の机场频道（七喜机场等实测源）
+    'jichang_list',
+    
+    # --- 搜索结果中的“技术/中转/号商”源 ---
+    'linux_do_channel', # LINUX DO（技术大佬、号商进货）
+    'nodeseekc',        # NodeSeek（新站开业、各种云主机试用）
+    'hostloc_pro',      # HostlocPro（各种1元试用、余额赠送）
+    'serveruniverse',   # 机界（300$体验金等高价值信息）
+    
+    # --- 互推与聚合源（从搜索预览的转发中提取） ---
+    'sharecentrepro',   # SCP（每日免费节点、2PB订阅链接）
+    'Impart_Cloud',     # Impart（稀有地区、转运公司送余额）
+    'helingqi',         # 禾令奇Club（各种大会员/机场试用）
+    'AI_News_CN',       # AI新闻（伴生大量Gemini/ChatGPT试用）
+    'Newlearner',       # 自留地（虽然是大站，但偶尔有顶级Pro试用）
+    'DocOfCard',        # 卡粉订阅（支付指纹、漫游WiFi试用）
+    'baipiao_ml',       # 白嫖ML（专注订阅链接搬运）
+    'jichangtuijian',   # 机场推荐（带实测数据）
+    'Airport_News',     # 机场动态（全网新开业监控）
+    'freemason6',       # 机场观测（白嫖无罪，0元包）
+    'jichangbaipiao',   # 机场白嫖（基础库）
+
+    # --- 新增频道源 ---
+    'v2ray_configs_pool',
+    'IP_CF_Config',
+    'FreakConfig',
+    'oneclickvpnkeys',
+    'PrivateVPNs',
+    'DirectVPN',
+    'VlessConfig',
+    'manVPN',
+    'ELiV2RAY',
+    'Outline_Vpn',
+    'PPT_f66_zHk2ZDY8',
+    'V2rayNGX',
+    'ccbaohe',
+    'wangcai_8',
+    'vpn_3000',
+    'academi_vpn',
+    'freedatazone1',
+    'freev2rayi',
+    'mypremium98',
+    'inikotesla',
+    'v2rayngalpha',
+    'v2rayngalphagamer',
+    'jiedian_share',
+    'vpn_mafia',
+    'dr_v2ray',
+    'allv2board',
+    'bigsmoke_config',
+    'vpn_443',
+    'prossh',
+    'mftizi',
+    'qun521',
+    'v2rayng_my2',
+    'go4sharing',
+    'trand_farsi',
+    'vpnplusee_free',
+    'freekankan',
+    'awxdy666'
 ]
 
 airport_list = []
@@ -34,119 +90,135 @@ list_lock = threading.Lock()
 def get_sub_status(url):
     """探测订阅链接的剩余流量和有效期"""
     try:
-        headers = {'User-Agent': 'ClashforWindows/0.19.0'}
+        headers = {'User-Agent': 'v2rayNG/1.8.5'}
         r = requests.head(url, headers=headers, timeout=5, allow_redirects=True)
         info = r.headers.get('subscription-userinfo')
         if info:
-            # 这里的正则提取更稳健
             parts = {m.group(1): int(m.group(2)) for m in re.finditer(r'(\w+)=(\d+)', info)}
             total = parts.get('total', 0) / (1024**3)
             used = (parts.get('upload', 0) + parts.get('download', 0)) / (1024**3)
             remain = total - used
+            # 过滤逻辑：流量必须为正数，且总量不合理（如超过100万GB）的通常是虚假节点
+            if remain <= 0 or total > 100000: 
+                return None
             return f" [剩余: {remain:.2f}GB / 总量: {total:.0f}GB]"
     except:
         pass
     return ""
 
 def is_content_valid(text):
-    """核心改进：验证下载的内容是否包含真实的节点协议特征"""
-    if not text:
+    """核心：解码验证。只有解码后包含节点协议的内容才算有效"""
+    if not text or len(text) < 40:
         return False
-    # 常见的节点协议头
-    protocols = ['vmess://', 'vless://', 'ss://', 'trojan://', 'ssr://', 'proxies:', 'Proxy Group']
-    # 如果包含以上特征，或者看起来是长字符串 Base64 (没有空格，长度大)
+    
+    protocols = ['vmess://', 'vless://', 'ss://', 'trojan://', 'ssr://', 'proxies:']
+    
+    # 1. 检查是否为明文格式（如 Clash 或直连节点）
     if any(p in text for p in protocols):
         return True
-    # 检查是否为 Base64 订阅（简单判断：无空格且长度较长）
-    if len(text) > 64 and ' ' not in text[:100]:
-        return True
+    
+    # 2. 尝试 Base64 解码检查
+    try:
+        # 清理可能的 HTML 标签或干扰字符
+        clean_text = re.sub(r'\s+', '', text)
+        # 补齐 Base64 填充符
+        missing_padding = len(clean_text) % 4
+        if missing_padding:
+            clean_text += '=' * (4 - missing_padding)
+            
+        decoded = base64.b64decode(clean_text, validate=False).decode('utf-8', 'ignore')
+        if any(p in decoded for p in protocols):
+            return True
+    except:
+        pass
     return False
 
-def url_check_valid(target, url, bar):
-    """深度检测：不仅看状态码，还看内容"""
+def url_check_valid(url, bar):
+    """深度检测函数"""
     global airport_list
     try:
-        headers = {'User-Agent': 'ClashforWindows/0.19.0'}
-        # 使用 GET 请求下载少量数据进行验证，timeout 设短一点过滤慢速链接
-        r = requests.get(url, headers=headers, timeout=7, allow_redirects=True, stream=True)
+        headers = {'User-Agent': 'v2rayNG/1.8.5'}
+        # 获取内容进行解码验证
+        r = requests.get(url, headers=headers, timeout=10, allow_redirects=True)
         
         if r.status_code == 200:
-            # 只读取前 2000 个字节进行特征分析，节省流量和时间
-            sample_content = r.iter_content(chunk_size=2000).__next__().decode('utf-8', 'ignore')
-            
-            if is_content_valid(sample_content):
+            content = r.text.strip()
+            if is_content_valid(content):
                 status_info = get_sub_status(url)
-                with list_lock:
-                    airport_list.append(f"{url}{status_info}")
+                if status_info is not None: # 排除流量异常的链接
+                    with list_lock:
+                        airport_list.append(f"{url}{status_info}")
     except:
         pass
     finally:
         bar.update(1)
 
-def write_url_config(url_file, url_list, target):
-    """多线程检测并写入指定的 tg_collector.txt"""
-    logger.info(f'🚀 正在深度验证 {len(url_list)} 条订阅链接的真实有效性...')
+def write_url_config(url_file, url_list):
+    """执行多线程检测并写入 tg_collector.txt"""
+    logger.info(f"开始深度验证 {len(url_list)} 条潜在订阅链接...")
     
     global airport_list
-    airport_list = [] 
+    airport_list = []
 
-    bar = tqdm(total=len(url_list), desc=f'验证进度')
+    bar = tqdm(total=len(url_list), desc="节点解码验证")
     
-    # 线程数不宜过高，防止被机场防火墙集体屏蔽
-    with ThreadPoolExecutor(max_workers=12) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for url in url_list:
-            executor.submit(url_check_valid, target, url, bar)
+            executor.submit(url_check_valid, url, bar)
             
     bar.close()
     
-    # 写入到你指定的 tg_collector.txt
+    # 写入结果
     with open(url_file, 'w', encoding='utf-8') as f:
-        f.write("# === 深度验证有效的订阅链接 ===\n")
-        # 加上时间戳，方便你知道是什么时候更新的
-        import datetime
+        f.write("# === 深度验证有效的订阅链接 (已剔除空壳和流量耗尽链接) ===\n")
         f.write(f"# 更新时间: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
-        f.write('\n'.join(airport_list))
+        # 去重并排序
+        unique_list = sorted(list(set(airport_list)))
+        f.write('\n'.join(unique_list))
     
-    logger.info(f'✅ 验证完成！有效节点已保存至: {url_file}')
+    logger.info(f"验证完成，共有 {len(unique_list)} 条真实有效的订阅存入 {url_file}")
 
 def fetch_tg_data():
     all_domains = set()
     direct_subs = set()
     
-    # 匹配规则保持不变
+    # 正则规则
     sub_pattern = re.compile(r'https?://[a-zA-Z0-9][-a-zA-Z0-9.]+\.[a-zA-Z]{2,10}/(?:api/v1/client/)?subscribe\?token=[a-zA-Z0-9]+')
     generic_sub = re.compile(r'https?://[a-zA-Z0-9][-a-zA-Z0-9.]+\.[a-zA-Z]{2,10}/sub\?token=[a-zA-Z0-9]+')
     domain_pattern = re.compile(r'https?://([a-zA-Z0-9][-a-zA-Z0-9]{0,62}(?:\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+)')
     
     exclude_list = ['t.me', 'telegram.org', 'google.com', 'github.com', 'baidu.com', 'yandex.com', 'v2ray', 'clash']
 
-    print("📡 正在从 Telegram 抓取原始信息...")
+    logger.info("📡 正在从 Telegram 频道爬取原始数据...")
 
     for channel in CHANNELS:
         url = f"https://t.me/s/{channel}"
         try:
-            headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+            headers = {'User-Agent': 'Mozilla/5.0'}
             r = requests.get(url, headers=headers, timeout=12)
             if r.status_code == 200:
+                # 提取订阅链接
                 subs = sub_pattern.findall(r.text) + generic_sub.findall(r.text)
                 for s in subs:
                     direct_subs.add(s)
                 
+                # 提取潜在机场域名
                 found_domains = domain_pattern.findall(r.text)
                 for d in found_domains:
                     d = d.lower()
                     if not any(ex in d for ex in exclude_list):
                         all_domains.add(f"https://{d}")
-        except:
-            pass
+        except Exception as e:
+            logger.warning(f"频道 {channel} 抓取超时或失败")
 
-    # 开始深度检测并写入 tg_collector.txt
+    # 执行深度验证
     if direct_subs:
-        write_url_config('tg_collector.txt', list(direct_subs), 'valid_subs')
+        write_url_config('tg_collector.txt', list(direct_subs))
 
-    # 机场入口依然单独保存
+    # 保存机场注册入口
     if all_domains:
         with open('airport_entrances.txt', 'w', encoding='utf-8') as f:
+            f.write("# === 机场注册入口汇总 ===\n")
             f.write('\n'.join(sorted(list(all_domains))))
 
 if __name__ == "__main__":
