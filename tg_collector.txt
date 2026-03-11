@@ -9,10 +9,10 @@ https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=5a40b07c81898719dcb0
 https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=dc4ee3f123d0df127dbd38b95d717677 [剩余: -2.52GB / 总量: 60GB]
 https://api.e687699.top/api/v1/client/subscribe?token=8dddcaa2e9a12fe2d7caebd1a9487219
 https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=0ed11fa06b864a45993e7c42d4c516ee [剩余: -0.11GB / 总量: 80GB]
-https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=259516e4752a41662ee83277d978dfbc [剩余: 10.71GB / 总量: 80GB]
-https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=35cbdd9cc10ba9c8e265008ba9f466e2 [剩余: 39.97GB / 总量: 80GB]
+https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=259516e4752a41662ee83277d978dfbc [剩余: -0.05GB / 总量: 80GB]
+https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=35cbdd9cc10ba9c8e265008ba9f466e2 [剩余: 0.21GB / 总量: 80GB]
 https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=4602d5c116c2b43f6da31cdd917c4357 [剩余: -0.03GB / 总量: 80GB]
-https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=c636b265ec2dc3000492b77802279ffc [剩余: 44.43GB / 总量: 80GB]
+https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=c636b265ec2dc3000492b77802279ffc [剩余: 28.74GB / 总量: 80GB]
 https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=d5470d05bda1c3b20a325052596dafdc [剩余: -0.16GB / 总量: 80GB]
 https://ch.cukug.website/api/v1/client/subscribe?token=3e4ad9ef197db68d199e5d1a4e27eee3
 https://ch.cukug.website/api/v1/client/subscribe?token=d96b48a34918ab096906275485b162bb
@@ -38,7 +38,7 @@ https://sub.xn--4gqp1u.com/api/v1/client/subscribe?token=0ef2b15705e5fb6133987be
 https://sub.xn--4gqp1u.com/api/v1/client/subscribe?token=292d67dab3b28cef1f9e680d3f1a00e6
 https://suba.f2vip.net/api/v1/client/subscribe?token=bc141010197e65c26b94e841d8f1c9dd [剩余: -0.03GB / 总量: 100GB]
 https://suba.f2vip.net/api/v1/client/subscribe?token=e37a2b4ec0f5c40c7589ab10dee63760 [剩余: -0.02GB / 总量: 100GB]
-https://xfapp.quickbeevpn.com/api/v1/client/subscribe?token=f29a710191d5672892c2401084c5eb07 [剩余: 9999203.33GB / 总量: 9999999GB]
+https://xfapp.quickbeevpn.com/api/v1/client/subscribe?token=f29a710191d5672892c2401084c5eb07 [剩余: 9999192.47GB / 总量: 9999999GB]
 https://yfjc.xyz/api/v1/client/subscribe?token=2ac90b3e8b7e5f9838eaab831adba36f
 https://youxiu8168.xiaofeixia.info/api/v1/client/subscribe?token=7bca42b442b158dbc47db249d25651b7
 
@@ -57,7 +57,6 @@ https://a.v2yd6.top
 https://acghelper.com
 https://actorawards.org
 https://ag.bnpm.dynu.net
-https://air.dev
 https://alwaysdata.com
 https://alwaysdata.net
 https://amber85.qjty.buzz
@@ -65,6 +64,7 @@ https://amz.awsy.top
 https://anran.3kla.top
 https://api.e687699.top
 https://api.oaibest.com
+https://api3.cls.cn
 https://app.bybit.com
 https://app.rebrandly.com
 https://app.shokichan.com
@@ -112,7 +112,6 @@ https://dy.naisicloud.xyz
 https://dy11.baipiaoyes.com
 https://eduboost.net
 https://emm-7zy.pages.dev
-https://exswap.net
 https://fffffg.890602.pp.ua
 https://fffvg.7777125.xyz
 https://fghy.00890604.xyz
@@ -139,6 +138,7 @@ https://i.111666.best
 https://i.kkb.xx.kg
 https://id.discourse.com
 https://img.eleven.observer
+https://img.exec.li
 https://img.ikaka.in
 https://img.ytools.cc
 https://img2.fastcybers.com
@@ -157,7 +157,6 @@ https://linlujs.men
 https://linux.do
 https://liulangdiqiu.cc
 https://lllo.x19890604.qzz.io
-https://lowendtalk.com
 https://luv.xem.lat
 https://ly.ccwink.cc
 https://matcha.su
@@ -208,6 +207,8 @@ https://smu.cc.cd
 https://sni.111000.dynv6.net
 https://spflyfish.top
 https://ss.ejejje.com
+https://status.openai.com
+https://status.x.ai
 https://steel68.qjty.buzz
 https://sub.derrick.us.kg
 https://sub.mogufan.com
@@ -241,7 +242,6 @@ https://weekly.tw93.fun
 https://weibo.com
 https://wispbyte.com
 https://www.123xn.cc
-https://www.aibase.com
 https://www.alwaysdata.com
 https://www.androidauthority.com
 https://www.apple.com
@@ -265,7 +265,6 @@ https://www.hescat.com
 https://www.hissl.net
 https://www.huawei.com
 https://www.ifanr.com
-https://www.jetbrains.com
 https://www.jiemian.com
 https://www.latepost.com
 https://www.lg.gov.cn
