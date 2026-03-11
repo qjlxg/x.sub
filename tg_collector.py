@@ -13,73 +13,23 @@ logger = logging.getLogger(__name__)
 
 CHANNELS = [
     # --- 搜索结果中的“白嫖/试用”大户 ---
-    'dingyue_Center',    # 订阅分享中心（流量之王）
-    'pgkj666',          # 白嫖分享社（0元优惠码基地）
-    'anranbp',          # 我爱白嫖（无需验证、反复注册）
-    'hkaa0',            # 五叶TG节点（1.95T超大流量）
-    'wxgqlfx',          # 翻墙世界的梯子（100G/月，0元购）
-    'freeVPNjd',        # 免费高速订阅节点（含专属优惠码）
-    'arzhecn',          # 一群🐂🐎的机场（新站首发地）
-    'schpd',            # 山茶花の机场频道（七喜机场等实测源）
-    'jichang_list',
-    
+    'dingyue_Center', 'pgkj666', 'anranbp', 'hkaa0', 'wxgqlfx', 
+    'freeVPNjd', 'arzhecn', 'schpd', 'jichang_list',
     # --- 搜索结果中的“技术/中转/号商”源 ---
-    'linux_do_channel', # LINUX DO（技术大佬、号商进货）
-    'nodeseekc',        # NodeSeek（新站开业、各种云主机试用）
-    'hostloc_pro',      # HostlocPro（各种1元试用、余额赠送）
-    'serveruniverse',   # 机界（300$体验金等高价值信息）
-    
-    # --- 互推与聚合源（从搜索预览的转发中提取） ---
-    'sharecentrepro',   # SCP（每日免费节点、2PB订阅链接）
-    'Impart_Cloud',     # Impart（稀有地区、转运公司送余额）
-    'helingqi',         # 禾令奇Club（各种大会员/机场试用）
-    'AI_News_CN',       # AI新闻（伴生大量Gemini/ChatGPT试用）
-    'Newlearner',       # 自留地（虽然是大站，但偶尔有顶级Pro试用）
-    'DocOfCard',        # 卡粉订阅（支付指纹、漫游WiFi试用）
-    'baipiao_ml',       # 白嫖ML（专注订阅链接搬运）
-    'jichangtuijian',   # 机场推荐（带实测数据）
-    'Airport_News',     # 机场动态（全网新开业监控）
-    'freemason6',       # 机场观测（白嫖无罪，0元包）
-    'jichangbaipiao',   # 机场白嫖（基础库）
-
+    'linux_do_channel', 'nodeseekc', 'hostloc_pro', 'serveruniverse',
+    # --- 互推与聚合源 ---
+    'sharecentrepro', 'Impart_Cloud', 'helingqi', 'AI_News_CN', 
+    'Newlearner', 'DocOfCard', 'baipiao_ml', 'jichangtuijian', 
+    'Airport_News', 'freemason6', 'jichangbaipiao',
     # --- 新增频道源 ---
-    'v2ray_configs_pool',
-    'IP_CF_Config',
-    'FreakConfig',
-    'oneclickvpnkeys',
-    'PrivateVPNs',
-    'DirectVPN',
-    'VlessConfig',
-    'manVPN',
-    'ELiV2RAY',
-    'Outline_Vpn',
-    'PPT_f66_zHk2ZDY8',
-    'V2rayNGX',
-    'ccbaohe',
-    'wangcai_8',
-    'vpn_3000',
-    'academi_vpn',
-    'freedatazone1',
-    'freev2rayi',
-    'mypremium98',
-    'inikotesla',
-    'v2rayngalpha',
-    'v2rayngalphagamer',
-    'jiedian_share',
-    'vpn_mafia',
-    'dr_v2ray',
-    'allv2board',
-    'bigsmoke_config',
-    'vpn_443',
-    'prossh',
-    'mftizi',
-    'qun521',
-    'v2rayng_my2',
-    'go4sharing',
-    'trand_farsi',
-    'vpnplusee_free',
-    'freekankan',
-    'awxdy666'
+    'v2ray_configs_pool', 'IP_CF_Config', 'FreakConfig', 'oneclickvpnkeys',
+    'PrivateVPNs', 'DirectVPN', 'VlessConfig', 'manVPN', 'ELiV2RAY',
+    'Outline_Vpn', 'PPT_f66_zHk2ZDY8', 'V2rayNGX', 'ccbaohe', 'wangcai_8',
+    'vpn_3000', 'academi_vpn', 'freedatazone1', 'freev2rayi', 'mypremium98',
+    'inikotesla', 'v2rayngalpha', 'v2rayngalphagamer', 'jiedian_share',
+    'vpn_mafia', 'dr_v2ray', 'allv2board', 'bigsmoke_config', 'vpn_443',
+    'prossh', 'mftizi', 'qun521', 'v2rayng_my2', 'go4sharing', 'trand_farsi',
+    'vpnplusee_free', 'freekankan', 'awxdy666'
 ]
 
 # 全员变量用于存储有效结果
