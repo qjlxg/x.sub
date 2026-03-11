@@ -134,6 +134,7 @@ https://claw.guanjia.qq.com
 https://cola.xn--chqu2nzsxv3y.com
 https://conf1.hokkaido-toyoni.com
 https://control.nerwo.co
+https://cp.cloudflare.com
 https://cs.tuz.me
 https://cz1.freevpn724.com
 https://d.xfuti.buzz
@@ -259,7 +260,6 @@ https://naisicloud.xyz
 https://nanbei.cloud
 https://navi.onamae.com
 https://ne997.688997.xyz
-https://nekocode.ai
 https://neolink.nkkc.one
 https://netlib.re
 https://news.skhynix.com
@@ -296,6 +296,7 @@ https://rrrrrrrrrrrghhh.857657.xyz
 https://rss202407.mugua-sub.com
 https://s.meiall.xyz
 https://s1.trojanflare.one
+https://scurl.izenny.com
 https://seiruo4r5yew.chutrandi.com
 https://service-69kfaex1-1312645837.bj.apigw.tencentcs.com
 https://service-6l9168iy-1312645837.gz.apigw.tencentcs.com
@@ -304,7 +305,6 @@ https://service-bmp1m9zg-1312645837.nj.apigw.tencentcs.com
 https://service-fy4hli0a-1312645837.nj.apigw.tencentcs.com
 https://service-p0v9tp46-1312645837.gz.apigw.tencentcs.com
 https://sg1.freevpn724.com
-https://shop-piqiu.makadns.com
 https://shop.88hy.top
 https://shz.al
 https://simpleyun.top
@@ -390,6 +390,7 @@ https://www.canarytokens.org
 https://www.chuzhan888.xyz
 https://www.clawdi.ai
 https://www.cnbc.com
+https://www.cnbeta.com.tw
 https://www.crosswall.org
 https://www.dabai.in
 https://www.dga.org
