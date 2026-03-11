@@ -1,5 +1,5 @@
-# === 深度验证有效的订阅链接 (已剔除空壳和流量耗尽链接) ===
-# 更新时间: 2026-03-11 06:28:10
+# === 深度验证有效的订阅链接 ===
+# 更新时间: 2026-03-11 06:33:13
 
 https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=3a50317771a2cc4eb04e2622bc6a7745
 https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=5a40b07c81898719dcb08fea26ca6cca
