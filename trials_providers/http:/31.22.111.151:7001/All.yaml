@@ -1,0 +1,4 @@
+%YAML 1.1
+---
+proxies:
+- {name: ℹ️ Clash版本过旧请更新 - PassGFW, server: moe.gov.cn, port: 8443, type: ss, cipher: aes-128-gcm, password: !<str> 11342315351, udp: true}
