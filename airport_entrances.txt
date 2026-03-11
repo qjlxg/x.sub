@@ -93,7 +93,6 @@ https://anran.3kla.top
 https://api.e687699.top
 https://api.nekocloud.top
 https://api.oaibest.com
-https://api3.cls.cn
 https://app.bybit.com
 https://app.mitce.net
 https://app.rebrandly.com
@@ -248,7 +247,6 @@ https://mcp.dpenly.org
 https://mfvpn.fuchen.indevs.in
 https://milli.gold
 https://mojie.app
-https://mok.moe
 https://momo.best
 https://mp.weixin.qq.com
 https://myket.ir
