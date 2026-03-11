@@ -3,9 +3,9 @@ import re
 import os
 import threading
 import base64
-import binascii
 import datetime
 import logging
+from urllib.parse import urlparse
 from concurrent.futures import ThreadPoolExecutor
 from tqdm import tqdm
 
@@ -85,10 +85,11 @@ CHANNELS = [
 ]
 
 airport_list = []
+extracted_domains = set() # 新增：用于存储从链接反推的域名
 list_lock = threading.Lock()
 
 def get_sub_status(url):
-    """探测订阅链接的剩余流量和有效期"""
+    """探测订阅链接的剩余流量"""
     try:
         headers = {'User-Agent': 'v2rayNG/1.8.5'}
         r = requests.head(url, headers=headers, timeout=5, allow_redirects=True)
@@ -98,7 +99,6 @@ def get_sub_status(url):
             total = parts.get('total', 0) / (1024**3)
             used = (parts.get('upload', 0) + parts.get('download', 0)) / (1024**3)
             remain = total - used
-            # 过滤逻辑：流量必须为正数，且总量不合理（如超过100万GB）的通常是虚假节点
             if remain <= 0 or total > 100000: 
                 return None
             return f" [剩余: {remain:.2f}GB / 总量: {total:.0f}GB]"
@@ -107,25 +107,17 @@ def get_sub_status(url):
     return ""
 
 def is_content_valid(text):
-    """核心：解码验证。只有解码后包含节点协议的内容才算有效"""
+    """解码验证逻辑"""
     if not text or len(text) < 40:
         return False
-    
     protocols = ['vmess://', 'vless://', 'ss://', 'trojan://', 'ssr://', 'proxies:']
-    
-    # 1. 检查是否为明文格式（如 Clash 或直连节点）
     if any(p in text for p in protocols):
         return True
-    
-    # 2. 尝试 Base64 解码检查
     try:
-        # 清理可能的 HTML 标签或干扰字符
         clean_text = re.sub(r'\s+', '', text)
-        # 补齐 Base64 填充符
         missing_padding = len(clean_text) % 4
         if missing_padding:
             clean_text += '=' * (4 - missing_padding)
-            
         decoded = base64.b64decode(clean_text, validate=False).decode('utf-8', 'ignore')
         if any(p in decoded for p in protocols):
             return True
@@ -134,18 +126,22 @@ def is_content_valid(text):
     return False
 
 def url_check_valid(url, bar):
-    """深度检测函数"""
-    global airport_list
+    global airport_list, extracted_domains
     try:
+        # 提取域名作为备选机场入口
+        parsed_url = urlparse(url)
+        if parsed_url.netloc:
+            with list_lock:
+                extracted_domains.add(f"{parsed_url.scheme}://{parsed_url.netloc}")
+
         headers = {'User-Agent': 'v2rayNG/1.8.5'}
-        # 获取内容进行解码验证
         r = requests.get(url, headers=headers, timeout=10, allow_redirects=True)
         
         if r.status_code == 200:
             content = r.text.strip()
             if is_content_valid(content):
                 status_info = get_sub_status(url)
-                if status_info is not None: # 排除流量异常的链接
+                if status_info is not None:
                     with list_lock:
                         airport_list.append(f"{url}{status_info}")
     except:
@@ -154,72 +150,64 @@ def url_check_valid(url, bar):
         bar.update(1)
 
 def write_url_config(url_file, url_list):
-    """执行多线程检测并写入 tg_collector.txt"""
-    logger.info(f"开始深度验证 {len(url_list)} 条潜在订阅链接...")
-    
+    logger.info(f"🚀 正在验证 {len(url_list)} 条订阅并提取机场入口...")
     global airport_list
     airport_list = []
-
-    bar = tqdm(total=len(url_list), desc="节点解码验证")
-    
+    bar = tqdm(total=len(url_list), desc="深度验证中")
     with ThreadPoolExecutor(max_workers=10) as executor:
         for url in url_list:
             executor.submit(url_check_valid, url, bar)
-            
     bar.close()
     
-    # 写入结果
     with open(url_file, 'w', encoding='utf-8') as f:
-        f.write("# === 深度验证有效的订阅链接 (已剔除空壳和流量耗尽链接) ===\n")
+        f.write("# === 深度验证有效的订阅链接 ===\n")
         f.write(f"# 更新时间: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
-        # 去重并排序
-        unique_list = sorted(list(set(airport_list)))
-        f.write('\n'.join(unique_list))
-    
-    logger.info(f"验证完成，共有 {len(unique_list)} 条真实有效的订阅存入 {url_file}")
+        f.write('\n'.join(sorted(list(set(airport_list)))))
 
 def fetch_tg_data():
-    all_domains = set()
+    raw_domains = set()
     direct_subs = set()
     
-    # 正则规则
+    # 匹配规则
     sub_pattern = re.compile(r'https?://[a-zA-Z0-9][-a-zA-Z0-9.]+\.[a-zA-Z]{2,10}/(?:api/v1/client/)?subscribe\?token=[a-zA-Z0-9]+')
     generic_sub = re.compile(r'https?://[a-zA-Z0-9][-a-zA-Z0-9.]+\.[a-zA-Z]{2,10}/sub\?token=[a-zA-Z0-9]+')
     domain_pattern = re.compile(r'https?://([a-zA-Z0-9][-a-zA-Z0-9]{0,62}(?:\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+)')
     
-    exclude_list = ['t.me', 'telegram.org', 'google.com', 'github.com', 'baidu.com', 'yandex.com', 'v2ray', 'clash']
+    exclude_list = ['t.me', 'telegram.org', 'google.com', 'github.com', 'baidu.com', 'yandex.com']
 
-    logger.info("📡 正在从 Telegram 频道爬取原始数据...")
-
+    logger.info("📡 正在爬取频道信息...")
     for channel in CHANNELS:
         url = f"https://t.me/s/{channel}"
         try:
-            headers = {'User-Agent': 'Mozilla/5.0'}
-            r = requests.get(url, headers=headers, timeout=12)
+            r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=12)
             if r.status_code == 200:
-                # 提取订阅链接
                 subs = sub_pattern.findall(r.text) + generic_sub.findall(r.text)
                 for s in subs:
                     direct_subs.add(s)
                 
-                # 提取潜在机场域名
+                # 提取正文中提到的所有域名
                 found_domains = domain_pattern.findall(r.text)
                 for d in found_domains:
                     d = d.lower()
                     if not any(ex in d for ex in exclude_list):
-                        all_domains.add(f"https://{d}")
-        except Exception as e:
-            logger.warning(f"频道 {channel} 抓取超时或失败")
+                        raw_domains.add(f"https://{d}")
+        except:
+            continue
 
-    # 执行深度验证
+    # 验证订阅并同时通过 url_check_valid 提取域名
     if direct_subs:
         write_url_config('tg_collector.txt', list(direct_subs))
 
-    # 保存机场注册入口
-    if all_domains:
+    # 合并：(1) 直接爬到的域名 (2) 订阅链接反推的域名
+    final_entrances = raw_domains.union(extracted_domains)
+    
+    if final_entrances:
         with open('airport_entrances.txt', 'w', encoding='utf-8') as f:
-            f.write("# === 机场注册入口汇总 ===\n")
-            f.write('\n'.join(sorted(list(all_domains))))
+            f.write("# === 机场注册/登录入口 (含链接反推) ===\n")
+            # 简单清洗，剔除明显的非机场链接
+            clean_entrances = [d for d in final_entrances if not any(x in d for x in ['cdn.', 'oss.', 'github'])]
+            f.write('\n'.join(sorted(clean_entrances)))
+        logger.info(f"✅ 提取到 {len(clean_entrances)} 个机场入口，保存至 airport_entrances.txt")
 
 if __name__ == "__main__":
     fetch_tg_data()
