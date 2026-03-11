@@ -1,11 +1,8 @@
-# === 深度验证有效的订阅链接 ===
-# 更新时间: 2026-03-11 05:46:36
+# === 深度验证有效的订阅链接 (已剔除空壳和流量耗尽链接) ===
+# 更新时间: 2026-03-11 06:28:10
 
-https://mcp.dpenly.org/api/v1/client/subscribe?token=568cd289d2e89cb763c021a193d30869 [剩余: 7036.03GB / 总量: 10000GB]
-https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=259516e4752a41662ee83277d978dfbc [剩余: -0.05GB / 总量: 80GB]
-https://mcp.dpenly.org/api/v1/client/subscribe?token=f32400ea14dd244836696c67319100dd [剩余: 9977.60GB / 总量: 10000GB]
-https://qq.xlm.plus/api/v1/client/subscribe?token=9e5db95336ab586ac6c4e2306c4d25a9 [剩余: 9938615.38GB / 总量: 10000000GB]
-https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=c636b265ec2dc3000492b77802279ffc [剩余: 18.26GB / 总量: 80GB]
-https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=35cbdd9cc10ba9c8e265008ba9f466e2 [剩余: -0.23GB / 总量: 80GB]
-https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=5a40b07c81898719dcb08fea26ca6cca [剩余: -4.26GB / 总量: 60GB]
-https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=3a50317771a2cc4eb04e2622bc6a7745 [剩余: -8.97GB / 总量: 60GB]
+https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=3a50317771a2cc4eb04e2622bc6a7745
+https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=5a40b07c81898719dcb08fea26ca6cca
+https://ktm001.top/api/v1/client/subscribe?token=bbe0986ab831f1e21c3f02d79476c6de
+https://mojie.app/api/v1/client/subscribe?token=6dbf0b92279e3ca9448b883496d8870f
+https://onlysub.mjurl.com/api/v1/client/subscribe?token=6dbf0b92279e3ca9448b883496d8870f
