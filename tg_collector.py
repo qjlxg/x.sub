@@ -32,9 +32,47 @@ CHANNELS = [
     'jichangtuijian',   # 机场推荐（带实测数据）
     'Airport_News',     # 机场动态（全网新开业监控）
     'freemason6',       # 机场观测（白嫖无罪，0元包）
-    'jichangbaipiao'    # 机场白嫖（基础库）
-]
+    'jichangbaipiao',   # 机场白嫖（基础库）
 
+    # --- 新增频道源 ---
+    'v2ray_configs_pool',
+    'IP_CF_Config',
+    'FreakConfig',
+    'oneclickvpnkeys',
+    'PrivateVPNs',
+    'DirectVPN',
+    'VlessConfig',
+    'manVPN',
+    'ELiV2RAY',
+    'Outline_Vpn',
+    'PPT_f66_zHk2ZDY8',
+    'V2rayNGX',
+    'ccbaohe',
+    'wangcai_8',
+    'vpn_3000',
+    'academi_vpn',
+    'freedatazone1',
+    'freev2rayi',
+    'mypremium98',
+    'inikotesla',
+    'v2rayngalpha',
+    'v2rayngalphagamer',
+    'jiedian_share',
+    'vpn_mafia',
+    'dr_v2ray',
+    'allv2board',
+    'bigsmoke_config',
+    'vpn_443',
+    'prossh',
+    'mftizi',
+    'qun521',
+    'v2rayng_my2',
+    'go4sharing',
+    'trand_farsi',
+    'vpnplusee_free',
+    'freekankan',
+    'awxdy666'
+]
 def get_sub_status(url):
     """新增：探测订阅链接的剩余流量和有效期"""
     try:
