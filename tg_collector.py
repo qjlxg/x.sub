@@ -85,11 +85,11 @@ CHANNELS = [
 ]
 
 airport_list = []
-extracted_domains = set() # 用于存储从链接反推的域名
+extracted_domains = set() 
 list_lock = threading.Lock()
 
 def get_sub_status(url):
-    """探测订阅链接的剩余流量"""
+    """探测订阅链接的流量信息"""
     try:
         headers = {'User-Agent': 'v2rayNG/1.8.5'}
         r = requests.head(url, headers=headers, timeout=5, allow_redirects=True)
@@ -99,27 +99,41 @@ def get_sub_status(url):
             total = parts.get('total', 0) / (1024**3)
             used = (parts.get('upload', 0) + parts.get('download', 0)) / (1024**3)
             remain = total - used
-            # 过滤逻辑：流量已耗尽或总量虚标严重的（>10万GB）不计入检测
-            if remain <= 0 or total > 100000: 
+            
+            # 基础过滤：剩余流量不能小于等于 0
+            if remain <= 0.01:
                 return None
+            
+            # 时间过滤：如果已经过期，则过滤
+            expire = parts.get('expire')
+            if expire and expire < datetime.datetime.now().timestamp():
+                return None
+                
             return f" [剩余: {remain:.2f}GB / 总量: {total:.0f}GB]"
     except:
         pass
     return ""
 
 def is_content_valid(text):
-    """解码验证逻辑：确保内容解开后包含真正的节点协议"""
-    if not text or len(text) < 40:
+    """解码验证逻辑：不仅看是否有协议，还需看解开后的丰富度"""
+    if not text or len(text) < 100: # 进一步提高最小字符门槛，过滤掉“OK”等简短响应
         return False
+    
     protocols = ['vmess://', 'vless://', 'ss://', 'trojan://', 'ssr://', 'proxies:']
+    
+    # 1. 检查是否为明文
     if any(p in text for p in protocols):
         return True
+        
+    # 2. 尝试解码 Base64
     try:
         clean_text = re.sub(r'\s+', '', text)
         missing_padding = len(clean_text) % 4
         if missing_padding:
             clean_text += '=' * (4 - missing_padding)
+            
         decoded = base64.b64decode(clean_text, validate=False).decode('utf-8', 'ignore')
+        # 如果解码后的内容包含协议头，且长度也达到一定规模，才认为有效
         if any(p in decoded for p in protocols):
             return True
     except:
@@ -127,22 +141,22 @@ def is_content_valid(text):
     return False
 
 def url_check_valid(url, bar):
-    """深度检测单条链接并回溯提取域名"""
     global airport_list, extracted_domains
     try:
-        # 只要是链接，就将其主域名提取到机场入口待选区
+        # 提取主域名作为机场入口（不管订阅是否有效，只要域名合法就提取）
         parsed_url = urlparse(url)
         if parsed_url.netloc:
             with list_lock:
                 extracted_domains.add(f"{parsed_url.scheme}://{parsed_url.netloc}")
 
         headers = {'User-Agent': 'v2rayNG/1.8.5'}
-        r = requests.get(url, headers=headers, timeout=10, allow_redirects=True)
+        # 获取完整内容进行多重校验
+        r = requests.get(url, headers=headers, timeout=12, allow_redirects=True)
         
         if r.status_code == 200:
             content = r.text.strip()
-            # 验证节点有效性
-            if is_content_valid(content):
+            # 关键：内容长度必须足够，通常一个有效的节点包至少 300 字节以上
+            if len(content) > 300 and is_content_valid(content):
                 status_info = get_sub_status(url)
                 if status_info is not None:
                     with list_lock:
@@ -153,11 +167,10 @@ def url_check_valid(url, bar):
         bar.update(1)
 
 def write_url_config(url_file, url_list):
-    """多线程执行验证并写入结果文件"""
-    logger.info(f"🚀 正在验证 {len(url_list)} 条发现的链接并反推域名...")
+    logger.info(f"🚀 正在深度验证 {len(url_list)} 条发现的链接...")
     global airport_list
     airport_list = []
-    bar = tqdm(total=len(url_list), desc="链接深度验证")
+    bar = tqdm(total=len(url_list), desc="节点质量检测")
     
     with ThreadPoolExecutor(max_workers=10) as executor:
         for url in url_list:
@@ -165,8 +178,9 @@ def write_url_config(url_file, url_list):
     bar.close()
     
     with open(url_file, 'w', encoding='utf-8') as f:
-        f.write("# === 深度验证有效的订阅链接 ===\n")
+        f.write("# === 深度验证有效的订阅链接 (已包含大容量节点) ===\n")
         f.write(f"# 更新时间: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
+        # 汇总结果
         f.write('\n'.join(sorted(list(set(airport_list)))))
 
 def fetch_tg_data():
@@ -177,21 +191,18 @@ def fetch_tg_data():
     generic_sub = re.compile(r'https?://[a-zA-Z0-9][-a-zA-Z0-9.]+\.[a-zA-Z]{2,10}/sub\?token=[a-zA-Z0-9]+')
     domain_pattern = re.compile(r'https?://([a-zA-Z0-9][-a-zA-Z0-9]{0,62}(?:\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+)')
     
-    # 基础过滤列表
     exclude_list = ['t.me', 'telegram.org', 'google.com', 'github.com', 'baidu.com', 'yandex.com']
 
-    logger.info("📡 正在抓取 Telegram 频道信息...")
+    logger.info("📡 正在爬取各 Telegram 频道订阅源...")
     for channel in CHANNELS:
         url = f"https://t.me/s/{channel}"
         try:
             r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=12)
             if r.status_code == 200:
-                # 1. 抓取订阅链接
                 subs = sub_pattern.findall(r.text) + generic_sub.findall(r.text)
                 for s in subs:
                     direct_subs.add(s)
                 
-                # 2. 抓取正文中出现的域名
                 found_domains = domain_pattern.findall(r.text)
                 for d in found_domains:
                     d = d.lower()
@@ -200,20 +211,19 @@ def fetch_tg_data():
         except:
             continue
 
-    # 执行订阅验证
     if direct_subs:
         write_url_config('tg_collector.txt', list(direct_subs))
 
-    # 合并：(1) 直接抓到的域名 + (2) 从订阅链接中反推的机场域名
+    # 合并域名：正文域名 + 链接反推域名
     final_entrances = raw_domains.union(extracted_domains)
     
     if final_entrances:
         with open('airport_entrances.txt', 'w', encoding='utf-8') as f:
-            f.write("# === 机场注册/登录入口汇总 (含反推域名) ===\n")
-            # 过滤掉一些明显的非机场域名（如 cdn、oss 等）
-            clean_entrances = [d for d in final_entrances if not any(x in d for x in ['cdn.', 'oss.', 'github'])]
+            f.write("# === 机场注册/登录入口汇集 (不管订阅是否有效均保留) ===\n")
+            # 过滤掉非机场主机的干扰项
+            clean_entrances = [d for d in final_entrances if not any(x in d for x in ['cdn.', 'oss.', 'github', 'ajax', 'static'])]
             f.write('\n'.join(sorted(clean_entrances)))
-        logger.info(f"✅ 提取到 {len(clean_entrances)} 个机场主域名，已存入 airport_entrances.txt")
+        logger.info(f"✅ 提取到 {len(clean_entrances)} 个机场主域名，存入 airport_entrances.txt")
 
 if __name__ == "__main__":
     fetch_tg_data()
