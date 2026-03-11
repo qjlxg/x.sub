@@ -8,8 +8,7 @@ https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=3a50317771a2cc4eb04e
 https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=5a40b07c81898719dcb08fea26ca6cca [剩余: -4.26GB / 总量: 60GB]
 https://api.e687699.top/api/v1/client/subscribe?token=8dddcaa2e9a12fe2d7caebd1a9487219
 https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=259516e4752a41662ee83277d978dfbc [剩余: -0.05GB / 总量: 80GB]
-https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=35cbdd9cc10ba9c8e265008ba9f466e2 [剩余: -0.23GB / 总量: 80GB]
-https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=c636b265ec2dc3000492b77802279ffc [剩余: 23.86GB / 总量: 80GB]
+https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=c636b265ec2dc3000492b77802279ffc [剩余: 19.58GB / 总量: 80GB]
 https://ch.cukug.website/api/v1/client/subscribe?token=3e4ad9ef197db68d199e5d1a4e27eee3
 https://ch.cukug.website/api/v1/client/subscribe?token=d96b48a34918ab096906275485b162bb
 https://dy.naisicloud.xyz/api/v1/client/subscribe?token=595fbffde599301c81e579547896c942
@@ -51,11 +50,13 @@ https://a.v2yd6.top
 https://acghelper.com
 https://actorawards.org
 https://ag.bnpm.dynu.net
+https://ai.qaq.al
 https://alwaysdata.com
 https://alwaysdata.net
 https://amber85.qjty.buzz
 https://amz.awsy.top
 https://anran.3kla.top
+https://api.42w.shop
 https://api.e687699.top
 https://api.oaibest.com
 https://app.bybit.com
@@ -152,10 +153,12 @@ https://labs.google
 https://linlujs.men
 https://linux.do
 https://liulangdiqiu.cc
+https://lizhi.shop
 https://lllo.x19890604.qzz.io
 https://luv.xem.lat
 https://ly.ccwink.art
 https://ly.ccwink.cc
+https://m.gelonghui.com
 https://matcha.su
 https://matrix-game-v2.github.io
 https://mcp.dpenly.org
@@ -166,6 +169,7 @@ https://naisicloud.xyz
 https://nanbei.cloud
 https://navi.onamae.com
 https://netlib.re
+https://newapi.sorai.m
 https://news.bloomberglaw.com
 https://news.skhynix.com
 https://nnmjk.wc0.ccwu.cc
@@ -180,6 +184,7 @@ https://pay.nodedns.xyz
 https://pc.ctyun.cn
 https://personal.dtcpay.com
 https://picjumbo.com
+https://pjmp3.de
 https://postimg.cc
 https://pro.xn--l9qyaz082a.cn
 https://proxypool.dmit.dpdns.org
@@ -198,12 +203,14 @@ https://simpleyun.top
 https://singlink.cc
 https://singlink02.com
 https://singlinkvpn.com
+https://skillhub.tencent.com
 https://slabcde.icu
 https://slproxy.com
 https://smu.cc.cd
 https://sni.111000.dynv6.net
 https://spflyfish.top
 https://ss.ejejje.com
+https://store.lizhi.io
 https://sub.derrick.us.kg
 https://sub.mogufan.com
 https://sub.scpnb.top
@@ -217,6 +224,7 @@ https://sulianv.com
 https://sun1.sunbirds.top
 https://super.jack991.filegear-sg.me
 https://supercmd.sh
+https://techcrunch.com
 https://telega.io
 https://telegra.ph
 https://tg.apocalypse.cc.cd
@@ -240,8 +248,6 @@ https://www.123xn.cc
 https://www.aibase.com
 https://www.alwaysdata.com
 https://www.androidauthority.com
-https://www.apple.com
-https://www.apple.com.cn
 https://www.bafta.org
 https://www.berlinale.de
 https://www.bilibili.com
@@ -287,6 +293,7 @@ https://www.wired.com
 https://www.xiaobot.net
 https://www.xn--9kqx21a0sv.top
 https://www.xn--9kqz09d4qq.com
+https://www.xrayvip.com
 https://www.yinyun2026.com
 https://www.youtube.com
 https://www.zotero.org
