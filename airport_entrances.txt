@@ -55,7 +55,6 @@ https://47.243.59.73
 https://5.202.175.55
 https://51.ruyo.net
 https://52bp.icu
-https://52pokemon.yunjnet.com
 https://64.6.65.6
 https://6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io
 https://6url.cn
@@ -70,6 +69,7 @@ https://81.12.31.48
 https://81.12.94.74
 https://87.107.137.250
 https://87.107.99.78
+https://88.ee88.tk
 https://91.92.208.152
 https://91.92.208.43
 https://91.92.209.194
@@ -134,7 +134,6 @@ https://claw.guanjia.qq.com
 https://cola.xn--chqu2nzsxv3y.com
 https://conf1.hokkaido-toyoni.com
 https://control.nerwo.co
-https://cp.cloudflare.com
 https://cs.tuz.me
 https://cz1.freevpn724.com
 https://d.xfuti.buzz
@@ -201,6 +200,7 @@ https://i.111666.best
 https://i.kkb.xx.kg
 https://id.discourse.com
 https://ikun520.live
+https://iloveyou.cloudflare-gateway.com
 https://img.eleven.observer
 https://img.ikaka.in
 https://img.xn
@@ -239,7 +239,6 @@ https://lllo.x19890604.qzz.io
 https://llyh.cc
 https://love.p6m6.com
 https://luv.xem.lat
-https://ly.ba000.cc
 https://ly.ccwink.art
 https://ly.ccwink.cc
 https://m.facebook.com
@@ -263,6 +262,7 @@ https://ne997.688997.xyz
 https://neolink.nkkc.one
 https://netlib.re
 https://news.skhynix.com
+https://newsroom.ibm.com
 https://nl1.freevpn724.com
 https://nnmjk.wc0.ccwu.cc
 https://nnnnnmj.huangshang.site
@@ -324,7 +324,6 @@ https://sub.bestbestbest.sbs
 https://sub.cucloud.top
 https://sub.derrick.us.kg
 https://sub.mogufan.com
-https://sub.pusytroller.cf
 https://sub.sanfen018.xyz
 https://sub.scpnb.top
 https://sub.xn--4gq62ffxz.net
@@ -380,6 +379,7 @@ https://www.360vpn.org
 https://www.aibase.com
 https://www.airboat.online
 https://www.alwaysdata.com
+https://www.apple.com
 https://www.awsy.top
 https://www.bafta.org
 https://www.berlinale.de
@@ -418,6 +418,7 @@ https://www.okhao.top
 https://www.onamae.com
 https://www.paypal.com
 https://www.pkqcloud.com
+https://www.qualcomm.com
 https://www.radio.cn
 https://www.readyserver.sg
 https://www.reddit.com
@@ -432,6 +433,7 @@ https://www.v2ex.com
 https://www.w3.org
 https://www.wired.com
 https://www.xiaobot.net
+https://www.xiaohongshu.com
 https://www.xn--9kqx21a0sv.top
 https://www.xn--9kqz09d4qq.com
 https://www.xn--qk5apn.com
