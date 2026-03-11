@@ -1,8 +1,3 @@
-# === 深度验证有效的订阅链接 (已包含大容量节点) ===
-# 更新时间: 2026-03-11 06:39:23
+# === 深度清洗：剔除负数、过期及流量耗尽链接 ===
+# 更新时间: 2026-03-11 06:42:07
 
-https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=3a50317771a2cc4eb04e2622bc6a7745
-https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=5a40b07c81898719dcb08fea26ca6cca
-https://ktm001.top/api/v1/client/subscribe?token=bbe0986ab831f1e21c3f02d79476c6de
-https://mojie.app/api/v1/client/subscribe?token=6dbf0b92279e3ca9448b883496d8870f
-https://onlysub.mjurl.com/api/v1/client/subscribe?token=6dbf0b92279e3ca9448b883496d8870f
