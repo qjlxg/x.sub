@@ -93,7 +93,6 @@ https://anran.3kla.top
 https://api.e687699.top
 https://api.nekocloud.top
 https://api.oaibest.com
-https://api.qrserver.com
 https://api3.cls.cn
 https://app.bybit.com
 https://app.mitce.net
@@ -130,6 +129,7 @@ https://chromego-sub.netlify.app
 https://chuzhan888.xyz
 https://cikeyun.club
 https://cjpaoche.top
+https://claude.ai
 https://claw.guanjia.qq.com
 https://cola.xn--chqu2nzsxv3y.com
 https://conf1.hokkaido-toyoni.com
@@ -200,7 +200,6 @@ https://i.111666.best
 https://i.kkb.xx.kg
 https://id.discourse.com
 https://ikun520.live
-https://iloveyou.cloudflare-gateway.com
 https://img.eleven.observer
 https://img.ikaka.in
 https://img.xn
@@ -227,7 +226,6 @@ https://ktmcloud.men
 https://ktmcloud.pro
 https://ktmcloud.vip
 https://ktmcloud.win
-https://kukeyun.cc
 https://kunlun01.com
 https://labs.google
 https://line1.nowjiasu.com
@@ -311,12 +309,14 @@ https://simpleyun.top
 https://singlink.cc
 https://singlink02.com
 https://singlinkvpn.com
+https://skill.cm
 https://slabcde.icu
 https://slproxy.com
 https://smu.cc.cd
 https://sni.111000.dynv6.net
 https://spflyfish.top
 https://ss.ejejje.com
+https://status.claude.com
 https://steel68.qjty.buzz
 https://store.lizhi.io
 https://sub-1.rsjc.xyz
@@ -447,7 +447,6 @@ https://www8.bigairport-fourteenth-sub.top
 https://x.com
 https://x.xfuti.buzz
 https://xb.inekokkk.com
-https://xfa9.eu.org
 https://xfapp.quickbeevpn.com
 https://xiaomaimai14514.de5.net
 https://xn--6stp4p.com
