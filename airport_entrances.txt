@@ -1,4 +1,4 @@
-# === 机场注册/登录入口汇总 (含反推域名) ===
+# === 机场注册/登录入口汇集 (不管订阅是否有效均保留) ===
 http://372ae8252c9ce608c5f7066f2177dfb1.52pokemon.top
 http://dy.changyouVPN.top
 http://dy.changyouvpn.top
