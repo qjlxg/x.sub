@@ -71,7 +71,6 @@ https://81.12.31.48
 https://81.12.94.74
 https://87.107.137.250
 https://87.107.99.78
-https://88.ee88.tk
 https://91.92.208.152
 https://91.92.208.43
 https://91.92.209.194
@@ -133,6 +132,7 @@ https://chuzhan888.xyz
 https://cikeyun.club
 https://cjpaoche.top
 https://claw.guanjia.qq.com
+https://code.claude.com
 https://cola.xn--chqu2nzsxv3y.com
 https://conf1.hokkaido-toyoni.com
 https://control.nerwo.co
@@ -239,6 +239,7 @@ https://liulangdiqiu.cc
 https://lizhi.shop
 https://lllo.x19890604.qzz.io
 https://llyh.cc
+https://lottery.linux.do
 https://love.p6m6.com
 https://luv.xem.lat
 https://ly.ba000.cc
@@ -399,7 +400,6 @@ https://www.bybit.eu
 https://www.canarytokens.org
 https://www.chuzhan888.xyz
 https://www.clawdi.ai
-https://www.cnbeta.com.tw
 https://www.crosswall.org
 https://www.dabai.in
 https://www.dga.org
@@ -419,6 +419,7 @@ https://www.macrumors.com
 https://www.meiguodizhi.com
 https://www.mojie.me
 https://www.namecheap.com
+https://www.nature.com
 https://www.newlearner.site
 https://www.nodeseek.com
 https://www.notebookcheck.net
