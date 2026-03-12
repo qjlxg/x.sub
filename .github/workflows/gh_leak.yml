@@ -20,31 +20,21 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install beautifulsoup4 requests
+        run: |
+          pip install pyyaml requests
 
-      - name: Run GitHub Leak Script
-        env:
-        
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        
-          MY_BOT_NAME: ${{ vars.BOT }}
+      - name: Run leak collector
         run: python gh_leak_collector.py
 
-      - name: Commit and Push
+      - name: Commit results
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add github_leaks.txt domains_to_register.txt
-          
-          if git diff --cached --quiet; then
-            echo "No changes detected."
-          else
-            export TZ='Asia/Shanghai'
-            git commit -m "Auto-Update: $(date +'%Y-%m-%d %H:%M:%S')"
-            git push
-          fi
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add leaked_nodes.txt leaked_domains.txt || true
+          git commit -m "Update leak results" || true
+          git push || true
