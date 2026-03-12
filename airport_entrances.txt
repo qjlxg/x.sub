@@ -329,6 +329,7 @@ https://sni.111000.dynv6.net
 https://spflyfish.top
 https://ss.ejejje.com
 https://status.claude.com
+https://status.openai.com
 https://store.lizhi.io
 https://sub-1.rsjc.xyz
 https://sub.bestbestbest.sbs
