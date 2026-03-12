@@ -95,12 +95,12 @@ https://api.nekocloud.top
 https://api.oaibest.com
 https://api.qrserver.com
 https://app.bybit.com
+https://app.leapweb.co
 https://app.mitce.net
 https://app.rebrandly.com
 https://app.shokichan.com
 https://apps.apple.com
 https://arxiv.org
-https://ascsgg.com
 https://auth.newlikebooks.xyz
 https://awf87ow7agf.chutrandi.com
 https://b3b0549e-160e-495a-a528-cccf5148bc48.372372.xyz
@@ -171,7 +171,6 @@ https://fffffg.890602.pp.ua
 https://fffvg.7777125.xyz
 https://fghy.00890604.xyz
 https://forms.gle
-https://forum.netcup.de
 https://free.oaibest.com
 https://free.tharuwa.store
 https://freeairport.cc
@@ -208,6 +207,7 @@ https://img.xn
 https://img.ytools.cc
 https://img2.fastcybers.com
 https://imo.im
+https://infini-cloud.net
 https://invite.xn--yvsa48r.com
 https://ishare.ifeng.com
 https://item.jd.com
@@ -229,8 +229,8 @@ https://ktmcloud.men
 https://ktmcloud.pro
 https://ktmcloud.vip
 https://ktmcloud.win
+https://kukeyun.cc
 https://kunlun01.com
-https://labs.google
 https://line1.nowjiasu.com
 https://linlujs.men
 https://linux.do
@@ -277,6 +277,7 @@ https://omp.exchange
 https://onlysub.mjurl.com
 https://openai.com
 https://panda.xn--lbrx91akmhm30c.com
+https://pastebin.com
 https://pay.nodedns.xyz
 https://pc.ctyun.cn
 https://personal.dtcpay.com
@@ -299,7 +300,6 @@ https://roam.virginconnect.com
 https://rrrrrrrrrrrghhh.857657.xyz
 https://rss202407.mugua-sub.com
 https://s.meiall.xyz
-https://s.qiniu.com
 https://s1.trojanflare.one
 https://scurl.izenny.com
 https://service-69kfaex1-1312645837.bj.apigw.tencentcs.com
@@ -315,8 +315,6 @@ https://simpleyun.top
 https://singlink.cc
 https://singlink02.com
 https://singlinkvpn.com
-https://slabcde.icu
-https://slproxy.com
 https://smu.cc.cd
 https://sni.111000.dynv6.net
 https://spflyfish.top
@@ -346,8 +344,6 @@ https://sub4.download-hiccup.xyz
 https://subs.younger.eu.org
 https://subscribe002.awsy.top
 https://subsub.surge.sh
-https://sulianproxy.com
-https://sulianv.com
 https://sun1.sunbirds.top
 https://super.jack991.filegear-sg.me
 https://superbiu.com
@@ -451,7 +447,6 @@ https://xn--9kqt60cjmy.shop
 https://xn--9kqy4sc0n4uu.xyz
 https://xn--ehqa22b.site
 https://xn--wtq35pfyd55o.co
-https://xunda.icu
 https://y.dbf88.sbs
 https://yfjc.xyz
 https://yinyun365.org
