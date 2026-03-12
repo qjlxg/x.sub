@@ -1,4 +1,4 @@
 %YAML 1.1
 ---
 proxies:
-- {name: '流量已用完,请充值 - 拼好梯', server: 127.0.0.1, port: 3838, type: ss, cipher: chacha20-ietf-poly1305, password: 2fc396d0-0296-432e-a048-039b4cd16284, udp: true}
+- {name: '流量已用完,请充值 - 拼好梯', server: 127.0.0.1, port: 3838, type: ss, cipher: chacha20-ietf-poly1305, password: 4d114651-b8c4-450c-81c3-b833f27716a8, udp: true}
