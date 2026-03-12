@@ -54,7 +54,7 @@ proxy-groups:
   - 🛩️ ‍墙内
   - 💩 ‍广告
 proxies:
-- {name: 🇯🇵 VMISS-东京-1 - 0101加速器, server: 38.47.125.75, port: 5155, type: ss, cipher: aes-256-gcm, password: 4c663e99-40c7-4557-ba22-7406bd65be86, udp: true}
+- {name: 🇯🇵 VMISS-东京-1 - 0101加速器, server: 38.47.125.75, port: 5155, type: ss, cipher: aes-256-gcm, password: 514f93df-264f-4554-afad-510c9fa172f9, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
