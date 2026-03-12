@@ -4,9 +4,27 @@ from urllib.parse import urlparse
 
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
-KEYWORDS = [
-    "vmess", "vless", "trojan", "ss://", "clash", "sub", "subscription"
+# 公开订阅源（不会被封）
+SUB_SOURCES = [
+    # Telegram 公开频道（通过 RSSHub）
+    "https://rsshub.app/telegram/channel/ssrlist",
+    "https://rsshub.app/telegram/channel/v2list",
+    "https://rsshub.app/telegram/channel/freevpn",
+    "https://rsshub.app/telegram/channel/airportdeals",
+
+    # GitHub Trending（不需要搜索）
+    "https://rsshub.app/github/trending/daily/python",
+    "https://rsshub.app/github/trending/daily/go",
+
+    # Pastebin Trending（无需登录）
+    "https://pastebin.com/trends",
+
+    # 公开机场订阅分享站（示例）
+    "https://raw.githubusercontent.com/adiwzx/freenode/main/sub",
+    "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt",
 ]
+
+KEYWORDS = ["vmess", "vless", "trojan", "ss://", "sub", "subscription"]
 
 def extract_links(text):
     pattern = r'https?://[^\s"\'<>]+'
@@ -20,102 +38,23 @@ def extract_domains(links):
             domains.add(domain)
     return domains
 
-# -----------------------------
-# GitHub API（模糊搜索）
-# -----------------------------
-def scan_github():
-    print("🔍 GitHub API 扫描中...")
-    results = set()
-    for kw in KEYWORDS:
-        url = f"https://api.github.com/search/code?q={kw}&per_page=50"
-        r = requests.get(url, headers=HEADERS)
-        if r.status_code != 200:
-            continue
-        items = r.json().get("items", [])
-        for item in items:
-            raw = item["html_url"].replace("github.com", "raw.githubusercontent.com").replace("/blob/", "/")
-            try:
-                t = requests.get(raw, headers=HEADERS, timeout=10).text
-                results.update(extract_links(t))
-            except:
-                pass
-    return results
-
-# -----------------------------
-# GitLab 搜索
-# -----------------------------
-def scan_gitlab():
-    print("🔍 GitLab 扫描中...")
-    results = set()
-    for kw in KEYWORDS:
-        url = f"https://gitlab.com/api/v4/search?scope=blobs&search={kw}"
-        try:
-            r = requests.get(url, headers=HEADERS, timeout=10)
-            for item in r.json():
-                raw = item.get("url", "")
-                if raw.endswith(".txt") or raw.endswith(".yaml") or raw.endswith(".yml"):
-                    try:
-                        t = requests.get(raw, headers=HEADERS, timeout=10).text
-                        results.update(extract_links(t))
-                    except:
-                        pass
-        except:
-            pass
-    return results
-
-# -----------------------------
-# Pastebin 扫描
-# -----------------------------
-def scan_pastebin():
-    print("🔍 Pastebin 扫描中...")
-    results = set()
-    url = "https://pastebin.com/archive"
-    try:
-        html = requests.get(url, headers=HEADERS).text
-        ids = re.findall(r'/([A-Za-z0-9]{8})"', html)
-        for pid in ids[:20]:
-            raw = f"https://pastebin.com/raw/{pid}"
-            try:
-                t = requests.get(raw, headers=HEADERS, timeout=10).text
-                results.update(extract_links(t))
-            except:
-                pass
-    except:
-        pass
-    return results
-
-# -----------------------------
-# Reddit 扫描（无需登录）
-# -----------------------------
-def scan_reddit():
-    print("🔍 Reddit 扫描中...")
-    results = set()
-    for kw in KEYWORDS:
-        url = f"https://www.reddit.com/search.json?q={kw}&limit=20"
-        try:
-            r = requests.get(url, headers=HEADERS, timeout=10)
-            posts = r.json().get("data", {}).get("children", [])
-            for p in posts:
-                text = p["data"].get("selftext", "") + " " + p["data"].get("title", "")
-                results.update(extract_links(text))
-        except:
-            pass
-    return results
-
-# -----------------------------
-# 主程序
-# -----------------------------
 def run():
     all_links = set()
 
-    all_links |= scan_github()
-    all_links |= scan_gitlab()
-    all_links |= scan_pastebin()
-    all_links |= scan_reddit()
+    print("🚀 开始从订阅源收集泄露订阅...\n")
+
+    for src in SUB_SOURCES:
+        print(f"🔍 正在抓取：{src}")
+        try:
+            r = requests.get(src, headers=HEADERS, timeout=10)
+            if r.status_code == 200:
+                all_links.update(extract_links(r.text))
+        except:
+            pass
 
     domains = extract_domains(all_links)
 
-    print("\n🎉 扫描完成！")
+    print("\n🎉 完成订阅源扫描！")
     print(f"📌 发现订阅链接：{len(all_links)} 条")
     print(f"📌 提取域名：{len(domains)} 个")
 
