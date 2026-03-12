@@ -1,6 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: ℹ️ 注：若无法使用请【更新订阅】 - STTLink, server: 127.0.0.1, port: 80, type: vmess, uuid: e1c34d7d-7cb2-3829-b476-1f7b5bcacdc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 注：防失联地址：www.stt.today - STTLink, server: 127.0.0.1, port: 80, type: vmess, uuid: e1c34d7d-7cb2-3829-b476-1f7b5bcacdc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: ℹ️ www.stt.today（官网） - STTLink, server: sttlink.com, port: 10086, type: vmess, uuid: e1c34d7d-7cb2-3829-b476-1f7b5bcacdc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}

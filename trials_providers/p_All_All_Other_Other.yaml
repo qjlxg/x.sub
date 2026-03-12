@@ -1,5 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: ℹ️ 03建议每周在官网重新导入订阅 - 逐日, server: hm.471111.xyz, port: 36566, type: vmess, uuid: fb8bbce8-8646-3545-bb25-154edbbb1bad, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hm.471111.xyz}}, udp: true}
-- {name: 发布页【668765.xyz】 - 逐日, server: hm.471111.xyz, port: 36566, type: vmess, uuid: fb8bbce8-8646-3545-bb25-154edbbb1bad, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hm.471111.xyz}}, udp: true}

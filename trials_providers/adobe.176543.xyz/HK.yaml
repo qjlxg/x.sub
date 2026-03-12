@@ -1,6 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: 🇭🇰  香港bn ipv6 - 逐日, server: hk.471111.xyz, port: 50676, type: vmess, uuid: 428301fa-4c7a-340e-ba0b-cf70944e67d8, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk.471111.xyz}}, udp: true}
-- {name: 🇭🇰 香港 HK - 逐日, server: 183.179.215.10, port: 52367, type: vmess, uuid: 428301fa-4c7a-340e-ba0b-cf70944e67d8, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: 🇭🇰 香港 HKBN - 逐日, server: 183.179.215.10, port: 52001, type: vmess, uuid: 428301fa-4c7a-340e-ba0b-cf70944e67d8, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}

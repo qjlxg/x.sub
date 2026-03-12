@@ -1,7 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: 🇺🇲 A2-美国-01节点  - 方舟加速器, server: cdn.fzcloud.xyz, port: 443, type: vmess, uuid: b8aaebbb-5b1c-380b-8c8d-cc8d1f32884a, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-usa.202014.xyz}}, udp: true}
-- {name: 🇺🇲 A2-美国-02节点 - 方舟加速器, server: cdn.fzcloud.xyz, port: 443, type: vmess, uuid: b8aaebbb-5b1c-380b-8c8d-cc8d1f32884a, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-usa02.202014.xyz}}, udp: true}
-- {name: 🇺🇲 A2-美国-03节点 - 方舟加速器, server: cdn.fzcloud.xyz, port: 443, type: vmess, uuid: b8aaebbb-5b1c-380b-8c8d-cc8d1f32884a, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-usa03.202014.xyz}}, udp: true}
-- {name: 🇺🇲 A2-美国-04节点 - 方舟加速器, server: cdn.fzcloud.xyz, port: 443, type: vmess, uuid: b8aaebbb-5b1c-380b-8c8d-cc8d1f32884a, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-usa04.202014.xyz}}, udp: true}

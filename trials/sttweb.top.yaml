@@ -11,28 +11,20 @@ proxy-groups:
   proxies:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
-  - 🇭🇰 ‍香港
-  - 🇸🇬 ‍新加坡
-  - 🎏 ‍其他
-  - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇸🇬 ‍新加坡
-  - 👆🏻🎏 ‍其他
   - DIRECT
   - REJECT
 - name: ⚡ ‍低延迟
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
   tolerance: 100
-  use: &id001
-  - HK
-  - SG
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_Other
+  proxies: &id001
+  - ℹ️ 注：若无法使用请【更新订阅】 - STTLink
+  - ℹ️ 注：防失联地址：www.stt.today - STTLink
+  - ℹ️ www.stt.today（官网） - STTLink
 - name: 👆🏻 ‍指定
   type: select
-  use: *id001
+  proxies: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -49,18 +41,12 @@ proxy-groups:
   type: select
   proxies:
   - 🛩️ ‍墙内
-  - 🇭🇰 ‍香港
   - ✈️ ‍起飞
-  - 👆🏻🇭🇰 ‍香港
   - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
-  - 🇸🇬 ‍新加坡
-  - 🎏 ‍其他
   - ✈️ ‍起飞
-  - 👆🏻🇸🇬 ‍新加坡
-  - 👆🏻🎏 ‍其他
   - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
@@ -69,71 +55,10 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-- name: 🇭🇰 ‍香港
-  type: url-test
-  tolerance: 100
-  use: &id002
-  - HK
-- name: 🇸🇬 ‍新加坡
-  type: url-test
-  tolerance: 100
-  use: &id003
-  - SG
-- name: 🎏 ‍其他
-  type: url-test
-  tolerance: 100
-  use: &id004
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_Other
-- name: 👆🏻🇭🇰 ‍香港
-  type: select
-  use: *id002
-- name: 👆🏻🇸🇬 ‍新加坡
-  type: select
-  use: *id003
-- name: 👆🏻🎏 ‍其他
-  type: select
-  use: *id004
-proxy-providers:
-  HK:
-    type: http
-    url: https://raw.kgithub.com/qjlxg/x.sub/main/trials_providers/HK.yaml
-    interval: 180
-    path: trials_providers/HK.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  SG:
-    type: http
-    url: https://raw.kgithub.com/qjlxg/x.sub/main/trials_providers/SG.yaml
-    interval: 180
-    path: trials_providers/SG.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_All_All_Other_Other_Other_Other:
-    type: http
-    url: https://raw.kgithub.com/qjlxg/x.sub/main/trials_providers/p_All_All_All_All_Other_Other_Other_Other.yaml
-    interval: 180
-    path: trials_providers/p_All_All_All_All_Other_Other_Other_Other.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_Other:
-    type: http
-    url: https://raw.kgithub.com/qjlxg/x.sub/main/trials_providers/p_All_Other.yaml
-    interval: 180
-    path: trials_providers/p_All_Other.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
+proxies:
+- {name: ℹ️ 注：若无法使用请【更新订阅】 - STTLink, server: 127.0.0.1, port: 80, type: vmess, uuid: 7a3ce7c6-0e9b-394d-ae1c-30aadfeb5fec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 注：防失联地址：www.stt.today - STTLink, server: 127.0.0.1, port: 80, type: vmess, uuid: 7a3ce7c6-0e9b-394d-ae1c-30aadfeb5fec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: ℹ️ www.stt.today（官网） - STTLink, server: sttlink.com, port: 10086, type: vmess, uuid: 7a3ce7c6-0e9b-394d-ae1c-30aadfeb5fec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT

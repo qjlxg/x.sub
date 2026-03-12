@@ -1,4 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: ℹ️ 官网 china.ctzcloud.org (国内访问) - 奥创, server: 107.148.146.204, port: 12122, type: vmess, uuid: 2d08dd09-5b49-3bf3-a504-f07256c1f602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 2.ctzcloud.ink, network: ws, ws-opts: {path: /uu, headers: {Host: 2.ctzcloud.ink}}, udp: true}

@@ -21,18 +21,19 @@ proxy-groups:
   - REJECT
 - name: ⚡ ‍低延迟
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
   tolerance: 100
-  use: &id001
-  - HK
-  - SG
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_Other
+  proxies: &id001
+  - 🇭🇰  香港bn ipv6 - 逐日
+  - 🇭🇰 香港 HK - 逐日
+  - 🇭🇰 香港 HKBN - 逐日
+  - 🇸🇬 新加坡 2 - 逐日
+  - ℹ️ 03建议每周在官网重新导入订阅 - 逐日
+  - 发布页【668765.xyz】 - 逐日
 - name: 👆🏻 ‍指定
   type: select
-  use: *id001
+  proxies: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -71,69 +72,44 @@ proxy-groups:
   - 💩 ‍广告
 - name: 🇭🇰 ‍香港
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
   tolerance: 100
-  use: &id002
-  - HK
+  proxies: &id002
+  - 🇭🇰  香港bn ipv6 - 逐日
+  - 🇭🇰 香港 HK - 逐日
+  - 🇭🇰 香港 HKBN - 逐日
 - name: 🇸🇬 ‍新加坡
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
   tolerance: 100
-  use: &id003
-  - SG
+  proxies: &id003
+  - 🇸🇬 新加坡 2 - 逐日
 - name: 🎏 ‍其他
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
   tolerance: 100
-  use: &id004
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_Other
+  proxies: &id004
+  - ℹ️ 03建议每周在官网重新导入订阅 - 逐日
+  - 发布页【668765.xyz】 - 逐日
 - name: 👆🏻🇭🇰 ‍香港
   type: select
-  use: *id002
+  proxies: *id002
 - name: 👆🏻🇸🇬 ‍新加坡
   type: select
-  use: *id003
+  proxies: *id003
 - name: 👆🏻🎏 ‍其他
   type: select
-  use: *id004
-proxy-providers:
-  HK:
-    type: http
-    url: https://raw.kgithub.com/qjlxg/x.sub/main/trials_providers/HK.yaml
-    interval: 180
-    path: trials_providers/HK.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  SG:
-    type: http
-    url: https://raw.kgithub.com/qjlxg/x.sub/main/trials_providers/SG.yaml
-    interval: 180
-    path: trials_providers/SG.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_All_All_Other_Other_Other_Other:
-    type: http
-    url: https://raw.kgithub.com/qjlxg/x.sub/main/trials_providers/p_All_All_All_All_Other_Other_Other_Other.yaml
-    interval: 180
-    path: trials_providers/p_All_All_All_All_Other_Other_Other_Other.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_Other:
-    type: http
-    url: https://raw.kgithub.com/qjlxg/x.sub/main/trials_providers/p_All_Other.yaml
-    interval: 180
-    path: trials_providers/p_All_Other.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
+  proxies: *id004
+proxies:
+- {name: 🇭🇰  香港bn ipv6 - 逐日, server: hk.471111.xyz, port: 50676, type: vmess, uuid: e133b8f1-7e6b-39a0-aea5-c52738698f9a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk.471111.xyz}}, udp: true}
+- {name: ℹ️ 03建议每周在官网重新导入订阅 - 逐日, server: hm.471111.xyz, port: 36566, type: vmess, uuid: e133b8f1-7e6b-39a0-aea5-c52738698f9a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hm.471111.xyz}}, udp: true}
+- {name: 发布页【668765.xyz】 - 逐日, server: hm.471111.xyz, port: 36566, type: vmess, uuid: e133b8f1-7e6b-39a0-aea5-c52738698f9a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hm.471111.xyz}}, udp: true}
+- {name: 🇸🇬 新加坡 2 - 逐日, server: 13.212.174.179, port: 31583, type: vmess, uuid: e133b8f1-7e6b-39a0-aea5-c52738698f9a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: 🇭🇰 香港 HK - 逐日, server: 183.179.215.10, port: 52367, type: vmess, uuid: e133b8f1-7e6b-39a0-aea5-c52738698f9a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: 🇭🇰 香港 HKBN - 逐日, server: 183.179.215.10, port: 52001, type: vmess, uuid: e133b8f1-7e6b-39a0-aea5-c52738698f9a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT

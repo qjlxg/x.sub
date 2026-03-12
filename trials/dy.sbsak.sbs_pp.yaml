@@ -25,11 +25,7 @@ proxy-groups:
   use: &id001
   - HK
   - SG
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_Other
+  - Other
 - name: 👆🏻 ‍指定
   type: select
   use: *id001
@@ -83,11 +79,7 @@ proxy-groups:
   type: url-test
   tolerance: 100
   use: &id004
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_All_All_All_Other_Other_Other_Other
-  - p_All_Other
+  - Other
 - name: 👆🏻🇭🇰 ‍香港
   type: select
   use: *id002
@@ -100,36 +92,27 @@ proxy-groups:
 proxy-providers:
   HK:
     type: http
-    url: https://raw.kgithub.com/qjlxg/x.sub/main/trials_providers/HK.yaml
+    url: https://raw.kgithub.com/qjlxg/x.sub/main/trials_providers/dy.sbsak.sbs/HK.yaml
     interval: 180
-    path: trials_providers/HK.yaml
+    path: trials_providers/dy.sbsak.sbs/HK.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
   SG:
     type: http
-    url: https://raw.kgithub.com/qjlxg/x.sub/main/trials_providers/SG.yaml
+    url: https://raw.kgithub.com/qjlxg/x.sub/main/trials_providers/dy.sbsak.sbs/SG.yaml
     interval: 180
-    path: trials_providers/SG.yaml
+    path: trials_providers/dy.sbsak.sbs/SG.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
-  p_All_All_All_All_Other_Other_Other_Other:
+  Other:
     type: http
-    url: https://raw.kgithub.com/qjlxg/x.sub/main/trials_providers/p_All_All_All_All_Other_Other_Other_Other.yaml
+    url: https://raw.kgithub.com/qjlxg/x.sub/main/trials_providers/dy.sbsak.sbs/Other.yaml
     interval: 180
-    path: trials_providers/p_All_All_All_All_Other_Other_Other_Other.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_Other:
-    type: http
-    url: https://raw.kgithub.com/qjlxg/x.sub/main/trials_providers/p_All_Other.yaml
-    interval: 180
-    path: trials_providers/p_All_Other.yaml
+    path: trials_providers/dy.sbsak.sbs/Other.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204

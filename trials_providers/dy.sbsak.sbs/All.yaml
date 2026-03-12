@@ -1,21 +1,9 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: ℹ️ 注：若无法使用请【更新订阅】 - STTLink, server: 127.0.0.1, port: 80, type: vmess, uuid: 4c74eb1a-16c0-3609-a898-0b6301366ee4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id002 {name: ℹ️ 注：防失联地址：www.stt.today - STTLink, server: 127.0.0.1, port: 80, type: vmess, uuid: 4c74eb1a-16c0-3609-a898-0b6301366ee4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id003 {name: ℹ️ www.stt.today（官网） - STTLink, server: sttlink.com, port: 10086, type: vmess, uuid: 4c74eb1a-16c0-3609-a898-0b6301366ee4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰  香港bn ipv6 - 逐日, server: hk.471111.xyz, port: 50676, type: vmess, uuid: e133b8f1-7e6b-39a0-aea5-c52738698f9a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk.471111.xyz}}, udp: true}
 - {name: ℹ️ 03建议每周在官网重新导入订阅 - 逐日, server: hm.471111.xyz, port: 36566, type: vmess, uuid: e133b8f1-7e6b-39a0-aea5-c52738698f9a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hm.471111.xyz}}, udp: true}
 - {name: 发布页【668765.xyz】 - 逐日, server: hm.471111.xyz, port: 36566, type: vmess, uuid: e133b8f1-7e6b-39a0-aea5-c52738698f9a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hm.471111.xyz}}, udp: true}
 - {name: 🇸🇬 新加坡 2 - 逐日, server: 13.212.174.179, port: 31583, type: vmess, uuid: e133b8f1-7e6b-39a0-aea5-c52738698f9a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 - {name: 🇭🇰 香港 HK - 逐日, server: 183.179.215.10, port: 52367, type: vmess, uuid: e133b8f1-7e6b-39a0-aea5-c52738698f9a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 - {name: 🇭🇰 香港 HKBN - 逐日, server: 183.179.215.10, port: 52001, type: vmess, uuid: e133b8f1-7e6b-39a0-aea5-c52738698f9a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- *id001
-- *id002
-- *id003
-- *id001
-- *id002
-- *id003
-- *id001
-- *id002
-- *id003
