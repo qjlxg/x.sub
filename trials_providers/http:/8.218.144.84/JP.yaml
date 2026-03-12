@@ -1,7 +1,7 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇯🇵日本 01 | 专线 - 一绝站点, server: jp1.17fd4b2d-32d4-b4a1-b18a-6fd1cff32f94.7adf211e.the-best-airport.com, port: 443, type: trojan, password: 2e5e428d-e5ec-478b-92f4-8eff36d2a2b8, sni: new.download.the-best-airport.com, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵日本 02 | 专线 - 一绝站点, server: jp2.17fd4b2d-32d4-b4a1-b18a-6fd1cff32f94.02444020.the-best-airport.com, port: 443, type: trojan, password: 2e5e428d-e5ec-478b-92f4-8eff36d2a2b8, sni: new.download.the-best-airport.com, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵日本 03 | 专线 - 一绝站点, server: jp3.17fd4b2d-32d4-b4a1-b18a-6fd1cff32f94.5584fc1f.the-best-airport.com, port: 443, type: trojan, password: 2e5e428d-e5ec-478b-92f4-8eff36d2a2b8, sni: new.download.the-best-airport.com, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵日本 04 | 专线 - 一绝站点, server: jp4.17fd4b2d-32d4-b4a1-b18a-6fd1cff32f94.69408ae5.the-best-airport.com, port: 443, type: trojan, password: 2e5e428d-e5ec-478b-92f4-8eff36d2a2b8, sni: new.download.the-best-airport.com, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵日本 01 | 专线 - 一绝站点, server: jp1.18864e74-2f23-73c1-1aea-371ddec8a8a1.7adf211e.the-best-airport.com, port: 443, type: trojan, password: a241cf26-0a35-4a8e-9340-dba53dd00491, sni: new.download.the-best-airport.com, skip-cert-verify: true, udp: true, tfo: true}
+- {name: 🇯🇵日本 02 | 专线 - 一绝站点, server: jp2.18864e74-2f23-73c1-1aea-371ddec8a8a1.02444020.the-best-airport.com, port: 443, type: trojan, password: a241cf26-0a35-4a8e-9340-dba53dd00491, sni: new.download.the-best-airport.com, skip-cert-verify: true, udp: true, tfo: true}
+- {name: 🇯🇵日本 03 | 专线 - 一绝站点, server: jp3.18864e74-2f23-73c1-1aea-371ddec8a8a1.5584fc1f.the-best-airport.com, port: 443, type: trojan, password: a241cf26-0a35-4a8e-9340-dba53dd00491, sni: new.download.the-best-airport.com, skip-cert-verify: true, udp: true, tfo: true}
+- {name: 🇯🇵日本 04 | 专线 - 一绝站点, server: jp4.18864e74-2f23-73c1-1aea-371ddec8a8a1.69408ae5.the-best-airport.com, port: 443, type: trojan, password: a241cf26-0a35-4a8e-9340-dba53dd00491, sni: new.download.the-best-airport.com, skip-cert-verify: true, udp: true, tfo: true}

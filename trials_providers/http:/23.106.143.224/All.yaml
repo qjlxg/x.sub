@@ -1,6 +1,6 @@
 %YAML 1.1
 ---
 proxies:
-- {name: ℹ️ aaa网址 http://01.fsgyaa1.xyz/ -   友善, server: bgp2.hpv01.top, port: 10203, type: ssr, cipher: rc4-md5, password: !<str> 8525265, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25878:0g6q74, obfs-param: d8219, udp: true}
-- {name: ℹ️ aaa网址 https://fsgyaa4.xyz/ -   友善, server: bgp2.hpv01.top, port: 10203, type: ssr, cipher: rc4-md5, password: !<str> 8525265, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25878:0g6q74, obfs-param: d8219, udp: true}
-- {name: ℹ️ 请购买套餐使用 -   友善, server: bgp2.hpv01.top, port: 10203, type: ssr, cipher: rc4-md5, password: !<str> 8525265, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25878:0g6q74, obfs-param: d8219, udp: true}
+- {name: ℹ️ aaa网址 http://01.fsgyaa1.xyz/ -   友善, server: bgp2.hpv01.top, port: 10203, type: ssr, cipher: rc4-md5, password: !<str> 8525265, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25887:zIiXcP, obfs-param: e8098, udp: true}
+- {name: ℹ️ aaa网址 https://fsgyaa4.xyz/ -   友善, server: bgp2.hpv01.top, port: 10203, type: ssr, cipher: rc4-md5, password: !<str> 8525265, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25887:zIiXcP, obfs-param: e8098, udp: true}
+- {name: ℹ️ 请购买套餐使用 -   友善, server: bgp2.hpv01.top, port: 10203, type: ssr, cipher: rc4-md5, password: !<str> 8525265, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25887:zIiXcP, obfs-param: e8098, udp: true}
