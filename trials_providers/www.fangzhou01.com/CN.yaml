@@ -1,0 +1,10 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇭🇰 A1-香港-01节点 - 方舟加速器, server: hkcdn.fzcloud.xyz, port: 443, type: vmess, uuid: 57f49df6-27d4-3623-b6a1-4a2adf469d25, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-hk.202014.xyz}}, udp: true}
+- {name: 🇭🇰 A1-香港-02节点 - 方舟加速器, server: hkcdn.fzcloud.xyz, port: 443, type: vmess, uuid: 57f49df6-27d4-3623-b6a1-4a2adf469d25, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-hk02.202014.xyz}}, udp: true}
+- {name: 🇭🇰 A1-香港-03节点 - 方舟加速器, server: hkcdn.fzcloud.xyz, port: 443, type: vmess, uuid: 57f49df6-27d4-3623-b6a1-4a2adf469d25, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-hk03.202014.xyz}}, udp: true}
+- {name: 🇭🇰 A1-香港-04节点 - 方舟加速器, server: hkcdn.fzcloud.xyz, port: 443, type: vmess, uuid: 57f49df6-27d4-3623-b6a1-4a2adf469d25, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-hk04.202014.xyz}}, udp: true}
+- {name: 🇭🇰 A1-香港-05节点 - 方舟加速器, server: hkcdn.fzcloud.xyz, port: 443, type: vmess, uuid: 57f49df6-27d4-3623-b6a1-4a2adf469d25, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-hk.202014.xyz}}, udp: true}
+- {name: 🇹🇼 A2-台湾01节点 - 方舟加速器, server: hkcdn.fzcloud.xyz, port: 443, type: vmess, uuid: 57f49df6-27d4-3623-b6a1-4a2adf469d25, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-tw.202014.xyz}}, udp: true}
+- {name: 🇹🇼 A2-台湾02节点 - 方舟加速器, server: hkcdn.fzcloud.xyz, port: 443, type: vmess, uuid: 57f49df6-27d4-3623-b6a1-4a2adf469d25, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-tw02.202014.xyz}}, udp: true}

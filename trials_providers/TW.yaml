@@ -1,0 +1,23 @@
+%YAML 1.1
+---
+proxies:
+- &id001 {name: 🇹🇼 A2-台湾01节点 - 方舟加速器, server: hkcdn.fzcloud.xyz, port: 443, type: vmess, uuid: c0f5dc1d-1917-3e38-8f5d-00e6fb6c5936, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-tw.202014.xyz}}, udp: true}
+- &id002 {name: 🇹🇼 A2-台湾02节点 - 方舟加速器, server: hkcdn.fzcloud.xyz, port: 443, type: vmess, uuid: c0f5dc1d-1917-3e38-8f5d-00e6fb6c5936, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-tw02.202014.xyz}}, udp: true}
+- *id001
+- *id002
+- *id001
+- *id002
+- *id001
+- *id002
+- *id001
+- *id002
+- *id001
+- *id002
+- *id001
+- *id002
+- *id001
+- *id002
+- *id001
+- *id002
+- *id001
+- *id002

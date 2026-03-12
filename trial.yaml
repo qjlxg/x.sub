@@ -9,8 +9,298 @@ proxy-groups:
 - name: ✈️ ‍起飞
   type: select
   proxies:
+  - ⚡ ‍低延迟
+  - 👆🏻 ‍指定
+  - 🇭🇰 ‍香港
+  - 🇹🇼 ‍台湾
+  - 🇨🇳 ‍中国
+  - 🇸🇬 ‍新加坡
+  - 🇯🇵 ‍日本
+  - 🇺🇸 ‍美国
+  - 🎏 ‍其他
+  - 👆🏻🇭🇰 ‍香港
+  - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇨🇳 ‍中国
+  - 👆🏻🇸🇬 ‍新加坡
+  - 👆🏻🇯🇵 ‍日本
+  - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🎏 ‍其他
   - DIRECT
   - REJECT
+- name: ⚡ ‍低延迟
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
+  tolerance: 100
+  proxies: &id001
+  - ℹ️ 注：若无法使用请【更新订阅】 - STTLink
+  - ℹ️ 注：防失联地址：www.stt.today - STTLink
+  - ℹ️ www.stt.today（官网） - STTLink
+  - ℹ️ 官网 fangzhou.site 购买流量,如无法连接,请更新订阅 - 方舟加速器
+  - ℹ️ A-官网 fangzhou.site - 方舟加速器
+  - 🇰🇷 A3-韩国-01节点 - 方舟加速器
+  - 🇰🇷 A3-韩国-02节点 - 方舟加速器
+  - 🇩🇪 A4-德国-01节点 - 方舟加速器
+  - ℹ️ 注：若无法使用请【更新订阅】 - STTLink
+  - ℹ️ 注：防失联地址：www.stt.today - STTLink
+  - ℹ️ www.stt.today（官网） - STTLink
+  - ℹ️ 官网 fangzhou.site 购买流量,如无法连接,请更新订阅 - 方舟加速器
+  - ℹ️ A-官网 fangzhou.site - 方舟加速器
+  - 🇰🇷 A3-韩国-01节点 - 方舟加速器
+  - 🇰🇷 A3-韩国-02节点 - 方舟加速器
+  - 🇩🇪 A4-德国-01节点 - 方舟加速器
+  - ℹ️ 注：若无法使用请【更新订阅】 - STTLink
+  - ℹ️ 注：防失联地址：www.stt.today - STTLink
+  - ℹ️ www.stt.today（官网） - STTLink
+  - ℹ️ 官网 fangzhou.site 购买流量,如无法连接,请更新订阅 - 方舟加速器
+  - ℹ️ A-官网 fangzhou.site - 方舟加速器
+  - 🇰🇷 A3-韩国-01节点 - 方舟加速器
+  - 🇰🇷 A3-韩国-02节点 - 方舟加速器
+  - 🇩🇪 A4-德国-01节点 - 方舟加速器
+  - ℹ️ 注：若无法使用请【更新订阅】 - STTLink
+  - ℹ️ 注：防失联地址：www.stt.today - STTLink
+  - ℹ️ www.stt.today（官网） - STTLink
+  - ℹ️ 官网 fangzhou.site 购买流量,如无法连接,请更新订阅 - 方舟加速器
+  - ℹ️ A-官网 fangzhou.site - 方舟加速器
+  - 🇰🇷 A3-韩国-01节点 - 方舟加速器
+  - 🇰🇷 A3-韩国-02节点 - 方舟加速器
+  - 🇩🇪 A4-德国-01节点 - 方舟加速器
+  - ℹ️ 注：若无法使用请【更新订阅】 - STTLink
+  - ℹ️ 注：防失联地址：www.stt.today - STTLink
+  - ℹ️ www.stt.today（官网） - STTLink
+  - ℹ️ 官网 fangzhou.site 购买流量,如无法连接,请更新订阅 - 方舟加速器
+  - ℹ️ A-官网 fangzhou.site - 方舟加速器
+  - 🇰🇷 A3-韩国-01节点 - 方舟加速器
+  - 🇰🇷 A3-韩国-02节点 - 方舟加速器
+  - 🇩🇪 A4-德国-01节点 - 方舟加速器
+  - ℹ️ 注：若无法使用请【更新订阅】 - STTLink
+  - ℹ️ 注：防失联地址：www.stt.today - STTLink
+  - ℹ️ www.stt.today（官网） - STTLink
+  - ℹ️ 官网 fangzhou.site 购买流量,如无法连接,请更新订阅 - 方舟加速器
+  - ℹ️ A-官网 fangzhou.site - 方舟加速器
+  - 🇰🇷 A3-韩国-01节点 - 方舟加速器
+  - 🇰🇷 A3-韩国-02节点 - 方舟加速器
+  - 🇩🇪 A4-德国-01节点 - 方舟加速器
+  - ℹ️ 注：若无法使用请【更新订阅】 - STTLink
+  - ℹ️ 注：防失联地址：www.stt.today - STTLink
+  - ℹ️ www.stt.today（官网） - STTLink
+  - ℹ️ 官网 fangzhou.site 购买流量,如无法连接,请更新订阅 - 方舟加速器
+  - ℹ️ A-官网 fangzhou.site - 方舟加速器
+  - 🇰🇷 A3-韩国-01节点 - 方舟加速器
+  - 🇰🇷 A3-韩国-02节点 - 方舟加速器
+  - 🇩🇪 A4-德国-01节点 - 方舟加速器
+  - ℹ️ 注：若无法使用请【更新订阅】 - STTLink
+  - ℹ️ 注：防失联地址：www.stt.today - STTLink
+  - ℹ️ www.stt.today（官网） - STTLink
+  - ℹ️ 官网 fangzhou.site 购买流量,如无法连接,请更新订阅 - 方舟加速器
+  - ℹ️ A-官网 fangzhou.site - 方舟加速器
+  - 🇰🇷 A3-韩国-01节点 - 方舟加速器
+  - 🇰🇷 A3-韩国-02节点 - 方舟加速器
+  - 🇩🇪 A4-德国-01节点 - 方舟加速器
+  - ℹ️ 注：若无法使用请【更新订阅】 - STTLink
+  - ℹ️ 注：防失联地址：www.stt.today - STTLink
+  - ℹ️ www.stt.today（官网） - STTLink
+  - ℹ️ 官网 fangzhou.site 购买流量,如无法连接,请更新订阅 - 方舟加速器
+  - ℹ️ A-官网 fangzhou.site - 方舟加速器
+  - 🇰🇷 A3-韩国-01节点 - 方舟加速器
+  - 🇰🇷 A3-韩国-02节点 - 方舟加速器
+  - 🇩🇪 A4-德国-01节点 - 方舟加速器
+  - ℹ️ 注：若无法使用请【更新订阅】 - STTLink
+  - ℹ️ 注：防失联地址：www.stt.today - STTLink
+  - ℹ️ www.stt.today（官网） - STTLink
+  - ℹ️ 官网 fangzhou.site 购买流量,如无法连接,请更新订阅 - 方舟加速器
+  - ℹ️ A-官网 fangzhou.site - 方舟加速器
+  - 🇰🇷 A3-韩国-01节点 - 方舟加速器
+  - 🇰🇷 A3-韩国-02节点 - 方舟加速器
+  - 🇩🇪 A4-德国-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+  - 🇺🇲 A2-美国-01节点  - 方舟加速器
+  - 🇺🇲 A2-美国-02节点 - 方舟加速器
+  - 🇺🇲 A2-美国-03节点 - 方舟加速器
+  - 🇺🇲 A2-美国-04节点 - 方舟加速器
+  - 🇺🇲 A2-美国-01节点  - 方舟加速器
+  - 🇺🇲 A2-美国-02节点 - 方舟加速器
+  - 🇺🇲 A2-美国-03节点 - 方舟加速器
+  - 🇺🇲 A2-美国-04节点 - 方舟加速器
+  - 🇺🇲 A2-美国-01节点  - 方舟加速器
+  - 🇺🇲 A2-美国-02节点 - 方舟加速器
+  - 🇺🇲 A2-美国-03节点 - 方舟加速器
+  - 🇺🇲 A2-美国-04节点 - 方舟加速器
+  - 🇺🇲 A2-美国-01节点  - 方舟加速器
+  - 🇺🇲 A2-美国-02节点 - 方舟加速器
+  - 🇺🇲 A2-美国-03节点 - 方舟加速器
+  - 🇺🇲 A2-美国-04节点 - 方舟加速器
+  - 🇺🇲 A2-美国-01节点  - 方舟加速器
+  - 🇺🇲 A2-美国-02节点 - 方舟加速器
+  - 🇺🇲 A2-美国-03节点 - 方舟加速器
+  - 🇺🇲 A2-美国-04节点 - 方舟加速器
+  - 🇺🇲 A2-美国-01节点  - 方舟加速器
+  - 🇺🇲 A2-美国-02节点 - 方舟加速器
+  - 🇺🇲 A2-美国-03节点 - 方舟加速器
+  - 🇺🇲 A2-美国-04节点 - 方舟加速器
+  - 🇺🇲 A2-美国-01节点  - 方舟加速器
+  - 🇺🇲 A2-美国-02节点 - 方舟加速器
+  - 🇺🇲 A2-美国-03节点 - 方舟加速器
+  - 🇺🇲 A2-美国-04节点 - 方舟加速器
+  - 🇺🇲 A2-美国-01节点  - 方舟加速器
+  - 🇺🇲 A2-美国-02节点 - 方舟加速器
+  - 🇺🇲 A2-美国-03节点 - 方舟加速器
+  - 🇺🇲 A2-美国-04节点 - 方舟加速器
+  - 🇺🇲 A2-美国-01节点  - 方舟加速器
+  - 🇺🇲 A2-美国-02节点 - 方舟加速器
+  - 🇺🇲 A2-美国-03节点 - 方舟加速器
+  - 🇺🇲 A2-美国-04节点 - 方舟加速器
+  - 🇺🇲 A2-美国-01节点  - 方舟加速器
+  - 🇺🇲 A2-美国-02节点 - 方舟加速器
+  - 🇺🇲 A2-美国-03节点 - 方舟加速器
+  - 🇺🇲 A2-美国-04节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-01节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-02节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-01节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-02节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-01节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-02节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-01节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-02节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-01节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-02节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-01节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-02节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-01节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-02节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-01节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-02节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-01节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-02节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-01节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-02节点 - 方舟加速器
+  - 🇯🇵 A3-日本-01节点 - 方舟加速器
+  - 🇯🇵 A3-日本-02节点 - 方舟加速器
+  - 🇯🇵 A3-日本-03节点 - 方舟加速器
+  - 🇯🇵 A3-日本-01节点 - 方舟加速器
+  - 🇯🇵 A3-日本-02节点 - 方舟加速器
+  - 🇯🇵 A3-日本-03节点 - 方舟加速器
+  - 🇯🇵 A3-日本-01节点 - 方舟加速器
+  - 🇯🇵 A3-日本-02节点 - 方舟加速器
+  - 🇯🇵 A3-日本-03节点 - 方舟加速器
+  - 🇯🇵 A3-日本-01节点 - 方舟加速器
+  - 🇯🇵 A3-日本-02节点 - 方舟加速器
+  - 🇯🇵 A3-日本-03节点 - 方舟加速器
+  - 🇯🇵 A3-日本-01节点 - 方舟加速器
+  - 🇯🇵 A3-日本-02节点 - 方舟加速器
+  - 🇯🇵 A3-日本-03节点 - 方舟加速器
+  - 🇯🇵 A3-日本-01节点 - 方舟加速器
+  - 🇯🇵 A3-日本-02节点 - 方舟加速器
+  - 🇯🇵 A3-日本-03节点 - 方舟加速器
+  - 🇯🇵 A3-日本-01节点 - 方舟加速器
+  - 🇯🇵 A3-日本-02节点 - 方舟加速器
+  - 🇯🇵 A3-日本-03节点 - 方舟加速器
+  - 🇯🇵 A3-日本-01节点 - 方舟加速器
+  - 🇯🇵 A3-日本-02节点 - 方舟加速器
+  - 🇯🇵 A3-日本-03节点 - 方舟加速器
+  - 🇯🇵 A3-日本-01节点 - 方舟加速器
+  - 🇯🇵 A3-日本-02节点 - 方舟加速器
+  - 🇯🇵 A3-日本-03节点 - 方舟加速器
+  - 🇯🇵 A3-日本-01节点 - 方舟加速器
+  - 🇯🇵 A3-日本-02节点 - 方舟加速器
+  - 🇯🇵 A3-日本-03节点 - 方舟加速器
+  - 🇭🇰  香港bn ipv6 - 逐日
+  - 🇭🇰 香港 HK - 逐日
+  - 🇭🇰 香港 HKBN - 逐日
+  - 🇭🇰  香港bn ipv6 - 逐日
+  - 🇭🇰 香港 HK - 逐日
+  - 🇭🇰 香港 HKBN - 逐日
+  - ℹ️ 03建议每周在官网重新导入订阅 - 逐日
+  - 发布页【668765.xyz】 - 逐日
+  - ℹ️ 03建议每周在官网重新导入订阅 - 逐日
+  - 发布页【668765.xyz】 - 逐日
+  - 🇸🇬 新加坡 2 - 逐日
+  - 🇸🇬 新加坡 2 - 逐日
+  - ℹ️ 1.续费官网https://qinqin2022.com - 520
+  - ℹ️ 2.qq群1017197334(售后续费） - 520
+  - ℹ️ 官网 china.ctzcloud.org (国内访问) - 奥创
+  - ℹ️ 1.续费官网https://qinqin2022.com - 520
+  - ℹ️ 2.qq群1017197334(售后续费） - 520
+  - ℹ️ 官网 china.ctzcloud.org (国内访问) - 奥创
+  - ℹ️ 1.续费官网https://qinqin2022.com - 520
+  - ℹ️ 2.qq群1017197334(售后续费） - 520
+  - ℹ️ 官网 china.ctzcloud.org (国内访问) - 奥创
+  - ℹ️ 1.续费官网https://qinqin2022.com - 520
+  - ℹ️ 2.qq群1017197334(售后续费） - 520
+  - ℹ️ 官网 china.ctzcloud.org (国内访问) - 奥创
+  - 🇸🇬 新加坡 - sspanel
+- name: 👆🏻 ‍指定
+  type: select
+  proxies: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -27,11 +317,29 @@ proxy-groups:
   type: select
   proxies:
   - 🛩️ ‍墙内
+  - 🇭🇰 ‍香港
+  - 🇹🇼 ‍台湾
+  - 🇨🇳 ‍中国
   - ✈️ ‍起飞
+  - 👆🏻🇭🇰 ‍香港
+  - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇨🇳 ‍中国
+  - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
+  - 🇺🇸 ‍美国
+  - 🇹🇼 ‍台湾
+  - 🇸🇬 ‍新加坡
+  - 🇯🇵 ‍日本
+  - 🎏 ‍其他
   - ✈️ ‍起飞
+  - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇸🇬 ‍新加坡
+  - 👆🏻🇯🇵 ‍日本
+  - 👆🏻🎏 ‍其他
+  - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
   type: select
@@ -39,7 +347,445 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-proxies: []
+- name: 🇭🇰 ‍香港
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id002
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇭🇰  香港bn ipv6 - 逐日
+  - 🇭🇰 香港 HK - 逐日
+  - 🇭🇰 香港 HKBN - 逐日
+  - 🇭🇰  香港bn ipv6 - 逐日
+  - 🇭🇰 香港 HK - 逐日
+  - 🇭🇰 香港 HKBN - 逐日
+- name: 🇹🇼 ‍台湾
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id003
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+- name: 🇨🇳 ‍中国
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id004
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇭🇰 A1-香港-01节点 - 方舟加速器
+  - 🇭🇰 A1-香港-02节点 - 方舟加速器
+  - 🇭🇰 A1-香港-03节点 - 方舟加速器
+  - 🇭🇰 A1-香港-04节点 - 方舟加速器
+  - 🇭🇰 A1-香港-05节点 - 方舟加速器
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+  - 🇹🇼 A2-台湾01节点 - 方舟加速器
+  - 🇹🇼 A2-台湾02节点 - 方舟加速器
+  - 🇭🇰  香港bn ipv6 - 逐日
+  - 🇭🇰 香港 HK - 逐日
+  - 🇭🇰 香港 HKBN - 逐日
+  - 🇭🇰  香港bn ipv6 - 逐日
+  - 🇭🇰 香港 HK - 逐日
+  - 🇭🇰 香港 HKBN - 逐日
+- name: 🇸🇬 ‍新加坡
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id005
+  - 🇸🇬 A3-新加坡-01节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-02节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-01节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-02节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-01节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-02节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-01节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-02节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-01节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-02节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-01节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-02节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-01节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-02节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-01节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-02节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-01节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-02节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-01节点 - 方舟加速器
+  - 🇸🇬 A3-新加坡-02节点 - 方舟加速器
+  - 🇸🇬 新加坡 2 - 逐日
+  - 🇸🇬 新加坡 2 - 逐日
+  - 🇸🇬 新加坡 - sspanel
+- name: 🇯🇵 ‍日本
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id006
+  - 🇯🇵 A3-日本-01节点 - 方舟加速器
+  - 🇯🇵 A3-日本-02节点 - 方舟加速器
+  - 🇯🇵 A3-日本-03节点 - 方舟加速器
+  - 🇯🇵 A3-日本-01节点 - 方舟加速器
+  - 🇯🇵 A3-日本-02节点 - 方舟加速器
+  - 🇯🇵 A3-日本-03节点 - 方舟加速器
+  - 🇯🇵 A3-日本-01节点 - 方舟加速器
+  - 🇯🇵 A3-日本-02节点 - 方舟加速器
+  - 🇯🇵 A3-日本-03节点 - 方舟加速器
+  - 🇯🇵 A3-日本-01节点 - 方舟加速器
+  - 🇯🇵 A3-日本-02节点 - 方舟加速器
+  - 🇯🇵 A3-日本-03节点 - 方舟加速器
+  - 🇯🇵 A3-日本-01节点 - 方舟加速器
+  - 🇯🇵 A3-日本-02节点 - 方舟加速器
+  - 🇯🇵 A3-日本-03节点 - 方舟加速器
+  - 🇯🇵 A3-日本-01节点 - 方舟加速器
+  - 🇯🇵 A3-日本-02节点 - 方舟加速器
+  - 🇯🇵 A3-日本-03节点 - 方舟加速器
+  - 🇯🇵 A3-日本-01节点 - 方舟加速器
+  - 🇯🇵 A3-日本-02节点 - 方舟加速器
+  - 🇯🇵 A3-日本-03节点 - 方舟加速器
+  - 🇯🇵 A3-日本-01节点 - 方舟加速器
+  - 🇯🇵 A3-日本-02节点 - 方舟加速器
+  - 🇯🇵 A3-日本-03节点 - 方舟加速器
+  - 🇯🇵 A3-日本-01节点 - 方舟加速器
+  - 🇯🇵 A3-日本-02节点 - 方舟加速器
+  - 🇯🇵 A3-日本-03节点 - 方舟加速器
+  - 🇯🇵 A3-日本-01节点 - 方舟加速器
+  - 🇯🇵 A3-日本-02节点 - 方舟加速器
+  - 🇯🇵 A3-日本-03节点 - 方舟加速器
+- name: 🇺🇸 ‍美国
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 300
+  proxies: &id007
+  - 🇺🇲 A2-美国-01节点  - 方舟加速器
+  - 🇺🇲 A2-美国-02节点 - 方舟加速器
+  - 🇺🇲 A2-美国-03节点 - 方舟加速器
+  - 🇺🇲 A2-美国-04节点 - 方舟加速器
+  - 🇺🇲 A2-美国-01节点  - 方舟加速器
+  - 🇺🇲 A2-美国-02节点 - 方舟加速器
+  - 🇺🇲 A2-美国-03节点 - 方舟加速器
+  - 🇺🇲 A2-美国-04节点 - 方舟加速器
+  - 🇺🇲 A2-美国-01节点  - 方舟加速器
+  - 🇺🇲 A2-美国-02节点 - 方舟加速器
+  - 🇺🇲 A2-美国-03节点 - 方舟加速器
+  - 🇺🇲 A2-美国-04节点 - 方舟加速器
+  - 🇺🇲 A2-美国-01节点  - 方舟加速器
+  - 🇺🇲 A2-美国-02节点 - 方舟加速器
+  - 🇺🇲 A2-美国-03节点 - 方舟加速器
+  - 🇺🇲 A2-美国-04节点 - 方舟加速器
+  - 🇺🇲 A2-美国-01节点  - 方舟加速器
+  - 🇺🇲 A2-美国-02节点 - 方舟加速器
+  - 🇺🇲 A2-美国-03节点 - 方舟加速器
+  - 🇺🇲 A2-美国-04节点 - 方舟加速器
+  - 🇺🇲 A2-美国-01节点  - 方舟加速器
+  - 🇺🇲 A2-美国-02节点 - 方舟加速器
+  - 🇺🇲 A2-美国-03节点 - 方舟加速器
+  - 🇺🇲 A2-美国-04节点 - 方舟加速器
+  - 🇺🇲 A2-美国-01节点  - 方舟加速器
+  - 🇺🇲 A2-美国-02节点 - 方舟加速器
+  - 🇺🇲 A2-美国-03节点 - 方舟加速器
+  - 🇺🇲 A2-美国-04节点 - 方舟加速器
+  - 🇺🇲 A2-美国-01节点  - 方舟加速器
+  - 🇺🇲 A2-美国-02节点 - 方舟加速器
+  - 🇺🇲 A2-美国-03节点 - 方舟加速器
+  - 🇺🇲 A2-美国-04节点 - 方舟加速器
+  - 🇺🇲 A2-美国-01节点  - 方舟加速器
+  - 🇺🇲 A2-美国-02节点 - 方舟加速器
+  - 🇺🇲 A2-美国-03节点 - 方舟加速器
+  - 🇺🇲 A2-美国-04节点 - 方舟加速器
+  - 🇺🇲 A2-美国-01节点  - 方舟加速器
+  - 🇺🇲 A2-美国-02节点 - 方舟加速器
+  - 🇺🇲 A2-美国-03节点 - 方舟加速器
+  - 🇺🇲 A2-美国-04节点 - 方舟加速器
+- name: 🎏 ‍其他
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
+  tolerance: 100
+  proxies: &id008
+  - ℹ️ 注：若无法使用请【更新订阅】 - STTLink
+  - ℹ️ 注：防失联地址：www.stt.today - STTLink
+  - ℹ️ www.stt.today（官网） - STTLink
+  - ℹ️ 官网 fangzhou.site 购买流量,如无法连接,请更新订阅 - 方舟加速器
+  - ℹ️ A-官网 fangzhou.site - 方舟加速器
+  - 🇰🇷 A3-韩国-01节点 - 方舟加速器
+  - 🇰🇷 A3-韩国-02节点 - 方舟加速器
+  - 🇩🇪 A4-德国-01节点 - 方舟加速器
+  - ℹ️ 注：若无法使用请【更新订阅】 - STTLink
+  - ℹ️ 注：防失联地址：www.stt.today - STTLink
+  - ℹ️ www.stt.today（官网） - STTLink
+  - ℹ️ 官网 fangzhou.site 购买流量,如无法连接,请更新订阅 - 方舟加速器
+  - ℹ️ A-官网 fangzhou.site - 方舟加速器
+  - 🇰🇷 A3-韩国-01节点 - 方舟加速器
+  - 🇰🇷 A3-韩国-02节点 - 方舟加速器
+  - 🇩🇪 A4-德国-01节点 - 方舟加速器
+  - ℹ️ 注：若无法使用请【更新订阅】 - STTLink
+  - ℹ️ 注：防失联地址：www.stt.today - STTLink
+  - ℹ️ www.stt.today（官网） - STTLink
+  - ℹ️ 官网 fangzhou.site 购买流量,如无法连接,请更新订阅 - 方舟加速器
+  - ℹ️ A-官网 fangzhou.site - 方舟加速器
+  - 🇰🇷 A3-韩国-01节点 - 方舟加速器
+  - 🇰🇷 A3-韩国-02节点 - 方舟加速器
+  - 🇩🇪 A4-德国-01节点 - 方舟加速器
+  - ℹ️ 注：若无法使用请【更新订阅】 - STTLink
+  - ℹ️ 注：防失联地址：www.stt.today - STTLink
+  - ℹ️ www.stt.today（官网） - STTLink
+  - ℹ️ 官网 fangzhou.site 购买流量,如无法连接,请更新订阅 - 方舟加速器
+  - ℹ️ A-官网 fangzhou.site - 方舟加速器
+  - 🇰🇷 A3-韩国-01节点 - 方舟加速器
+  - 🇰🇷 A3-韩国-02节点 - 方舟加速器
+  - 🇩🇪 A4-德国-01节点 - 方舟加速器
+  - ℹ️ 注：若无法使用请【更新订阅】 - STTLink
+  - ℹ️ 注：防失联地址：www.stt.today - STTLink
+  - ℹ️ www.stt.today（官网） - STTLink
+  - ℹ️ 官网 fangzhou.site 购买流量,如无法连接,请更新订阅 - 方舟加速器
+  - ℹ️ A-官网 fangzhou.site - 方舟加速器
+  - 🇰🇷 A3-韩国-01节点 - 方舟加速器
+  - 🇰🇷 A3-韩国-02节点 - 方舟加速器
+  - 🇩🇪 A4-德国-01节点 - 方舟加速器
+  - ℹ️ 注：若无法使用请【更新订阅】 - STTLink
+  - ℹ️ 注：防失联地址：www.stt.today - STTLink
+  - ℹ️ www.stt.today（官网） - STTLink
+  - ℹ️ 官网 fangzhou.site 购买流量,如无法连接,请更新订阅 - 方舟加速器
+  - ℹ️ A-官网 fangzhou.site - 方舟加速器
+  - 🇰🇷 A3-韩国-01节点 - 方舟加速器
+  - 🇰🇷 A3-韩国-02节点 - 方舟加速器
+  - 🇩🇪 A4-德国-01节点 - 方舟加速器
+  - ℹ️ 注：若无法使用请【更新订阅】 - STTLink
+  - ℹ️ 注：防失联地址：www.stt.today - STTLink
+  - ℹ️ www.stt.today（官网） - STTLink
+  - ℹ️ 官网 fangzhou.site 购买流量,如无法连接,请更新订阅 - 方舟加速器
+  - ℹ️ A-官网 fangzhou.site - 方舟加速器
+  - 🇰🇷 A3-韩国-01节点 - 方舟加速器
+  - 🇰🇷 A3-韩国-02节点 - 方舟加速器
+  - 🇩🇪 A4-德国-01节点 - 方舟加速器
+  - ℹ️ 注：若无法使用请【更新订阅】 - STTLink
+  - ℹ️ 注：防失联地址：www.stt.today - STTLink
+  - ℹ️ www.stt.today（官网） - STTLink
+  - ℹ️ 官网 fangzhou.site 购买流量,如无法连接,请更新订阅 - 方舟加速器
+  - ℹ️ A-官网 fangzhou.site - 方舟加速器
+  - 🇰🇷 A3-韩国-01节点 - 方舟加速器
+  - 🇰🇷 A3-韩国-02节点 - 方舟加速器
+  - 🇩🇪 A4-德国-01节点 - 方舟加速器
+  - ℹ️ 注：若无法使用请【更新订阅】 - STTLink
+  - ℹ️ 注：防失联地址：www.stt.today - STTLink
+  - ℹ️ www.stt.today（官网） - STTLink
+  - ℹ️ 官网 fangzhou.site 购买流量,如无法连接,请更新订阅 - 方舟加速器
+  - ℹ️ A-官网 fangzhou.site - 方舟加速器
+  - 🇰🇷 A3-韩国-01节点 - 方舟加速器
+  - 🇰🇷 A3-韩国-02节点 - 方舟加速器
+  - 🇩🇪 A4-德国-01节点 - 方舟加速器
+  - ℹ️ 注：若无法使用请【更新订阅】 - STTLink
+  - ℹ️ 注：防失联地址：www.stt.today - STTLink
+  - ℹ️ www.stt.today（官网） - STTLink
+  - ℹ️ 官网 fangzhou.site 购买流量,如无法连接,请更新订阅 - 方舟加速器
+  - ℹ️ A-官网 fangzhou.site - 方舟加速器
+  - 🇰🇷 A3-韩国-01节点 - 方舟加速器
+  - 🇰🇷 A3-韩国-02节点 - 方舟加速器
+  - 🇩🇪 A4-德国-01节点 - 方舟加速器
+  - ℹ️ 03建议每周在官网重新导入订阅 - 逐日
+  - 发布页【668765.xyz】 - 逐日
+  - ℹ️ 03建议每周在官网重新导入订阅 - 逐日
+  - 发布页【668765.xyz】 - 逐日
+  - ℹ️ 1.续费官网https://qinqin2022.com - 520
+  - ℹ️ 2.qq群1017197334(售后续费） - 520
+  - ℹ️ 官网 china.ctzcloud.org (国内访问) - 奥创
+  - ℹ️ 1.续费官网https://qinqin2022.com - 520
+  - ℹ️ 2.qq群1017197334(售后续费） - 520
+  - ℹ️ 官网 china.ctzcloud.org (国内访问) - 奥创
+  - ℹ️ 1.续费官网https://qinqin2022.com - 520
+  - ℹ️ 2.qq群1017197334(售后续费） - 520
+  - ℹ️ 官网 china.ctzcloud.org (国内访问) - 奥创
+  - ℹ️ 1.续费官网https://qinqin2022.com - 520
+  - ℹ️ 2.qq群1017197334(售后续费） - 520
+  - ℹ️ 官网 china.ctzcloud.org (国内访问) - 奥创
+- name: 👆🏻🇭🇰 ‍香港
+  type: select
+  proxies: *id002
+- name: 👆🏻🇹🇼 ‍台湾
+  type: select
+  proxies: *id003
+- name: 👆🏻🇨🇳 ‍中国
+  type: select
+  proxies: *id004
+- name: 👆🏻🇸🇬 ‍新加坡
+  type: select
+  proxies: *id005
+- name: 👆🏻🇯🇵 ‍日本
+  type: select
+  proxies: *id006
+- name: 👆🏻🇺🇸 ‍美国
+  type: select
+  proxies: *id007
+- name: 👆🏻🎏 ‍其他
+  type: select
+  proxies: *id008
+proxies:
+- {name: ℹ️ 注：若无法使用请【更新订阅】 - STTLink, server: 127.0.0.1, port: 80, type: vmess, uuid: 4a3c049c-a077-31d6-9a6f-2ef91f97886d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 注：防失联地址：www.stt.today - STTLink, server: 127.0.0.1, port: 80, type: vmess, uuid: 4a3c049c-a077-31d6-9a6f-2ef91f97886d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: ℹ️ www.stt.today（官网） - STTLink, server: sttlink.com, port: 10086, type: vmess, uuid: 4a3c049c-a077-31d6-9a6f-2ef91f97886d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 A2-台湾01节点 - 方舟加速器, server: hkcdn.fzcloud.xyz, port: 443, type: vmess, uuid: c0f5dc1d-1917-3e38-8f5d-00e6fb6c5936, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-tw.202014.xyz}}, udp: true}
+- {name: 🇹🇼 A2-台湾02节点 - 方舟加速器, server: hkcdn.fzcloud.xyz, port: 443, type: vmess, uuid: c0f5dc1d-1917-3e38-8f5d-00e6fb6c5936, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-tw02.202014.xyz}}, udp: true}
+- {name: 🇯🇵 A3-日本-01节点 - 方舟加速器, server: hkcdn.fzcloud.xyz, port: 443, type: vmess, uuid: c0f5dc1d-1917-3e38-8f5d-00e6fb6c5936, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-jp.202014.xyz}}, udp: true}
+- {name: 🇯🇵 A3-日本-02节点 - 方舟加速器, server: hkcdn.fzcloud.xyz, port: 443, type: vmess, uuid: c0f5dc1d-1917-3e38-8f5d-00e6fb6c5936, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-jp02.202014.xyz}}, udp: true}
+- {name: 🇯🇵 A3-日本-03节点 - 方舟加速器, server: hkcdn.fzcloud.xyz, port: 443, type: vmess, uuid: c0f5dc1d-1917-3e38-8f5d-00e6fb6c5936, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-jp03.202014.xyz}}, udp: true}
+- {name: 🇸🇬 A3-新加坡-01节点 - 方舟加速器, server: hkcdn.fzcloud.xyz, port: 443, type: vmess, uuid: c0f5dc1d-1917-3e38-8f5d-00e6fb6c5936, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-sg.202014.xyz}}, udp: true}
+- {name: 🇸🇬 A3-新加坡-02节点 - 方舟加速器, server: hkcdn.fzcloud.xyz, port: 443, type: vmess, uuid: c0f5dc1d-1917-3e38-8f5d-00e6fb6c5936, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-sg02.202014.xyz}}, udp: true}
+- {name: 🇭🇰 A1-香港-01节点 - 方舟加速器, server: hkcdn.fzcloud.xyz, port: 443, type: vmess, uuid: c0f5dc1d-1917-3e38-8f5d-00e6fb6c5936, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-hk.202014.xyz}}, udp: true}
+- {name: 🇭🇰 A1-香港-02节点 - 方舟加速器, server: hkcdn.fzcloud.xyz, port: 443, type: vmess, uuid: c0f5dc1d-1917-3e38-8f5d-00e6fb6c5936, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-hk02.202014.xyz}}, udp: true}
+- {name: 🇭🇰 A1-香港-03节点 - 方舟加速器, server: hkcdn.fzcloud.xyz, port: 443, type: vmess, uuid: c0f5dc1d-1917-3e38-8f5d-00e6fb6c5936, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-hk03.202014.xyz}}, udp: true}
+- {name: 🇭🇰 A1-香港-04节点 - 方舟加速器, server: hkcdn.fzcloud.xyz, port: 443, type: vmess, uuid: c0f5dc1d-1917-3e38-8f5d-00e6fb6c5936, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-hk04.202014.xyz}}, udp: true}
+- {name: 🇭🇰 A1-香港-05节点 - 方舟加速器, server: hkcdn.fzcloud.xyz, port: 443, type: vmess, uuid: c0f5dc1d-1917-3e38-8f5d-00e6fb6c5936, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-hk.202014.xyz}}, udp: true}
+- {name: 'ℹ️ 官网 fangzhou.site 购买流量,如无法连接,请更新订阅 - 方舟加速器', server: cdn-vds.fzcloud.link, port: 8880, type: vmess, uuid: c0f5dc1d-1917-3e38-8f5d-00e6fb6c5936, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: cdn-dns.202014.xyz}}, udp: true}
+- {name: ℹ️ A-官网 fangzhou.site - 方舟加速器, server: hkcdn.fzcloud.xyz, port: 443, type: vmess, uuid: c0f5dc1d-1917-3e38-8f5d-00e6fb6c5936, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-hk.202014.xyz}}, udp: true}
+- {name: 🇰🇷 A3-韩国-01节点 - 方舟加速器, server: hkcdn.fzcloud.xyz, port: 443, type: vmess, uuid: c0f5dc1d-1917-3e38-8f5d-00e6fb6c5936, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-kr.202014.xyz}}, udp: true}
+- {name: 🇰🇷 A3-韩国-02节点 - 方舟加速器, server: hkcdn.fzcloud.xyz, port: 443, type: vmess, uuid: c0f5dc1d-1917-3e38-8f5d-00e6fb6c5936, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-kr02.202014.xyz}}, udp: true}
+- {name: 🇩🇪 A4-德国-01节点 - 方舟加速器, server: hkcdn.fzcloud.xyz, port: 443, type: vmess, uuid: c0f5dc1d-1917-3e38-8f5d-00e6fb6c5936, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-de01.202014.xyz}}, udp: true}
+- {name: 🇺🇲 A2-美国-01节点  - 方舟加速器, server: cdn.fzcloud.xyz, port: 443, type: vmess, uuid: c0f5dc1d-1917-3e38-8f5d-00e6fb6c5936, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-usa.202014.xyz}}, udp: true}
+- {name: 🇺🇲 A2-美国-02节点 - 方舟加速器, server: cdn.fzcloud.xyz, port: 443, type: vmess, uuid: c0f5dc1d-1917-3e38-8f5d-00e6fb6c5936, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-usa02.202014.xyz}}, udp: true}
+- {name: 🇺🇲 A2-美国-03节点 - 方舟加速器, server: cdn.fzcloud.xyz, port: 443, type: vmess, uuid: c0f5dc1d-1917-3e38-8f5d-00e6fb6c5936, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-usa03.202014.xyz}}, udp: true}
+- {name: 🇺🇲 A2-美国-04节点 - 方舟加速器, server: cdn.fzcloud.xyz, port: 443, type: vmess, uuid: c0f5dc1d-1917-3e38-8f5d-00e6fb6c5936, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-usa04.202014.xyz}}, udp: true}
+- {name: 🇸🇬 新加坡 2 - 逐日, server: 13.212.174.179, port: 31583, type: vmess, uuid: fb8bbce8-8646-3545-bb25-154edbbb1bad, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: 🇭🇰  香港bn ipv6 - 逐日, server: hk.471111.xyz, port: 50676, type: vmess, uuid: fb8bbce8-8646-3545-bb25-154edbbb1bad, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk.471111.xyz}}, udp: true}
+- {name: 🇭🇰 香港 HK - 逐日, server: 183.179.215.10, port: 52367, type: vmess, uuid: fb8bbce8-8646-3545-bb25-154edbbb1bad, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: 🇭🇰 香港 HKBN - 逐日, server: 183.179.215.10, port: 52001, type: vmess, uuid: fb8bbce8-8646-3545-bb25-154edbbb1bad, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: ℹ️ 03建议每周在官网重新导入订阅 - 逐日, server: hm.471111.xyz, port: 36566, type: vmess, uuid: fb8bbce8-8646-3545-bb25-154edbbb1bad, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hm.471111.xyz}}, udp: true}
+- {name: 发布页【668765.xyz】 - 逐日, server: hm.471111.xyz, port: 36566, type: vmess, uuid: fb8bbce8-8646-3545-bb25-154edbbb1bad, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hm.471111.xyz}}, udp: true}
+- {name: ℹ️ 1.续费官网https://qinqin2022.com - 520, server: 1.1.1.1, port: 31500, type: ssr, cipher: chacha20, password: CnBwof, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 11159:1J14e8, obfs-param: fc9ff11159.microsoft.com, udp: true}
+- {name: ℹ️ 2.qq群1017197334(售后续费） - 520, server: 959732781, port: 31500, type: ssr, cipher: chacha20, password: CnBwof, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 11159:1J14e8, obfs-param: fc9ff11159.microsoft.com, udp: true}
+- {name: 🇸🇬 新加坡 - sspanel, server: cloudflare.182682.xyz, port: 8880, type: vmess, uuid: e3c02e9c-506c-3f0e-a483-65b6b1ec7c75, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: afeissp.54141528.xyz, network: ws, ws-opts: {path: /afeissp, headers: {Host: afeissp.54141528.xyz}}, udp: true}
+- {name: ℹ️ 官网 china.ctzcloud.org (国内访问) - 奥创, server: 107.148.146.204, port: 12122, type: vmess, uuid: f2db4f9a-576a-355d-9038-2611ef3cf06d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 2.ctzcloud.ink, network: ws, ws-opts: {path: /uu, headers: {Host: 2.ctzcloud.ink}}, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT

@@ -1,0 +1,11 @@
+%YAML 1.1
+---
+proxies:
+- {name: ℹ️ 注：若无法使用请【更新订阅】 - STTLink, server: 127.0.0.1, port: 80, type: vmess, uuid: 4a3c049c-a077-31d6-9a6f-2ef91f97886d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 注：防失联地址：www.stt.today - STTLink, server: 127.0.0.1, port: 80, type: vmess, uuid: 4a3c049c-a077-31d6-9a6f-2ef91f97886d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: ℹ️ www.stt.today（官网） - STTLink, server: sttlink.com, port: 10086, type: vmess, uuid: 4a3c049c-a077-31d6-9a6f-2ef91f97886d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 'ℹ️ 官网 fangzhou.site 购买流量,如无法连接,请更新订阅 - 方舟加速器', server: cdn-vds.fzcloud.link, port: 8880, type: vmess, uuid: c0f5dc1d-1917-3e38-8f5d-00e6fb6c5936, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: cdn-dns.202014.xyz}}, udp: true}
+- {name: ℹ️ A-官网 fangzhou.site - 方舟加速器, server: hkcdn.fzcloud.xyz, port: 443, type: vmess, uuid: c0f5dc1d-1917-3e38-8f5d-00e6fb6c5936, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-hk.202014.xyz}}, udp: true}
+- {name: 🇰🇷 A3-韩国-01节点 - 方舟加速器, server: hkcdn.fzcloud.xyz, port: 443, type: vmess, uuid: c0f5dc1d-1917-3e38-8f5d-00e6fb6c5936, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-kr.202014.xyz}}, udp: true}
+- {name: 🇰🇷 A3-韩国-02节点 - 方舟加速器, server: hkcdn.fzcloud.xyz, port: 443, type: vmess, uuid: c0f5dc1d-1917-3e38-8f5d-00e6fb6c5936, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-kr02.202014.xyz}}, udp: true}
+- {name: 🇩🇪 A4-德国-01节点 - 方舟加速器, server: hkcdn.fzcloud.xyz, port: 443, type: vmess, uuid: c0f5dc1d-1917-3e38-8f5d-00e6fb6c5936, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: cdn-de01.202014.xyz}}, udp: true}
