@@ -55,6 +55,7 @@ https://47.243.59.73
 https://5.202.175.55
 https://51.ruyo.net
 https://52bp.icu
+https://52pokemon.yunjnet.com
 https://64.6.65.6
 https://66.ee66.tk
 https://6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io
@@ -207,8 +208,8 @@ https://img.xn
 https://img.ytools.cc
 https://img2.fastcybers.com
 https://imo.im
-https://infini-cloud.net
 https://invite.xn--yvsa48r.com
+https://ishare.ifeng.com
 https://item.jd.com
 https://iuiu.lovebabyforever.workers.dev
 https://jd.lovebabyforever.workers.dev
@@ -240,7 +241,6 @@ https://lllo.x19890604.qzz.io
 https://llyh.cc
 https://love.p6m6.com
 https://luv.xem.lat
-https://lwn.net
 https://ly.ba000.cc
 https://ly.ccwink.art
 https://ly.ccwink.cc
@@ -426,6 +426,7 @@ https://www.okhao.top
 https://www.onamae.com
 https://www.paypal.com
 https://www.pkqcloud.com
+https://www.qhrgo.sbs
 https://www.qualcomm.com
 https://www.radio.cn
 https://www.readyserver.sg
@@ -433,7 +434,6 @@ https://www.reuters.com
 https://www.scmp.com
 https://www.scnet.cn
 https://www.singlinkapp.com
-https://www.solidot.org
 https://www.theinformation.com
 https://www.thelec.net
 https://www.topcashback.de
@@ -454,7 +454,6 @@ https://www8.bigairport-fourteenth-sub.top
 https://x.com
 https://x.xfuti.buzz
 https://xb.inekokkk.com
-https://xfapp.quickbeevpn.com
 https://xiaomaimai14514.de5.net
 https://xn--6stp4p.com
 https://xn--9kq85xcu6b.com
@@ -466,14 +465,12 @@ https://xn--wtq35pfyd55o.co
 https://xsus.jolqx.cn
 https://xunda.icu
 https://y.dbf88.sbs
-https://yabs.sh
 https://yfjc.xyz
 https://yinyun365.org
 https://youhui.plus
 https://youxiu8168.xiaofeixia.info
 https://yuean.aiguardcloud.tech
 https://yun.huoyuan.tk
-https://yundu.zushouty.ggff.net
 https://yunduanjc.top
 https://yydsmc.com
 https://yyhj.ae1autumn.dpdns.org
