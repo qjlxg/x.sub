@@ -6,23 +6,24 @@ HEADERS = {"User-Agent": "Mozilla/5.0"}
 
 # 公开订阅源（不会被封）
 SUB_SOURCES = [
-    # Telegram 公开频道（通过 RSSHub）
-    "https://rsshub.app/telegram/channel/ssrlist",
-    "https://rsshub.app/telegram/channel/v2list",
-    "https://rsshub.app/telegram/channel/freevpn",
-    "https://rsshub.app/telegram/channel/airportdeals",
-
-    # GitHub Trending（不需要搜索）
-    "https://rsshub.app/github/trending/daily/python",
-    "https://rsshub.app/github/trending/daily/go",
-
-    # Pastebin Trending（无需登录）
-    "https://pastebin.com/trends",
-
-    # 公开机场订阅分享站（示例）
-    "https://raw.githubusercontent.com/adiwzx/freenode/main/sub",
+    # GitHub 公开订阅聚合
     "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt",
+    "https://raw.githubusercontent.com/adiwzx/freenode/main/sub",
+    "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/subscribe.txt",
+    "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free",
+    "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt",
+
+    # 公开订阅站
+    "https://sub.pmsub.me/clash.yaml",
+    "https://sub.pmsub.me/base64",
+    "https://raw.githubusercontent.com/freefq/free/master/v2",
+    "https://raw.githubusercontent.com/freefq/free/master/ssr",
+
+    # GitHub issue RSS（有效）
+    "https://rsshub.app/github/issue/adiwzx/freenode",
+    "https://rsshub.app/github/issue/peasoft/NoMoreWalls",
 ]
+
 
 KEYWORDS = ["vmess", "vless", "trojan", "ss://", "sub", "subscription"]
 
