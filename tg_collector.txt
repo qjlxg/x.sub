@@ -1,2 +1,3 @@
-vless://1da32a88-7196-47c4-827b-3d7b256eb68e@154.31.114.125:443?encryption=none&security=reality&sni=navi.bankrate.com&host=navi.bankrate.com&fp=chrome&pbk=UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc&sid=2da72ce6&type=tcp&headerType=none#JP-%E6%97%A5%E6%9C%AC 
-vless://1da32a88-7196-47c4-827b-3d7b256eb68e@174.136.205.68:443?encryption=none&security=reality&sni=navi.bankrate.com&host=navi.bankrate.com&fp=chrome&pbk=UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc&sid=2da72ce6&type=tcp&headerType=none#US-%E7%BE%8E%E5%9B%BD
+# === 深度清洗：剔除负数、过期及流量耗尽链接 ===
+# 更新时间: 2026-03-12 09:41:11
+
