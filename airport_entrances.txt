@@ -57,7 +57,6 @@ https://51.ruyo.net
 https://52bp.icu
 https://52pokemon.yunjnet.com
 https://64.6.65.6
-https://66.ee66.tk
 https://6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io
 https://6url.cn
 https://77.237.82.123
@@ -71,6 +70,7 @@ https://81.12.31.48
 https://81.12.94.74
 https://87.107.137.250
 https://87.107.99.78
+https://88.ee88.tk
 https://91.92.208.152
 https://91.92.208.43
 https://91.92.209.194
@@ -115,7 +115,6 @@ https://blog.arduino.cc
 https://blog.google
 https://bnm.222560.xyz
 https://book.clouds.pp.ua
-https://browser.geekbench.com
 https://canarytokens.org
 https://catspeed.org
 https://ccbaohe.com
@@ -145,6 +144,7 @@ https://dash.sjakd.store
 https://dash.tetocloud.online
 https://dashboard.singlinkvpn.com
 https://dddffghju.857657.xyz
+https://developer.nvidia.com
 https://dfg.ae1autumn.cc.cd
 https://di5.di5ji.lat
 https://discord.gg
@@ -209,6 +209,7 @@ https://img.ytools.cc
 https://img2.fastcybers.com
 https://imo.im
 https://infini-cloud.net
+https://investors.broadcom.com
 https://invite.xn--yvsa48r.com
 https://ishare.ifeng.com
 https://item.jd.com
@@ -266,6 +267,7 @@ https://ne997.688997.xyz
 https://neolink.nkkc.one
 https://netlib.re
 https://news.skhynix.com
+https://news.xbox.com
 https://newsroom.ibm.com
 https://nl1.freevpn724.com
 https://nnmjk.wc0.ccwu.cc
@@ -296,7 +298,6 @@ https://qixi.best
 https://qq.xlm.plus
 https://qr.alipay.com
 https://r5t6.00890604.xyz
-https://resource.kaier001.com
 https://rgergergergerg6555.saojc.xyz
 https://rktun.co
 https://roam.virginconnect.com
@@ -304,7 +305,6 @@ https://rrrrrrrrrrrghhh.857657.xyz
 https://rss202407.mugua-sub.com
 https://s.meiall.xyz
 https://s1.trojanflare.one
-https://scurl.izenny.com
 https://service-69kfaex1-1312645837.bj.apigw.tencentcs.com
 https://service-6l9168iy-1312645837.gz.apigw.tencentcs.com
 https://service-avmn443l-1312645837.sh.apigw.tencentcs.com
@@ -336,11 +336,11 @@ https://sub.xn--ioru3fc2t1hb.com
 https://sub.xn--mes358awwugpa.com
 https://sub.yunzoa.com
 https://sub1.127665.xyz
-https://sub1.all--green.com
 https://sub1.liangxinjichang.com
 https://sub123.71345.xyz
 https://sub2.127665.xyz
 https://sub2.91qaq.lol
+https://sub3.7878787878.top
 https://sub3.smallstrawberry.com
 https://sub4.download-hiccup.xyz
 https://subs.younger.eu.org
@@ -394,6 +394,7 @@ https://www.cnbeta.com.tw
 https://www.crosswall.org
 https://www.dabai.in
 https://www.donews.com
+https://www.engadget.com
 https://www.fkabc.top
 https://www.ft.com
 https://www.helingqi.com
@@ -425,7 +426,6 @@ https://www.scmp.com
 https://www.scnet.cn
 https://www.singlinkapp.com
 https://www.theinformation.com
-https://www.thelec.net
 https://www.topcashback.de
 https://www.v2ex.com
 https://www.w3.org
