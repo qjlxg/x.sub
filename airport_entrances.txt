@@ -105,6 +105,7 @@ https://app.shokichan.com
 https://apps.apple.com
 https://arxiv.org
 https://auth.newlikebooks.xyz
+https://awards.wga.org
 https://awf87ow7agf.chutrandi.com
 https://b3b0549e-160e-495a-a528-cccf5148bc48.372372.xyz
 https://b6enwo8026sf4k.wca1rs59sefb1kl655b0.online
@@ -149,6 +150,7 @@ https://dash.tetocloud.online
 https://dashboard.singlinkvpn.com
 https://dddffghju.857657.xyz
 https://developer.nvidia.com
+https://developers.openai.com
 https://dfg.ae1autumn.cc.cd
 https://di5.di5ji.lat
 https://discord.gg
@@ -196,6 +198,7 @@ https://hi.dmhosts.com
 https://hiddify.com
 https://hk.bjjii.com
 https://hkaa0.shop
+https://hkiff.herballemon.dev
 https://hostloc.com
 https://hssl8088.icu
 https://huaxia.tcekx.cn
@@ -236,7 +239,6 @@ https://ktmcloud.vip
 https://ktmcloud.win
 https://kukeyun.cc
 https://kunlun01.com
-https://liferestart.syaro.io
 https://line1.nowjiasu.com
 https://linlujs.men
 https://linux.do
@@ -248,6 +250,7 @@ https://love.p6m6.com
 https://luv.xem.lat
 https://ly.ccwink.art
 https://ly.ccwink.cc
+https://m.chinastarmarket.cn
 https://m.facebook.com
 https://m.zoom.us
 https://mall.ccbaohe.vip
@@ -393,6 +396,7 @@ https://www.alwaysdata.com
 https://www.apple.com
 https://www.apple.com.cn
 https://www.awsy.top
+https://www.bilibili.com
 https://www.bloomberg.com
 https://www.bybit.eu
 https://www.canarytokens.org
@@ -407,6 +411,7 @@ https://www.ft.com
 https://www.helingqi.com
 https://www.hescat.com
 https://www.hissl.net
+https://www.hkiff.org.hk
 https://www.instagram.com
 https://www.jiemian.com
 https://www.jiuyuelu.xyz
@@ -417,7 +422,6 @@ https://www.macrumors.com
 https://www.meiguodizhi.com
 https://www.mojie.me
 https://www.namecheap.com
-https://www.newlearner.site
 https://www.nodeseek.com
 https://www.notebookcheck.net
 https://www.okhao.top
@@ -442,6 +446,7 @@ https://www.xiaohongshu.com
 https://www.xn--9kqx21a0sv.top
 https://www.xn--9kqz09d4qq.com
 https://www.xn--qk5apn.com
+https://www.youtube.com
 https://www.yunzoa.com
 https://www.zhujue.net
 https://www.zotero.org
