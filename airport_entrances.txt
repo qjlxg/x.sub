@@ -95,6 +95,7 @@ https://api.e687699.top
 https://api.nekocloud.top
 https://api.oaibest.com
 https://api.qrserver.com
+https://api3.cls.cn
 https://app.bybit.com
 https://app.leapweb.co
 https://app.mitce.net
