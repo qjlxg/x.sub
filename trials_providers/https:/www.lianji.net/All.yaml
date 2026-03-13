@@ -1,0 +1,5 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇸🇬 新加坡SG-PLUS01 - 联机网（lianji.net）, server: img6501.clouddataservice.net, port: 443, type: vmess, uuid: 675d2230-8345-4592-93c6-3ccfd32833d4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: img6501.clouddataservice.net, network: ws, ws-opts: {path: /vmess, headers: {Host: img6501.clouddataservice.net}}, udp: true}
+- {name: 🇩🇪 德国DE-PLUS01 - 联机网（lianji.net）, server: img4901.clouddataservice.net, port: 443, type: vmess, uuid: 675d2230-8345-4592-93c6-3ccfd32833d4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: img4901.clouddataservice.net, network: ws, ws-opts: {path: /vmess, headers: {Host: img4901.clouddataservice.net}}, udp: true}

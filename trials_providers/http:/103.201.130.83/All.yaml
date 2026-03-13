@@ -1,0 +1,15 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇭🇰 香港VIP - 大熊云, server: i2plcwjnhrl6.gym0boy.com, port: 10843, type: ss, cipher: chacha20-ietf-poly1305, password: 0f4b3db1-1901-46c9-88e3-d73e060b3922, udp: true}
+- {name: 🇭🇰 香港普通 - 大熊云, server: shrimp-door-9527.gym0boy.com, port: 31709, type: ss, cipher: chacha20-ietf-poly1305, password: 0f4b3db1-1901-46c9-88e3-d73e060b3922, udp: true}
+- {name: 🇭🇰 香港VIP - 2 - 大熊云, server: i2plcwjnhrl6.gym0boy.com, port: 32954, type: ss, cipher: chacha20-ietf-poly1305, password: 0f4b3db1-1901-46c9-88e3-d73e060b3922, udp: true}
+- {name: 🇭🇰 香港普通 - 2 - 大熊云, server: shrimp-door-9527.gym0boy.com, port: 18248, type: ss, cipher: chacha20-ietf-poly1305, password: 0f4b3db1-1901-46c9-88e3-d73e060b3922, udp: true}
+- {name: 🇹🇼 家宽台湾 - VIP线路 - 大熊云, server: i2plcwjnhrl6.gym0boy.com, port: 31370, type: ss, cipher: chacha20-ietf-poly1305, password: 0f4b3db1-1901-46c9-88e3-d73e060b3922, udp: true}
+- {name: 🇹🇼 家宽台湾 - 普通线路 - 大熊云, server: shrimp-door-9527.gym0boy.com, port: 44202, type: ss, cipher: chacha20-ietf-poly1305, password: 0f4b3db1-1901-46c9-88e3-d73e060b3922, udp: true}
+- {name: 🇸🇬 原生住宅新加坡  - VIP线路 - 大熊云, server: i2plcwjnhrl6.gym0boy.com, port: 11970, type: ss, cipher: chacha20-ietf-poly1305, password: 0f4b3db1-1901-46c9-88e3-d73e060b3922, udp: true}
+- {name: 🇸🇬 原生住宅新加坡 - 普通线路 - 大熊云, server: shrimp-door-9527.gym0boy.com, port: 50917, type: ss, cipher: chacha20-ietf-poly1305, password: 0f4b3db1-1901-46c9-88e3-d73e060b3922, udp: true}
+- {name: 🇯🇵 原生住宅日本 - VIP线路 - 大熊云, server: i2plcwjnhrl6.gym0boy.com, port: 46507, type: ss, cipher: chacha20-ietf-poly1305, password: 0f4b3db1-1901-46c9-88e3-d73e060b3922, udp: true}
+- {name: 🇯🇵 原生住宅日本 - 普通线路 - 大熊云, server: shrimp-door-9527.gym0boy.com, port: 43741, type: ss, cipher: chacha20-ietf-poly1305, password: 0f4b3db1-1901-46c9-88e3-d73e060b3922, udp: true}
+- {name: 🇺🇸 原生住宅美国 - VIP线路 - 大熊云, server: i2plcwjnhrl6.gym0boy.com, port: 47296, type: ss, cipher: chacha20-ietf-poly1305, password: 0f4b3db1-1901-46c9-88e3-d73e060b3922, udp: true}
+- {name: 🇺🇸 原生住宅美国 - 普通线路 - 大熊云, server: shrimp-door-9527.gym0boy.com, port: 19280, type: ss, cipher: chacha20-ietf-poly1305, password: 0f4b3db1-1901-46c9-88e3-d73e060b3922, udp: true}

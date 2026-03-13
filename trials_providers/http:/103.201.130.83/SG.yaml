@@ -1,0 +1,5 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇸🇬 原生住宅新加坡  - VIP线路 - 大熊云, server: i2plcwjnhrl6.gym0boy.com, port: 11970, type: ss, cipher: chacha20-ietf-poly1305, password: 0f4b3db1-1901-46c9-88e3-d73e060b3922, udp: true}
+- {name: 🇸🇬 原生住宅新加坡 - 普通线路 - 大熊云, server: shrimp-door-9527.gym0boy.com, port: 50917, type: ss, cipher: chacha20-ietf-poly1305, password: 0f4b3db1-1901-46c9-88e3-d73e060b3922, udp: true}
