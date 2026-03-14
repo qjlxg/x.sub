@@ -12,7 +12,9 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
+# --- 增强版频道列表 ---
 CHANNELS = [
+    # --- 原有核心频道 ---
     "dingyue_Center", "pgkj666", "anranbp", "hkaa0", "wxgqlfx", "freeVPNjd", "arzhecn", 
     "schpd", "jichang_list", "linux_do_channel", "nodeseekc", "hostloc_pro", 
     "serveruniverse", "sharecentrepro", "Impart_Cloud", "helingqi", "AI_News_CN",
@@ -23,9 +25,35 @@ CHANNELS = [
     "freedatazone1", "freev2rayi", "mypremium98", "inikotesla", "v2rayngalpha", 
     "v2rayngalphagamer", "jiedian_share", "vpn_mafia", "dr_v2ray", "bigsmoke_config",
     "vpn_443", "prossh", "mftizi", "qun521", "v2rayng_my2", "go4sharing", 
-    "trand_farsi", "vpnplusee_free", "freekankan", "awxdy666"
-]
+    "trand_farsi", "vpnplusee_free", "freekankan", "awxdy666",
 
+    # --- 新增：高速订阅与全能分享类 ---
+    "V2rayClashNode",      # 每日更新大量 Clash/V2Ray 订阅
+    "SSR_V2RAY_Clash",     # 长期稳定的节点分享
+    "v2cross",             # 包含大量订阅链接地址
+    "VlessConfigPool",     # 专注 Vless 协议
+    "Shadowrocket_VN",     # 越南活跃频道，节点存活率高
+    "Gfwh_Sub",            # 节点订阅源整合
+    "NodeFree",            # 每日自动推送节点列表
+    "Clash_V2ray_Node",    # 综合节点池
+    
+    # --- 新增：大厂与技术宅自建类 ---
+    "i_v2ray",             # 老牌节点分享频道
+    "free_ss",             # 专注于 SS 协议
+    "v2ray_vpn_free",      # 包含大量 Base64 订阅块
+    "ssrList",             # SSR 与 V2 订阅汇总
+    "v2free_node",         # 每日多时段更新
+    "ClashNode_Free",      # 专注于 Clash 订阅转换链接
+    "Tizi_Share",          # 综合性梯子分享
+    "Link_Vless_Nodes",    # 纯净 Vless 协议源
+
+    # --- 新增：海外与聚合资源类 ---
+    "FreeNode_List",       # 自动采集全网公开节点
+    "DailyNode_Update",    # 每日凌晨固定更新
+    "V2Ray_Shadowrocket",  # 小火箭专用订阅
+    "One_Node_One_World",  # 节点质量较高
+    "Fast_V2ray_Nodes"     # 专注于低延迟节点
+]
 PROTO_PATTERN = r"(?:vmess|vless|trojan|ss|ssr|hysteria|hysteria2|hy2)://[A-Za-z0-9+/=_.:\-?&%@#]+"
 SUB_PATTERN = r"https?://[^\s<>\"'；]+?(?:sub|subscribe|api/v[1-9]|token=|link/|/s/)[A-Za-z0-9\-\.=&?]+"
 
