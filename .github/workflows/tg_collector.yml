@@ -37,10 +37,7 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # 1. 核心匹配：确保添加脚本生成的三个文件
-          # tg_nodes.txt (明文列表)
-          # sub.txt (Base64订阅)
-          # tg_channel_stats.csv (频道统计)
+
           git add tg_nodes.txt sub.txt tg_channel_stats.csv
 
           if git diff --cached --quiet; then
