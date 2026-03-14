@@ -44,6 +44,7 @@ CHANNELS = [
 
     # --- 新增频道源 ---
     'v2ray_configs_pool',
+    'Gap_Mafiya',
     'IP_CF_Config',
     'FreakConfig',
     'oneclickvpnkeys',
