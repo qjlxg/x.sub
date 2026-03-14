@@ -1,9 +1,5 @@
 https://01d.dklineo.top/api/dktv?token=bf695b505e13b9ee11aaccd51a2ac00f
-https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=9d08a3ec6d1545e46a065666703c97aa
 https://api-jx.02000.xin/jx?token=44767d451e35779c02fa0f94ac21155e
 https://dk01.iqiyi.ccwu.cc/api/dktv?token=e7c167cfe7f19931af08908aeb9d7703
-https://ktm001.top/api/v1/client/subscribe?token=bbe0986ab831f1e21c3f02d79476c6de
 https://mfvpn.fuchen.indevs.in/sub/3e96ef7d-8637-42c2-ac73-75182196e755
-https://onlysub.mjurl.com/api/v1/client/subscribe?token=6dbf0b92279e3ca9448b883496d8870f
 https://packet32.qjty.buzz/api/v2/user/token/ff1679f7a830ab760db281c5c6289938
-https://subscribe002.awsy.top/subscribego/65c6b8839c2bab8db2310b39dc200b01
