@@ -1,1232 +1,668 @@
-[https://1liuyun.com]
+[https://216.146.25.188]
 
-[https://amz.awsy.top]
-name
+[http://172.93.165.107:6003]
+name  BlackCatX
 type  v2board
-更新订阅链接/续费续签失败  注册失败(ujuzkkd38@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (200 OK '<!DOCTYPE html>\n<html>\n<head>\n<title></title>\n<meta charset="UTF-8"/>\n<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">\n<style type="text/css">\n.ui-uam-box {\n\ttext-align: center;\n\tfont-family: font-family: Roboto,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;\n\tfont-size: 16px;\n}\n\n.ui-uam-box .ui-counter {\n\tfont-weight: bold;\n}\n\n</style>\n<script type="text/javascript">\nvar cpk = "ge_ua_p"\nvar step = "prev";\nvar nonce = 6432;\nfunction loadFunc(){var e=document.cookie,t=5;if(null!=e){for(var n=e.toString().split(";"),o="",i=0;i<n.length;i++){var a=(e=n[i].trim()).split("=");if(2==a.length&&a[0]==cpk){o=a[1];break}}if(0!=o.length){for(var d=0,i=0;i<o.length;i++){var r=o[i];/^[a-zA-Z0-9]$/.test(r)&&(d+=o.charCodeAt(i)*(nonce+i))}var l=window.location.toString(),s=new XMLHttpRequest;s.open("POST",l,!0),s.setRequestHeader("Content-type","application/x-www-form-urlencoded"),s.setRequestHeader("X-GE-UA-Step",step),s.onreadystatechange=function(){4==this.readyState&&200==this.status&&(window.setTimeout(function(){window.location.reload()},1e3*t),window.setInterval(function(){if(!(t<=0)){var e=document.getElementsByClassName("ui-counter");if(0<e.length)for(var n=0;n<e.length;n++)e[n].innerHTML=t.toString(),t--}},1e3))},s.send("sum="+d+"&nonce="+nonce)}}else window.setTimeout(function(){window.location.reload()},sleepMs)}window.addEventListener?window.addEventListener("load",loadFunc):window.onload=loadFunc;\n</script>\n</head>\n<body><!DOCTYPE html>\r\n<html lang="zh">\r\n\r\n<head>\r\n <meta charset="utf-8">\r\n <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">\r\n <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">\r\n <meta name="robots" content="noindex, nofollow">\r\n <title>安全检查中…… | DokiDoki CDN</title>\r\n <style>\r\n *,\r\n ::before,\r\n ::after {\r\n box-sizing: border-box;\r\n border-width: 0;\r\n border-style: solid;\r\n border-color: #e5e7eb\r\n }\r\n\r\n ::before,\r\n ::after {\r\n --tw-content: \'\'\r\n }\r\n\r\n html,\r\n :host {\r\n line-height: 1.5;\r\n -webkit-text-size-adjust: 100%;\r\n -moz-tab-size: 4;\r\n -o-tab-size: 4;\r\n tab-size: 4;\r\n font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";\r\n font-feature-settings: normal;\r\n font-variation-settings: normal;\r\n -webkit-tap-highlight-color: #fff0\r\n }\r\n\r\n body {\r\n margin: 0;\r\n line-height: inherit\r\n }\r\n\r\n hr {\r\n height: 0;\r\n color: inherit;\r\n border-top-width: 1px\r\n }\r\n\r\n abbr:where([title]) {\r\n -webkit-text-decoration: underline dotted;\r\n text-decoration: underline dotted\r\n }\r\n\r\n h1,\r\n h2,\r\n h3,\r\n h4,\r\n h5,\r\n h6 {\r\n font-size: inherit;\r\n font-weight: inherit\r\n }\r\n\r\n a {\r\n color: inherit;\r\n text-decoration: inherit\r\n }\r\n\r\n b,\r\n strong {\r\n font-weight: bolder\r\n }\r\n\r\n code,\r\n kbd,\r\n samp,\r\n pre {\r\n font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;\r\n font-feature-settings: normal;\r\n font-variation-settings: normal;\r\n font-size: 1em\r\n }\r\n\r\n small {\r\n font-size: 80%\r\n }\r\n\r\n sub,\r\n sup {\r\n font-size: 75%;\r\n line-height: 0;\r\n position: relative;\r\n vertical-align: baseline\r\n }\r\n\r\n sub {\r\n bottom: -.25em\r\n }\r\n\r\n sup {\r\n top: -.5em\r\n }\r\n\r\n table {\r\n text-indent: 0;\r\n border-color: inherit;\r\n border-collapse: collapse\r\n }\r\n\r\n button,\r\n input,\r\n optgroup,\r\n select,\r\n textarea {\r\n font-family: inherit;\r\n font-feature-settings: inherit;\r\n font-variation-settings: inherit;\r\n font-size: 100%;\r\n font-weight: inherit;\r\n line-height: inherit;\r\n letter-spacing: inherit;\r\n color: inherit;\r\n margin: 0;\r\n padding: 0\r\n }\r\n\r\n button,\r\n select {\r\n text-transform: none\r\n }\r\n\r\n button,\r\n input:where([type=\'button\']),\r\n input:where([type=\'reset\']),\r\n input:where([type=\'submit\']) {\r\n -webkit-appearance: button;\r\n background-color: #fff0;\r\n background-image: none\r\n }\r\n\r\n :-moz-focusring {\r\n outline: auto\r\n }\r\n\r\n :-moz-ui-invalid {\r\n box-shadow: none\r\n }\r\n\r\n progress {\r\n vertical-align: baseline\r\n }\r\n\r\n ::-webkit-inner-spin-button,\r\n ::-webkit-outer-spin-button {\r\n height: auto\r\n }\r\n\r\n [type=\'search\'] {\r\n -webkit-appearance: textfield;\r\n outline-offset: -2px\r\n }\r\n\r\n ::-webkit-search-decoration {\r\n -webkit-appearance: none\r\n }\r\n\r\n ::-webkit-file-upload-button {\r\n -webkit-appearance: button;\r\n font: inherit\r\n }\r\n\r\n summary {\r\n display: list-item\r\n }\r\n\r\n blockquote,\r\n dl,\r\n dd,\r\n h1,\r\n h2,\r\n h3,\r\n h4,\r\n h5,\r\n h6,\r\n hr,\r\n figure,\r\n p,\r\n pre {\r\n margin: 0\r\n }\r\n\r\n fieldset {\r\n margin: 0;\r\n padding: 0\r\n }\r\n\r\n legend {\r\n padding: 0\r\n }\r\n\r\n ol,\r\n ul,\r\n menu {\r\n list-style: none;\r\n margin: 0;\r\n padding: 0\r\n }\r\n\r\n dialog {\r\n padding: 0\r\n }\r\n\r\n textarea {\r\n resize: vertical\r\n }\r\n\r\n input::-moz-placeholder,\r\n textarea::-moz-placeholder {\r\n opacity: 1;\r\n color: #9ca3af\r\n }\r\n\r\n input::placeholder,\r\n textarea::placeholder {\r\n opacity: 1;\r\n color: #9ca3af\r\n }\r\n\r\n button,\r\n [role="button"] {\r\n cursor: pointer\r\n }\r\n\r\n :disabled {\r\n cursor: default\r\n }\r\n\r\n img,\r\n svg,\r\n video,\r\n canvas,\r\n audio,\r\n iframe,\r\n embed,\r\n object {\r\n display: block;\r\n vertical-align: middle\r\n }\r\n\r\n img,\r\n video {\r\n max-width: 100%;\r\n height: auto\r\n }\r\n\r\n [hidden] {\r\n display: none\r\n }\r\n\r\n *,\r\n ::before,\r\n ::after {\r\n --tw-border-spacing-x: 0;\r\n --tw-border-spacing-y: 0;\r\n --tw-translate-x: 0;\r\n --tw-translate-y: 0;\r\n --tw-rotate: 0;\r\n --tw-skew-x: 0;\r\n --tw-skew-y: 0;\r\n --tw-scale-x: 1;\r\n --tw-scale-y: 1;\r\n --tw-pan-x: ;\r\n --tw-pan-y: ;\r\n --tw-pinch-zoom: ;\r\n --tw-scroll-snap-strictness: proximity;\r\n --tw-gradient-from-position: ;\r\n --tw-gradient-via-position: ;\r\n --tw-gradient-to-position: ;\r\n --tw-ordinal: ;\r\n --tw-slashed-zero: ;\r\n --tw-numeric-figure: ;\r\n --tw-numeric-spacing: ;\r\n --tw-numeric-fraction: ;\r\n --tw-ring-inset: ;\r\n --tw-ring-offset-width: 0px;\r\n --tw-ring-offset-color: #fff;\r\n --tw-ring-color: rgb(59 130 246 / 0.5);\r\n --tw-ring-offset-shadow: 0 0 #0000;\r\n --tw-ring-shadow: 0 0 #0000;\r\n --tw-shadow: 0 0 #0000;\r\n --tw-shadow-colored: 0 0 #0000;\r\n --tw-blur: ;\r\n --tw-brightness: ;\r\n --tw-contrast: ;\r\n --tw-grayscale: ;\r\n --tw-hue-rotate: ;\r\n --tw-invert: ;\r\n --tw-saturate: ;\r\n --tw-sepia: ;\r\n --tw-drop-shadow: ;\r\n --tw-backdrop-blur: ;\r\n --tw-backdrop-brightness: ;\r\n --tw-backdrop-contrast: ;\r\n --tw-backdrop-grayscale: ;\r\n --tw-backdrop-hue-rotate: ;\r\n --tw-backdrop-invert: ;\r\n --tw-backdrop-opacity: ;\r\n --tw-backdrop-saturate: ;\r\n --tw-backdrop-sepia: ;\r\n --tw-contain-size: ;\r\n --tw-contain-layout: ;\r\n --tw-contain-paint: ;\r\n --tw-contain-style:\r\n }\r\n\r\n ::backdrop {\r\n --tw-border-spacing-x: 0;\r\n --tw-border-spacing-y: 0;\r\n --tw-translate-x: 0;\r\n --tw-translate-y: 0;\r\n --tw-rotate: 0;\r\n --tw-skew-x: 0;\r\n --tw-skew-y: 0;\r\n --tw-scale-x: 1;\r\n --tw-scale-y: 1;\r\n --tw-pan-x: ;\r\n --tw-pan-y: ;\r\n --tw-pinch-zoom: ;\r\n --tw-scroll-snap-strictness: proximity;\r\n --tw-gradient-from-position: ;\r\n --tw-gradient-via-position: ;\r\n --tw-gradient-to-position: ;\r\n --tw-ordinal: ;\r\n --tw-slashed-zero: ;\r\n --tw-numeric-figure: ;\r\n --tw-numeric-spacing: ;\r\n --tw-numeric-fraction: ;\r\n --tw-ring-inset: ;\r\n --tw-ring-offset-width: 0px;\r\n --tw-ring-offset-color: #fff;\r\n --tw-ring-color: rgb(59 130 246 / 0.5);\r\n --tw-ring-offset-shadow: 0 0 #0000;\r\n --tw-ring-shadow: 0 0 #0000;\r\n --tw-shadow: 0 0 #0000;\r\n --tw-shadow-colored: 0 0 #0000;\r\n --tw-blur: ;\r\n --tw-brightness: ;\r\n --tw-contrast: ;\r\n --tw-grayscale: ;\r\n --tw-hue-rotate: ;\r\n --tw-invert: ;\r\n --tw-saturate: ;\r\n --tw-sepia: ;\r\n --tw-drop-shadow: ;\r\n --tw-backdrop-blur: ;\r\n --tw-backdrop-brightness: ;\r\n --tw-backdrop-contrast: ;\r\n --tw-backdrop-grayscale: ;\r\n --tw-backdrop-hue-rotate: ;\r\n --tw-backdrop-invert: ;\r\n --tw-backdrop-opacity: ;\r\n --tw-backdrop-saturate: ;\r\n --tw-backdrop-sepia: ;\r\n --tw-contain-size: ;\r\n --tw-contain-layout: ;\r\n --tw-contain-paint: ;\r\n --tw-contain-style:\r\n }\r\n\r\n .absolute {\r\n position: absolute\r\n }\r\n\r\n .relative {\r\n position: relative\r\n }\r\n\r\n .z-20 {\r\n z-index: 20\r\n }\r\n\r\n .mx-auto {\r\n margin-left: auto;\r\n margin-right: auto\r\n }\r\n\r\n .mb-4 {\r\n margin-bottom: 1rem\r\n }\r\n\r\n .mt-4 {\r\n margin-top: 1rem\r\n }\r\n\r\n .mt-8 {\r\n margin-top: 2rem\r\n }\r\n\r\n .block {\r\n display: block\r\n }\r\n\r\n .flex {\r\n display: flex\r\n }\r\n\r\n .table {\r\n display: table\r\n }\r\n\r\n .hidden {\r\n display: none\r\n }\r\n\r\n .h-12 {\r\n height: 3rem\r\n }\r\n\r\n .h-full {\r\n height: 100%\r\n }\r\n\r\n .h-screen {\r\n height: 100vh\r\n }\r\n\r\n .w-12 {\r\n width: 3rem\r\n }\r\n\r\n .w-full {\r\n width: 100%\r\n }\r\n\r\n @keyframes spin {\r\n to {\r\n transform: rotate(360deg)\r\n }\r\n }\r\n\r\n .animate-spin {\r\n animation: spin 1s linear infinite\r\n }\r\n\r\n .resize {\r\n resize: both\r\n }\r\n\r\n .items-center {\r\n align-items: center\r\n }\r\n\r\n .justify-center {\r\n justify-content: center\r\n }\r\n\r\n .rounded-full {\r\n border-radius: 9999px\r\n }\r\n\r\n .rounded-lg {\r\n border-radius: .5rem\r\n }\r\n\r\n .border-3 {\r\n border-width: 4px\r\n }\r\n\r\n .border-4 {\r\n border-width: 4px\r\n }\r\n\r\n .border-gray-300 {\r\n --tw-border-opacity: 1;\r\n border-color: rgb(209 213 219 / var(--tw-border-opacity))\r\n }\r\n\r\n .border-t-blue-400 {\r\n --tw-border-opacity: 1;\r\n border-top-color: rgb(96 165 250 / var(--tw-border-opacity))\r\n }\r\n\r\n .border-t-blue-600 {\r\n --tw-border-opacity: 1;\r\n border-top-color: rgb(37 99 235 / var(--tw-border-opacity))\r\n }\r\n\r\n .bg-opacity-10 {\r\n --tw-bg-opacity: 0.1\r\n }\r\n\r\n .bg-auto {\r\n background-size: auto\r\n }\r\n\r\n .bg-center {\r\n background-position: center\r\n }\r\n\r\n .bg-no-repeat {\r\n background-repeat: no-repeat\r\n }\r\n\r\n .p-8 {\r\n padding: 2rem\r\n }\r\n\r\n .text-center {\r\n text-align: center\r\n }\r\n\r\n .font-mono {\r\n font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace\r\n }\r\n\r\n .text-sm {\r\n font-size: .875rem;\r\n line-height: 1.25rem\r\n }\r\n\r\n .text-xl {\r\n font-size: 1.25rem;\r\n line-height: 1.75rem\r\n }\r\n\r\n .text-xs {\r\n font-size: .75rem;\r\n line-height: 1rem\r\n }\r\n\r\n .font-medium {\r\n font-weight: 500\r\n }\r\n\r\n .font-semibold {\r\n font-weight: 600\r\n }\r\n\r\n .text-blue-600 {\r\n --tw-text-opacity: 1;\r\n color: rgb(37 99 235 / var(--tw-text-opacity))\r\n }\r\n\r\n .text-gray-100 {\r\n --tw-text-opacity: 1;\r\n color: rgb(243 244 246 / var(--tw-text-opacity))\r\n }\r\n\r\n .text-red-600 {\r\n --tw-text-opacity: 1;\r\n color: rgb(220 38 38 / var(--tw-text-opacity))\r\n }\r\n\r\n .shadow-lg {\r\n --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);\r\n --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);\r\n box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)\r\n }\r\n\r\n .backdrop-blur-lg {\r\n --tw-backdrop-blur: blur(16px);\r\n -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);\r\n backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)\r\n }\r\n\r\n .backdrop-filter {\r\n -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);\r\n backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)\r\n }\r\n\r\n .bgs {\r\n background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIxMCIgaGVpZ2h0PSI4NzQiIHZpZXdCb3g9IjAgMCAxMjEwIDg3NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgb3BhY2l0eT0iMC43Ij4KPGcgb3BhY2l0eT0iMC40IiBmaWx0ZXI9InVybCgjZmlsdGVyMF9mXzEwN18xMTAzNikiPgo8cGF0aCBkPSJNNjQ0LjY3IDI0Mi4xMDVMODQ4LjUyNiAxNjAuMDY5TDc0Ni41OTggMzI0LjE0TDM2NC4zNjkgNjMxLjc3NUwxNjAuNTEzIDcxMy44MTFMMjYyLjQ0MSA1NDkuNzM5TDY0NC42NyAyNDIuMTA1WiIgZmlsbD0idXJsKCNwYWludDBfbGluZWFyXzEwN18xMTAzNikiLz4KPC9nPgo8ZyBvcGFjaXR5PSIwLjMiIGZpbHRlcj0idXJsKCNmaWx0ZXIxX2ZfMTA3XzExMDM2KSI+CjxwYXRoIGQ9Ik0yMjkuMjkyIDQxMi4zNTVMMTM3LjU3MyAyODkuMjY4TDI5MC40MzggMzYzLjEyTDU5Ni4xNjggNjA5LjI5NUw2ODcuODg3IDczMi4zODJMNTM1LjAyMiA2NTguNTNMMjI5LjI5MiA0MTIuMzU1WiIgZmlsbD0idXJsKCNwYWludDFfbGluZWFyXzEwN18xMTAzNikiLz4KPC9nPgo8ZyBvcGFjaXR5PSIwLjMiIGZpbHRlcj0idXJsKCNmaWx0ZXIyX2ZfMTA3XzExMDM2KSI+CjxwYXRoIGQ9Ik03NzkuNzI1IDQ2MS41NTFMODcxLjQ2IDU4NC42MDRMNzE4LjU2OCA1MTAuNzcyTDQxMi43ODQgMjY0LjY2NUwzMjEuMDQ5IDE0MS42MTFMNDczLjk0MSAyMTUuNDQzTDc3OS43MjUgNDYxLjU1MVoiIGZpbGw9InVybCgjcGFpbnQyX2xpbmVhcl8xMDdfMTEwMzYpIi8+CjwvZz4KPC9nPgo8ZyBvcGFjaXR5PSIwLjciPgo8ZyBvcGFjaXR5PSIwLjQiIGZpbHRlcj0idXJsKCNmaWx0ZXIzX2ZfMTA3XzExMDM2KSI+CjxwYXRoIGQ9Ik04NDUuNjMyIDI0Mi4xMDVMMTA0OS40OSAxNjAuMDY5TDk0Ny41NiAzMjQuMTRMNTY1LjMzIDYzMS43NzVMMzYxLjQ3NSA3MTMuODExTDQ2My40MDIgNTQ5LjczOUw4NDUuNjMyIDI0Mi4xMDVaIiBmaWxsPSJ1cmwoI3BhaW50M19saW5lYXJfMTA3XzExMDM2KSIvPgo8L2c+CjxnIG9wYWNpdHk9IjAuMyIgZmlsdGVyPSJ1cmwoI2ZpbHRlcjRfZl8xMDdfMTEwMzYpIj4KPHBhdGggZD0iTTQzMC4yNTQgNDEyLjM1NUwzMzguNTM1IDI4OS4yNjhMNDkxLjQgMzYzLjEyTDc5Ny4xMyA2MDkuMjk1TDg4OC44NDkgNzMyLjM4Mkw3MzUuOTg0IDY1OC41M0w0MzAuMjU0IDQxMi4zNTVaIiBmaWxsPSJ1cmwoI3BhaW50NF9saW5lYXJfMTA3XzExMDM2KSIvPgo8L2c+CjxnIG9wYWNpdHk9IjAuMyIgZmlsdGVyPSJ1cmwoI2ZpbHRlcjVfZl8xMDdfMTEwMzYpIj4KPHBhdGggZD0iTTk4MC42ODcgNDYxLjU1MUwxMDcyLjQyIDU4NC42MDRMOTE5LjUzIDUxMC43NzJMNjEzLjc0NiAyNjQuNjY1TDUyMi4wMTEgMTQxLjYxMUw2NzQuOTAzIDIxNS40NDNMOTgwLjY4NyA0NjEuNTUxWiIgZmlsbD0idXJsKCNwYWludDVfbGluZWFyXzEwN18xMTAzNikiLz4KPC9nPgo8L2c+CjxkZWZzPgo8ZmlsdGVyIGlkPSJmaWx0ZXIwX2ZfMTA3XzExMDM2IiB4PSIwLjUxMjcyNiIgeT0iMC4wNjg4NDc3IiB3aWR0aD0iMTAwOC4wMSIgaGVpZ2h0PSI4NzMuNzQyIiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+CjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+CjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9InNoYXBlIi8+CjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjgwIiByZXN1bHQ9ImVmZmVjdDFfZm9yZWdyb3VuZEJsdXJfMTA3XzExMDM2Ii8+CjwvZmlsdGVyPgo8ZmlsdGVyIGlkPSJmaWx0ZXIxX2ZfMTA3XzExMDM2IiB4PSIyNS41NzMyIiB5PSIxNzcuMjY4IiB3aWR0aD0iNzc0LjMxMyIgaGVpZ2h0PSI2NjcuMTE1IiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+CjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+CjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9InNoYXBlIi8+CjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjU2IiByZXN1bHQ9ImVmZmVjdDFfZm9yZWdyb3VuZEJsdXJfMTA3XzExMDM2Ii8+CjwvZmlsdGVyPgo8ZmlsdGVyIGlkPSJmaWx0ZXIyX2ZfMTA3XzExMDM2IiB4PSIyMDkuMDQ5IiB5PSIyOS42MTA4IiB3aWR0aD0iNzc0LjQxMSIgaGVpZ2h0PSI2NjYuOTk0IiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+CjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+CjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9InNoYXBlIi8+CjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjU2IiByZXN1bHQ9ImVmZmVjdDFfZm9yZWdyb3VuZEJsdXJfMTA3XzExMDM2Ii8+CjwvZmlsdGVyPgo8ZmlsdGVyIGlkPSJmaWx0ZXIzX2ZfMTA3XzExMDM2IiB4PSIyMDEuNDc1IiB5PSIwLjA2ODg0NzciIHdpZHRoPSIxMDA4LjAxIiBoZWlnaHQ9Ijg3My43NDIiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIj4KPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0ic2hhcGUiLz4KPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iODAiIHJlc3VsdD0iZWZmZWN0MV9mb3JlZ3JvdW5kQmx1cl8xMDdfMTEwMzYiLz4KPC9maWx0ZXI+CjxmaWx0ZXIgaWQ9ImZpbHRlcjRfZl8xMDdfMTEwMzYiIHg9IjIyNi41MzUiIHk9IjE3Ny4yNjgiIHdpZHRoPSI3NzQuMzE0IiBoZWlnaHQ9IjY2Ny4xMTUiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIj4KPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0ic2hhcGUiLz4KPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iNTYiIHJlc3VsdD0iZWZmZWN0MV9mb3JlZ3JvdW5kQmx1cl8xMDdfMTEwMzYiLz4KPC9maWx0ZXI+CjxmaWx0ZXIgaWQ9ImZpbHRlcjVfZl8xMDdfMTEwMzYiIHg9IjQxMC4wMTEiIHk9IjI5LjYxMDgiIHdpZHRoPSI3NzQuNDExIiBoZWlnaHQ9IjY2Ni45OTQiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIj4KPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0ic2hhcGUiLz4KPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iNTYiIHJlc3VsdD0iZWZmZWN0MV9mb3JlZ3JvdW5kQmx1cl8xMDdfMTEwMzYiLz4KPC9maWx0ZXI+CjxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnQwX2xpbmVhcl8xMDdfMTEwMzYiIHgxPSIyNjIuNDQiIHkxPSI1NDkuNzM5IiB4Mj0iNjM3LjQ3OSIgeTI9IjIwNS4zMiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgo8c3RvcCBzdG9wLWNvbG9yPSIjNjk0M0ZGIi8+CjxzdG9wIG9mZnNldD0iMC41IiBzdG9wLWNvbG9yPSIjNUZBOEZGIi8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzZGRTVGRiIvPgo8L2xpbmVhckdyYWRpZW50Pgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MV9saW5lYXJfMTA3XzExMDM2IiB4MT0iNTM1LjAyMiIgeTE9IjY1OC41MyIgeDI9IjM1Ny4yMDYiIHkyPSIzMjcuMjc5IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CjxzdG9wIHN0b3AtY29sb3I9IiM2OTQzRkYiLz4KPHN0b3Agb2Zmc2V0PSIwLjUiIHN0b3AtY29sb3I9IiM1RkE4RkYiLz4KPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNkZFNUZGIi8+CjwvbGluZWFyR3JhZGllbnQ+CjxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnQyX2xpbmVhcl8xMDdfMTEwMzYiIHgxPSI0NzMuOTQxIiB5MT0iMjE1LjQ0MyIgeDI9IjY1MS42NjUiIHkyPSI1NDYuNjciIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KPHN0b3Agc3RvcC1jb2xvcj0iIzY5NDNGRiIvPgo8c3RvcCBvZmZzZXQ9IjAuNSIgc3RvcC1jb2xvcj0iIzVGQThGRiIvPgo8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM2RkU1RkYiLz4KPC9saW5lYXJHcmFkaWVudD4KPGxpbmVhckdyYWRpZW50IGlkPSJwYWludDNfbGluZWFyXzEwN18xMTAzNiIgeDE9IjQ2My40MDIiIHkxPSI1NDkuNzM5IiB4Mj0iODM4LjQ0MSIgeTI9IjIwNS4zMiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgo8c3RvcCBzdG9wLWNvbG9yPSIjNjk0M0ZGIi8+CjxzdG9wIG9mZnNldD0iMC41IiBzdG9wLWNvbG9yPSIjNUZBOEZGIi8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzZGRTVGRiIvPgo8L2xpbmVhckdyYWRpZW50Pgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50NF9saW5lYXJfMTA3XzExMDM2IiB4MT0iNzM1Ljk4NCIgeTE9IjY1OC41MyIgeDI9IjU1OC4xNjciIHkyPSIzMjcuMjc5IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CjxzdG9wIHN0b3AtY29sb3I9IiM2OTQzRkYiLz4KPHN0b3Agb2Zmc2V0PSIwLjUiIHN0b3AtY29sb3I9IiM1RkE4RkYiLz4KPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNkZFNUZGIi8+CjwvbGluZWFyR3JhZGllbnQ+CjxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnQ1X2xpbmVhcl8xMDdfMTEwMzYiIHgxPSI2NzQuOTAzIiB5MT0iMjE1LjQ0MyIgeDI9Ijg1Mi42MjYiIHkyPSI1NDYuNjciIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KPHN0b3Agc3RvcC1jb2xvcj0iIzY5NDNGRiIvPgo8c3RvcCBvZmZzZXQ9IjAuNSIgc3RvcC1jb2xvcj0iIzVGQThGRiIvPgo8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM2RkU1RkYiLz4KPC9saW5lYXJHcmFkaWVudD4KPC9kZWZzPgo8L3N2Zz4K);\r\n }\r\n </style>\r\n</head>\r\n\r\n<body>\r\n <div class="h-screen flex items-center justify-center relative">\r\n <div class="relative z-20 text-center">\r\n <noscript>\r\n <h1 data-translate="turn_on_js" class="text-red-600">\r\n 请启用 JavaScript 并刷新此页面\r\n </h1>\r\n </noscript>\r\n <div id="cf-content">\r\n <div\r\n class="border-gray-300 mx-auto mb-4 h-12 w-12 animate-spin rounded-full border-3 border-t-blue-600">\r\n </div>\r\n <h1 id="main-title" data-translate="checking_browser" class="font-medium text-xl mb-4"></h1>\r\n <div id="no-cookie-warning" class="cookie-warning" data-translate="turn_on_cookies"\r\n style="display:none">\r\n <p id="cookie-warning-text" data-translate="turn_on_cookies" class="text-red-600">请启用 Cookies 并刷新此页面\r\n </p>\r\n </div>\r\n <p id="automatic-process-text" data-translate="process_is_automatic">\r\n 此过程将自动执行，您的浏览器很快会重定向至您请求的内容\r\n </p>\r\n <p id="wait-text" data-translate="allow_5_secs">\r\n 请等待 <span class="ui-counter">5</span> 秒\r\n </p>\r\n <p id="redirecting-text" data-translate="redirecting" style="display:none;color:#e4af00">重定向中……</p>\r\n </div>\r\n <div class="text-sm text-gray-500 mt-8 attribution" id="attribution" data-translate="attribution">\r\n <div>防护由 <a rel="noopener noreferrer" class="text-blue-600" href="https://www.dooki.cloud"\r\n target="_blank">DokiDoki CDN</a> 提供</div>\r\n <div class="text-xs mt-4">您的IP: <span class="font-semibold font-mono">52.154.20.58</span> 已被记录</div>\r\n <div class="text-xs">\r\n Request ID: <code class="font-mono">1773393594576831000010</code>\r\n </div>\r\n </div>\r\n </div>\r\n <div class="max-w-none z-10 w-full h-full absolute my-auto bg-auto bg-no-repeat bg-center bgs">\r\n </div>\r\n </div>\r\n\r\n <script type="text/javascript">\r\n document.getElementById(\'cf-content\').style.display = \'block\';\r\n\r\n function detectLanguage() {\r\n return navigator.language || navigator.userLanguage;\r\n }\r\n\r\n const translations = {\r\n "en": {\r\n "main-title": "Checking your browser before accessing amz.awsy.top.",\r\n "cookie-warning-text": "Please enable Cookies and refresh this page.",\r\n "automatic-process-text": "This process is automatic. Your browser will redirect to your requested content shortly.",\r\n "wait-text": "Please wait up to <span class=\\"ui-counter\\">5</span> seconds.",\r\n "redirecting-text": "Redirecting...",\r\n "attribution": \'<div>Protection by <a rel="noopener noreferrer" href="https://www.dooki.cloud" target="_blank">DokiDoki CDN</a><div class="text-xs mt-4">Your IP: 52.154.20.58 has been logged</div><div class="text-xs">Request ID: <code class="font-mono">1773393594576831000010</code></div>\'\r\n },\r\n "zh": {\r\n "main-title": "请稍后，即将进入 amz.awsy.top。",\r\n "cookie-warning-text": "请启用Cookies并刷新此页面。",\r\n "automatic-process-text": "检查完您的请求后，将很快会重定向至您所需的内容。",\r\n "wait-text": "请等待最多 <span class=\\"ui-counter\\">5</span> 秒钟。",\r\n "redirecting-text": "重定向中……",\r\n "attribution": \'<div>防护由 <a rel="noopener noreferrer" class="text-blue-600" href="https://www.dooki.cloud" target="_blank">DokiDoki CDN</a> 提供</div><div class="text-xs mt-4">您的IP: <span class="font-semibold font-mono">52.154.20.58</span> 已被记录</div><div class="text-xs">Request ID: <code class="font-mono">1773393594576831000010</code></div>\'\r\n }\r\n };\r\n\r\n const language = (navigator.language || navigator.userLanguage).startsWith(\'zh\') ? \'zh\' : \'en\';\r\n const elements = {\r\n "main-title": "main-title",\r\n "cookie-warning-text": "no-cookie-warning",\r\n "automatic-process-text": "automatic-process-text",\r\n "wait-text": "wait-text",\r\n "redirecting-text": "redirecting-text",\r\n "attribution": "attribution"\r\n };\r\n\r\n for (const key in elements) {\r\n document.getElementById(elements[key]).innerHTML = translations[language][key];\r\n }\r\n </script>\r\n</body>\r\n\r\n</html></body>\n</html>')
+更新订阅链接/续费续签失败  注册失败(lhqfisga164@gmail.com): 'NoneType' object is not subscriptable
 
-[https://app.leapweb.co]
-name  Leapweb
+[https://181000.xyz]
+name  XBoard
 type  v2board
-更新订阅链接/续费续签失败  注册失败(scwhrqqqw940@gmail.com): 'NoneType' object is not subscriptable
+更新订阅链接/续费续签失败  注册失败(zbzntbv17@gmail.com): 'NoneType' object is not subscriptable
 
-[https://baiyangstar.com]
+[http://181000.xyz]
+api_host  181000.xyz
+name  XBoard
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(ojmfsfqd509@guerrillamail.biz): {'code': 200, 'message': 'Success.', 'payload': True, 's': '2DD31C9F8C9A4BC787D4DFE3C1C5616F'}
+更新订阅链接/续费续签失败  注册失败(sakuindt151@gmail.com): 'NoneType' object is not subscriptable
 
-[https://catspeed.org]
+[https://45.32.136.135]
 
-[https://chuzhan888.xyz]
-name  初展跨境专线
+[https://aa.meihehe.cn]
+email_domain  bannimei.cn
+name  伴你美管理系统
 type  v2board
-更新订阅链接/续费续签失败  注册失败(wizmtby569@gmail.com): 'NoneType' object is not subscriptable
+更新订阅链接/续费续签失败  注册失败(qosprbzet333@bannimei.cn): 'NoneType' object is not subscriptable
 
-[https://cikeyun.club]
+[https://estcc2024.europechess.org]
 
-[https://danke.sbs]
+[https://103.69.97.210]
 
-[https://dash.sjakd.store]
-name  sjakd 一元机场
-type  v2board
-更新订阅链接/续费续签失败  注册失败(igervgvad398@gmail.com): 'NoneType' object is not subscriptable
+[https://129.146.209.243]
 
-[https://dash.tetocloud.online]
-name  Tetocloud
-type  v2board
-更新订阅链接/续费续签失败  注册失败(lajqmrrz240@gmail.com): 'NoneType' object is not subscriptable
+[https://47.83.21.191]
 
-[https://dashboard.singlinkvpn.com]
-name  星连加速
-type  v2board
-更新订阅链接/续费续签失败  注册失败(kuxinmchr806@gmail.com): Registration limit check failed: 您的 IP 已被限制註冊，請 4 小時 / 4 hour(s) 後再試 / Your IP is restricted, please try again after 4 小時 / 4 hour(s)
+[https://206.168.191.207]
 
-[https://durex001.ggff.net]
+[https://38.147.188.216:32225]
+
+[https://89.208.254.111]
+
+[https://158.101.91.84]
+
+[https://ss.yxd.app]
 buy  pass
-email  eyyzfcvoi569@gmail.com
-name  DUREX001
-sub_url  https://subscribe001.ggff.net/subscribe/5cf032a448630dbdf153ea23a842c3bd
-time  2026-03-13 16:45:38.524046+08:00
+email  ypksfpjn710@gmail.com
+name  Xboard
+sub_url  https://ss.yxd.app/s/eb81cbda6685c9e564029a243ce221b7
+time  2026-03-14 10:38:17.155668+08:00
 type  v2board
-更新旧订阅失败  (https://durex001.ggff.net/subscribe/5cf032a448630dbdf153ea23a842c3bd): 403 Forbidden ''
+获取订阅失败  (https://ss.yxd.app/s/eb81cbda6685c9e564029a243ce221b7): 403 Forbidden ''
 
-[https://dy1.flyfish-network.de]
-name  飞鱼网络
-type  v2board
-更新订阅链接/续费续签失败  注册失败(sdqqpifz968@gmail.com): 'NoneType' object is not subscriptable
-
-[https://dy2.flyfish-network.de]
-name  飞鱼网络
-type  v2board
-更新订阅链接/续费续签失败  注册失败(ukxuonq145@gmail.com): 'NoneType' object is not subscriptable
-
-[https://dy3.flyfish-network.de]
-name  飞鱼网络
-type  v2board
-更新订阅链接/续费续签失败  注册失败(ooxtpngx309@gmail.com): 'NoneType' object is not subscriptable
-
-[https://ec5smonchl973s.wca1rs59sefb1kl655b0.online]
-
-[https://hurdan.cloud]
-
-[https://ikun520.live]
-
-[https://ly.ccwink.art]
-
-[https://momo.best]
-
-[https://myp.dpenly.org]
-
-[https://pay.nodedns.xyz]
-name  外婆云
-type  v2board
-更新订阅链接/续费续签失败  注册失败(zwhsqhgd776@gmail.com): 'NoneType' object is not subscriptable
-
-[https://qixi.best]
-
-[https://singlink.cc]
-
-[https://singlink02.com]
-
-[https://tizer.dev]
-name  tizer.dev
-type  v2board
-更新订阅链接/续费续签失败  注册失败(ymqxpyfsa230@gmail.com): 'NoneType' object is not subscriptable
-
-[https://user.hescat.com]
-name  水晶猫
-type  v2board
-更新订阅链接/续费续签失败  注册失败(mdsrhvz360@gmail.com): 'NoneType' object is not subscriptable
-
-[https://wdnmd123.live]
-
-[https://www.123xn.cc]
-
-[https://www.chuzhan888.xyz]
-name  初展跨境专线
-type  v2board
-更新订阅链接/续费续签失败  注册失败(yfwcfbmtm923@gmail.com): 'NoneType' object is not subscriptable
-
-[https://www.hescat.com]
-name  水晶猫
-type  v2board
-更新订阅链接/续费续签失败  注册失败(wicrtzw191@gmail.com): 'NoneType' object is not subscriptable
-
-[https://www.singlinkapp.com]
-name  SingLink - Open SingLink, Open the World
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(zxzjssikv237@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (405 Method Not Allowed '<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n')
-
-[https://xiaomaimai14514.de5.net]
+[http://ss.yxd.app]
+api_host  ss.yxd.app
 buy  pass
-email  eedbgasyo935@gmail.com
-name  麦卖云
-sub_url  https://xiaomaimai14514.de5.net/s/2b71db26ac4d97b0b0a54b66b542ce20
-time  2026-03-13 16:45:42.086380+08:00
+email  nvvsxlik532@gmail.com
+name  Xboard
+sub_url  https://ss.yxd.app/s/9c2f4bdd5cd38fbace16c86d9d19eee8
+time  2026-03-14 10:38:17.025840+08:00
 type  v2board
-更新旧订阅失败  (https://xiaomaimai14514.de5.net/s/2b71db26ac4d97b0b0a54b66b542ce20): 403 Forbidden ''
+获取订阅失败  (https://ss.yxd.app/s/9c2f4bdd5cd38fbace16c86d9d19eee8): 403 Forbidden ''
 
-[https://zhutui01.gcvipaff.cc]
+[https://154.217.235.53]
 
-[http://372ae8252c9ce608c5f7066f2177dfb1.52pokemon.top]
+[https://45.93.31.60]
 
-[http://dy.changyouVPN.top]
+[https://107.182.30.50]
 
-[http://dy.changyouvpn.top]
-
-[http://panda.xn--lbrx91akmhm30c.com]
-
-[https://1.juanwangjc.top]
-name  卷王机场 - 50FF返利中
+[http://172.245.24.38:6001]
+name  飞鸟集
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(xbewgtu706@guerrillamail.biz): {'message': '邮箱后缀不处于白名单中'}
+更新订阅链接/续费续签失败  注册失败(fwikgtu828@gmail.com): 'NoneType' object is not subscriptable
 
-[https://102.22.195.106]
+[https://45.62.123.117]
 
-[https://102.22.254.116]
+[https://142.171.239.38]
 
-[https://102.22.254.232]
-
-[https://102.22.27.125]
-
-[https://102.22.31.74]
-
-[https://102.22.72.46]
-
-[https://102.22.81.133]
-
-[https://102.22.81.175]
-
-[https://102.22.81.183]
-
-[https://102.22.81.201]
-
-[https://102.22.83.12]
-
-[https://102.22.83.142]
-
-[https://102.23.223.130]
-
-[https://102.23.225.127]
-
-[https://102.23.231.66]
-
-[https://102.37.12.10]
-
-[https://172.lot-ml.com]
-
-[https://185.126.14.244]
-
-[https://185.164.74.183]
-
-[https://185.49.84.2]
-
-[https://188.166.224.45]
-
-[https://194.225.50.6]
-
-[https://194.225.62.66]
-
-[https://194.225.62.80]
-
-[https://194.62.17.171]
-
-[https://2.144.4.202]
-
-[https://2.181.234.50]
-
-[https://2.188.184.19]
-
-[https://2.188.21.130]
-
-[https://2.188.210.13]
-
-[https://2.189.44.44]
-
-[https://208.67.220.222]
-
-[https://212.86.72.72]
-
-[https://212.86.76.69]
-
-[https://213.233.177.172]
-
-[https://217.144.107.162]
-
-[https://217.170.251.26]
-
-[https://217.218.127.127]
-
-[https://217.219.131.130]
-
-[https://31.24.234.37]
-
-[https://37.148.57.40]
-
-[https://372ae8252c9ce608c5f7066f2177dfb1.52pokemon.top]
-
-[https://4.2.2.1]
-
-[https://45.81.18.141]
-
-[https://45.81.19.13]
-
-[https://46.209.48.5]
-
-[https://46.245.90.90]
-
-[https://47.242.186.70]
-
-[https://47.243.59.73]
-
-[https://5.202.175.55]
-
-[https://51.ruyo.net]
-
-[https://52bp.icu]
-
-[https://52pokemon.yunjnet.com]
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(vrwoblzb183@deomail.top): {'message': '邮箱后缀不处于白名单中'}
-
-[https://64.6.65.6]
-
-[https://6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io]
-
-[https://6url.cn]
-
-[https://77.237.82.123]
-
-[https://77.88.8.1]
-
-[https://78.157.56.101]
-
-[https://8.26.56.26]
-
-[https://8.8.4.4]
-
-[https://8.8.8.8]
-
-[https://80.75.14.219]
-
-[https://80.80.80.80]
-
-[https://81.12.31.48]
-
-[https://81.12.94.74]
-
-[https://87.107.137.250]
-
-[https://87.107.99.78]
-
-[https://88.ee88.tk]
-
-[https://91.92.208.152]
-
-[https://91.92.208.43]
-
-[https://91.92.209.194]
-
-[https://91.92.209.5]
-
-[https://911tg3rs.com]
-
-[https://94.101.130.239]
-
-[https://94.183.126.46]
-
-[https://94.74.182.2]
-
-[https://95.80.160.66]
-
-[https://9to5mac.com]
-
-[https://a.v2yd6.top]
-
-[https://abrehamrahi.ir]
-
-[https://acghelper.com]
-
-[https://ad6.hsjiasuqi.com]
-
-[https://ag.bnpm.dynu.net]
-
-[https://aigw-gzgy2.cucloud.cn]
-
-[https://alwaysdata.com]
-
-[https://alwaysdata.net]
-
-[https://anran.3kla.top]
-
-[https://api.e687699.top]
-
-[https://api.nekocloud.top]
-
-[https://api.oaibest.com]
-error  <string>:1 Unexpected "p" at column 12
-type  v2board
-更新订阅链接/续费续签失败  注册失败(sqxxzii861@gmail.com): {'error': {'message': 'Invalid URL (POST /api/v1/passport/auth/register)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
-
-[https://api.qrserver.com]
-
-[https://app.bybit.com]
-
-[https://app.mitce.net]
-
-[https://app.rebrandly.com]
-
-[https://app.shokichan.com]
-
-[https://apps.apple.com]
-
-[https://arxiv.org]
-
-[https://auth.newlikebooks.xyz]
-
-[https://awards.wga.org]
-
-[https://awf87ow7agf.chutrandi.com]
-error  HTTPSConnectionPool(host='anycast.jumper.dotnet.firstcheat.com', port=443): Max retries exceeded with url: /env.js (Caused by NameResolutionError("HTTPSConnection(host='anycast.jumper.dotnet.firstcheat.com', port=443): Failed to resolve 'anycast.jumper.dotnet.firstcheat.com' ([Errno -5] No address associated with hostname)"))
-type  v2board
-更新订阅链接/续费续签失败  注册失败(jrknqpxlt565@gmail.com): 'NoneType' object is not subscriptable
-
-[https://b3b0549e-160e-495a-a528-cccf5148bc48.372372.xyz]
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(snsgwiq714@jkd.tmmad.com): {'message': '验证码有误'}
-
-[https://b6enwo8026sf4k.wca1rs59sefb1kl655b0.online]
-buy  period=month_price&plan_id=2
-email  upgpjtikz603@gmail.com
-error  <string>:2 Unexpected "a" at column 7
-sub_url  https://b6enwo8026sf4k.wca1rs59sefb1kl655b0.online/api/v1/client/subscribe?token=e4273b2666795e9cc3510ba6e135a80d
-time  2026-03-13 17:19:58.278280+08:00
-type  v2board
-获取订阅失败  can only concatenate str (not "NoneType") to str
-
-[https://bangpi.top]
-
-[https://base64.bigwatermelon.org]
-
-[https://bbb.flylink.cyou]
-
-[https://bbghy.00890604.xyz]
-
-[https://biquge.bf]
-
-[https://blog.arduino.cc]
-
-[https://blog.google]
-
-[https://bnm.222560.xyz]
-
-[https://book.clouds.pp.ua]
-
-[https://canarytokens.org]
-
-[https://ccbaohe.com]
-
-[https://cdn1.telesco.pe]
-
-[https://cdn4.telesco.pe]
-
-[https://cdn5.telesco.pe]
-
-[https://cf-workers-sub-9s8.pages.dev]
-
-[https://cfip.wxgqlfx.fun]
-
-[https://ch.cukug.website]
-
-[https://ch1.freevpn724.com]
-
-[https://chiguayun.fun]
+[http://www.chiguayungroup.com]
+api_host  www.chiguayungroup.com
 buy  pass
-email  rttbgdsv268@gmail.com
+email  daohuljv889@gmail.com
 name  ChiguaYun
 sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://chiguayungroup.com/api/v1/client/subscribe?token=57eb4d3c04362a100142ac12cfed5367
-time  2026-03-13 17:19:58.925974+08:00
+sub_url  https://chiguayungroup.com/api/v1/client/subscribe?token=c5c2c89f07d5855b8c69697ff3efc244
+time  2026-03-14 10:38:16.436292+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
 
-[https://chromego-sub.netlify.app]
-
-[https://cjpaoche.top]
-
-[https://claw.guanjia.qq.com]
-
-[https://cola.xn--chqu2nzsxv3y.com]
-api_host  www.baidu.com
-name  百度一下，你就知道
-type  v2board
-更新订阅链接/续费续签失败  注册失败(wutbemvvv380@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (404 Not Found '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL /api/v1/passport/auth/register was not found on this server.</p>\n</body></html>\n')
-
-[https://conf1.hokkaido-toyoni.com]
-
-[https://control.nerwo.co]
-
-[https://cs.tuz.me]
-
-[https://cz1.freevpn724.com]
-
-[https://d.xfuti.buzz]
-
-[https://d888.nxxbbf.com]
-name  多宝一元机场🏆
-type  v2board
-更新订阅链接/续费续签失败  注册失败(nasmpmxz955@gmail.com): 'NoneType' object is not subscriptable
-
-[https://dash.f9vip.net]
-
-[https://dddffghju.857657.xyz]
-
-[https://developer.nvidia.com]
-
-[https://developers.openai.com]
-
-[https://dfg.ae1autumn.cc.cd]
-
-[https://di5.di5ji.lat]
-
-[https://discord.gg]
-
-[https://dklineo.top]
-error  HTTPSConnectionPool(host='01dklineo.top', port=443): Max retries exceeded with url: /env.js (Caused by NameResolutionError("HTTPSConnection(host='01dklineo.top', port=443): Failed to resolve '01dklineo.top' ([Errno -2] Name or service not known)"))
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(lemmyuo705@huiplay.com): {'message': '邮箱后缀不处于白名单中'}
-
-[https://dpkj0402.indevs.in]
-
-[https://drfytjmjhggnrgergergergerg6555.saojc.xyz]
-
-[https://dy.588511.xyz]
-
-[https://dy.changyouvpn.top]
-
-[https://dy.naisicloud.xyz]
-
-[https://dy11.baipiaoyes.com]
-
-[https://easy001.globalyun.cc]
+[https://www.chiguayungroup.com]
 buy  pass
-email  duflnbu799@gmail.com
-name  loading...
+email  sueebbilx226@gmail.com
+name  ChiguaYun
 sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://dy02.quanqiuyun07.com/api/v1/client/subscribe?token=f964f6a20157c097cf51ae77a2fc26ab
-time  2026-03-13 17:20:03.305667+08:00
+sub_url  https://chiguayungroup.com/api/v1/client/subscribe?token=e48c736c5e8f37d529da1807d8fdcdb7
+time  2026-03-14 10:38:16.458853+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
 
-[https://eck8.miemie.uk]
-
-[https://eck8.miemiefast.com]
-name  咩咩 Cloud
-type  v2board
-更新订阅链接/续费续签失败  注册失败(ktkkyits172@gmail.com): 'NoneType' object is not subscriptable
-
-[https://emm-7zy.pages.dev]
-
-[https://f-droid.org]
-
-[https://fanhua.qeayr.cn]
-
-[https://fast.com]
-
-[https://fby.cyfb798.mom]
-
-[https://fdyes.shop]
-
-[https://feiyangcloud.top]
-
-[https://fffffg.890602.pp.ua]
-
-[https://fffvg.7777125.xyz]
-
-[https://fghy.00890604.xyz]
-
-[https://forms.gle]
-
-[https://free.oaibest.com]
-
-[https://free.tharuwa.store]
-
-[https://freeairport.cc]
-
-[https://freegangkou.top]
-name  永久云
-type  v2board
-更新订阅链接/续费续签失败  注册失败(myvyzgke168@gmail.com): 'NoneType' object is not subscriptable
-
-[https://gc01.globalyun.cc]
-
-[https://getinfo.bigwatermelon.org]
-
-[https://gggh.huangshang.online]
-
-[https://ggghj.www890604.dpdns.org]
-
-[https://ghj.apocalypse.cc.cd]
-
-[https://gpdbnext.console.aliyun.com]
-
-[https://haowallpaper.com]
-
-[https://hee.ink]
-
-[https://hexo-anran-world.vercel.app]
-
-[https://hhhhhhhhj.191266.xyz]
-
-[https://hi.dmhosts.com]
-
-[https://hiddify.com]
-
-[https://hk.bjjii.com]
-
-[https://hkaa0.shop]
-
-[https://hkiff.herballemon.dev]
-
-[https://hostloc.com]
-
-[https://hssl8088.icu]
-
-[https://huaxia.tcekx.cn]
-
-[https://huggingface.co]
-
-[https://hyui.apocalypse.cc.cd]
-
-[https://i.111666.best]
-
-[https://i.kkb.xx.kg]
-
-[https://id.discourse.com]
-
-[https://img.eleven.observer]
-
-[https://img.ikaka.in]
-
-[https://img.xn]
-
-[https://img.ytools.cc]
-error  <string>:1 Unexpected "(" at column 7
-type  v2board
-更新订阅链接/续费续签失败  注册失败(gaavpjk155@gmail.com): {'status_code': 400, 'error': {'message': 'No key provided', 'code': 100}, 'status_txt': 'Bad Request'}
-
-[https://img2.fastcybers.com]
-api_host  img.ytools.cc
-error  <string>:1 Unexpected "(" at column 7
-type  v2board
-更新订阅链接/续费续签失败  注册失败(xiikpdzfj227@gmail.com): {'status_code': 400, 'error': {'message': 'No key provided', 'code': 100}, 'status_txt': 'Bad Request'}
-
-[https://imo.im]
-
-[https://infini-cloud.net]
-
-[https://investors.broadcom.com]
-
-[https://invite.xn--yvsa48r.com]
-
-[https://item.jd.com]
-
-[https://iuiu.lovebabyforever.workers.dev]
-
-[https://jd.lovebabyforever.workers.dev]
-
-[https://jiba.hee.ink]
-error  <string>:3 Unexpected "s" at column 19
-type  v2board
-更新订阅链接/续费续签失败  注册失败(qtzjbhif806@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (403 Forbidden '<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv="refresh" content="360"></head><body><a href="https://jiba.hee.ink/cdn-cgi/content?id=s1OoQF8ERc0lUwiCX3Ls5PR885HUcsa1Mt_K5Lv37ec-1773393610-1.1.1.1-Hjp6rCMjBdLM.fCO5QMyx.CiNtiVi4fZ8u8dzi3CR0Y" aria-hidden="true" rel="nofollow noopener" style="display: none !important; visibility: hidden !important"></a><div class="main-wrapper" role="main"><div class="main-content"><noscript><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cvId: \'3\',cZone: \'jiba.hee.ink\',cType: \'managed\',cRay: \'9db9f60fd986570f\',cH: \'gyGN_JkWBH7eJDtQyC3Mq4eR2xG_XB7nKvg_RGQlFsE-1773393610-1.2.1.1-TSjDafqcH6fckxxGgmZAFaChA5YQA_n5wFXzuxP7k0VWoKBcIzlmKX3I434npMJm\',cUPMDTk:"\\/api\\/v1\\/passport\\/auth\\/register?__cf_chl_tk=B4hKMzTGf4fCSw6zzUjItCAjYuBJmLxcVfeeS18HrOk-1773393610-1.0.1.1-zxlBnemKRzj3_oImi2EVQxUnHVW9SQP0RiLWfISkecs",cFPWv: \'g\',cITimeS: \'1773393610\',cTplC:0,cTplO:0,cTplV:5,cTplB: \'0\',fa:"\\/api\\/v1\\/passport\\/auth\\/register?__cf_chl_f_tk=B4hKMzTGf4fCSw6zzUjItCAjYuBJmLxcVfeeS18HrOk-1773393610-1.0.1.1-zxlBnemKRzj3_oImi2EVQxUnHVW9SQP0RiLWfISkecs",md: \'w19B.1CB9XXo9xS1b.iRjvxkazFKj3wvrmPd4EAwjU4-1773393610-1.2.1.1-jJfWP9kzgLhlZJ6ey0V5ju72wnSdvkXzX_yvrv914OHRMJgbl3jfPvOo1LrYyC492sXxaFLMw2bVCBHffXek8r8SQ3SPe0fRf0XtBTwUOFX7N5gpiJ72dpd7l6_uOZbbU0pTZRuvx07DzDDi51JaT5qjm4BZxDverPj_emGmzXIRQsYC8ftAu_cJn8UX95vqLShJknROU97IgccTYE6rA0GXlQX3C3AryhWUt2uV0utNW4TksxTrR2DxTbL4pIPHs9y0ORosmqydcYTp.mRvlYOER6DJ3teWA.eIk4JGzHm6SeFDwRqBvS5dTLv9n24JmGe7rVvY9lqf9jmgVyCWYDgcF_cjpLjpiSQ0IHCFi8TkojeUH39wO45c7hgZXPU9pz_VKfc_F_2yJ0jTW0ciBoh17hHLiZUT9Rz.QCIhjaBRRXBydu3Z6WeV8RlFMa7rIdePpNzMUXNMPEjWUQFBRCdepCbi67_sYb86_Ng9Udz.pMl_muyxpC8RuJjJ1CtEoeP.74yzwGDUik04sTVEeNsJDBnzIpZy3QcNz4JYIFJkDs8J8.sHXVz5Uj010GFpRqRfpcaiFpafdnYmB5nFfRL8XgiCFQ4P.saQNE9Ss6oT2JRZltpAzydApTx_le0OhmbdqX44W_tJ3P2M23QtjBtRSZphuJfjvx3qKzdkh642PJDFUn.C9HNvCeAyuogqoIXCPhqelJghXJSJP0X3xCzwaY7WEbSADhKpnYa2oEqy3.CmPs.4i12RclrbGgXp8X4Kmv0sb67OtLLpxHigN0.D_vSiuPBuUPk4o1NXmqxSrq8B.MBIO69oked1r7FIko6YR1cF7KmFflf0p59VoCZcvBFHrW52XM8bSJYSmwQ1_2zMymH8vm.du01HlK4Q7Ex_BxqFS05yMamoGYKbm7o_NiRzoM.qfqeuFnZlVAlfClAuxtK0ynxQqAfI127oMP0geuFfhcmsswFKj7QXOZ08szHx.TpnhV7dZramWkVtsyaFfD2hpFJxXpk3OpdRhPMMGWPfGlXc02w7VnxZG1wt4r7GaWICN5UfibFrCxDIrhih74R.7kUte73kduelH40EvcQCNdYhUFy2npuU.Nacx1NQyCKIakYrTwgaRjgcQwiRTgwKLIpagQ5qqX3d\',mdrd: \'imbL6EXaU.bopvekfEyMl24gV7IX_m._Vhi2kUz3dGY-1773393610-1.2.1.1-Hm_IQp4spf0utRgXTfva.Qqvr8ssPQ_kYV92uEnYUfIBhexFUjd5boG46ApC1mIVAGXPS_Rd4KU_fJJmb3D83Q6j466.us2Xm_WmqgZweFbNeu10KxG4yS8cWRW.7h6p8O1gaXSWC63zOgAe5kltCYFiy1X_IUBuiklHFO8DYGUkkiwzyUf9veFJqgHqGvLmnDizT3FCymtPEVJeR6Gh_wuB50N2NhR1RsZfz6e7z7dmsoMTBpJy344CArTKP4QP7b2oIvCQaXsx49FObH5AOTA.Eh_DsYeczEtEqzGfaCOjnITHAKJks6_8.joW6Z1RwaF4olHX62Q28RhkK2W.n0F0I0UaZVd.62yBfiG6uOoO.XnHM28NC1wzLYJxwHuOs2epbfkc9ONJyV9D2CBLNshj92LZQ5k.ySgr9kPLuA91DhxfxCs90UwdVBPGna5DLbjWex04Sb3Fyhf9noyGXvqHaTZtdQkwL6nUZqtGsZwGHgkVYb9ZQKhjv0ZJbRql9CPR_EXCCwBir_DKehi2Ecq.YDIV6C2zKu01SIQwQoKbVLzbg2Nf4FbTCVA7EranxUomeqg06BUqsiVATpv8_IJGX7Te43fN4BMEI7_0SzF79gmewCwWLSyljgeT4vvae4xF7uUpnlL2wcllgjfdj1SAcvNNUtAuX3asXuPOYkCIHn6Nrs0sCXyO7EuO3vGfmnomxAhcYuBmjDoQqvVBDfedGNJZFwWfrQxxj_65eMv4r6FUikrQJ5BYxeErQ1wSmYH6wuVl5iqixOrcGuWs.EFcXMVAYPO.MNO3SKZbexHw2yaXN2nmnygPOJGXgxsbHqeJy77993bMsPpwsiod8YUSC7mwWSxt2H_6eMGx2JIN_B0mUEItfO_.PIUZ2JF3ePd4K.IvHCCm_DJqymg2kvCMp0rgSOSpAxrc98ZxazxMHuRmm9cUyratnsx0ZN67bYm0x.D_9c..UrHR9YscymOi2QEBz1tumgWEdvfg0tx9nAU96GvoD39GatXw4DPtbQRPdRXOk5PJofwGY4QEBmMmR4M12.u7YYdC5OL_SAqbHOf24fg9j.XGcv9pZLSbfUEc7AdukefUo10.4E03.oB7eQsRP8Dfl3AZbJoiVwcgb0MuZ3HJE3niItGyFy_RzypRO3e.xisR7HPMC8UwOErgDbaKC5JO99i5nBVi4wwHRgoukvLtH2HQtVlmlAL3kycOYfxV5OWvWniL6ruYGNk3GjdneqfZ_4wVSqrB8uCF3FkaB8htmA2Jl1IeKMcABgUVDWw32tPYp04A_gVWlIHjyGSBwC0Kh6rRp4PxjAISydlTIoyM_.01lm2P83x4rgv1Zm0_fQeVlZ9Hm.LstaBE9WRuVJjTWGIta8kZm9vOQIGCqfUTpGw12Qwb4mYxh8YoQMwcAXscsqIpJA8wVEbfQSf0owSBptd6nkXtzYORxsYoXudPk3kPudcgRW8XIxb5aQc7Wpl8qGYVlaKtpWI81rAB7MXr_HDMCLZ1oLgUJLz6ZsjY8LY2I7_IR18tu.0qUvRUkhYqgrDZG1h0MDYTxXJbG5jsy9Rq.Fg7tJj1MLPgPjamWf5zi68PrCVNtcYa.jJOzzd4MqfVj1JYw2Bx0g7NA3h7d6fPjDpQQM41fnhx22mMFQ0wERlip383AWN4ouOgnbZo0r4WJBSeqcgXHYNgUKt7KdYMQIXkQdY.4V2I3Fw8kgh3GZSZCqNDCKdhl4t7p.wdvN79yK8IYWEUaZhDTJez1hLj0CZzE4YbQ4FHfr9BoPRGF00vGZBmGpfdc0iD0ibYm.RIfasQBKZOYQwUj0fM5FWIKNNEazAE4z5cX7NipTVYFZ6HFluum9viPzx.KTndgmYocfCpme3fuxNViiMBJXHaFmWnwkKFWa2SfwRAYQ8pGeaIPqovwCDzBS8fKU4U7PJGooib2201Otnwn4X.sywxmTlzNYb931azt38quklahQIr5oA4LGqZj5PSs9qrhUJwISBJILb8cnu0QNE.DtD.Pv1lCIFXddCIcmFVKdN5U82VPWCbb5roHZCpRnq0HgrZnlQKeboQc3ttJselXyDBjsYW_xUoTH2HK3XJLGq3RvNXWCJg24Aju5HNoXmPIkvULlCUZVBEldb5cz5..HU7J._LrKwl9JqGtHvRxQiLGzdQsQh6tCaZqYRQePFYTYjtSbZjMKZTxQBl7oe2lmlv_V6tJmLj3IR6FtFSAsp_w64.15wNpVG0O.IHTaepUbR.VM3R6qOS0sH_f6VZwTRAbQsVhGtFQLd2xqEoV3DrkP01ce_SPABf6LQ2JTKvE7IjN5DbXUQkme4GfjJGL7HUJLeZfSe.XtxHL_sgFMQ_e2r1HTPoGrseEp7md4b0j9aLVr8cjlUdnL.TOTOMQOLfcB3.PNaiiSGLxSCr7vL6k6fdIdyQrrOOLeeqMXaBNVW3kWxSst2tS0wVy89TeUvZEYrC3p4I..oA._BsH7T3ggioya1Fx.r_fiv2ub25IyfYCRqdSulZSurkFNu4jT2tbyEymJsvLHMGBEvntNCynIG0SCXd70sVSCJo5JjIMJv5Vm_UQFvetP7FFxvtQ9vcOqJnV2cbVINIKfZzMTE0bVQbNtersNrTZjrYc88lR3xCeiySYRc2ePCnA1Su1x_YG0_y7rQRVOkGcKutdFPfeudEY2d.Bib7tziwEqIqZmxWFBcdYoYgqr0WpviUlF5jo3Lak3j5dlR3nVArZCEqdeF5JXg9BDKQauKQjW5._IHI6o00tyKHum8M_gtNlZvAlZje8wQ\',};var a = document.createElement(\'script\');a.src = \'/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9db9f60fd986570f\';window._cf_chl_opt.cOgUHash = location.hash === \'\' && location.href.indexOf(\'#\') !== -1 ? \'#\' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === \'\' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf(\'?\') !== -1 ? \'?\' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,"\\/api\\/v1\\/passport\\/auth\\/register?__cf_chl_rt_tk=B4hKMzTGf4fCSw6zzUjItCAjYuBJmLxcVfeeS18HrOk-1773393610-1.0.1.1-zxlBnemKRzj3_oImi2EVQxUnHVW9SQP0RiLWfISkecs"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName(\'head\')[0].appendChild(a);}());</script></body></html>')
-
-[https://jisoo.lulu.autos]
-
-[https://jjjjjjjji.191292.xyz]
-
-[https://join.yondercard.com]
-
-[https://jwjc520.top]
-name  卷王机场 - 50FF返利中
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(yrrfnaqus192@linshiyou.com): {'message': '邮箱后缀不处于白名单中'}
-
-[https://kitty.beer]
-
-[https://kitty.su]
-
-[https://kitty.works]
-error  'host'
-name  Kitty Network
-type  v2board
-更新订阅链接/续费续签失败  注册失败(bxicahy588@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (404 Not Found '<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n')
-
-[https://kjzhan.top]
-
-[https://klc.kunlun01.com]
-
-[https://ktm001.top]
+[https://chiguayungroup.com]
 buy  pass
-email  xfhpoit226@gmail.com
-name  KTM Cloud
+email  wytcnms922@gmail.com
+name  ChiguaYun
 sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://ktm001.top/api/v1/client/subscribe?token=14aa6d78019cb7a65b8249e82c93bb9e
-time  2026-03-13 17:20:12.465033+08:00
+sub_url  https://chiguayungroup.com/api/v1/client/subscribe?token=9a76efa371d6d8d4d7fd69152870268b
+time  2026-03-14 10:38:16.671176+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
 
-[https://ktmcloud.me]
+[https://195.201.4.209]
 
-[https://ktmcloud.men]
+[https://43.129.201.130]
+
+[https://129.211.169.198]
+
+[https://car.autohome.com.cn]
+
+[https://chejiahao.autohome.com.cn]
+
+[https://150.230.212.237]
+
+[https://38.181.47.15]
+
+[https://64.110.69.220]
+
+[https://15.204.56.89]
+
+[https://207.148.101.146]
+
+[https://202.182.118.253]
+
+[https://45.33.127.162]
+
+[http://47.76.111.72:8880]
+name  QQ抖
+type  v2board
+更新订阅链接/续费续签失败  注册失败(twfsvux853@gmail.com): 本站已关闭注册
+
+[https://172.245.225.221]
+
+[https://128.140.73.0]
+
+[https://107.172.191.71]
+
+[http://120.55.168.168:7001]
 buy  pass
-email  byfjilwtb144@gmail.com
-name  KTM Cloud
-sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://ktm.aeaeea.com/api/v1/client/subscribe?token=3a3e201f373945368c07bb3cf91b5f9d
-time  2026-03-13 17:20:12.573450+08:00
+email  jqluakus986@gmail.com
+name  XBoard
+sub_url  http://120.55.168.168:7001/s/eb0ce0a230755084742ca29454fc8b6e
+time  2026-03-14 10:38:18.581228+08:00
 type  v2board
-保存base64/clash订阅失败  'NoneType' object is not iterable
+获取订阅失败  (http://120.55.168.168:7001/s/eb0ce0a230755084742ca29454fc8b6e): 403 Forbidden ''
 
-[https://ktmcloud.pro]
-buy  pass
-email  dldtbdv556@gmail.com
-name  KTM Cloud
-sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://ktm001.top/api/v1/client/subscribe?token=90ba43d9f96cf8a3c9ae8ec26ff6590d
-time  2026-03-13 17:20:12.926722+08:00
-type  v2board
-保存base64/clash订阅失败  'NoneType' object is not iterable
+[https://163.192.62.241]
 
-[https://ktmcloud.vip]
+[https://142.171.118.59]
 
-[https://ktmcloud.win]
-buy  pass
-email  eyreayaqg384@gmail.com
-name  KTM Cloud
-sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://ktm.aeaeea.com/api/v1/client/subscribe?token=cc1d8f71dd907455e4c55aaa97ab588f
-time  2026-03-13 17:20:13.518220+08:00
-type  v2board
-保存base64/clash订阅失败  'NoneType' object is not iterable
-
-[https://kukeyun.cc]
-name  酷可云
-type  v2board
-更新订阅链接/续费续签失败  注册失败(oltwvtcxi612@gmail.com): 'NoneType' object is not subscriptable
-
-[https://kunlun01.com]
-
-[https://line1.nowjiasu.com]
-
-[https://linlujs.men]
-
-[https://linux.do]
-
-[https://liulangdiqiu.cc]
-buy  pass
-email  tmydyqair742@gmail.com
-name  流浪地球
-sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://liulangdiqiu001.cc/api/v1/client/subscribe?token=b0e447e60797f4dd3a2db80a5b054340
-time  2026-03-13 17:20:16.473483+08:00
-type  v2board
-保存base64/clash订阅失败  'NoneType' object is not iterable
-
-[https://lizhi.shop]
-auth_path  user
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(hxemkzqcg750@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (302 Found '')
-
-[https://lllo.x19890604.qzz.io]
-
-[https://llyh.cc]
-
-[https://love.p6m6.com]
-
-[https://luv.xem.lat]
-
-[https://ly.ccwink.cc]
-
-[https://m.chinastarmarket.cn]
-
-[https://m.facebook.com]
-
-[https://m.zoom.us]
-
-[https://mall.ccbaohe.vip]
-
-[https://mall.tkbaohe.com]
-
-[https://matcha.su]
-
-[https://mcp.dpenly.org]
-name  乡野农家乐
+[http://125.110.108.197:88]
+name  内网传输系统☁️
 type  v2board
 更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
 
-[https://mfvpn.fuchen.indevs.in]
-
-[https://microsoft.ai]
-
-[https://milli.gold]
-
-[https://mojie.app]
-email  yujitfiic928@gmail.com
+[http://125.110.127.120:88]
+name  内网传输系统☁️
 type  v2board
-更新订阅链接/续费续签失败  {'message': '未登录或登陆已过期'}
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
 
-[https://mp.weixin.qq.com]
+[http://125.110.98.109:88]
+name  内网传输系统☁️
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
 
-[https://music.app]
+[http://125.110.78.53:88]
+name  内网传输系统☁️
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
 
-[https://my.nekocloud.top]
+[https://209.17.118.133]
 
-[https://myket.ir]
+[http://106.15.44.173]
 
-[https://myndnote.app]
+[https://103.43.8.203]
 
-[https://mypikpak.com]
+[https://152.67.40.88]
 
-[https://naisicloud.xyz]
+[https://152.53.82.226]
 
-[https://nanbei.cloud]
+[http://175.29.22.86:12345]
+name  萌通加速
+type  v2board
+更新订阅链接/续费续签失败  注册失败(lraadvsh399@gmail.com): 'NoneType' object is not subscriptable
+
+[https://149.88.80.146]
+
+[http://148.135.95.222:9001]
+name  Nebula
+type  v2board
+更新订阅链接/续费续签失败  注册失败(dpfnbilz307@gmail.com): 'NoneType' object is not subscriptable
+
+[http://octochess.org]
+
+[https://45.207.214.183]
+
+[https://72.18.214.175]
+
+[https://149.104.24.165]
+
+[https://104.244.78.156]
+
+[https://178.128.57.105]
+
+[https://47.250.150.244]
+
+[http://175.29.22.124:12345]
+name  萌通加速
+type  v2board
+更新订阅链接/续费续签失败  注册失败(xxxbmmta643@gmail.com): 'NoneType' object is not subscriptable
+
+[https://xiniu.ee]
+name  小犀牛-VPN
+type  v2board
+更新订阅链接/续费续签失败  注册失败(ufymoeshq375@gmail.com): 'NoneType' object is not subscriptable
+
+[https://chessdb.cz]
+
+[https://129.151.149.255]
+
+[https://172.188.206.1]
+
+[http://44.27.18.227:7001]
+name  Hideki Network
+type  v2board
+更新订阅链接/续费续签失败  注册失败(nfbjddns807@gmail.com): 'NoneType' object is not subscriptable
+
+[https://sub2.xlspeeds.com]
+name  TKLIVE - 玄古专线
+type  v2board
+更新订阅链接/续费续签失败  注册失败(unarzyfan872@gmail.com): 'NoneType' object is not subscriptable
+
+[https://sub.xlspeeds.com]
+name  TKLIVE - 玄古专线
+type  v2board
+更新订阅链接/续费续签失败  注册失败(yvmxagpsh35@gmail.com): 'NoneType' object is not subscriptable
+
+[https://air-2.sheep.lat]
+name  TKLIVE - 玄古专线
+type  v2board
+更新订阅链接/续费续签失败  注册失败(crxmwms511@gmail.com): 'NoneType' object is not subscriptable
+
+[http://air-2.sheep.lat]
+api_host  air-2.sheep.lat
+name  TKLIVE - 玄古专线
+type  v2board
+更新订阅链接/续费续签失败  注册失败(pxaeqoeev92@gmail.com): 'NoneType' object is not subscriptable
+
+[http://sub.xlspeeds.com]
+api_host  sub.xlspeeds.com
+name  TKLIVE - 玄古专线
+type  v2board
+更新订阅链接/续费续签失败  注册失败(nrqxrikrj979@gmail.com): 'NoneType' object is not subscriptable
+
+[http://sub2.xlspeeds.com]
+api_host  sub2.xlspeeds.com
+name  TKLIVE - 玄古专线
+type  v2board
+更新订阅链接/续费续签失败  注册失败(ycijzyb56@gmail.com): 'NoneType' object is not subscriptable
+
+[https://38.58.176.183]
+
+[https://64.186.225.62]
+
+[https://42.194.176.171]
+
+[https://154.21.202.115]
+
+[https://185.244.149.165]
+
+[https://149.248.20.168]
+
+[https://107.172.217.127]
+
+[https://138.2.2.237]
+
+[https://94.154.114.132]
+
+[https://94.154.114.133]
+
+[https://140.245.110.168]
+
+[https://206.245.167.55]
+
+[https://170.205.39.148]
+
+[https://94.249.239.44]
+
+[https://202.155.155.233]
+
+[https://23.95.18.90]
+
+[https://py.freegangkou.top]
+name  永久云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(uhtmaipsq59@gmail.com): 'NoneType' object is not subscriptable
+
+[https://108.61.207.101]
+
+[https://146.56.128.48]
+
+[https://167.179.113.154]
+
+[https://205.198.64.68]
+
+[https://104.168.9.100]
+
+[https://47.79.35.92]
+
+[https://45.76.145.37]
+
+[https://103.79.187.133]
+
+[https://85.113.70.197]
+
+[http://dianmanyun.chaosu555.com]
 buy  pass
-email  heohhlwyc936@gmail.com
-name  NanBei
-sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://nanbeiyydsgroup.com/api/v1/client/subscribe?token=77bbc99a9de944ad1c11ef05108c8599
-time  2026-03-13 17:20:29.563344+08:00
+email  bkjsyvrj428@gmail.com
+name  Xboard
+sub_url  http://dianmanyun.chaosu555.com/s/815d676e187bb87290befdef43ae4fc7
+time  2026-03-14 10:38:21.866055+08:00
 type  v2board
-保存base64/clash订阅失败  'NoneType' object is not iterable
+获取订阅失败  (http://dianmanyun.chaosu555.com/s/815d676e187bb87290befdef43ae4fc7): 403 Forbidden ''
 
-[https://navi.onamae.com]
-
-[https://ne997.688997.xyz]
-
-[https://neolink.nkkc.one]
-
-[https://netlib.re]
-
-[https://news.futunn.com]
-
-[https://news.skhynix.com]
-
-[https://news.xbox.com]
-
-[https://newsroom.ibm.com]
-
-[https://nl1.freevpn724.com]
-
-[https://nnmjk.wc0.ccwu.cc]
-
-[https://nnnnnmj.huangshang.site]
-
-[https://node-share.web.app]
-
-[https://npccloud.xyz]
-name  NPC-CLOUD
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(xvyhswqq430@tmpmail.net): {'message': '验证码有误'}
-
-[https://nvdb.org.cn]
-
-[https://nvidianews.nvidia.com]
-
-[https://o0o00o.eu.org]
-name  曲径通幽 2.0
-type  v2board
-更新订阅链接/续费续签失败  注册失败(mnmzxdh736@gmail.com): 'NoneType' object is not subscriptable
-
-[https://omp.exchange]
-
-[https://onlysub.mjurl.com]
+[https://dianmanyun.chaosu555.com]
 buy  pass
-email  nwemomlj139@gmail.com
-sub_url  https://msub.xn--m7r52rosihxm.com/api/v1/client/subscribe?token=8e51cae8a5c68495d5ab04f8c3c28153
-time  2026-03-13 17:20:35.047751+08:00
+email  qqnhtqc353@gmail.com
+name  Xboard
+sub_url  http://dianmanyun.chaosu555.com/s/815d676e187bb87290befdef43ae4fc7
+time  2026-03-14 10:38:22.193653+08:00
+type  v2board
+获取订阅失败  (https://dianmanyun.chaosu555.com/s/815d676e187bb87290befdef43ae4fc7): 403 Forbidden ''
+
+[https://139.180.212.12]
+
+[http://139.180.212.12]
+buy  pass
+email  eprkivbi296@gmail.com
+name  Xboard
+sub_url  http://139.180.212.12/s/af3ea9001e16f4a97a3fe8b999490332
+time  2026-03-14 10:38:21.871822+08:00
+type  v2board
+获取订阅失败  (http://139.180.212.12/s/af3ea9001e16f4a97a3fe8b999490332): 403 Forbidden ''
+
+[https://140.238.8.77]
+
+[https://103.211.32.53]
+
+[http://150.109.235.173:8880]
+name  火星1号
+type  v2board
+更新订阅链接/续费续签失败  注册失败(zwhwmlx487@gmail.com): 'NoneType' object is not subscriptable
+
+[https://162.212.153.250]
+
+[https://45.77.6.187]
+
+[https://107.172.167.103]
+
+[https://www.athmapp.com]
+
+[http://www.athmapp.com]
+
+[https://64.49.46.227:83]
+name  初云
+type  v2board
+更新订阅链接/续费续签失败  注册失败(posccalrk128@teml.net): 邮箱后缀不处于白名单中
+
+[https://45.45.177.12]
+
+[https://131.143.240.46]
+
+[https://168.138.135.134]
+
+[https://72.18.214.163]
+
+[https://72.18.214.242]
+
+[https://74.48.123.249]
+
+[https://185.217.108.18]
+
+[https://152.67.85.156]
+
+[http://131.186.21.243:8888]
+
+[https://107.174.142.33]
+
+[https://23.94.253.240]
+
+[http://43.156.110.40:1200]
+
+[https://api-admin.ontest.com.br]
+
+[http://api-admin.ontest.com.br]
+
+[https://15.229.218.182]
+
+[https://104.243.28.250]
+
+[https://103.219.194.169]
+
+[http://45.8.158.170:7001]
+name  光阴在前
+type  v2board
+更新订阅链接/续费续签失败  注册失败(zerqytzp850@gmail.com): 'NoneType' object is not subscriptable
+
+[https://138.2.45.20]
+
+[https://45.142.159.39]
+
+[https://206.237.1.102]
+
+[https://wdnm2.wdnmd123.live]
+name  聚贤庄网络
+type  v2board
+更新订阅链接/续费续签失败  注册失败(bnsbfjg56@gmail.com): 'NoneType' object is not subscriptable
+
+[https://node.wdnmd123.live]
+name  聚贤庄网络
+type  v2board
+更新订阅链接/续费续签失败  注册失败(erjvupavl850@gmail.com): 'NoneType' object is not subscriptable
+
+[https://wdnm1.wdnmd123.live]
+name  聚贤庄网络
+type  v2board
+更新订阅链接/续费续签失败  注册失败(kjdolsx213@gmail.com): 'NoneType' object is not subscriptable
+
+[https://token1.wdnmd123.live]
+name  聚贤庄网络
+type  v2board
+更新订阅链接/续费续签失败  注册失败(uvgknboyl467@gmail.com): 'NoneType' object is not subscriptable
+
+[https://token2.wdnmd123.live]
+name  聚贤庄网络
+type  v2board
+更新订阅链接/续费续签失败  注册失败(kmancoc548@gmail.com): 'NoneType' object is not subscriptable
+
+[https://admin.wdnmd123.live]
+name  聚贤庄网络
+type  v2board
+更新订阅链接/续费续签失败  注册失败(dwopsvee337@gmail.com): 'NoneType' object is not subscriptable
+
+[https://airport.wdnmd123.live]
+name  聚贤庄网络
+type  v2board
+更新订阅链接/续费续签失败  注册失败(hpmctlo145@gmail.com): 'NoneType' object is not subscriptable
+
+[https://104.245.42.214]
+
+[https://104.129.59.144]
+
+[http://128.241.255.10:8888]
+name  Cyber Paws
+type  v2board
+更新订阅链接/续费续签失败  注册失败(sppdbknr487@gmail.com): 'NoneType' object is not subscriptable
+
+[https://47.76.111.72]
+
+[https://47.238.154.93]
+buy  pass
+email  gqpzfxyap417@guerrillamail.biz
+name  极风加速
+sub_url  https://106.14.42.200/api/v1/client/subscribe?token=c829bfc540353cbfcaed19eaa5a5e36a
+time  2026-03-14 10:38:43.447023+08:00
+type  v2board
+获取订阅失败  (https://47.238.154.93/api/v1/client/subscribe?token=c829bfc540353cbfcaed19eaa5a5e36a): 500 Internal Server Error '{\n "message": "\\u9047\\u5230\\u4e86\\u4e9b\\u95ee\\u9898\\uff0c\\u6211\\u4eec\\u6b63\\u5728\\u8fdb\\u884c\\u5904\\u7406"\n}'
+
+[http://dy2.macox.win]
+name  可颜茶
+type  v2board
+更新订阅链接/续费续签失败  注册失败(egiyvjp188@gmail.com): 'NoneType' object is not subscriptable
+
+[https://test.51fan.one]
+name  可颜茶
+type  v2board
+更新订阅链接/续费续签失败  注册失败(vgngydhd428@gmail.com): 'NoneType' object is not subscriptable
+
+[http://test.51fan.one]
+name  可颜茶
+type  v2board
+更新订阅链接/续费续签失败  注册失败(vjiwxeoiv708@gmail.com): 'NoneType' object is not subscriptable
+
+[http://51fan.one]
+name  可颜茶
+type  v2board
+更新订阅链接/续费续签失败  注册失败(cndxunbi34@gmail.com): 'NoneType' object is not subscriptable
+
+[https://149.28.138.188]
+
+[https://141.11.133.61]
+
+[https://103.61.37.139]
+
+[https://91.103.123.198]
+
+[https://166.88.55.24]
+
+[https://38.60.249.127]
+
+[http://45.154.14.168:8880]
+name  全球贸易
+type  v2board
+更新订阅链接/续费续签失败  注册失败(uumvxsnlx668@gmail.com): 'NoneType' object is not subscriptable
+
+[https://ass.pgmkiun.com]
+name  SSPanel-UIM
+type  sspanel
+更新订阅链接/续费续签失败  注册失败(fohupvnj428@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (500 Internal Server Error '<!doctype html>\n<html lang="zh-CN" data-bs-theme="auto">\n\n<head>\n <meta charset="utf-8"/>\n <meta name="robots" content="noindex">\n <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>\n <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>\n <meta http-equiv="X-UA-Compatible" content="ie=edge"/>\n <title>SSPanel-UIM</title>\n <!-- Auto dark mode -->\n <script>\n ;(function () {\n const htmlElement = document.querySelector("html")\n const theme = htmlElement.getAttribute("data-bs-theme");\n\n if(theme === \'dark-auto\' || theme === \'auto\') {\n function updateTheme() {\n htmlElement.setAttribute("data-bs-theme",\n window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")\n }\n window.matchMedia(\'(prefers-color-scheme: dark)\').addEventListener(\'change\', updateTheme)\n updateTheme()\n }\n })()\n </script>\n <!-- CSS files -->\n <link href="//fastly.jsdelivr.net/npm/@tabler/core@latest/dist/css/tabler.min.css" rel="stylesheet"/>\n <link href="//fastly.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" rel="stylesheet"/>\n <!-- JS files -->\n <script src="/assets/js/fuck.min.js"></script>\n <script src="//fastly.jsdelivr.net/npm/htmx.org@v2/dist/htmx.min.js"></script>\n</head>\n\n<body class="border-top-wide border-primary d-flex flex-column">\n<div class="page page-center">\n <div class="container-tight my-auto">\n <div class="empty">\n <div class="empty-header">500</div>\n <p class="empty-title">服务器内部错误</p>\n <p class="empty-subtitle text-secondary">\n Take me home, country roads, to the place, I belong... Oh wait the server is down.\n </p>\n <div class="empty-action">\n <a href="/" class="btn btn-primary">\n <i class="icon ti ti-chevron-left"></i>\n 返回主页\n </a>\n </div>\n </div>\n </div>\n</div>\n\n<div class="modal modal-blur fade" id="success-dialog" tabindex="-1" role="dialog" aria-hidden="true">\n <div class="modal-dialog modal-sm modal-dialog-centered" role="document">\n <div class="modal-content">\n <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>\n <div class="modal-status bg-success"></div>\n <div class="modal-body text-center py-4">\n <i class="ti ti-circle-check icon mb-2 text-green icon-lg" style="font-size:3.5rem;"></i>\n <p id="success-message" class="text-secondary">成功</p>\n </div>\n <div class="modal-footer">\n <div class="w-100">\n <div class="row">\n <div class="col">\n <a id="success-confirm" href="" class="btn w-100" data-bs-dismiss="modal">\n 好\n </a>\n </div>\n </div>\n </div>\n </div>\n </div>\n </div>\n</div>\n\n<div class="modal modal-blur fade" id="fail-dialog" tabindex="-1" role="dialog" aria-hidden="true">\n <div class="modal-dialog modal-sm modal-dialog-centered" role="document">\n <div class="modal-content">\n <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>\n <div class="modal-status bg-danger"></div>\n <div class="modal-body text-center py-4">\n <i class="ti ti-circle-x icon mb-2 text-danger icon-lg" style="font-size:3.5rem;"></i>\n <p id="fail-message" class="text-secondary">失败</p>\n </div>\n <div class="modal-footer">\n <div class="w-100">\n <div class="row">\n <div class="col">\n <a href="" class="btn btn-danger w-100" data-bs-dismiss="modal">\n 确认\n </a>\n </div>\n </div>\n </div>\n </div>\n </div>\n </div>\n</div>\n\n<script src="//fastly.jsdelivr.net/npm/@tabler/core@latest/dist/js/tabler.min.js"></script>\n\n<script>\n let successDialog = new tabler.bootstrap.Modal(document.getElementById(\'success-dialog\'));\n let failDialog = new tabler.bootstrap.Modal(document.getElementById(\'fail-dialog\'));\n\n htmx.on("htmx:afterRequest", function(evt) {\n if (evt.detail.xhr.getResponseHeader(\'HX-Redirect\'))\n {\n return;\n }\n\n let res = JSON.parse(evt.detail.xhr.response);\n\n if (evt.detail.elt.id === \'send-verify-email\') {\n document.getElementById(\'send-verify-email\').disabled = true;\n }\n\n if (res.ret === 1) {\n document.getElementById("success-message").innerHTML = res.msg;\n successDialog.show();\n } else {\n document.getElementById("fail-message").innerHTML = res.msg;\n failDialog.show();\n }\n });\n</script>\n\n\n<!-- Telemetry -->\n<script async src="https://www.googletagmanager.com/gtag/js?id=G-P24FRG2HS5"></script>\n<script>\n window.dataLayer = window.dataLayer || [];\n function gtag(){dataLayer.push(arguments);}\n gtag(\'js\', new Date());\n gtag(\'config\', \'G-P24FRG2HS5\');\n</script>\n<!-- End Telemetry -->\n\n</body>\n\n</html>\n')
+
+[https://18.138.160.152]
+
+[https://aiguo.yt86.vip]
+buy  pass
+email  vxqzfla372@gmail.com
+name  歪歪YY-The Best
+sub_url  https://yyds.ys80.vip/s/2df86f494bd1929206fc6d101e220c45
+time  2026-03-14 10:38:26.451095+08:00
+type  v2board
+获取订阅失败  (https://aiguo.yt86.vip/s/2df86f494bd1929206fc6d101e220c45): 403 Forbidden ''
+
+[http://aiguo.yt86.vip]
+api_host  aiguo.yt86.vip
+buy  pass
+email  iqpyclfv761@gmail.com
+name  歪歪YY-The Best
+sub_url  https://yyds.ys80.vip/s/eff3bb28e32473ed57d85bbff7a34d3a
+time  2026-03-14 10:38:26.733915+08:00
+type  v2board
+获取订阅失败  (https://aiguo.yt86.vip/s/eff3bb28e32473ed57d85bbff7a34d3a): 403 Forbidden ''
+
+[https://13.113.231.127]
+
+[https://103.149.46.163]
+
+[https://150.241.206.56]
+
+[https://104.168.87.29]
+
+[https://202.155.155.63]
+
+[https://vpn.k555.xyz]
+name  快连
+type  v2board
+更新订阅链接/续费续签失败  注册失败(kxashix484@gmail.com): 本站已关闭注册
+
+[http://vpn.k555.xyz]
+name  快连
+type  v2board
+更新订阅链接/续费续签失败  注册失败(aogbadg253@gmail.com): 本站已关闭注册
+
+[https://43.154.107.174]
+
+[http://92.118.228.46:9001]
+name  Board
+type  v2board
+更新订阅链接/续费续签失败  注册失败(tyyihtrd483@gmail.com): 'NoneType' object is not subscriptable
+
+[https://172.237.21.135]
+
+[https://47.76.232.163]
+
+[http://192.197.113.53:2053]
+buy  pass
+email  agoutrdx6@gmail.com
+sub_url  http://192.197.113.53:2053/api/v1/client/subscribe?token=8632b5143b4ed6adf6bebc377a3c93ba
+time  2026-03-14 10:38:29.953295+08:00
 type  v2board
 获取订阅失败  can only concatenate str (not "NoneType") to str
 
-[https://openai.com]
+[https://43.131.243.251]
 
-[https://packet32.qjty.buzz]
-name  曲径通幽 2.0
+[https://4.194.219.165]
+
+[https://154.17.12.198]
+
+[https://46.23.108.221]
+
+[https://sutengyun.top]
+name  速腾云
 type  v2board
-更新订阅链接/续费续签失败  注册失败(rvekxvq805@gmail.com): 'NoneType' object is not subscriptable
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
 
-[https://panda.xn--lbrx91akmhm30c.com]
+[https://154.219.98.200:9443]
 
-[https://pc.ctyun.cn]
+[https://38.246.73.198]
 
-[https://personal.dtcpay.com]
-name  DTC Wallet
+[https://89.34.227.182]
+
+[https://216.146.25.184]
+
+[http://156.233.226.114:7001]
+name  X2
 type  v2board
-更新订阅链接/续费续签失败  注册失败(ezdeccl368@gmail.com): {'header': {'errCode': '00005', 'errMsg': 'API connection failed', 'success': False}}
+更新订阅链接/续费续签失败  注册失败(ivkbdmc299@gmail.com): 'NoneType' object is not subscriptable
 
-[https://picjumbo.com]
+[https://154.37.221.244]
 
-[https://pjmp3.de]
+[https://66.154.107.174]
 
-[https://postimg.cc]
-
-[https://pro.xn--l9qyaz082a.cn]
-
-[https://proton.me]
-
-[https://proxypool.dmit.dpdns.org]
-
-[https://pythoncat.top]
-
-[https://qd1.8811334.xyz]
-
-[https://qq.xlm.plus]
-
-[https://qr.alipay.com]
-
-[https://r5t6.00890604.xyz]
-
-[https://rgergergergerg6555.saojc.xyz]
-
-[https://rktun.co]
-
-[https://roam.virginconnect.com]
-error  <string>:1 Unexpected "]" at column 3
-type  v2board
-更新订阅链接/续费续签失败  注册失败(holltwe685@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (404 Not Found '<script src="/_next/static/chunks/polyfills-42372ed130431b0a.js" noModule=""></script><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/d3f7d4a8e9a1dd52.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-741dea23ee64fb60.js"/><script src="/_next/static/chunks/22e67844-dc70975e13cae910.js" async=""></script><script src="/_next/static/chunks/3486-348af97333962c35.js" async=""></script><script src="/_next/static/chunks/main-app-980f6cb074491c59.js" async=""></script><meta name="next-size-adjust" content=""/><title>404: This page could not be found.</title><title>Virgin Connect Roam</title><link rel="manifest" href="/manifest.json"/><link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16"/><link rel="icon" href="/icon.png?c6cd0ae9e963ec1d" type="image/png" sizes="192x192"/><link rel="apple-touch-icon" href="/apple-icon.png?0094a8627f661bf7" type="image/png" sizes="180x180"/><script >document.querySelectorAll(\'body link[rel="icon"], body link[rel="apple-touch-icon"]\').forEach(el => document.head.appendChild(el))</script><div hidden=""><!--$--><!--/$--></div><div style="font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center"><div><style>body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}</style><h1 class="next-error-h1" style="display:inline-block;margin:0 20px 0 0;padding:0 23px 0 0;font-size:24px;font-weight:500;vertical-align:top;line-height:49px">404</h1><div style="display:inline-block"><h2 style="font-size:14px;font-weight:400;line-height:49px;margin:0">This page could not be found.</h2></div></div></div><!--$--><!--/$--><script src="/_next/static/chunks/webpack-741dea23ee64fb60.js" id="_R_" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:\\"$Sreact.fragment\\"\\n2:I[80593,[],\\"\\"]\\n3:I[85637,[],\\"\\"]\\n4:I[89700,[],\\"OutletBoundary\\"]\\n6:I[37341,[],\\"AsyncMetadataOutlet\\"]\\n8:I[89700,[],\\"ViewportBoundary\\"]\\na:I[89700,[],\\"MetadataBoundary\\"]\\nb:\\"$Sreact.suspense\\"\\nd:I[54627,[],\\"\\"]\\ne:I[2021,[],\\"IconMark\\"]\\n:HL[\\"/_next/static/css/d3f7d4a8e9a1dd52.css\\",\\"style\\"]\\n"])</script><script>self.__next_f.push([1,"0:{\\"P\\":null,\\"b\\":\\"i99kEeJ5Hxdjh7lGwR2cn\\",\\"p\\":\\"\\",\\"c\\":[\\"\\",\\"api\\",\\"v1\\",\\"passport\\",\\"auth\\",\\"register\\"],\\"i\\":false,\\"f\\":[[[\\"\\",{\\"children\\":[\\"/_not-found\\",{\\"children\\":[\\"__PAGE__\\",{}]}]},\\"$undefined\\",\\"$undefined\\",true],[\\"\\",[\\"$\\",\\"$1\\",\\"c\\",{\\"children\\":[[[\\"$\\",\\"link\\",\\"0\\",{\\"rel\\":\\"stylesheet\\",\\"href\\":\\"/_next/static/css/d3f7d4a8e9a1dd52.css\\",\\"precedence\\":\\"next\\",\\"crossOrigin\\":\\"$undefined\\",\\"nonce\\":\\"$undefined\\"}]],[\\"$\\",\\"$L2\\",null,{\\"parallelRouterKey\\":\\"children\\",\\"error\\":\\"$undefined\\",\\"errorStyles\\":\\"$undefined\\",\\"errorScripts\\":\\"$undefined\\",\\"template\\":[\\"$\\",\\"$L3\\",null,{}],\\"templateStyles\\":\\"$undefined\\",\\"templateScripts\\":\\"$undefined\\",\\"notFound\\":\\"$undefined\\",\\"forbidden\\":\\"$undefined\\",\\"unauthorized\\":\\"$undefined\\"}]]}],{\\"children\\":[\\"/_not-found\\",[\\"$\\",\\"$1\\",\\"c\\",{\\"children\\":[null,[\\"$\\",\\"$L2\\",null,{\\"parallelRouterKey\\":\\"children\\",\\"error\\":\\"$undefined\\",\\"errorStyles\\":\\"$undefined\\",\\"errorScripts\\":\\"$undefined\\",\\"template\\":[\\"$\\",\\"$L3\\",null,{}],\\"templateStyles\\":\\"$undefined\\",\\"templateScripts\\":\\"$undefined\\",\\"notFound\\":\\"$undefined\\",\\"forbidden\\":\\"$undefined\\",\\"unauthorized\\":\\"$undefined\\"}]]}],{\\"children\\":[\\"__PAGE__\\",[\\"$\\",\\"$1\\",\\"c\\",{\\"children\\":[[[\\"$\\",\\"title\\",null,{\\"children\\":\\"404: This page could not be found.\\"}],[\\"$\\",\\"div\\",null,{\\"style\\":{\\"fontFamily\\":\\"system-ui,\\\\\\"Segoe UI\\\\\\",Roboto,Helvetica,Arial,sans-serif,\\\\\\"Apple Color Emoji\\\\\\",\\\\\\"Segoe UI Emoji\\\\\\"\\",\\"height\\":\\"100vh\\",\\"textAlign\\":\\"center\\",\\"display\\":\\"flex\\",\\"flexDirection\\":\\"column\\",\\"alignItems\\":\\"center\\",\\"justifyContent\\":\\"center\\"},\\"children\\":[\\"$\\",\\"div\\",null,{\\"children\\":[[\\"$\\",\\"style\\",null,{\\"dangerouslySetInnerHTML\\":{\\"__html\\":\\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\\"}}],[\\"$\\",\\"h1\\",null,{\\"className\\":\\"next-error-h1\\",\\"style\\":{\\"display\\":\\"inline-block\\",\\"margin\\":\\"0 20px 0 0\\",\\"padding\\":\\"0 23px 0 0\\",\\"fontSize\\":24,\\"fontWeight\\":500,\\"verticalAlign\\":\\"top\\",\\"lineHeight\\":\\"49px\\"},\\"children\\":404}],[\\"$\\",\\"div\\",null,{\\"style\\":{\\"display\\":\\"inline-block\\"},\\"children\\":[\\"$\\",\\"h2\\",null,{\\"style\\":{\\"fontSize\\":14,\\"fontWeight\\":400,\\"lineHeight\\":\\"49px\\",\\"margin\\":0},\\"children\\":\\"This page could not be found.\\"}]}]]}]}]],null,[\\"$\\",\\"$L4\\",null,{\\"children\\":[\\"$L5\\",[\\"$\\",\\"$L6\\",null,{\\"promise\\":\\"$@7\\"}]]}]]}],{},null,false]},null,false]},null,false],[\\"$\\",\\"$1\\",\\"h\\",{\\"children\\":[null,[[\\"$\\",\\"$L8\\",null,{\\"children\\":\\"$L9\\"}],[\\"$\\",\\"meta\\",null,{\\"name\\":\\"next-size-adjust\\",\\"content\\":\\"\\"}]],[\\"$\\",\\"$La\\",null,{\\"children\\":[\\"$\\",\\"div\\",null,{\\"hidden\\":true,\\"children\\":[\\"$\\",\\"$b\\",null,{\\"fallback\\":null,\\"children\\":\\"$Lc\\"}]}]}]]}],false]],\\"m\\":\\"$undefined\\",\\"G\\":[\\"$d\\",[]],\\"s\\":false,\\"S\\":false}\\n"])</script><script>self.__next_f.push([1,"9:[[\\"$\\",\\"meta\\",\\"0\\",{\\"charSet\\":\\"utf-8\\"}],[\\"$\\",\\"meta\\",\\"1\\",{\\"name\\":\\"viewport\\",\\"content\\":\\"width=device-width, initial-scale=1\\"}]]\\n5:null\\n7:{\\"metadata\\":[[\\"$\\",\\"title\\",\\"0\\",{\\"children\\":\\"Virgin Connect Roam\\"}],[\\"$\\",\\"link\\",\\"1\\",{\\"rel\\":\\"manifest\\",\\"href\\":\\"/manifest.json\\",\\"crossOrigin\\":\\"$undefined\\"}],[\\"$\\",\\"link\\",\\"2\\",{\\"rel\\":\\"icon\\",\\"href\\":\\"/favicon.ico\\",\\"type\\":\\"image/x-icon\\",\\"sizes\\":\\"16x16\\"}],[\\"$\\",\\"link\\",\\"3\\",{\\"rel\\":\\"icon\\",\\"href\\":\\"/icon.png?c6cd0ae9e963ec1d\\",\\"type\\":\\"image/png\\",\\"sizes\\":\\"192x192\\"}],[\\"$\\",\\"link\\",\\"4\\",{\\"rel\\":\\"apple-touch-icon\\",\\"href\\":\\"/apple-icon.png?0094a8627f661bf7\\",\\"type\\":\\"image/png\\",\\"sizes\\":\\"180x180\\"}],[\\"$\\",\\"$Le\\",\\"5\\",{}]],\\"error\\":null,\\"digest\\":\\"$undefined\\"}\\nc:\\"$7:metadata\\"\\n"])</script></body></html>')
-
-[https://rrrrrrrrrrrghhh.857657.xyz]
-
-[https://rss202407.mugua-sub.com]
-
-[https://s.meiall.xyz]
-
-[https://s1.trojanflare.one]
-
-[https://service-69kfaex1-1312645837.bj.apigw.tencentcs.com]
-
-[https://service-6l9168iy-1312645837.gz.apigw.tencentcs.com]
-
-[https://service-avmn443l-1312645837.sh.apigw.tencentcs.com]
-
-[https://service-bmp1m9zg-1312645837.nj.apigw.tencentcs.com]
-
-[https://service-fy4hli0a-1312645837.nj.apigw.tencentcs.com]
-
-[https://service-p0v9tp46-1312645837.gz.apigw.tencentcs.com]
-
-[https://sg1.freevpn724.com]
-
-[https://shop.88hy.top]
-
-[https://shz.al]
-
-[https://simpleyun.top]
-
-[https://singlinkvpn.com]
-
-[https://smu.cc.cd]
-
-[https://sni.111000.dynv6.net]
-
-[https://spflyfish.top]
-
-[https://ss.ejejje.com]
-
-[https://store.lizhi.io]
-api_host  lizhi.shop
-auth_path  user
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(tdivxwe724@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (302 Found '')
-
-[https://sub-1.rsjc.xyz]
-
-[https://sub.bestbestbest.sbs]
-
-[https://sub.cucloud.top]
-
-[https://sub.derrick.us.kg]
-
-[https://sub.mogufan.com]
-
-[https://sub.sanfen018.xyz]
-
-[https://sub.scpnb.top]
-
-[https://sub.xn--4gq62ffxz.net]
-
-[https://sub.xn--4gqp1u.com]
-
-[https://sub.xn--ioru3fc2t1hb.com]
-
-[https://sub.xn--mes358awwugpa.com]
-
-[https://sub.yunzoa.com]
-
-[https://sub1.127665.xyz]
-
-[https://sub1.liangxinjichang.com]
-
-[https://sub123.71345.xyz]
-
-[https://sub2.127665.xyz]
-
-[https://sub2.91qaq.lol]
-
-[https://sub3.7878787878.top]
-error  <string>:2 Unexpected " " at column 18
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(yrwgznim822@linshiyou.com): {'message': '邮箱后缀不处于白名单中'}
-
-[https://sub3.smallstrawberry.com]
-
-[https://sub4.download-hiccup.xyz]
-
-[https://subs.younger.eu.org]
-
-[https://subscribe002.awsy.top]
-error  <string>:2 Unexpected "a" at column 7
-type  v2board
-更新订阅链接/续费续签失败  注册失败(jtkwpprn15@gmail.com): 'NoneType' object is not subscriptable
-
-[https://subsub.surge.sh]
-
-[https://sun1.sunbirds.top]
-
-[https://super.jack991.filegear-sg.me]
-
-[https://superbiu.com]
-
-[https://tc.qy1357.top]
-
-[https://techcrunch.com]
-
-[https://telega.io]
-
-[https://telegra.ph]
-name  Telegraph
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(imorfvwb271@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (200 OK '<!DOCTYPE html>\n<html>\n <head>\n <meta charset="utf-8">\n <title>Telegraph</title>\n <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />\n <meta name="format-detection" content="telephone=no" />\n <meta http-equiv="X-UA-Compatible" content="IE=edge" />\n <meta name="MobileOptimized" content="176" />\n <meta name="HandheldFriendly" content="True" />\n <meta name="robots" content="noindex, nofollow" />\n <link href="/css/core.min.css?47" rel="stylesheet">\n </head>\n <body>\n <div class="tl_page_wrap">\n <div class="tl_page">\n <main class="tl_message">\n <section>Access denied</section>\n </main>\n </div>\n </div>\n </body>\n</html>')
-
-[https://telegram.me]
-error  'NoneType' object has no attribute 'text'
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(wusqdckxc110@gmail.com): {'ok': True}
-
-[https://testflight.apple.com]
-
-[https://tg.apocalypse.cc.cd]
-
-[https://tiamocloud.us.kg]
-
-[https://tkbaohe.com]
-
-[https://trumpyun.com]
-name  特朗普云
-type  v2board
-更新订阅链接/续费续签失败  注册失败(awimhgg553@gmail.com): 'NoneType' object is not subscriptable
-
-[https://tuboshu.xyz]
-
-[https://u.jd.com]
-auth_path  user
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(tumyietdm413@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (302 Found '')
-
-[https://update.glados-config.com]
-
-[https://uploadb.me]
-
-[https://url.cy]
-
-[https://us1.freevpn724.com]
-
-[https://userpanelside.nuomi.info]
-
-[https://vvbghy.huangshang.online]
-
-[https://wde.333756.xyz]
-
-[https://wde.ae1autumn.cc.cd]
-
-[https://web.xn--gwt061a.top]
-
-[https://weekly.pythoncat.top]
-
-[https://weekly.tw93.fun]
-
-[https://weibo.com]
-
-[https://wispbyte.com]
-
-[https://wws.s2fjeyeeyafe.bond]
-
-[https://www.201593.xyz]
-
-[https://www.360vpn.org]
-
-[https://www.aibase.com]
-name  Sign In - AIBase
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(qsiwbwclc194@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (404 Not Found '<!DOCTYPE html><html data-capo=""><head><meta charset="utf-8">\n<meta name="viewport" content="width=device-width,initial-scale=1">\n<link rel="stylesheet" href="https://csstools.aibase.com/iconfont/iconfont.css">\n<link rel="stylesheet" href="/_nuxt/entry.DNDt0kNn.css" crossorigin>\n<link rel="stylesheet" href="/_nuxt/NewHeader.CDxX5m3J.css" crossorigin>\n<link rel="modulepreload" as="script" crossorigin href="/_nuxt/BaSydcc-.js">\n<link rel="modulepreload" as="script" crossorigin href="/_nuxt/VRchf8yJ.js">\n<link rel="modulepreload" as="script" crossorigin href="/_nuxt/Cd1nFZ2h.js">\n<link rel="modulepreload" as="script" crossorigin href="/_nuxt/Cph-4Cup.js">\n<link rel="modulepreload" as="script" crossorigin href="/_nuxt/CfuOGt9g.js">\n<link rel="modulepreload" as="script" crossorigin href="/_nuxt/CPW2leJR.js">\n<link rel="modulepreload" as="script" crossorigin href="/_nuxt/OBB0WZBI.js">\n<link rel="prefetch" as="image" type="image/jpeg" href="/_nuxt/bigBg.LP-pnBku.jpg">\n<link rel="prefetch" as="image" type="image/jpeg" href="/_nuxt/Mobile1000.wFrcSM6R.jpg">\n<link rel="prefetch" as="image" type="image/jpeg" href="/_nuxt/detail3200.XNAzJjN3.jpg">\n<link rel="prefetch" as="image" type="image/png" href="/_nuxt/sassbg_2x.B9qSiy_I.png">\n<link rel="prefetch" as="script" crossorigin href="/_nuxt/BiQqFiFA.js">\n<link rel="prefetch" as="script" crossorigin href="/_nuxt/CPk8OkQD.js">\n<link rel="prefetch" as="script" crossorigin href="/_nuxt/jKWvyis9.js">\n<link rel="prefetch" as="script" crossorigin href="/_nuxt/DCsajvtF.js">\n<link rel="prefetch" as="script" crossorigin href="/_nuxt/CsBse-Go.js">\n<link rel="prefetch" as="image" type="image/png" href="/_nuxt/userlogo.q1jFctRw.png">\n<meta name="format-detection" content="telephone=no">\n<meta name="renderer" content="webkit">\n<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">\n<link rel="icon" href="/favicon.ico" sizes="any">\n<link rel="apple-touch-icon" href="/apple-touch-icon.png">\n<script>var _hmt = _hmt || [];\n (function() {\n var hm = document.createElement("script");\n hm.src = "https://hm.baidu.com/hm.js?20171d7bc84390037a47470dd0e59957";\n var s = document.getElementsByTagName("script")[0]; \n s.parentNode.insertBefore(hm, s);\n })();</script>\n<script>\n(function() {\n var hm = document.createElement("script");\n hm.src = "https://www.googletagmanager.com/gtag/js?id=G-4450FQZ54K";\n hm.async = true;\n var s = document.getElementsByTagName("script")[0];\n s.parentNode.insertBefore(hm, s);\n window.dataLayer = window.dataLayer || [];\n})();</script>\n<script>window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag(\'js\', new Date());\ngtag(\'config\', \'G-4450FQZ54K\');</script>\n<script>(function(c,l,a,r,i,t,y){\n c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};\n t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;\n y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);\n })(window, document, "clarity", "script", "kq7u45ainz");</script>\n<script type="module" src="/_nuxt/BaSydcc-.js" crossorigin></script>\n<link rel="preload" as="fetch" fetchpriority="low" crossorigin="anonymous" href="/_nuxt/builds/meta/4e3f5363-3dea-45b2-ba3a-6daa73ae2846.json"><script>"use strict";(()=>{const t=window,e=document.documentElement,c=["dark","light"],n=getStorageValue("localStorage","nuxt-color-mode")||"light";let i=n==="system"?u():n;const r=e.getAttribute("data-color-mode-forced");r&&(i=r),l(i),t["__NUXT_COLOR_MODE__"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=""+o+"",a="";e.classList?e.classList.add(s):e.className+=" "+s,a&&e.setAttribute("data-"+a,o)}function d(o){const s=""+o+"",a="";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,"g"),""),a&&e.removeAttribute("data-"+a)}function f(o){return t.matchMedia("(prefers-color-scheme"+o+")")}function u(){if(t.matchMedia&&f("").media!=="not all"){for(const o of c)if(f(":"+o).matches)return o}return"light"}})();function getStorageValue(t,e){switch(t){case"localStorage":return window.localStorage.getItem(e);case"sessionStorage":return window.sessionStorage.getItem(e);case"cookie":return getCookie(e);default:return null}}function getCookie(t){const c=("; "+window.document.cookie).split("; "+t+"=");if(c.length===2)return c.pop()?.split(";").shift()}</script></head><body><div id="__nuxt"><main class="min-h-[100%] w-auto relative"><div class="w-full md:min-w-[1400px] overflow-auto"><header class="header fixed" data-v-6dae6635 data-v-3d2290a7><!--[--><div class="nav-container commContainer" data-v-3d2290a7><div class="nav-left" data-v-3d2290a7><div class="logo-section" data-v-3d2290a7><!--[--><a href="https://www.aibase.com" class="logo-link" data-v-3d2290a7><img src="data:image/svg+xml,%3c?xml%20version=&#39;1.0&#39;%20encoding=&#39;UTF-8&#39;?%3e%3csvg%20id=&#39;_图层_1&#39;%20data-name=&#39;图层_1&#39;%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20version=&#39;1.1&#39;%20viewBox=&#39;0%200%2095%2024&#39;%3e%3c!--%20Generator:%20Adobe%20Illustrator%2029.2.1,%20SVG%20Export%20Plug-In%20.%20SVG%20Version:%202.1.0%20Build%20116)%20--%3e%3cdefs%3e%3cstyle%3e%20.st0%20{%20fill:%20%23061b40;%20}%20.st1%20{%20fill:%20%23306af1;%20}%20.st2%20{%20fill:%20%235ce5cf;%20}%20%3c/style%3e%3c/defs%3e%3cg%3e%3cpath%20class=&#39;st0&#39;%20d=&#39;M55,10.5h9v3h-9v9h12V7.5h-12v3ZM64,19.5h-6v-3h6v3Z&#39;/%3e%3cpolygon%20class=&#39;st0&#39;%20points=&#39;69%2016.5%2078%2016.5%2078%2019.5%2069%2019.5%2069%2022.5%2081%2022.5%2081%2013.5%2072%2013.5%2072%2010.5%2081%2010.5%2081%207.5%2069%207.5%2069%2016.5&#39;/%3e%3cpolygon%20class=&#39;st0&#39;%20points=&#39;95%2010.5%2095%207.5%2083%207.5%2083%2022.5%2095%2022.5%2095%2019.5%2086%2019.5%2086%2016.5%2095%2016.5%2095%2013.5%2086%2013.5%2086%2010.5%2095%2010.5&#39;/%3e%3cpath%20class=&#39;st0&#39;%20d=&#39;M40,1.5v21h11.6l1.4-1.4v-7.6h0c0,0-1.4-1.5-1.4-1.5l1.4-1.4V2.9l-1.4-1.4h-11.6ZM50,19.5h-7v-6h7v6ZM50,10.5h-7v-6h7v6Z&#39;/%3e%3c/g%3e%3cpath%20class=&#39;st1&#39;%20d=&#39;M23.1,24L14.7,4.8l-4.9,11.2h3.8l-1.8,4H3.3L12.1,0H2C.9,0,0,.9,0,2v20c0,1.1.9,2,2,2h21.1Z&#39;/%3e%3cpath%20class=&#39;st2&#39;%20d=&#39;M34,0h-16.8l10.6,24h6.2c1.1,0,2-.9,2-2V2C36,.9,35.1,0,34,0ZM32.5,20h-4V4h4v16Z&#39;/%3e%3c/svg%3e" alt="AIBase" class="logo-default" data-v-3d2290a7></a><!--]--></div><div class="desktop-menu" data-v-3d2290a7><nav class="nav-menu" data-v-3d2290a7><!--[--><div class="nav-menu-item" data-v-b42d373a data-v-3d2290a7><a href="//www.aibase.com" class="menu-link menu-trigger" data-v-b42d373a>Home</a><!----></div><div class="nav-menu-item" data-v-b42d373a data-v-3d2290a7><a href="//news.aibase.com" class="menu-link menu-trigger" data-v-b42d373a><span data-v-b42d373a>AI NEWS</span><i class="iconfont icon-xia1 dropdown-icon" data-v-b42d373a></i></a><!----></div><div class="nav-menu-item" data-v-b42d373a data-v-3d2290a7><a href="//app.aibase.com" class="menu-link menu-trigger" data-v-b42d373a><span data-v-b42d373a>AI Tools</span><i class="iconfont icon-xia1 dropdown-icon" data-v-b42d373a></i></a><!----></div><div class="nav-menu-item" data-v-b42d373a data-v-3d2290a7><a href="//model.aibase.com" class="menu-link menu-trigger" data-v-b42d373a><span data-v-b42d373a>AI Models</span><i class="iconfont icon-xia1 dropdown-icon" data-v-b42d373a></i></a><!----></div><div class="nav-menu-item" data-v-b42d373a data-v-3d2290a7><a href="//mcp.aibase.com" class="menu-link menu-trigger" data-v-b42d373a><span data-v-b42d373a>MCP</span><i class="iconfont icon-xia1 dropdown-icon" data-v-b42d373a></i></a><!----></div><div class="nav-menu-item" data-v-b42d373a data-v-3d2290a7><a href class="menu-link menu-trigger" data-v-b42d373a><span data-v-b42d373a>AI Services</span><i class="iconfont icon-xia1 dropdown-icon" data-v-b42d373a></i></a><!----></div><div class="nav-menu-item" data-v-b42d373a data-v-3d2290a7><a href class="menu-link menu-trigger" data-v-b42d373a><span data-v-b42d373a>AI Compute</span><i class="iconfont icon-xia1 dropdown-icon" data-v-b42d373a></i></a><!----></div><div class="nav-menu-item" data-v-b42d373a data-v-3d2290a7><a href="//course.aibase.com" class="menu-link menu-trigger" data-v-b42d373a>AI Tutorial</a><!----></div><!--]--></nav></div></div><div class="nav-right" data-v-3d2290a7><!--[--><div class="flex"><div class="md:hidden"><div class="mobile-search-container" data-v-996d21c7><button class="search-trigger-button" data-v-996d21c7><i class="iconfont icon-sousuo1 trigger-icon" data-v-996d21c7></i></button><!----></div></div><div class="hidden md:block"><div class="expandable-search-container" data-v-a83a61cd><div class="search-input-wrapper" data-v-a83a61cd><button class="search-button" data-v-a83a61cd><i class="iconfont icon-sousuo1 search-icon" data-v-a83a61cd></i></button><input type="text" placeholder="Search" class="search-input" value data-v-a83a61cd><!----></div></div></div></div><!--]--><div class="desktop-language" data-v-3d2290a7><!--[--><div class="relative mb-[32px] md:mb-[0]" data-v-80fd35d2><div class="flex items-center gap-[4px] text-[14px] leading-[22px] h-[24px] cursor-pointer mainColor" data-v-80fd35d2><i class="iconfont icon-yuyan md:text-[16px] text-[24px]" data-v-80fd35d2></i><div class="font-bold md:font-normal text-[18px] leading-[28px] md:text-[14px] md:leading-[22px]" data-v-80fd35d2>EN</div><i class="iconfont icon-xia md:text-[12px] text-[16px] tipColor" data-v-80fd35d2></i></div><!----><!----></div><!--]--></div><div class="desktop-user" data-v-3d2290a7><!--[--><span></span><!--]--></div><div class="mobile-menu-button" data-v-3d2290a7><div class="modal-wrapper" data-v-56e8e3c1 data-v-3d2290a7><div style="visibility:visible;" data-v-56e8e3c1><!--[--><!--[--><div class="mobile-trigger-default" data-v-3d2290a7><i class="iconfont icon-gengduo" data-v-3d2290a7></i></div><!--]--><!--]--></div><!----></div></div></div></div><!--]--></header><div class="md:pt-[56px] pt-[50px] md:min-w-[1400px] min-h-[calc(100vh-361px)]"><!--[--><div class="flex flex-col justify-center items-center p-4 min-h-[80vh] text-center bg-gray-100"><h1 class="mb-4 text-4xl text-red-600 font600">404</h1><p class="mb-6 text-xl text-gray-700">Sorry, the page you visited does not exist</p><!----><a href="/" class="block mx-auto w-[150px] leading-[36px] bg-blue-500 text-white rounded-md">Return to Home</a></div><!--]--></div><div id="Foot-box" class="relative bottom-0 w-full"><div class="w-full bg-white Foot border-t-[1px] border-t-[#ebedf0] border-t-solid"><div class="commContainer mx-auto pt-[32px] pb-[28px] md:flex flex-col justify-between"><div class="flex-1 md:flex items-start md:justify-between 2xl:gap-[160px] xl:gap-[80px] lg:gap-[20px]"><div class="flex flex-col items-start justify-center md:justify-start md:mb-0 mb-[24px] flex-1"><div class="flex items-center justify-between gap-[16px] flex flex-col md:flex-row w-full"><img src="data:image/svg+xml,%3c?xml%20version=&#39;1.0&#39;%20encoding=&#39;UTF-8&#39;?%3e%3csvg%20id=&#39;_图层_1&#39;%20data-name=&#39;图层_1&#39;%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20version=&#39;1.1&#39;%20viewBox=&#39;0%200%2095%2024&#39;%3e%3c!--%20Generator:%20Adobe%20Illustrator%2029.2.1,%20SVG%20Export%20Plug-In%20.%20SVG%20Version:%202.1.0%20Build%20116)%20--%3e%3cdefs%3e%3cstyle%3e%20.st0%20{%20fill:%20%23061b40;%20}%20.st1%20{%20fill:%20%23306af1;%20}%20.st2%20{%20fill:%20%235ce5cf;%20}%20%3c/style%3e%3c/defs%3e%3cg%3e%3cpath%20class=&#39;st0&#39;%20d=&#39;M55,10.5h9v3h-9v9h12V7.5h-12v3ZM64,19.5h-6v-3h6v3Z&#39;/%3e%3cpolygon%20class=&#39;st0&#39;%20points=&#39;69%2016.5%2078%2016.5%2078%2019.5%2069%2019.5%2069%2022.5%2081%2022.5%2081%2013.5%2072%2013.5%2072%2010.5%2081%2010.5%2081%207.5%2069%207.5%2069%2016.5&#39;/%3e%3cpolygon%20class=&#39;st0&#39;%20points=&#39;95%2010.5%2095%207.5%2083%207.5%2083%2022.5%2095%2022.5%2095%2019.5%2086%2019.5%2086%2016.5%2095%2016.5%2095%2013.5%2086%2013.5%2086%2010.5%2095%2010.5&#39;/%3e%3cpath%20class=&#39;st0&#39;%20d=&#39;M40,1.5v21h11.6l1.4-1.4v-7.6h0c0,0-1.4-1.5-1.4-1.5l1.4-1.4V2.9l-1.4-1.4h-11.6ZM50,19.5h-7v-6h7v6ZM50,10.5h-7v-6h7v6Z&#39;/%3e%3c/g%3e%3cpath%20class=&#39;st1&#39;%20d=&#39;M23.1,24L14.7,4.8l-4.9,11.2h3.8l-1.8,4H3.3L12.1,0H2C.9,0,0,.9,0,2v20c0,1.1.9,2,2,2h21.1Z&#39;/%3e%3cpath%20class=&#39;st2&#39;%20d=&#39;M34,0h-16.8l10.6,24h6.2c1.1,0,2-.9,2-2V2C36,.9,35.1,0,34,0ZM32.5,20h-4V4h4v16Z&#39;/%3e%3c/svg%3e" alt="AIBase" class="h-[24px]" loading="lazy"></div><div class="mainColor text-[14px] leading-[22px] mt-[12px]">Empowering the future, your artificial intelligence solution think tank</div><div class="flex items-center gap-[40px] mt-[24px] leading-[22px]"><!--[--><a href="/" class="activeHover" locale="en">English</a><a href="https://www.aibase.cn" rel="noopener noreferrer" class="activeHover" locale="zh">简体中文</a><a href="/tw" class="activeHover" locale="tw">繁體中文</a><a href="/ja" class="activeHover" locale="ja">にほんご</a><!--]--></div></div></div><!--[--><div class="mt-[24px] tipColor flex items-center gap-[16px] flex-wrap"><div class="">FirendLinks:</div><!--[--><a target="_blank" href="https://news.aibase.com/daily">AI Newsletters </a><a target="_blank" href="https://ai.chinaz.com">AI Tools</a><a target="_blank" href="https://mcp.aibase.com/">MCP Servers</a><a target="_blank" href="https://news.aibase.com/news">AI News</a><a target="_blank" href="https://x.com/AIbasecom">AIBase</a><a target="_blank" href="https://model.aibase.com/">LLM Leaderboard</a><a target="_blank" href="https://app.aibase.com/">AI Ranking</a><!--]--></div><!--]--><div class="borderTop my-[36px]"></div><div class="tipColor text-[14px] flex gap-[12px] flex-col md:flex-row items-center leading-[24px] justify-between"><div class="flex gap-[12px] justify-start"><span class="text-nowrap">© 2026</span><span>AIBase</span><!----></div><div class="flex gap-x-[40px] gap-y-[16px] items-center flex-wrap"><!--[--><a target="_blank" href="https://www.aibase.com/partnership">Business Cooperation</a><a target="_blank" href="https://app.aibase.com/xml/sitemap.xml">Site Map</a><!--]--></div></div></div></div></div></div></main></div><div id="teleports"></div><script type="application/json" data-nuxt-data="nuxt-app" data-ssr="true" id="__NUXT_DATA__">[["ShallowReactive",1],{"error":2,"data":8,"state":47,"once":282,"_errors":283,"serverRendered":52,"path":3,"pinia":285},["null","url",3,"statusCode",4,"statusMessage",5,"message",6,"stack",7],"/auth/register",404,"Not Found","Sorry, the page you visited does not exist","",["ShallowReactive",9],{"friendLinks-apis":10},{"friendLinksData":11},{"domainType":12,"friendLinks":13,"langType":46},"2",[14],{"data":15,"moduleName":44,"moduleSort":45,"templateKey":41,"templateNum":42,"type":42},[16],{"data":17,"moduleName":39,"moduleSort":40,"templateKey":41,"templateNum":42,"type":43},[18,21,24,27,30,33,36],{"jumpUrl":19,"text":20},"https://news.aibase.com/daily","AI Newsletters ",{"jumpUrl":22,"text":23},"https://ai.chinaz.com","AI Tools",{"jumpUrl":25,"text":26},"https://mcp.aibase.com/","MCP Servers",{"jumpUrl":28,"text":29},"https://news.aibase.com/news","AI News",{"jumpUrl":31,"text":32},"https://x.com/AIbasecom","AIBase",{"jumpUrl":34,"text":35},"https://model.aibase.com/","LLM Leaderboard",{"jumpUrl":37,"text":38},"https://app.aibase.com/","AI Ranking","友情链接",0,"friendLinks",1,5,"FirendLinks",-1,"en",["Reactive",48],{"$snuxt-i18n-meta":49,"$scolor-mode":50,"$snavigation-menu-en-2":54},{},{"preference":51,"value":51,"unknown":52,"forced":53},"light",true,false,[55,61,82,118,164,215,260,277],{"menuName":56,"menuOtherName":57,"menuDescription":58,"menuUrl":59,"menuIcon":7,"menuType":42,"sort":42,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":60},"Home",null,"Homepage, AI services overview","//www.aibase.com",[],{"menuName":62,"menuOtherName":57,"menuDescription":63,"menuUrl":64,"menuIcon":7,"menuType":42,"sort":65,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":66},"AI NEWS","AI industry news and trend analysis platform","//news.aibase.com",2,[67],{"menuName":68,"menuOtherName":57,"menuDescription":57,"menuUrl":7,"menuIcon":57,"menuType":42,"sort":42,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":69},"Information",[70,76],{"menuName":71,"menuOtherName":57,"menuDescription":72,"menuUrl":73,"menuIcon":74,"menuType":65,"sort":42,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":75},"Latest AI News","Explore AI Frontiers, Master Industry Trends","//news.aibase.com/news","icon-xinwen",[],{"menuName":77,"menuOtherName":57,"menuDescription":78,"menuUrl":79,"menuIcon":80,"menuType":65,"sort":65,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":81},"AI Daily Brief","Your Daily AI Brief - Never Miss What\'s Next","//news.aibase.com/daily","icon-shijian3",[],{"menuName":23,"menuOtherName":57,"menuDescription":83,"menuUrl":84,"menuIcon":7,"menuType":42,"sort":85,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":86},"AI product one-stop service platform","//app.aibase.com",3,[87,108],{"menuName":68,"menuOtherName":57,"menuDescription":88,"menuUrl":7,"menuIcon":7,"menuType":42,"sort":42,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":89},"AI product information and resource center",[90,96,102],{"menuName":91,"menuOtherName":57,"menuDescription":92,"menuUrl":93,"menuIcon":94,"menuType":65,"sort":42,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":95},"AI Product Finder","Smart Product Discovery - Comprehensive Market Intelligence","//app.aibase.com/discover","icon-jiqiren1",[],{"menuName":97,"menuOtherName":57,"menuDescription":98,"menuUrl":99,"menuIcon":100,"menuType":65,"sort":65,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":101},"AI Product Rankings","AI Product Power Rankings - Performance, Buzz & Trends","//app.aibase.com/best-ai-tools/","icon-bangdan3",[],{"menuName":103,"menuOtherName":57,"menuDescription":104,"menuUrl":105,"menuIcon":106,"menuType":65,"sort":85,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":107},"AI Product Submit","Submit Your AI Product - Amplify Reach & Drive Growth","//app.aibase.com/submission","icon-shangchuan1",[],{"menuName":109,"menuOtherName":57,"menuDescription":110,"menuUrl":57,"menuIcon":7,"menuType":42,"sort":65,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":111},"Tools","AI product practical tools",[112],{"menuName":113,"menuOtherName":57,"menuDescription":114,"menuUrl":115,"menuIcon":116,"menuType":65,"sort":42,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":117},"AI Tools Directory","Discover The Best AI Websites & Tools","//app.aibase.com/tools","icon-daohangye",[],{"menuName":119,"menuOtherName":57,"menuDescription":120,"menuUrl":121,"menuIcon":7,"menuType":42,"sort":122,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":123},"AI Models","AI model one-stop service platform","//model.aibase.com",4,[124,143],{"menuName":68,"menuOtherName":57,"menuDescription":125,"menuUrl":57,"menuIcon":7,"menuType":42,"sort":42,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":126},"Model information and resource center",[127,133,137],{"menuName":128,"menuOtherName":57,"menuDescription":129,"menuUrl":130,"menuIcon":131,"menuType":65,"sort":42,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":132},"AI Models Finder","Comprehensive AI Models Collection for All Your Development & Research Needs","//model.aibase.com/llm","icon-duomoxing",[],{"menuName":35,"menuOtherName":57,"menuDescription":134,"menuUrl":135,"menuIcon":100,"menuType":65,"sort":65,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":136},"AI LLM Power Rankings - Performance, Buzz & Trends","//model.aibase.com/leaderboard/text-generation",[],{"menuName":138,"menuOtherName":57,"menuDescription":139,"menuUrl":140,"menuIcon":141,"menuType":65,"sort":85,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":142},"Model Providers","Discover Trusted AI Model Partners - Guaranteed Reliable Support","//model.aibase.com/providers","icon-gongyingshang",[],{"menuName":109,"menuOtherName":57,"menuDescription":144,"menuUrl":57,"menuIcon":7,"menuType":42,"sort":65,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":145},"AI model practical tools",[146,152,158],{"menuName":147,"menuOtherName":57,"menuDescription":148,"menuUrl":149,"menuIcon":150,"menuType":65,"sort":42,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":151},"Compare LLMs","Multi-Dimensional Large Model Comparison - Find Your Perfect Match","//model.aibase.com/compare","icon-duibi",[],{"menuName":153,"menuOtherName":57,"menuDescription":154,"menuUrl":155,"menuIcon":156,"menuType":65,"sort":65,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":157},"LLM Cost Calculator","Calculate AI Model Costs Accurately - Optimize Your Budget","//model.aibase.com/calculator","icon-jisuanqi",[],{"menuName":159,"menuOtherName":57,"menuDescription":160,"menuUrl":161,"menuIcon":162,"menuType":65,"sort":85,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":163},"LLM Arena","Multi-Model Real-Time Evaluation & Quick Output Comparison","//model.aibase.com/arena","icon-VS",[],{"menuName":165,"menuOtherName":57,"menuDescription":166,"menuUrl":167,"menuIcon":7,"menuType":42,"sort":43,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":168},"MCP","MCP service one-stop platform","//mcp.aibase.com",[169,200],{"menuName":68,"menuOtherName":57,"menuDescription":170,"menuUrl":57,"menuIcon":7,"menuType":42,"sort":42,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":171},"MCP service information and resource center",[172,177,183,189,195],{"menuName":26,"menuOtherName":57,"menuDescription":173,"menuUrl":174,"menuIcon":175,"menuType":65,"sort":42,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":176},"Discover Popular AI-MCP Services - Find Your Perfect Match Instantly","//mcp.aibase.com/explore","icon-fuwuqi",[],{"menuName":178,"menuOtherName":57,"menuDescription":179,"menuUrl":180,"menuIcon":181,"menuType":65,"sort":65,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":182},"MCP Client","Easy MCP Client Integration - Access Powerful AI Capabilities","//mcp.aibase.com/client","icon-zhuomian",[],{"menuName":184,"menuOtherName":57,"menuDescription":185,"menuUrl":186,"menuIcon":187,"menuType":65,"sort":85,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":188},"MCP Case Tutorials","Master MCP Usage - From Beginner to Expert","//mcp.aibase.com/server/doc","icon-gonglve",[],{"menuName":190,"menuOtherName":57,"menuDescription":191,"menuUrl":192,"menuIcon":193,"menuType":65,"sort":122,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":194},"MCP Ranking","Top MCP Service Performance Rankings - Find Your Best Choice","//mcp.aibase.com/ranking","icon-bangdan1",[],{"menuName":196,"menuOtherName":57,"menuDescription":197,"menuUrl":198,"menuIcon":106,"menuType":65,"sort":43,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":199},"MCP Service Submission","Publish & Promote Your MCP Services","//mcp.aibase.com/submit",[],{"menuName":109,"menuOtherName":57,"menuDescription":201,"menuUrl":57,"menuIcon":7,"menuType":42,"sort":65,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":202},"MCP service practical tools",[203,209],{"menuName":204,"menuOtherName":57,"menuDescription":205,"menuUrl":206,"menuIcon":207,"menuType":65,"sort":42,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":208},"MCP Playground","Test MCP Services Freely - Quick Online Experience","//mcp.aibase.com/playground","icon-huojian",[],{"menuName":210,"menuOtherName":57,"menuDescription":211,"menuUrl":212,"menuIcon":213,"menuType":65,"sort":65,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":214},"MCP Inspector","Quick MCP Service Testing - Fast Deployment","//mcp.aibase.com/inspector","icon-daima",[],{"menuName":216,"menuOtherName":57,"menuDescription":57,"menuUrl":7,"menuIcon":7,"menuType":42,"sort":217,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":218},"AI Services",6,[219,246],{"menuName":109,"menuOtherName":57,"menuDescription":57,"menuUrl":7,"menuIcon":7,"menuType":42,"sort":42,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":220},[221,228,234,240],{"menuName":222,"menuOtherName":57,"menuDescription":223,"menuUrl":224,"menuIcon":225,"menuType":65,"sort":42,"status":42,"menuStatusImg":226,"urlSupportsMultiLanguage":65,"children":227},"GEO Brand Visibility","All-in-One GEO Brand Insights Platform","//geo.aibase.com","icon-shujujiankong","hot.svg",[],{"menuName":229,"menuOtherName":57,"menuDescription":230,"menuUrl":231,"menuIcon":232,"menuType":65,"sort":42,"status":42,"menuStatusImg":7,"urlSupportsMultiLanguage":42,"children":233},"AI Brand Monitoring Tool","Analyze & Track How AI Models Cite Your Brand","//app.aibase.com/tools/trackers","icon-wendangshibie",[],{"menuName":235,"menuOtherName":57,"menuDescription":236,"menuUrl":237,"menuIcon":238,"menuType":65,"sort":65,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":239},"AI Search Visibility Checker","Detect brand\'s visibility on AI platforms","//app.aibase.com/tools/geo","icon-shuju",[],{"menuName":241,"menuOtherName":57,"menuDescription":242,"menuUrl":243,"menuIcon":244,"menuType":65,"sort":85,"status":42,"menuStatusImg":226,"urlSupportsMultiLanguage":42,"children":245},"GEO Promotion Link Detection","Quickly evaluate the citation of promotion articles on AI platforms","//app.aibase.com/tools/geo-checker","icon-wailianyinjian",[],{"menuName":247,"menuOtherName":57,"menuDescription":57,"menuUrl":7,"menuIcon":7,"menuType":42,"sort":42,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":248},"Service",[249,254],{"menuName":250,"menuOtherName":57,"menuDescription":251,"menuUrl":252,"menuIcon":141,"menuType":65,"sort":42,"status":42,"menuStatusImg":226,"urlSupportsMultiLanguage":65,"children":253},"GEO Ranking Optimization System","Own your own GEO system and become a professional GEO optimization service provider.","//app.aibase.com/business/index.html",[],{"menuName":255,"menuOtherName":57,"menuDescription":256,"menuUrl":257,"menuIcon":258,"menuType":65,"sort":65,"status":42,"menuStatusImg":7,"urlSupportsMultiLanguage":42,"children":259},"GEO Services\u200b","Achieve Dominant Visibility in AI Search for Your Business or Brand with GEO Services\u200b","//app.aibase.com/geo","icon-GEO",[],{"menuName":261,"menuOtherName":57,"menuDescription":57,"menuUrl":7,"menuIcon":7,"menuType":42,"sort":262,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":263},"AI Compute",7,[264],{"menuName":109,"menuOtherName":57,"menuDescription":57,"menuUrl":7,"menuIcon":7,"menuType":42,"sort":65,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":265},[266,272],{"menuName":267,"menuOtherName":57,"menuDescription":268,"menuUrl":269,"menuIcon":270,"menuType":65,"sort":42,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":271},"AI Model Compatibility Checker"," Free PC Hardware Test for DeepSeek & Llama","//model.aibase.com/tools/pc-check","icon-diannaojiance",[],{"menuName":273,"menuOtherName":57,"menuDescription":274,"menuUrl":275,"menuIcon":156,"menuType":65,"sort":65,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":276},"AI Deployment Calculator","Enter Your Large Model Computing Requirements for Instant GPU, Memory & Server Configuration Recommendations","//model.aibase.com/tools/server-config-calculator",[],{"menuName":278,"menuOtherName":57,"menuDescription":57,"menuUrl":279,"menuIcon":7,"menuType":42,"sort":280,"status":42,"menuStatusImg":57,"urlSupportsMultiLanguage":42,"children":281},"AI Tutorial","//course.aibase.com",8,[],["Set"],["ShallowReactive",284],{"friendLinks-apis":57},["Reactive",286],{"user":287},{"points":288,"code":290,"loginShow":292,"token":294,"loginType":295,"userInfo":296},["EmptyRef",289],"0",["EmptyRef",291],"\\"\\"",["EmptyRef",293],"false",["EmptyRef",291],["Ref",42],["Ref",297],["Reactive",298],{}]</script>\n<script>window.__NUXT__={};window.__NUXT__.config={public:{BASE_URL:"https://mcpapi.aibase.cn",URL_LOGIN:"https://userapi.aibase.cn",ucLoginUrl:"https://uc.chinaz.com",test:"test value",googleClientId:"640171740860-s08v4omrlpm1jspf8mnp2352hjh1ttij.apps.googleusercontent.com",googleRedirectURI:"https://www.aibase.com/login",WWW_URL:"https://mcpapi.aibase.cn",isCN:"false",defaultLangCode:"en",ucf:"AIbase-mcp",inspectorUrl:"https://test-inspector.aibase.com",cookieDomain:".aibase.com",loginSource:2,allDomain:{mcpUrl:"https://mcp.aibase.com",appUrl:"https://app.aibase.com",newsUrl:"https://news.aibase.com",wwwUrl:"https://www.aibase.com",modelUrl:"https://model.aibase.com",courseUrl:"https://course.aibase.com",sassGeoUrl:"https://geoservice.aibase.com"},cookieKey:"i18n_lang",i18n:{baseUrl:"",defaultLocale:"en",defaultDirection:"ltr",strategy:"prefix_and_default",lazy:false,rootRedirect:"",routesNameSeparator:"___",defaultLocaleRouteNameSuffix:"default",skipSettingLocaleOnNavigate:false,differentDomains:false,trailingSlash:false,locales:[{code:"en",name:"English",showName:"EN",apiKey:"en",hreflang:"en",files:["/usr/src/app/locales/en.json"]},{code:"zh",name:"简体中文",showName:"ZH",apiKey:"zh_cn",hreflang:"zh-CN",files:["/usr/src/app/locales/zh-cn.json"]},{code:"tw",name:"繁體中文",showName:"TW",apiKey:"zh_tw",hreflang:"zh-TW",files:["/usr/src/app/locales/zh-tw.json"]},{code:"ja",name:"にほんご",showName:"JA",apiKey:"jp",hreflang:"ja",files:["/usr/src/app/locales/ja.json"]}],detectBrowserLanguage:false,experimental:{localeDetector:"",switchLocalePathLinkSSR:false,autoImportTranslationFunctions:false,typedPages:true,typedOptionsAndMessages:false,generatedLocaleFilePathFormat:"absolute",alternateLinkCanonicalQueries:false},multiDomainLocales:false}},app:{baseURL:"/",buildId:"4e3f5363-3dea-45b2-ba3a-6daa73ae2846",buildAssetsDir:"/_nuxt/",cdnURL:""}}</script></body></html>')
-
-[https://www.airboat.online]
-
-[https://www.alwaysdata.com]
-
-[https://www.apple.com]
-
-[https://www.apple.com.cn]
-
-[https://www.awsy.top]
-
-[https://www.bilibili.com]
-
-[https://www.bloomberg.com]
-
-[https://www.bybit.eu]
-
-[https://www.canarytokens.org]
-
-[https://www.clawdi.ai]
-
-[https://www.cnbeta.com.tw]
-
-[https://www.crosswall.org]
-
-[https://www.dabai.in]
-banned_domains  snapmail.cc
-name  大白
-type  sspanel
-更新订阅链接/续费续签失败  获取邮箱验证码超时(wgpmtifxx990@snapmail.cc)
-
-[https://www.donews.com]
-
-[https://www.fkabc.top]
-
-[https://www.ft.com]
-
-[https://www.helingqi.com]
-error  'NoneType' object has no attribute 'text'
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(sfqhevyav128@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (200 OK "<!DOCTYPE HTML>\n<meta charset='UTF-8'>\n<script>\nvar vg=83, g=0.3;\ndocument.cookie='spm_key=7edc12366f4a9e3eb6af985f6f9fc54a;path=/';\nwindow.location.href='https://www.helingqi.com/auth/register?spm='+(g+vg);\n</script>\n")
-
-[https://www.hissl.net]
-
-[https://www.hkiff.org.hk]
-
-[https://www.instagram.com]
-
-[https://www.jiemian.com]
-
-[https://www.jiuyuelu.xyz]
-
-[https://www.latepost.com]
-
-[https://www.lg.gov.cn]
-
-[https://www.louwangzhiyu.xyz]
-
-[https://www.macrumors.com]
-
-[https://www.meiguodizhi.com]
-
-[https://www.mojie.me]
-
-[https://www.namecheap.com]
-
-[https://www.nodeseek.com]
-
-[https://www.notebookcheck.net]
-
-[https://www.okhao.top]
-
-[https://www.onamae.com]
-
-[https://www.pkqcloud.com]
-name  Pikachu
-type  sspanel
-更新订阅链接/续费续签失败  发送邮箱验证码失败(cbottzh651@ipiso.tmmad.com): {'ret': 0, 'msg': '非法请求'}
-
-[https://www.qhrgo.sbs]
-
-[https://www.qualcomm.com]
-
-[https://www.radio.cn]
-
-[https://www.readyserver.sg]
-
-[https://www.reuters.com]
-
-[https://www.scmp.com]
-
-[https://www.scnet.cn]
-
-[https://www.theinformation.com]
-
-[https://www.theverge.com]
-name  Login | The Verge
-type  sspanel
-更新订阅链接/续费续签失败  注册失败(bzisahg568@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (404 Not Found '<!DOCTYPE html><html lang="en-US"><meta name="bingbot" content="nocache"/><head><meta charSet="utf-8"/><meta name="description" content="The Verge is about technology and how it makes us feel. Founded in 2011, we offer our audience everything from breaking news to reviews to award-winning features and investigations, on our site, in video, and in podcasts."/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:site" content="@verge"/><meta property="fb:app_id" content="549923288395304"/><meta property="og:description" content="The Verge is about technology and how it makes us feel. Founded in 2011, we offer our audience everything from breaking news to reviews to award-winning features and investigations, on our site, in video, and in podcasts."/><meta property="og:url" content="https://www.theverge.com/"/><meta property="og:type" content="website"/><meta property="og:image" content="https://platform.theverge.com/wp-content/uploads/sites/2/2024/10/the_verge_social_share.png"/><meta property="og:site_name" content="The Verge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="apple-mobile-web-app-title" content="Verge"/><meta name="google-site-verification" content="IucFf_TKtbFFH8_YeFyEteQIwYPdANM1R46_U9DpAr4"/><link rel="alternate" type="application/rss+xml" title="The Verge" href="/rss/index.xml"/><link rel="shortcut icon" href="/static-assets/icons/favicon.ico"/><link rel="apple-touch-icon" sizes="180x180" href="/static-assets/icons/apple-touch-icon.png"/><link rel="icon" type="image/png" sizes="32x32" href="/static-assets/icons/favicon-32x32.png"/><link rel="icon" type="image/png" sizes="96x96" href="/static-assets/icons/favicon-96x96.png"/><link rel="icon" type="image/png" sizes="16x16" href="/static-assets/icons/favicon-16x16.png"/><link rel="mask-icon" href="/static-assets/icons/safari-pinned-tab.svg"/><link rel="icon" type="image/png" href="/static-assets/icons/android-chrome-192x192.png" sizes="192x192"/><link rel="icon" type="image/png" href="/static-assets/icons/android-chrome-512x512.png" sizes="512x512"/><title>404 Not Found | The Verge</title><meta name="robots" content="index,follow"/><meta property="og:title" content="404 Not Found | The Verge"/><meta name="next-head-count" content="25"/><link rel="preconnect" href="https://aax.amazon-adsystem.com"/><link rel="preload" href="https://config.aps.amazon-adsystem.com/configs/3176" as="script" fetchPriority="high"/><link rel="preload" href="https://client.aps.amazon-adsystem.com/publisher.js" as="script" fetchPriority="high"/><script src="https://config.aps.amazon-adsystem.com/configs/3176" async=""></script><script src="https://client.aps.amazon-adsystem.com/publisher.js" async=""></script><script src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" async=""></script><script src="https://cdn.concert.io/lib/concert-ads/v2-latest/concert_ads.js" async=""></script><script src="https://cdn.concert.io/lib/concert-concierge.2.10.1.min.js" defer=""></script><script src="https://pub.doubleverify.com/dvtag/21236410/DV464041/pub.js" defer=""></script><link rel="preconnect" href="https://www.google-analytics.com/"/><link rel="preload" as="script" href="https://securepubads.g.doubleclick.net/tag/js/gpt.js"/><link rel="dns-prefetch" href="https://pagead2.googlesyndication.com"/><link rel="dns-prefetch" href="https://micro.rubiconproject.com/prebid/dynamic/7470.js"/><link rel="dns-prefetch" href="https://securepubads.g.doubleclick.net"/><link rel="dns-prefetch" href="https://stats.g.doubleclick.net"/><link rel="dns-prefetch" href="https://www.google-analytics.com"/><link rel="dns-prefetch" href="https://cdn.permutive.com"/><link rel="dns-prefetch" href="https://concertads-configs.vox-cdn.com"/><link rel="dns-prefetch" href="https://cdn.concert.io/"/><link rel="preload" href="/_next/static/media/e0d450417c4fcdb2-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust"/><link rel="preload" href="/_next/static/media/167de315d6f8820c-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust"/><link rel="preload" href="/_next/static/media/c32d4f9e62509b70-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust"/><link rel="preload" href="/_next/static/media/8314bd48671746e7-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust"/><link rel="preload" href="/_next/static/media/1acdcb23bd60cdf8-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust"/><link rel="preload" href="/_next/static/media/e334064d2786be51-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust"/><link rel="preload" href="/_next/static/media/dbe24bfb7e9bcd79-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust"/><link rel="preload" href="/_next/static/media/7f8638c9585902a6-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust"/><link rel="preload" href="/_next/static/media/caa65695070c604f-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust"/><script id="one_trust" data-nscript="beforeInteractive">function OptanonWrapper() {}</script><script data-nscript="beforeInteractive">\n try {\n if (typeof history.scrollRestoration !== \'undefined\') {\n const homepage = window.location.pathname === \'/\';\n const scrollRestorationKey = sessionStorage.getItem(\'v:feed\');\n if (homepage && scrollRestorationKey) {\n history.scrollRestoration = \'manual\';\n } else {\n history.scrollRestoration = \'auto\';\n }\n }\n } catch (e) {\n console.warn(\'Failed to set scrollRestoration\', e);\n }\n </script><link rel="preload" href="/_next/static/css/ad0e116e380d7c6a.css" as="style"/><link rel="stylesheet" href="/_next/static/css/ad0e116e380d7c6a.css" data-n-g=""/><link rel="preload" href="/_next/static/css/a133b63a69e92db3.css" as="style"/><link rel="stylesheet" href="/_next/static/css/a133b63a69e92db3.css" data-n-p=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-42372ed130431b0a.js"></script><script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charSet="UTF-8" data-domain-script="3a41add1-8129-4584-aafc-e0da9979d233" async="" defer="" data-nscript="beforeInteractive"></script><script src="https://assets.zephr.com/zephr-browser/1.9.1/zephr-browser.umd.js" async="" defer="" data-nscript="beforeInteractive"></script><script src="https://cdn.bullwhip.cloud/sonar/vox-verge.umd.js" async="" defer="" data-nscript="beforeInteractive"></script><script src="/_next/static/chunks/webpack-09ed903d18c3b8c9.js" defer=""></script><script src="/_next/static/chunks/framework-8e0f3cf51af7b1e2.js" defer=""></script><script src="/_next/static/chunks/main-753d12c53f3f4f3f.js" defer=""></script><script src="/_next/static/chunks/pages/_app-5731e1547e32af81.js" defer=""></script><script src="/_next/static/chunks/pages/404-491117c659748feb.js" defer=""></script><script src="/_next/static/3QYWzWjXySH687eN3B7G3/_buildManifest.js" defer=""></script><script src="/_next/static/3QYWzWjXySH687eN3B7G3/_ssgManifest.js" defer=""></script></head><body class="qksc1b0"><noscript><img src="https://www.google-analytics.com/g/collect?v=2&amp;tid=G-C3QZPB4GVE&amp;cid=555&amp;en=noscript_page_view" alt="" style="display:none"/></noscript><div id="__next"><style>\n :root {\n --font-fkroman: \'__fkRomanStandard_cfceed\', \'__fkRomanStandard_Fallback_cfceed\', Georgia, serif;--font-manuka: \'__manuka_62afb5\', \'__manuka_Fallback_62afb5\', Impact, Helvetica, sans-serif;--font-polysans: \'__polySans_9afc27\', \'__polySans_Fallback_9afc27\', Helvetica, Arial, sans-serif;--font-polysans-mono: \'__polySansMono_0b836e\', \'__polySansMono_Fallback_0b836e\', Courier New, Courier, monospace;\n }\n </style><style>\n *, *::before, *::after {\n transition: none!important;\n }\n </style><div class="duet--app _1ymtmqp1 _1c8yj4y0"><a class="duet--cta--button _1f7jm892 _1f7jm890 duet--cta--skip-to-content _8mk3zk0" href="#content"><span>Skip to main content</span></a><div class=""><div class="bi882e2"><div class="bi882e0"><div class="_1ckl8uw1 _1ckl8uw0"><div class="_1ckl8uw4"><div class="_1ckl8uw6 _1ckl8uw5 _1wnt6o3c"><a href="/"><span class="_1yjvsxi0">The homepage</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 309 70" role="img" class="_1ckl8uw8" width="100%" height="100%" fill="currentColor"><title>The Verge</title><desc>The Verge logo.</desc><path d="m231.196 17.897-.302 9.071c-10.592-.726-13.618 1.996-13.618 10.885V39h-9.078V18.441h9.078v5.866c2.724-4.777 6.416-6.954 13.92-6.41ZM15.131 54.786h9.078V19.71h-9.078v35.075Zm44.968-36.828c-6.355 0-10.228 2.842-12.286 5.986V4.593H0v8.466h39.34V39h8.654c0-7.438 4.298-12.697 9.563-12.697 4.54 0 6.597 2.237 6.597 10.28v18.203h9.078V33.318c0-10.28-5.265-15.36-13.133-15.36ZM95.807 47.83c-5.507 0-9.078-3.326-9.683-8.829H77.59c.847 9.676 7.202 16.51 18.157 16.51 8.473 0 13.254-3.81 15.736-9.555l-7.687-3.387c-1.15 3.447-3.268 5.261-7.989 5.261Zm-.363-29.692a19.226 19.226 0 0 0-9.32 2.177l4.357 6.168c1.634-.846 3.39-1.27 5.266-1.21 5.084 0 7.686 3.327 8.049 7.68H95.02v6.048h17.31c.121-.907.182-1.754.182-2.66.06-13.184-8.655-18.203-17.068-18.203ZM185.32 47.83c-5.507 0-9.078-3.326-9.683-8.829h-8.534c.847 9.676 7.202 16.51 18.157 16.51 8.473 0 13.254-3.81 15.736-9.555l-7.687-3.387c-1.21 3.447-3.328 5.261-7.989 5.261Zm-.302-29.692a19.226 19.226 0 0 0-9.321 2.177l4.358 6.168c1.634-.846 3.389-1.27 5.265-1.21 5.084 0 7.687 3.327 8.05 7.68h-8.776v6.048h17.31c.121-.907.181-1.754.181-2.66.061-13.184-8.655-18.203-17.067-18.203ZM291.416 47.83c-5.507 0-9.078-3.326-9.683-8.829h-8.534c.847 9.676 7.202 16.51 18.157 16.51 8.473 0 13.254-3.81 15.736-9.555l-7.687-3.387c-1.21 3.447-3.328 5.261-7.989 5.261Zm-.484-29.692a19.225 19.225 0 0 0-9.32 2.177l4.357 6.168c1.635-.846 3.39-1.27 5.266-1.21 5.084 0 7.686 3.327 8.049 7.68h-8.775v6.048h17.309c.121-.907.182-1.754.182-2.66.06-13.184-8.655-18.203-17.068-18.203ZM117.172.299 133.5 39h9.926L130.971 8.221h16.099V.36L117.172.3Zm48.418.06L146.888 47.71l-2.784 7.076h9.502L176.06.36h-10.47Zm83.461 53.58c3.873 0 7.081-1.089 9.32-2.963l-3.631-5.745c-1.15.484-2.421.665-3.692.665-4.963 0-7.808-2.963-8.776-6.894h-8.897c1.211 8.406 7.263 14.937 15.676 14.937Zm11.196-30.418c-2.057-3.265-6.234-5.624-12.044-5.624-5.689-.06-10.954 3.024-13.738 8.043l7.565 4.838c1.392-2.903 4.116-4.838 8.292-4.838 5.931 0 9.925 4.596 9.925 10.038 0 1.029-.121 2.057-.423 3.024h9.502v-20.5h-9.079v5.019Zm-8.775 38.642c-5.871 0-8.05-2.842-8.474-6.168h-8.654c.181 6.35 4.418 13.304 17.309 13.304 8.715 0 14.404-4.354 16.765-10.885l-8.171-2.842c-1.15 4.233-4.297 6.591-8.775 6.591Z"></path></svg></a></div><div class="_1wnt6o311"></div><nav class="_1ckl8uwc _1ckl8uwb _1wnt6o32 _1wnt6o31" aria-label="Top Navigation"><ul class="_18l06ho1 _18l06ho0"><div class="_1wnt6o3w"><a href="/" class="_1wnt6o3x"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 309 70" role="img" width="100%" height="100%" fill="currentColor"><title>The Verge</title><desc>The Verge logo.</desc><path d="m231.196 17.897-.302 9.071c-10.592-.726-13.618 1.996-13.618 10.885V39h-9.078V18.441h9.078v5.866c2.724-4.777 6.416-6.954 13.92-6.41ZM15.131 54.786h9.078V19.71h-9.078v35.075Zm44.968-36.828c-6.355 0-10.228 2.842-12.286 5.986V4.593H0v8.466h39.34V39h8.654c0-7.438 4.298-12.697 9.563-12.697 4.54 0 6.597 2.237 6.597 10.28v18.203h9.078V33.318c0-10.28-5.265-15.36-13.133-15.36ZM95.807 47.83c-5.507 0-9.078-3.326-9.683-8.829H77.59c.847 9.676 7.202 16.51 18.157 16.51 8.473 0 13.254-3.81 15.736-9.555l-7.687-3.387c-1.15 3.447-3.268 5.261-7.989 5.261Zm-.363-29.692a19.226 19.226 0 0 0-9.32 2.177l4.357 6.168c1.634-.846 3.39-1.27 5.266-1.21 5.084 0 7.686 3.327 8.049 7.68H95.02v6.048h17.31c.121-.907.182-1.754.182-2.66.06-13.184-8.655-18.203-17.068-18.203ZM185.32 47.83c-5.507 0-9.078-3.326-9.683-8.829h-8.534c.847 9.676 7.202 16.51 18.157 16.51 8.473 0 13.254-3.81 15.736-9.555l-7.687-3.387c-1.21 3.447-3.328 5.261-7.989 5.261Zm-.302-29.692a19.226 19.226 0 0 0-9.321 2.177l4.358 6.168c1.634-.846 3.389-1.27 5.265-1.21 5.084 0 7.687 3.327 8.05 7.68h-8.776v6.048h17.31c.121-.907.181-1.754.181-2.66.061-13.184-8.655-18.203-17.067-18.203ZM291.416 47.83c-5.507 0-9.078-3.326-9.683-8.829h-8.534c.847 9.676 7.202 16.51 18.157 16.51 8.473 0 13.254-3.81 15.736-9.555l-7.687-3.387c-1.21 3.447-3.328 5.261-7.989 5.261Zm-.484-29.692a19.225 19.225 0 0 0-9.32 2.177l4.357 6.168c1.635-.846 3.39-1.27 5.266-1.21 5.084 0 7.686 3.327 8.049 7.68h-8.775v6.048h17.309c.121-.907.182-1.754.182-2.66.06-13.184-8.655-18.203-17.068-18.203ZM117.172.299 133.5 39h9.926L130.971 8.221h16.099V.36L117.172.3Zm48.418.06L146.888 47.71l-2.784 7.076h9.502L176.06.36h-10.47Zm83.461 53.58c3.873 0 7.081-1.089 9.32-2.963l-3.631-5.745c-1.15.484-2.421.665-3.692.665-4.963 0-7.808-2.963-8.776-6.894h-8.897c1.211 8.406 7.263 14.937 15.676 14.937Zm11.196-30.418c-2.057-3.265-6.234-5.624-12.044-5.624-5.689-.06-10.954 3.024-13.738 8.043l7.565 4.838c1.392-2.903 4.116-4.838 8.292-4.838 5.931 0 9.925 4.596 9.925 10.038 0 1.029-.121 2.057-.423 3.024h9.502v-20.5h-9.079v5.019Zm-8.775 38.642c-5.871 0-8.05-2.842-8.474-6.168h-8.654c.181 6.35 4.418 13.304 17.309 13.304 8.715 0 14.404-4.354 16.765-10.885l-8.171-2.842c-1.15 4.233-4.297 6.591-8.775 6.591Z"></path></svg></a></div><li class="_1wnt6o3v _1wnt6o3m _1wnt6o3l urbcaf0"><a href="https://www.theverge.com/tech" class="urbcaf4"><span class="urbcaf5 urbcaf8 urbcaf7">Tech</span></a></li><li class="_1wnt6o3v _1wnt6o3m _1wnt6o3l urbcaf0"><a href="https://www.theverge.com/reviews" class="urbcaf4"><span class="urbcaf5 urbcaf8 urbcaf7">Reviews</span></a></li><li class="_1wnt6o3v _1wnt6o3m _1wnt6o3l urbcaf0"><a href="https://www.theverge.com/science" class="urbcaf4"><span class="urbcaf5 urbcaf8 urbcaf7">Science</span></a></li><li class="_1wnt6o3v _1wnt6o3m _1wnt6o3l urbcaf0"><a href="https://www.theverge.com/entertainment" class="urbcaf4"><span class="urbcaf5 urbcaf8 urbcaf7">Entertainment</span></a></li><li class="_1wnt6o3v _1wnt6o3m _1wnt6o3l urbcaf0"><a href="https://www.theverge.com/ai-artificial-intelligence" class="urbcaf4"><span class="urbcaf5 urbcaf8 urbcaf7">AI</span></a></li><li class="_1wnt6o3v _1wnt6o3m _1wnt6o3l urbcaf0"><a href="https://www.theverge.com/policy" class="urbcaf4"><span class="urbcaf5 urbcaf8 urbcaf7">Policy</span></a></li><li class="_1wnt6o3v _1wnt6o3m _1wnt6o3l _1wnt6o3z urbcaf0"><button class="urbcaf4"><span class="urbcaf5 urbcaf8 urbcaf7"><svg class="" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Hamburger Navigation Button</title><rect x="4" y="7" width="24" height="2" fill="currentColor"></rect><rect x="4" y="15" width="24" height="2" fill="currentColor"></rect><rect x="4" y="23" width="24" height="2" fill="currentColor"></rect></svg></span></button></li></ul></nav></div></div></div><div class="bi882e1"><div class="_1bjoufy1 _1wnt6o3m"><div class="vbsnq72"><div class="_1bjoufy0"><a href="/"><span class="_1yjvsxi0">The homepage</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 309 70" role="img" class="vbsnq74 _1wnt6o3c" width="100%" height="100%" fill="currentColor"><title>The Verge</title><desc>The Verge logo.</desc><path d="m231.196 17.897-.302 9.071c-10.592-.726-13.618 1.996-13.618 10.885V39h-9.078V18.441h9.078v5.866c2.724-4.777 6.416-6.954 13.92-6.41ZM15.131 54.786h9.078V19.71h-9.078v35.075Zm44.968-36.828c-6.355 0-10.228 2.842-12.286 5.986V4.593H0v8.466h39.34V39h8.654c0-7.438 4.298-12.697 9.563-12.697 4.54 0 6.597 2.237 6.597 10.28v18.203h9.078V33.318c0-10.28-5.265-15.36-13.133-15.36ZM95.807 47.83c-5.507 0-9.078-3.326-9.683-8.829H77.59c.847 9.676 7.202 16.51 18.157 16.51 8.473 0 13.254-3.81 15.736-9.555l-7.687-3.387c-1.15 3.447-3.268 5.261-7.989 5.261Zm-.363-29.692a19.226 19.226 0 0 0-9.32 2.177l4.357 6.168c1.634-.846 3.39-1.27 5.266-1.21 5.084 0 7.686 3.327 8.049 7.68H95.02v6.048h17.31c.121-.907.182-1.754.182-2.66.06-13.184-8.655-18.203-17.068-18.203ZM185.32 47.83c-5.507 0-9.078-3.326-9.683-8.829h-8.534c.847 9.676 7.202 16.51 18.157 16.51 8.473 0 13.254-3.81 15.736-9.555l-7.687-3.387c-1.21 3.447-3.328 5.261-7.989 5.261Zm-.302-29.692a19.226 19.226 0 0 0-9.321 2.177l4.358 6.168c1.634-.846 3.389-1.27 5.265-1.21 5.084 0 7.687 3.327 8.05 7.68h-8.776v6.048h17.31c.121-.907.181-1.754.181-2.66.061-13.184-8.655-18.203-17.067-18.203ZM291.416 47.83c-5.507 0-9.078-3.326-9.683-8.829h-8.534c.847 9.676 7.202 16.51 18.157 16.51 8.473 0 13.254-3.81 15.736-9.555l-7.687-3.387c-1.21 3.447-3.328 5.261-7.989 5.261Zm-.484-29.692a19.225 19.225 0 0 0-9.32 2.177l4.357 6.168c1.635-.846 3.39-1.27 5.266-1.21 5.084 0 7.686 3.327 8.049 7.68h-8.775v6.048h17.309c.121-.907.182-1.754.182-2.66.06-13.184-8.655-18.203-17.068-18.203ZM117.172.299 133.5 39h9.926L130.971 8.221h16.099V.36L117.172.3Zm48.418.06L146.888 47.71l-2.784 7.076h9.502L176.06.36h-10.47Zm83.461 53.58c3.873 0 7.081-1.089 9.32-2.963l-3.631-5.745c-1.15.484-2.421.665-3.692.665-4.963 0-7.808-2.963-8.776-6.894h-8.897c1.211 8.406 7.263 14.937 15.676 14.937Zm11.196-30.418c-2.057-3.265-6.234-5.624-12.044-5.624-5.689-.06-10.954 3.024-13.738 8.043l7.565 4.838c1.392-2.903 4.116-4.838 8.292-4.838 5.931 0 9.925 4.596 9.925 10.038 0 1.029-.121 2.057-.423 3.024h9.502v-20.5h-9.079v5.019Zm-8.775 38.642c-5.871 0-8.05-2.842-8.474-6.168h-8.654c.181 6.35 4.418 13.304 17.309 13.304 8.715 0 14.404-4.354 16.765-10.885l-8.171-2.842c-1.15 4.233-4.297 6.591-8.775 6.591Z"></path></svg></a></div><div class="vbsnq75 _1bjoufy2"><button class="_16902kx0 _1wnt6o3m" aria-controls="drawer_:R196:" aria-label="Open Drawer"><div class="_16902kx4 _16902kx3"><span class="_16902kx2"><svg class="_16902kxd" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Hamburger Navigation Button</title><rect x="4" y="7" width="24" height="2" fill="currentColor"></rect><rect x="4" y="15" width="24" height="2" fill="currentColor"></rect><rect x="4" y="23" width="24" height="2" fill="currentColor"></rect></svg></span></div></button></div></div></div></div></div></div><div class="_1huz5gz0" id="drawer_:R196:" role="dialog" aria-modal="true" aria-labelledby="drawer_:R196:-title" hidden="" style="display:none"><section class="_1huz5gz1 xcge7n0" id="drawer_:R196:-scroll" hidden="" style="display:none"><div class="_1yjvsxi0"><div id="drawer_:R196:-title">Navigation Drawer</div></div><div><div class="xcge7n5"><div><div class="z1tq9a0"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 309 70" role="img" width="100%" height="100%" fill="currentColor"><title>The Verge</title><desc>The Verge logo.</desc><path d="m231.196 17.897-.302 9.071c-10.592-.726-13.618 1.996-13.618 10.885V39h-9.078V18.441h9.078v5.866c2.724-4.777 6.416-6.954 13.92-6.41ZM15.131 54.786h9.078V19.71h-9.078v35.075Zm44.968-36.828c-6.355 0-10.228 2.842-12.286 5.986V4.593H0v8.466h39.34V39h8.654c0-7.438 4.298-12.697 9.563-12.697 4.54 0 6.597 2.237 6.597 10.28v18.203h9.078V33.318c0-10.28-5.265-15.36-13.133-15.36ZM95.807 47.83c-5.507 0-9.078-3.326-9.683-8.829H77.59c.847 9.676 7.202 16.51 18.157 16.51 8.473 0 13.254-3.81 15.736-9.555l-7.687-3.387c-1.15 3.447-3.268 5.261-7.989 5.261Zm-.363-29.692a19.226 19.226 0 0 0-9.32 2.177l4.357 6.168c1.634-.846 3.39-1.27 5.266-1.21 5.084 0 7.686 3.327 8.049 7.68H95.02v6.048h17.31c.121-.907.182-1.754.182-2.66.06-13.184-8.655-18.203-17.068-18.203ZM185.32 47.83c-5.507 0-9.078-3.326-9.683-8.829h-8.534c.847 9.676 7.202 16.51 18.157 16.51 8.473 0 13.254-3.81 15.736-9.555l-7.687-3.387c-1.21 3.447-3.328 5.261-7.989 5.261Zm-.302-29.692a19.226 19.226 0 0 0-9.321 2.177l4.358 6.168c1.634-.846 3.389-1.27 5.265-1.21 5.084 0 7.687 3.327 8.05 7.68h-8.776v6.048h17.31c.121-.907.181-1.754.181-2.66.061-13.184-8.655-18.203-17.067-18.203ZM291.416 47.83c-5.507 0-9.078-3.326-9.683-8.829h-8.534c.847 9.676 7.202 16.51 18.157 16.51 8.473 0 13.254-3.81 15.736-9.555l-7.687-3.387c-1.21 3.447-3.328 5.261-7.989 5.261Zm-.484-29.692a19.225 19.225 0 0 0-9.32 2.177l4.357 6.168c1.635-.846 3.39-1.27 5.266-1.21 5.084 0 7.686 3.327 8.049 7.68h-8.775v6.048h17.309c.121-.907.182-1.754.182-2.66.06-13.184-8.655-18.203-17.068-18.203ZM117.172.299 133.5 39h9.926L130.971 8.221h16.099V.36L117.172.3Zm48.418.06L146.888 47.71l-2.784 7.076h9.502L176.06.36h-10.47Zm83.461 53.58c3.873 0 7.081-1.089 9.32-2.963l-3.631-5.745c-1.15.484-2.421.665-3.692.665-4.963 0-7.808-2.963-8.776-6.894h-8.897c1.211 8.406 7.263 14.937 15.676 14.937Zm11.196-30.418c-2.057-3.265-6.234-5.624-12.044-5.624-5.689-.06-10.954 3.024-13.738 8.043l7.565 4.838c1.392-2.903 4.116-4.838 8.292-4.838 5.931 0 9.925 4.596 9.925 10.038 0 1.029-.121 2.057-.423 3.024h9.502v-20.5h-9.079v5.019Zm-8.775 38.642c-5.871 0-8.05-2.842-8.474-6.168h-8.654c.181 6.35 4.418 13.304 17.309 13.304 8.715 0 14.404-4.354 16.765-10.885l-8.171-2.842c-1.15 4.233-4.297 6.591-8.775 6.591Z"></path></svg></div><div><div class="xcge7n1"><ul class="_1cctw2m0"><li class="_1cctw2m1"><a class="_1cctw2m2" href="/auth/login?returnPath=/">Login</a><div class="_1cctw2m3"> / </div><a class="_1cctw2m2" href="/auth/login?returnPath=/">Sign Up</a></li></ul><button class="_8o9zcr0" aria-controls="drawer_:R196:" aria-label="Close Drawer"><span>close</span><svg class="_8o9zcr1" width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Close</title><line x1="1.70711" y1="0.831956" x2="18.6483" y2="17.7731" stroke="currentColor" stroke-width="2"></line><line x1="1.35149" y1="17.7734" x2="18.2927" y2="0.832185" stroke="currentColor" stroke-width="2"></line></svg></button></div><div><form aria-label="Search Form"><div class="duet--cta--form-field-text _1i902bu0 blb8p81"><label for=":Rkqgr96:" class="_1pbfapu0 _1yjvsxi0">Search</label><div class="_1i902bu1"><input id=":Rkqgr96:" class="_1pbfapu1 xcge7n2 blb8p82" aria-invalid="false" name="query" type="text" spellcheck="false" maxLength="255" autoComplete="off" placeholder="Search" required=""/><span class="_1i902bu4"><button type="submit" aria-label="Submit Search"><svg class="xcge7n3 blb8p83" width="25" height="24" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M18.9014 19.5858C17.0158 21.0382 14.6241 21.9067 12.0217 21.9067C5.9346 21.9067 1 17.1549 1 11.2932C1 5.43152 5.9346 0.679688 12.0217 0.679688C18.1089 0.679688 23.0435 5.43152 23.0435 11.2932C23.0435 13.7992 22.1416 16.1023 20.6333 17.918L26 23.086L24.2681 24.7538L18.9014 19.5858ZM3.44927 11.2932C3.44927 6.73412 7.2873 3.03825 12.0217 3.03825C16.7562 3.03825 20.5942 6.73412 20.5942 11.2932C20.5942 13.416 19.7621 15.3516 18.3949 16.8142L17.755 17.4303C16.2362 18.7469 14.2262 19.5482 12.0217 19.5482C7.2873 19.5482 3.44927 15.8523 3.44927 11.2932Z" fill="currentColor" stroke="none" stroke-width="0.5" stroke-linecap="square"></path></svg></button></span></div></div></form></div><nav class="xcge7n4" aria-label="Drawer Navigation"><ul><li class="_1sdloqz0"><button class="_1sdloqz1" aria-label="Collapse &#x27;Tech&#x27; Section" id="headlessui-disclosure-button-:R234qgr96:" type="button" aria-expanded="false" data-headlessui-state="">Tech<svg class="_1sdloqz4" width="29" height="30" viewBox="0 0 29 30" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><title>Expand</title><line x1="4" y1="14.4805" x2="26" y2="14.4805" stroke="currentColor" stroke-width="4"></line><line x1="15" y1="3.48047" x2="15" y2="25.4805" stroke="currentColor" stroke-width="4"></line></svg></button><div id="headlessui-disclosure-panel-:R434qgr96:" data-headlessui-state=""><ul class="_1ymtmqpu _1sdloqz6"><li><a href="https://www.theverge.com/amazon" class="_3gvbgf0">Amazon</a></li><li><a href="https://www.theverge.com/apple" class="_3gvbgf0">Apple</a></li><li><a href="https://www.theverge.com/facebook" class="_3gvbgf0">Facebook</a></li><li><a href="https://www.theverge.com/google" class="_3gvbgf0">Google</a></li><li><a href="https://www.theverge.com/microsoft" class="_3gvbgf0">Microsoft</a></li><li><a href="https://www.theverge.com/samsung" class="_3gvbgf0">Samsung</a></li><li><a href="https://www.theverge.com/business" class="_3gvbgf0">Business</a></li><li><a href="https://www.theverge.com/tech" class="_3gvbgf0">See all tech</a></li></ul></div></li><li class="_1sdloqz0"><button class="_1sdloqz1" aria-label="Collapse &#x27;Reviews&#x27; Section" id="headlessui-disclosure-button-:R254qgr96:" type="button" aria-expanded="false" data-headlessui-state="">Reviews<svg class="_1sdloqz4" width="29" height="30" viewBox="0 0 29 30" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><title>Expand</title><line x1="4" y1="14.4805" x2="26" y2="14.4805" stroke="currentColor" stroke-width="4"></line><line x1="15" y1="3.48047" x2="15" y2="25.4805" stroke="currentColor" stroke-width="4"></line></svg></button><div id="headlessui-disclosure-panel-:R454qgr96:" data-headlessui-state=""><ul class="_1ymtmqpu _1sdloqz6"><li><a href="https://www.theverge.com/smart-home-review" class="_3gvbgf0">Smart Home Reviews</a></li><li><a href="https://www.theverge.com/phone-review" class="_3gvbgf0">Phone Reviews</a></li><li><a href="https://www.theverge.com/tablet-review" class="_3gvbgf0">Tablet Reviews</a></li><li><a href="https://www.theverge.com/headphone-review" class="_3gvbgf0">Headphone Reviews</a></li><li><a href="https://www.theverge.com/reviews" class="_3gvbgf0">See all reviews</a></li></ul></div></li><li class="_1sdloqz0"><button class="_1sdloqz1" aria-label="Collapse &#x27;Science&#x27; Section" id="headlessui-disclosure-button-:R274qgr96:" type="button" aria-expanded="false" data-headlessui-state="">Science<svg class="_1sdloqz4" width="29" height="30" viewBox="0 0 29 30" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><title>Expand</title><line x1="4" y1="14.4805" x2="26" y2="14.4805" stroke="currentColor" stroke-width="4"></line><line x1="15" y1="3.48047" x2="15" y2="25.4805" stroke="currentColor" stroke-width="4"></line></svg></button><div id="headlessui-disclosure-panel-:R474qgr96:" data-headlessui-state=""><ul class="_1ymtmqpu _1sdloqz6"><li><a href="https://www.theverge.com/space" class="_3gvbgf0">Space</a></li><li><a href="https://www.theverge.com/energy" class="_3gvbgf0">Energy</a></li><li><a href="https://www.theverge.com/environment" class="_3gvbgf0">Environment</a></li><li><a href="https://www.theverge.com/health" class="_3gvbgf0">Health</a></li><li><a href="https://www.theverge.com/science" class="_3gvbgf0">See all science</a></li></ul></div></li><li class="_1sdloqz0"><button class="_1sdloqz1" aria-label="Collapse &#x27;Entertainment&#x27; Section" id="headlessui-disclosure-button-:R294qgr96:" type="button" aria-expanded="false" data-headlessui-state="">Entertainment<svg class="_1sdloqz4" width="29" height="30" viewBox="0 0 29 30" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><title>Expand</title><line x1="4" y1="14.4805" x2="26" y2="14.4805" stroke="currentColor" stroke-width="4"></line><line x1="15" y1="3.48047" x2="15" y2="25.4805" stroke="currentColor" stroke-width="4"></line></svg></button><div id="headlessui-disclosure-panel-:R494qgr96:" data-headlessui-state=""><ul class="_1ymtmqpu _1sdloqz6"><li><a href="https://www.theverge.com/tv" class="_3gvbgf0">TV Shows</a></li><li><a href="https://www.theverge.com/film" class="_3gvbgf0">Movies</a></li><li><a href="https://www.theverge.com/audio" class="_3gvbgf0">Audio</a></li><li><a href="https://www.theverge.com/entertainment" class="_3gvbgf0">See all entertainment</a></li></ul></div></li><li class="_1sdloqz0"><button class="_1sdloqz1" aria-label="Collapse &#x27;AI&#x27; Section" id="headlessui-disclosure-button-:R2b4qgr96:" type="button" aria-expanded="false" data-headlessui-state="">AI<svg class="_1sdloqz4" width="29" height="30" viewBox="0 0 29 30" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><title>Expand</title><line x1="4" y1="14.4805" x2="26" y2="14.4805" stroke="currentColor" stroke-width="4"></line><line x1="15" y1="3.48047" x2="15" y2="25.4805" stroke="currentColor" stroke-width="4"></line></svg></button><div id="headlessui-disclosure-panel-:R4b4qgr96:" data-headlessui-state=""><ul class="_1ymtmqpu _1sdloqz6"><li><a href="https://www.theverge.com/openai" class="_3gvbgf0">OpenAI</a></li><li><a href="https://www.theverge.com/anthropic" class="_3gvbgf0">Anthropic</a></li><li><a href="https://www.theverge.com/ai-artificial-intelligence" class="_3gvbgf0">See all AI</a></li></ul></div></li><li class="_1sdloqz0"><button class="_1sdloqz1" aria-label="Collapse &#x27;Policy&#x27; Section" id="headlessui-disclosure-button-:R2d4qgr96:" type="button" aria-expanded="false" data-headlessui-state="">Policy<svg class="_1sdloqz4" width="29" height="30" viewBox="0 0 29 30" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><title>Expand</title><line x1="4" y1="14.4805" x2="26" y2="14.4805" stroke="currentColor" stroke-width="4"></line><line x1="15" y1="3.48047" x2="15" y2="25.4805" stroke="currentColor" stroke-width="4"></line></svg></button><div id="headlessui-disclosure-panel-:R4d4qgr96:" data-headlessui-state=""><ul class="_1ymtmqpu _1sdloqz6"><li><a href="https://www.theverge.com/antitrust" class="_3gvbgf0">Antitrust</a></li><li><a href="https://www.theverge.com/politics" class="_3gvbgf0">Politics</a></li><li><a href="https://www.theverge.com/law" class="_3gvbgf0">Law</a></li><li><a href="https://www.theverge.com/cyber-security" class="_3gvbgf0">Security</a></li><li><a href="https://www.theverge.com/policy" class="_3gvbgf0">See all policy</a></li></ul></div></li><li class="_1sdloqz0"><button class="_1sdloqz1" aria-label="Collapse &#x27;Gadgets&#x27; Section" id="headlessui-disclosure-button-:R2f4qgr96:" type="button" aria-expanded="false" data-headlessui-state="">Gadgets<svg class="_1sdloqz4" width="29" height="30" viewBox="0 0 29 30" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><title>Expand</title><line x1="4" y1="14.4805" x2="26" y2="14.4805" stroke="currentColor" stroke-width="4"></line><line x1="15" y1="3.48047" x2="15" y2="25.4805" stroke="currentColor" stroke-width="4"></line></svg></button><div id="headlessui-disclosure-panel-:R4f4qgr96:" data-headlessui-state=""><ul class="_1ymtmqpu _1sdloqz6"><li><a href="https://www.theverge.com/laptops" class="_3gvbgf0">Laptops</a></li><li><a href="https://www.theverge.com/phones" class="_3gvbgf0">Phones</a></li><li><a href="https://www.theverge.com/televisions" class="_3gvbgf0">TVs</a></li><li><a href="https://www.theverge.com/headphone" class="_3gvbgf0">Headphones</a></li><li><a href="https://www.theverge.com/speakers" class="_3gvbgf0">Speakers</a></li><li><a href="https://www.theverge.com/wearables" class="_3gvbgf0">Wearables</a></li><li><a href="https://www.theverge.com/gadgets" class="_3gvbgf0">See all gadgets</a></li></ul></div></li><li class="_1sdloqz0"><button class="_1sdloqz1" aria-label="Collapse &#x27;Verge Shopping&#x27; Section" id="headlessui-disclosure-button-:R2h4qgr96:" type="button" aria-expanded="false" data-headlessui-state="">Verge Shopping<svg class="_1sdloqz4" width="29" height="30" viewBox="0 0 29 30" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><title>Expand</title><line x1="4" y1="14.4805" x2="26" y2="14.4805" stroke="currentColor" stroke-width="4"></line><line x1="15" y1="3.48047" x2="15" y2="25.4805" stroke="currentColor" stroke-width="4"></line></svg></button><div id="headlessui-disclosure-panel-:R4h4qgr96:" data-headlessui-state=""><ul class="_1ymtmqpu _1sdloqz6"><li><a href="https://www.theverge.com/buying-guides" class="_3gvbgf0">Buying Guides</a></li><li><a href="https://www.theverge.com/good-deals" class="_3gvbgf0">Deals</a></li><li><a href="https://www.theverge.com/gift-guides" class="_3gvbgf0">Gift Guides</a></li><li><a href="https://www.theverge.com/shopping" class="_3gvbgf0">See all shopping</a></li></ul></div></li><li class="_1sdloqz0"><button class="_1sdloqz1" aria-label="Collapse &#x27;Gaming&#x27; Section" id="headlessui-disclosure-button-:R2j4qgr96:" type="button" aria-expanded="false" data-headlessui-state="">Gaming<svg class="_1sdloqz4" width="29" height="30" viewBox="0 0 29 30" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><title>Expand</title><line x1="4" y1="14.4805" x2="26" y2="14.4805" stroke="currentColor" stroke-width="4"></line><line x1="15" y1="3.48047" x2="15" y2="25.4805" stroke="currentColor" stroke-width="4"></line></svg></button><div id="headlessui-disclosure-panel-:R4j4qgr96:" data-headlessui-state=""><ul class="_1ymtmqpu _1sdloqz6"><li><a href="https://www.theverge.com/microsoft-xbox" class="_3gvbgf0">Xbox</a></li><li><a href="https://www.theverge.com/sony-playstation" class="_3gvbgf0">PlayStation</a></li><li><a href="https://www.theverge.com/nintendo" class="_3gvbgf0">Nintendo</a></li><li><a href="https://www.theverge.com/games" class="_3gvbgf0">See all gaming</a></li></ul></div></li><li class="_1sdloqz0"><button class="_1sdloqz1" aria-label="Collapse &#x27;Streaming&#x27; Section" id="headlessui-disclosure-button-:R2l4qgr96:" type="button" aria-expanded="false" data-headlessui-state="">Streaming<svg class="_1sdloqz4" width="29" height="30" viewBox="0 0 29 30" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><title>Expand</title><line x1="4" y1="14.4805" x2="26" y2="14.4805" stroke="currentColor" stroke-width="4"></line><line x1="15" y1="3.48047" x2="15" y2="25.4805" stroke="currentColor" stroke-width="4"></line></svg></button><div id="headlessui-disclosure-panel-:R4l4qgr96:" data-headlessui-state=""><ul class="_1ymtmqpu _1sdloqz6"><li><a href="https://www.theverge.com/disney" class="_3gvbgf0">Disney</a></li><li><a href="https://www.theverge.com/hbo" class="_3gvbgf0">HBO</a></li><li><a href="https://www.theverge.com/netflix" class="_3gvbgf0">Netflix</a></li><li><a href="https://www.theverge.com/youtube" class="_3gvbgf0">YouTube</a></li><li><a href="https://www.theverge.com/creators" class="_3gvbgf0">Creators</a></li><li><a href="https://www.theverge.com/streaming" class="_3gvbgf0">See all streaming</a></li></ul></div></li><li class="_1sdloqz0"><button class="_1sdloqz1" aria-label="Collapse &#x27;Transportation&#x27; Section" id="headlessui-disclosure-button-:R2n4qgr96:" type="button" aria-expanded="false" data-headlessui-state="">Transportation<svg class="_1sdloqz4" width="29" height="30" viewBox="0 0 29 30" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><title>Expand</title><line x1="4" y1="14.4805" x2="26" y2="14.4805" stroke="currentColor" stroke-width="4"></line><line x1="15" y1="3.48047" x2="15" y2="25.4805" stroke="currentColor" stroke-width="4"></line></svg></button><div id="headlessui-disclosure-panel-:R4n4qgr96:" data-headlessui-state=""><ul class="_1ymtmqpu _1sdloqz6"><li><a href="https://www.theverge.com/electric-cars" class="_3gvbgf0">Electric Cars</a></li><li><a href="https://www.theverge.com/autonomous-cars" class="_3gvbgf0">Autonomous Cars</a></li><li><a href="https://www.theverge.com/ride-sharing" class="_3gvbgf0">Ride-sharing</a></li><li><a href="https://www.theverge.com/scooters" class="_3gvbgf0">Scooters</a></li><li><a href="/transportation" class="_3gvbgf0">See all transportation</a></li></ul></div></li><li class="vkcokl0"><a href="https://www.theverge.com/features" rel="noreferrer" class="vkcokl1">Features</a></li><li class="_1sdloqz0"><button class="_1sdloqz1" aria-label="Collapse &#x27;Verge Video&#x27; Section" id="headlessui-disclosure-button-:R2r4qgr96:" type="button" aria-expanded="false" data-headlessui-state="">Verge Video<svg class="_1sdloqz4" width="29" height="30" viewBox="0 0 29 30" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><title>Expand</title><line x1="4" y1="14.4805" x2="26" y2="14.4805" stroke="currentColor" stroke-width="4"></line><line x1="15" y1="3.48047" x2="15" y2="25.4805" stroke="currentColor" stroke-width="4"></line></svg></button><div id="headlessui-disclosure-panel-:R4r4qgr96:" data-headlessui-state=""><ul class="_1ymtmqpu _1sdloqz6"><li><a href="https://www.tiktok.com/@verge" class="_3gvbgf0">TikTok</a></li><li><a href="https://www.youtube.com/theverge" class="_3gvbgf0">YouTube</a></li><li><a href="https://www.instagram.com/verge" class="_3gvbgf0">Instagram</a></li></ul></div></li><li class="_1sdloqz0"><button class="_1sdloqz1" aria-label="Collapse &#x27;Podcasts&#x27; Section" id="headlessui-disclosure-button-:R2t4qgr96:" type="button" aria-expanded="false" data-headlessui-state="">Podcasts<svg class="_1sdloqz4" width="29" height="30" viewBox="0 0 29 30" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><title>Expand</title><line x1="4" y1="14.4805" x2="26" y2="14.4805" stroke="currentColor" stroke-width="4"></line><line x1="15" y1="3.48047" x2="15" y2="25.4805" stroke="currentColor" stroke-width="4"></line></svg></button><div id="headlessui-disclosure-panel-:R4t4qgr96:" data-headlessui-state=""><ul class="_1ymtmqpu _1sdloqz6"><li><a href="/decoder-podcast-with-nilay-patel" class="_3gvbgf0">Decoder</a></li><li><a href="/the-vergecast" class="_3gvbgf0">The Vergecast</a></li><li><a href="/version-history-podcast" class="_3gvbgf0">Version History</a></li></ul></div></li><li class="vkcokl0"><a href="/newsletters" rel="noreferrer" class="vkcokl1">Newsletters</a></li><li class="vkcokl0"><a href="/archives/full" rel="noreferrer" class="vkcokl1">Archives</a></li><li class="vkcokl0"><a href="https://shop.theverge.com/" rel="noreferrer" class="vkcokl1">Store</a></li><li class="vkcokl0"><a href="https://www.theverge.com/verge-product-updates" rel="noreferrer" class="vkcokl1">Verge Product Updates</a></li></ul></nav></div><div><a class="duet--cta--button _1f7jm892 _1f7jm890 iywbhc1 _1f7jm89g" href="/subscribe?itm_campaign=menu-nav-subscribe&amp;itm_medium=site&amp;itm_source=navigation"><span>Subscribe</span></a></div></div><div class="xcge7n6"></div><div class="xcge7n7"><ul class="_7j7yhw0"><li><a href="https://www.facebook.com/verge" class="_7j7yhw1" rel="nofollow"><svg class="_7j7yhw2" width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M27.0174 21.7497L27.8495 16.3604H22.6403V12.8637C22.6403 11.3906 23.3668 9.95151 25.7019 9.95151H28.0714V5.36435C28.0714 5.36435 25.9212 5 23.866 5C19.5761 5 16.7707 7.57929 16.7707 12.2529V16.3604H12V21.7497H16.7707V34.7746C17.727 34.924 18.707 35 19.7055 35C20.704 35 21.6841 34.9214 22.6403 34.7746V21.7497H27.0174Z" fill=""></path></svg></a></li><li><a href="https://www.threads.net/@verge" class="_7j7yhw1" rel="nofollow"><svg class="_7j7yhw2" width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><title>Threads</title><path d="M27.566 19.2947C27.4209 19.2265 27.2733 19.161 27.1238 19.0982C26.8638 14.4047 24.2441 11.7179 19.8455 11.6902C19.8255 11.6902 19.8057 11.6902 19.7857 11.6902C17.1548 11.6902 14.9666 12.7897 13.62 14.7901L16.0391 16.4145C17.0453 14.9201 18.6243 14.6016 19.7871 14.6016C19.8005 14.6016 19.8139 14.6016 19.8274 14.6016C21.2758 14.6107 22.3686 15.0229 23.0758 15.8267C23.5907 16.4119 23.9349 17.2207 24.1053 18.2415C22.8212 18.0277 21.4324 17.9622 19.9481 18.0455C15.7662 18.2812 13.0777 20.6692 13.2582 23.9869C13.3498 25.6699 14.2062 27.1176 15.6696 28.0635C16.9068 28.8629 18.5005 29.2539 20.1566 29.1656C22.3437 29.0482 24.0595 28.2313 25.2563 26.7376C26.1654 25.6033 26.7403 24.1332 26.9941 22.281C28.0365 22.8968 28.8089 23.7073 29.2355 24.6813C29.961 26.3372 30.0033 29.0587 27.735 31.2772C25.7479 33.2207 23.3592 34.0615 19.7492 34.0876C15.7448 34.0586 12.7161 32.8012 10.7471 30.3507C8.90346 28.0567 7.9505 24.7423 7.91511 20.5C7.95077 16.2577 8.90346 12.9433 10.7474 10.6485C12.7164 8.19798 15.7448 6.94063 19.7495 6.91162C23.783 6.94089 26.8643 8.20416 28.9088 10.6668C29.9111 11.8742 30.6671 13.3928 31.1653 15.1634L34 14.423C33.396 12.2437 32.4457 10.3657 31.1526 8.80812C28.5316 5.65105 24.6984 4.03357 19.7594 4H19.7396C14.8105 4.0333 11.0203 5.65722 8.47389 8.82612C6.20807 11.6462 5.03923 15.57 5 20.4885V20.5V20.5115C5.03923 25.43 6.20807 29.3538 8.47389 32.1739C11.0203 35.3428 14.8105 36.9667 19.7396 37H19.7594C24.1415 36.9702 27.2303 35.8471 29.775 33.3582C33.1044 30.102 33.004 26.0206 31.9067 23.515C31.1192 21.7181 29.6184 20.2588 27.566 19.2947ZM19.9999 26.2591C18.167 26.36 16.263 25.5547 16.1689 23.8295C16.0992 22.5504 17.0988 21.123 20.1124 20.953C20.4575 20.9334 20.7963 20.924 21.129 20.924C22.2235 20.924 23.2478 21.0282 24.1788 21.2275C23.8313 25.4733 21.7945 26.1627 19.9999 26.2591Z" fill=""></path></svg></a></li><li><a href="https://www.instagram.com/verge" class="_7j7yhw1" rel="nofollow"><svg class="_7j7yhw2" width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M14.1274 6C9.65144 6 6 9.65144 6 14.1274V25.8726C6 30.3486 9.65144 34 14.1274 34H25.8726C30.3486 34 34 30.3486 34 25.8726V14.1274C34 9.65144 30.3486 6 25.8726 6H14.1274ZM14.1274 8.15385H25.8726C29.1833 8.15385 31.8462 10.8125 31.8462 14.1274V25.8726C31.8462 29.1833 29.1875 31.8462 25.8726 31.8462H14.1274C10.8167 31.8462 8.15385 29.1875 8.15385 25.8726V14.1274C8.15385 10.8167 10.8125 8.15385 14.1274 8.15385ZM28.0769 10.3077C27.1851 10.3077 26.4615 11.0313 26.4615 11.9231C26.4615 12.8149 27.1851 13.5385 28.0769 13.5385C28.9688 13.5385 29.6923 12.8149 29.6923 11.9231C29.6923 11.0313 28.9688 10.3077 28.0769 10.3077ZM20 12.4615C15.848 12.4615 12.4615 15.848 12.4615 20C12.4615 24.152 15.848 27.5385 20 27.5385C24.152 27.5385 27.5385 24.152 27.5385 20C27.5385 15.848 24.152 12.4615 20 12.4615ZM20 14.6154C22.9868 14.6154 25.3846 17.0132 25.3846 20C25.3846 22.9868 22.9868 25.3846 20 25.3846C17.0132 25.3846 14.6154 22.9868 14.6154 20C14.6154 17.0132 17.0132 14.6154 20 14.6154Z" fill=""></path></svg></a></li><li><a href="https://www.youtube.com/user/theverge" class="_7j7yhw1" rel="nofollow"><svg class="_7j7yhw2" width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><title>Youtube</title><path d="M33.4148 12.0057C33.0928 10.8232 32.1436 9.891 30.9396 9.57475C28.7556 9 20 9 20 9C20 9 11.2444 9 9.0604 9.57475C7.8564 9.891 6.9072 10.8232 6.5852 12.0057C6 14.1507 6 20 6 20C6 20 6 25.8492 6.5852 27.9942C6.9072 29.1767 7.8564 30.109 9.0604 30.4253C11.2444 31 20 31 20 31C20 31 28.7556 31 30.9396 30.4253C32.145 30.109 33.0928 29.1767 33.4148 27.9942C34 25.8492 34 20 34 20C34 20 34 14.1507 33.4148 12.0057ZM17.2 24.763V15.237L25.6 20L17.2 24.763Z" fill=""></path></svg></a></li><li><a href="https://www.theverge.com/rss/index.xml" class="_7j7yhw1" rel="nofollow"><svg class="_7j7yhw2" height="30" width="30" viewBox="-2 -1 16 16" xmlns="http://www.w3.org/2000/svg"><title>RSS</title><path fill="" d="M3.772 10.864c0 .454-.159.84-.477 1.159a1.578 1.578 0 0 1-1.159.477c-.454 0-.84-.16-1.159-.477a1.578 1.578 0 0 1-.477-1.16c0-.454.16-.84.477-1.158a1.578 1.578 0 0 1 1.16-.478c.454 0 .84.16 1.158.478.318.318.477.704.477 1.159Zm4.363 1.048a.516.516 0 0 1-.144.409.502.502 0 0 1-.401.179H6.44a.524.524 0 0 1-.367-.14.519.519 0 0 1-.17-.354A5.3 5.3 0 0 0 4.33 8.669 5.3 5.3 0 0 0 .994 7.097a.519.519 0 0 1-.353-.17A.524.524 0 0 1 .5 6.56V5.41c0-.166.06-.3.179-.401a.497.497 0 0 1 .366-.145h.043a7.64 7.64 0 0 1 2.608.686c.83.383 1.565.899 2.207 1.547a7.536 7.536 0 0 1 1.546 2.207c.384.83.613 1.699.686 2.608Zm4.364.017a.493.493 0 0 1-.154.4.504.504 0 0 1-.392.171h-1.218a.532.532 0 0 1-.38-.15.51.51 0 0 1-.166-.361 9.53 9.53 0 0 0-.86-3.482 9.796 9.796 0 0 0-1.973-2.864A9.795 9.795 0 0 0 4.492 3.67a9.65 9.65 0 0 0-3.48-.869.51.51 0 0 1-.363-.166.522.522 0 0 1-.149-.37v-1.22C.5.886.557.755.67.653A.51.51 0 0 1 1.045.5h.026c1.488.074 2.913.415 4.274 1.023 1.36.608 2.569 1.443 3.625 2.505a11.948 11.948 0 0 1 2.506 3.627 11.83 11.83 0 0 1 1.022 4.274Z"></path></svg></a></li></ul></div></div></div></section></div><main class="_1ymtmqp2"><div id="content" class="_1dhd0nt0"><div class="_1dhd0nt1"><div class="duet--layout--page-header wh8b410"><div class="wh8b41l wh8b41f"><h1 class="duet--article--dangerously-set-cms-markup wh8b41q wh8b41m _1xwtict2 wh8b41e">404</h1></div><p class="duet--article--dangerously-set-cms-markup wh8b41s wh8b41e">Page Not Found</p><p class="duet--article--dangerously-set-cms-markup duet--group--description wh8b41x _1xwtict3 _1xwtict1 wh8b41e">That page does not exist. Try again or go back to the <a href="/">homepage</a>.</p><div class="sticky-nav-trigger"></div></div></div></div></main><footer class="duet--navigation--footer _1c8yj4y1"><div class="_5j91120"><div class="_5j91121"><div class="_5j91123"><a href="/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 309 70" role="img" width="100%" height="100%" fill="white"><title>The Verge</title><desc>The Verge logo.</desc><path d="m231.196 17.897-.302 9.071c-10.592-.726-13.618 1.996-13.618 10.885V39h-9.078V18.441h9.078v5.866c2.724-4.777 6.416-6.954 13.92-6.41ZM15.131 54.786h9.078V19.71h-9.078v35.075Zm44.968-36.828c-6.355 0-10.228 2.842-12.286 5.986V4.593H0v8.466h39.34V39h8.654c0-7.438 4.298-12.697 9.563-12.697 4.54 0 6.597 2.237 6.597 10.28v18.203h9.078V33.318c0-10.28-5.265-15.36-13.133-15.36ZM95.807 47.83c-5.507 0-9.078-3.326-9.683-8.829H77.59c.847 9.676 7.202 16.51 18.157 16.51 8.473 0 13.254-3.81 15.736-9.555l-7.687-3.387c-1.15 3.447-3.268 5.261-7.989 5.261Zm-.363-29.692a19.226 19.226 0 0 0-9.32 2.177l4.357 6.168c1.634-.846 3.39-1.27 5.266-1.21 5.084 0 7.686 3.327 8.049 7.68H95.02v6.048h17.31c.121-.907.182-1.754.182-2.66.06-13.184-8.655-18.203-17.068-18.203ZM185.32 47.83c-5.507 0-9.078-3.326-9.683-8.829h-8.534c.847 9.676 7.202 16.51 18.157 16.51 8.473 0 13.254-3.81 15.736-9.555l-7.687-3.387c-1.21 3.447-3.328 5.261-7.989 5.261Zm-.302-29.692a19.226 19.226 0 0 0-9.321 2.177l4.358 6.168c1.634-.846 3.389-1.27 5.265-1.21 5.084 0 7.687 3.327 8.05 7.68h-8.776v6.048h17.31c.121-.907.181-1.754.181-2.66.061-13.184-8.655-18.203-17.067-18.203ZM291.416 47.83c-5.507 0-9.078-3.326-9.683-8.829h-8.534c.847 9.676 7.202 16.51 18.157 16.51 8.473 0 13.254-3.81 15.736-9.555l-7.687-3.387c-1.21 3.447-3.328 5.261-7.989 5.261Zm-.484-29.692a19.225 19.225 0 0 0-9.32 2.177l4.357 6.168c1.635-.846 3.39-1.27 5.266-1.21 5.084 0 7.686 3.327 8.049 7.68h-8.775v6.048h17.309c.121-.907.182-1.754.182-2.66.06-13.184-8.655-18.203-17.068-18.203ZM117.172.299 133.5 39h9.926L130.971 8.221h16.099V.36L117.172.3Zm48.418.06L146.888 47.71l-2.784 7.076h9.502L176.06.36h-10.47Zm83.461 53.58c3.873 0 7.081-1.089 9.32-2.963l-3.631-5.745c-1.15.484-2.421.665-3.692.665-4.963 0-7.808-2.963-8.776-6.894h-8.897c1.211 8.406 7.263 14.937 15.676 14.937Zm11.196-30.418c-2.057-3.265-6.234-5.624-12.044-5.624-5.689-.06-10.954 3.024-13.738 8.043l7.565 4.838c1.392-2.903 4.116-4.838 8.292-4.838 5.931 0 9.925 4.596 9.925 10.038 0 1.029-.121 2.057-.423 3.024h9.502v-20.5h-9.079v5.019Zm-8.775 38.642c-5.871 0-8.05-2.842-8.474-6.168h-8.654c.181 6.35 4.418 13.304 17.309 13.304 8.715 0 14.404-4.354 16.765-10.885l-8.171-2.842c-1.15 4.233-4.297 6.591-8.775 6.591Z"></path></svg></a><div class="_5j91128"><ul class="_7j7yhw0"><li><a href="https://www.facebook.com/verge" class="_7j7yhw1" rel="nofollow"><svg class="_7j7yhw2" width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M27.0174 21.7497L27.8495 16.3604H22.6403V12.8637C22.6403 11.3906 23.3668 9.95151 25.7019 9.95151H28.0714V5.36435C28.0714 5.36435 25.9212 5 23.866 5C19.5761 5 16.7707 7.57929 16.7707 12.2529V16.3604H12V21.7497H16.7707V34.7746C17.727 34.924 18.707 35 19.7055 35C20.704 35 21.6841 34.9214 22.6403 34.7746V21.7497H27.0174Z" fill=""></path></svg></a></li><li><a href="https://www.threads.net/@verge" class="_7j7yhw1" rel="nofollow"><svg class="_7j7yhw2" width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><title>Threads</title><path d="M27.566 19.2947C27.4209 19.2265 27.2733 19.161 27.1238 19.0982C26.8638 14.4047 24.2441 11.7179 19.8455 11.6902C19.8255 11.6902 19.8057 11.6902 19.7857 11.6902C17.1548 11.6902 14.9666 12.7897 13.62 14.7901L16.0391 16.4145C17.0453 14.9201 18.6243 14.6016 19.7871 14.6016C19.8005 14.6016 19.8139 14.6016 19.8274 14.6016C21.2758 14.6107 22.3686 15.0229 23.0758 15.8267C23.5907 16.4119 23.9349 17.2207 24.1053 18.2415C22.8212 18.0277 21.4324 17.9622 19.9481 18.0455C15.7662 18.2812 13.0777 20.6692 13.2582 23.9869C13.3498 25.6699 14.2062 27.1176 15.6696 28.0635C16.9068 28.8629 18.5005 29.2539 20.1566 29.1656C22.3437 29.0482 24.0595 28.2313 25.2563 26.7376C26.1654 25.6033 26.7403 24.1332 26.9941 22.281C28.0365 22.8968 28.8089 23.7073 29.2355 24.6813C29.961 26.3372 30.0033 29.0587 27.735 31.2772C25.7479 33.2207 23.3592 34.0615 19.7492 34.0876C15.7448 34.0586 12.7161 32.8012 10.7471 30.3507C8.90346 28.0567 7.9505 24.7423 7.91511 20.5C7.95077 16.2577 8.90346 12.9433 10.7474 10.6485C12.7164 8.19798 15.7448 6.94063 19.7495 6.91162C23.783 6.94089 26.8643 8.20416 28.9088 10.6668C29.9111 11.8742 30.6671 13.3928 31.1653 15.1634L34 14.423C33.396 12.2437 32.4457 10.3657 31.1526 8.80812C28.5316 5.65105 24.6984 4.03357 19.7594 4H19.7396C14.8105 4.0333 11.0203 5.65722 8.47389 8.82612C6.20807 11.6462 5.03923 15.57 5 20.4885V20.5V20.5115C5.03923 25.43 6.20807 29.3538 8.47389 32.1739C11.0203 35.3428 14.8105 36.9667 19.7396 37H19.7594C24.1415 36.9702 27.2303 35.8471 29.775 33.3582C33.1044 30.102 33.004 26.0206 31.9067 23.515C31.1192 21.7181 29.6184 20.2588 27.566 19.2947ZM19.9999 26.2591C18.167 26.36 16.263 25.5547 16.1689 23.8295C16.0992 22.5504 17.0988 21.123 20.1124 20.953C20.4575 20.9334 20.7963 20.924 21.129 20.924C22.2235 20.924 23.2478 21.0282 24.1788 21.2275C23.8313 25.4733 21.7945 26.1627 19.9999 26.2591Z" fill=""></path></svg></a></li><li><a href="https://www.instagram.com/verge" class="_7j7yhw1" rel="nofollow"><svg class="_7j7yhw2" width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M14.1274 6C9.65144 6 6 9.65144 6 14.1274V25.8726C6 30.3486 9.65144 34 14.1274 34H25.8726C30.3486 34 34 30.3486 34 25.8726V14.1274C34 9.65144 30.3486 6 25.8726 6H14.1274ZM14.1274 8.15385H25.8726C29.1833 8.15385 31.8462 10.8125 31.8462 14.1274V25.8726C31.8462 29.1833 29.1875 31.8462 25.8726 31.8462H14.1274C10.8167 31.8462 8.15385 29.1875 8.15385 25.8726V14.1274C8.15385 10.8167 10.8125 8.15385 14.1274 8.15385ZM28.0769 10.3077C27.1851 10.3077 26.4615 11.0313 26.4615 11.9231C26.4615 12.8149 27.1851 13.5385 28.0769 13.5385C28.9688 13.5385 29.6923 12.8149 29.6923 11.9231C29.6923 11.0313 28.9688 10.3077 28.0769 10.3077ZM20 12.4615C15.848 12.4615 12.4615 15.848 12.4615 20C12.4615 24.152 15.848 27.5385 20 27.5385C24.152 27.5385 27.5385 24.152 27.5385 20C27.5385 15.848 24.152 12.4615 20 12.4615ZM20 14.6154C22.9868 14.6154 25.3846 17.0132 25.3846 20C25.3846 22.9868 22.9868 25.3846 20 25.3846C17.0132 25.3846 14.6154 22.9868 14.6154 20C14.6154 17.0132 17.0132 14.6154 20 14.6154Z" fill=""></path></svg></a></li><li><a href="https://www.youtube.com/user/theverge" class="_7j7yhw1" rel="nofollow"><svg class="_7j7yhw2" width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><title>Youtube</title><path d="M33.4148 12.0057C33.0928 10.8232 32.1436 9.891 30.9396 9.57475C28.7556 9 20 9 20 9C20 9 11.2444 9 9.0604 9.57475C7.8564 9.891 6.9072 10.8232 6.5852 12.0057C6 14.1507 6 20 6 20C6 20 6 25.8492 6.5852 27.9942C6.9072 29.1767 7.8564 30.109 9.0604 30.4253C11.2444 31 20 31 20 31C20 31 28.7556 31 30.9396 30.4253C32.145 30.109 33.0928 29.1767 33.4148 27.9942C34 25.8492 34 20 34 20C34 20 34 14.1507 33.4148 12.0057ZM17.2 24.763V15.237L25.6 20L17.2 24.763Z" fill=""></path></svg></a></li><li><a href="https://www.theverge.com/rss/index.xml" class="_7j7yhw1" rel="nofollow"><svg class="_7j7yhw2" height="30" width="30" viewBox="-2 -1 16 16" xmlns="http://www.w3.org/2000/svg"><title>RSS</title><path fill="" d="M3.772 10.864c0 .454-.159.84-.477 1.159a1.578 1.578 0 0 1-1.159.477c-.454 0-.84-.16-1.159-.477a1.578 1.578 0 0 1-.477-1.16c0-.454.16-.84.477-1.158a1.578 1.578 0 0 1 1.16-.478c.454 0 .84.16 1.158.478.318.318.477.704.477 1.159Zm4.363 1.048a.516.516 0 0 1-.144.409.502.502 0 0 1-.401.179H6.44a.524.524 0 0 1-.367-.14.519.519 0 0 1-.17-.354A5.3 5.3 0 0 0 4.33 8.669 5.3 5.3 0 0 0 .994 7.097a.519.519 0 0 1-.353-.17A.524.524 0 0 1 .5 6.56V5.41c0-.166.06-.3.179-.401a.497.497 0 0 1 .366-.145h.043a7.64 7.64 0 0 1 2.608.686c.83.383 1.565.899 2.207 1.547a7.536 7.536 0 0 1 1.546 2.207c.384.83.613 1.699.686 2.608Zm4.364.017a.493.493 0 0 1-.154.4.504.504 0 0 1-.392.171h-1.218a.532.532 0 0 1-.38-.15.51.51 0 0 1-.166-.361 9.53 9.53 0 0 0-.86-3.482 9.796 9.796 0 0 0-1.973-2.864A9.795 9.795 0 0 0 4.492 3.67a9.65 9.65 0 0 0-3.48-.869.51.51 0 0 1-.363-.166.522.522 0 0 1-.149-.37v-1.22C.5.886.557.755.67.653A.51.51 0 0 1 1.045.5h.026c1.488.074 2.913.415 4.274 1.023 1.36.608 2.569 1.443 3.625 2.505a11.948 11.948 0 0 1 2.506 3.627 11.83 11.83 0 0 1 1.022 4.274Z"></path></svg></a></li></ul></div></div><div class="_1twvhsd0"><ul class="_1twvhsd1 _1twvhsd4"><li class="_1twvhsd2"><a class="_1twvhsd3" rel="nofollow" href="/contact">Contact</a></li><li class="_1twvhsd2"><a class="_1twvhsd3" rel="nofollow" href="/c/tech/22579076/how-to-tip-the-verge-email-signal-and-more">Tip Us</a></li><li class="_1twvhsd2"><a class="_1twvhsd3" rel="nofollow" href="/community-guidelines">Community Guidelines</a></li><li class="_1twvhsd2"><a class="_1twvhsd3" rel="nofollow" href="/archives/full">Archives</a></li><li class="_1twvhsd2"><a class="_1twvhsd3" rel="nofollow" href="/about-the-verge">About</a></li><li class="_1twvhsd2"><a class="_1twvhsd3" rel="nofollow" href="/ethics-statement">Ethics Statement</a></li><li class="_1twvhsd2"><a class="_1twvhsd3" rel="nofollow" href="/pages/how-we-rate">How We Rate and Review Products</a></li></ul><ul class="_1twvhsd1"><li class="_1twvhsd2"><button id="ot-sdk-btn" class="_6mrthk0 ot-sdk-show-settings">Cookie Settings</button></li><li class="_1twvhsd2"><a class="_1twvhsd3" rel="nofollow" href="https://www.voxmedia.com/legal/terms-of-use">Terms of Use</a></li><li class="_1twvhsd2"><a class="_1twvhsd3" rel="nofollow" href="https://www.voxmedia.com/legal/privacy-notice">Privacy Notice</a></li><li class="_1twvhsd2"><a class="_1twvhsd3" rel="nofollow" href="https://www.voxmedia.com/legal/cookie-policy">Cookie Policy</a></li><li class="_1twvhsd2"><a class="_1twvhsd3" rel="nofollow" href="https://www.voxmedia.com/pages/licensing">Licensing FAQ</a></li><li class="_1twvhsd2"><a class="_1twvhsd3" rel="nofollow" href="https://www.voxmedia.com/legal/accessibility">Accessibility</a></li><li class="_1twvhsd2"><a class="_1twvhsd3" rel="nofollow" href="https://status.voxmedia.com">Platform Status</a></li></ul></div><p class="_5j9112a">© <!-- -->2026<!-- --> <a rel="nofollow" href="https://www.voxmedia.com">Vox Media</a>, LLC. All Rights Reserved</p></div></div></footer></div></div><div id="mixer-modal-root"></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"_sentryTraceData":"69b3d71e000000005e8397ee297576de-0579e693b9d6973a","_sentryBaggage":"sentry-environment=production,sentry-public_key=dda62d08b807fc79b0fff14e1d7dd23d,sentry-trace_id=69b3d71e000000005e8397ee297576de,sentry-org_id=4507017844228096"},"hydration":{"responses":[{"operationName":"GlobalDataContainerQuery","variables":{},"data":{"breakingNewsBanner":null,"wikiBanner":null,"siteSettings":{"siteDomain":"www.theverge.com","siteSlug":"theverge","siteTitle":"The Verge","siteTagline":"The Verge is about technology and how it makes us feel. Founded in 2011, we offer our audience everything from breaking news to reviews to award-winning features and investigations, on our site, in video, and in podcasts.","placeholderImage":{"thumbnails":{"horizontal":{"url":"https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/verge-placeholder_f212b3.png?quality=90\\u0026strip=all\\u0026crop=10.625,0,78.75,100"},"vertical":{"url":"https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/verge-placeholder_f212b3.png?quality=90\\u0026strip=all\\u0026crop=29,0,42,100"},"square":{"url":"https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/verge-placeholder_f212b3.png?quality=90\\u0026strip=all\\u0026crop=23.75,0,52.5,100"},"social":{"url":"https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/verge-placeholder_f212b3.png?quality=90\\u0026strip=all\\u0026crop=0,0.13712291199202,100,99.725754176016"}},"id":"dmcyOmltYWdlOjU2Mjk3OA=="},"siteLogo":{"originalWidth":1200,"originalHeight":630,"thumbnails":{"original":{"url":"https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/verge-placeholder_f212b3.png?quality=90\\u0026strip=all\\u0026crop=0,0,100,100","cropCoordinates":{"height":100,"width":100}},"social":{"url":"https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/verge-placeholder_f212b3.png?quality=90\\u0026strip=all\\u0026crop=0,0.13712291199202,100,99.725754176016","cropCoordinates":{"height":99.72575417601595,"width":100}}},"id":"dmcyOmltYWdlOjU2Mjk3OA=="},"socialMediaLinks":[],"seo":null},"newsletters":[{"title":"The Verge Daily","slug":"verge-daily","listId":"Verge Daily","default":true,"promoText":{"html":"A free daily digest of the news that matters most."},"frequency":"daily","image":{"thumbnails":{"original":{"url":"https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/The-Verge-Daily-Newsletter-Header-1.png?quality=90\\u0026strip=all\\u0026crop=0,0,100,100"}},"id":"dmcyOmltYWdlOjcxOTgzMA=="}},{"title":"Installer","slug":"installer","listId":"Installer","default":false,"promoText":{"html":"A weekly newsletter by David Pierce designed to tell you everything you need to download, watch, read, listen to, and explore that fits in The Verge’s universe."},"frequency":"weekly","image":{"thumbnails":{"original":{"url":"https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/Installer-Newsletter-Header-1.png?quality=90\\u0026strip=all\\u0026crop=0,0,100,100"}},"id":"dmcyOmltYWdlOjcxOTgzMQ=="}},{"title":"Verge Deals","slug":"deals","listId":"Verge Deals","default":false,"promoText":{"html":"Sign up for Verge Deals to get deals on products we’ve tested sent to your inbox weekly."},"frequency":"daily","image":{"thumbnails":{"original":{"url":"https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/Verge-Deals-Newsletter-Header-1.jpg?quality=90\\u0026strip=all\\u0026crop=0,0,100,100"}},"id":"dmcyOmltYWdlOjcxOTgzNA=="}},{"title":"Command Line","slug":"command-line","listId":"Command Line Active Subscribers","default":false,"promoText":{"html":"The tech world’s inside conversation, as heard by Alex Heath."},"frequency":"weekly","image":{"thumbnails":{"original":{"url":"https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/Command-Line-Newsletter-Header-1.png?quality=90\\u0026strip=all\\u0026crop=0,0,100,100"}},"id":"dmcyOmltYWdlOjcxOTgxNg=="}},{"title":"Notepad","slug":"notepad","listId":"Notepad Active Subscribers","default":false,"promoText":{"html":"A weekly window into Microsoft’s era-defining bets on AI, gaming, and the future of computing by Tom Warren."},"frequency":"weekly","image":{"thumbnails":{"original":{"url":"https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/Notepad-Newsletter-Header-1.png?quality=90\\u0026strip=all\\u0026crop=0,0,100,100"}},"id":"dmcyOmltYWdlOjcxOTgxOQ=="}},{"title":"Regulator","slug":"regulator","listId":"Regulator Active Subscribers","default":false,"promoText":{"html":"A weekly newsletter unpacking the collision of Big Tech and the White House."},"frequency":"weekly","image":{"thumbnails":{"original":{"url":"https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/Regulator-Newsletter-Header.png?quality=90\\u0026strip=all\\u0026crop=0,0,100,100"}},"id":"dmcyOmltYWdlOjcxOTgyNA=="}},{"title":"The Stepback","slug":"the-stepback","listId":"The Stepback Active Subscribers","default":false,"promoText":{"html":"A weekly newsletter delivering the deeper story behind The Verge’s biggest beats."},"frequency":"weekly","image":{"thumbnails":{"original":{"url":"https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/The-Stepback-Newsletter-Header-1.png?quality=90\\u0026strip=all\\u0026crop=0,0,100,100"}},"id":"dmcyOmltYWdlOjcxOTgyOQ=="}},{"title":"Optimizer","slug":"optimizer","listId":"Optimizer Active Subscribers","default":false,"promoText":{"html":"A weekly newsletter exploring the latest wellness gizmos and potions."},"frequency":"weekly","image":{"thumbnails":{"original":{"url":"https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/Optimizer-sign-up-page.png?quality=90\\u0026strip=all\\u0026crop=0,0,100,100"}},"id":"dmcyOmltYWdlOjc2OTE2MQ=="}}],"mainNav":{"menuItems":{"nodes":[{"label":"Tech","url":"https://www.theverge.com/tech","menuItems":[{"label":"Amazon","url":"https://www.theverge.com/amazon","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1MTQ="},{"label":"Apple","url":"https://www.theverge.com/apple","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1MTY="},{"label":"Facebook","url":"https://www.theverge.com/facebook","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1MTc="},{"label":"Google","url":"https://www.theverge.com/google","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1MTg="},{"label":"Microsoft","url":"https://www.theverge.com/microsoft","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1MTk="},{"label":"Samsung","url":"https://www.theverge.com/samsung","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1MjA="},{"label":"Business","url":"https://www.theverge.com/business","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1MjI="},{"label":"See all tech","url":"https://www.theverge.com/tech","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYyODE="}],"id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA0OTc="},{"label":"Reviews","url":"https://www.theverge.com/reviews","menuItems":[{"label":"Smart Home Reviews","url":"https://www.theverge.com/smart-home-review","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYyOTM="},{"label":"Phone Reviews","url":"https://www.theverge.com/phone-review","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYyOTc="},{"label":"Tablet Reviews","url":"https://www.theverge.com/tablet-review","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYyOTQ="},{"label":"Headphone Reviews","url":"https://www.theverge.com/headphone-review","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYyOTY="},{"label":"See all reviews","url":"https://www.theverge.com/reviews","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYyOTk="}],"id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYyOTI="},{"label":"Science","url":"https://www.theverge.com/science","menuItems":[{"label":"Space","url":"https://www.theverge.com/space","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1NDk="},{"label":"Energy","url":"https://www.theverge.com/energy","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1NTA="},{"label":"Environment","url":"https://www.theverge.com/environment","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1NTE="},{"label":"Health","url":"https://www.theverge.com/health","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1NTI="},{"label":"See all science","url":"https://www.theverge.com/science","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYzMTQ="}],"id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1MDI="},{"label":"Entertainment","url":"https://www.theverge.com/entertainment","menuItems":[{"label":"TV Shows","url":"https://www.theverge.com/tv","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1NTQ="},{"label":"Movies","url":"https://www.theverge.com/film","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYzMTk="},{"label":"Audio","url":"https://www.theverge.com/audio","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYzMjE="},{"label":"See all entertainment","url":"https://www.theverge.com/entertainment","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYzMTc="}],"id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1MDM="},{"label":"AI","url":"https://www.theverge.com/ai-artificial-intelligence","menuItems":[{"label":"OpenAI","url":"https://www.theverge.com/openai","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYzMDA="},{"label":"Anthropic","url":"https://www.theverge.com/anthropic","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYzMDE="},{"label":"See all AI","url":"https://www.theverge.com/ai-artificial-intelligence","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYzMDI="}],"id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1MDQ="},{"label":"Policy","url":"https://www.theverge.com/policy","menuItems":[{"label":"Antitrust","url":"https://www.theverge.com/antitrust","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYzMDk="},{"label":"Politics","url":"https://www.theverge.com/politics","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYzMTA="},{"label":"Law","url":"https://www.theverge.com/law","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYzMTE="},{"label":"Security","url":"https://www.theverge.com/cyber-security","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYzMTI="},{"label":"See all policy","url":"https://www.theverge.com/policy","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYzMTM="}],"id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYzMDg="},{"label":"Gadgets","url":"https://www.theverge.com/gadgets","menuItems":[{"label":"Laptops","url":"https://www.theverge.com/laptops","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1Mzc="},{"label":"Phones","url":"https://www.theverge.com/phones","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1Mzg="},{"label":"TVs","url":"https://www.theverge.com/televisions","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYyODU="},{"label":"Headphones","url":"https://www.theverge.com/headphone","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1Mzk="},{"label":"Speakers","url":"https://www.theverge.com/speakers","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1NDc="},{"label":"Wearables","url":"https://www.theverge.com/wearables","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYyODc="},{"label":"See all gadgets","url":"https://www.theverge.com/gadgets","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYyODg="}],"id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYyODM="},{"label":"Verge Shopping","url":"https://www.theverge.com/shopping","menuItems":[{"label":"Buying Guides","url":"https://www.theverge.com/buying-guides","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1MzI="},{"label":"Deals","url":"https://www.theverge.com/good-deals","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1MzM="},{"label":"Gift Guides","url":"https://www.theverge.com/gift-guides","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1MzU="},{"label":"See all shopping","url":"https://www.theverge.com/shopping","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTk5MzE="}],"id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTg5Njc="},{"label":"Gaming","url":"https://www.theverge.com/games","menuItems":[{"label":"Xbox","url":"https://www.theverge.com/microsoft-xbox","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYzMjU="},{"label":"PlayStation","url":"https://www.theverge.com/sony-playstation","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYzMjY="},{"label":"Nintendo","url":"https://www.theverge.com/nintendo","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYzMjc="},{"label":"See all gaming","url":"https://www.theverge.com/games","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYzMjg="}],"id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYzMjQ="},{"label":"Streaming","url":"https://www.theverge.com/streaming","menuItems":[{"label":"Disney","url":"https://www.theverge.com/disney","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYzMzE="},{"label":"HBO","url":"https://www.theverge.com/hbo","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYzMzI="},{"label":"Netflix","url":"https://www.theverge.com/netflix","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYzMzM="},{"label":"YouTube","url":"https://www.theverge.com/youtube","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYzMzQ="},{"label":"Creators","url":"https://www.theverge.com/creators","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYzMjk="},{"label":"See all streaming","url":"https://www.theverge.com/streaming","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYzMzY="}],"id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYzMzA="},{"label":"Transportation","url":"https://www.theverge.com/transportation","menuItems":[{"label":"Electric Cars","url":"https://www.theverge.com/electric-cars","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1NTc="},{"label":"Autonomous Cars","url":"https://www.theverge.com/autonomous-cars","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1NTg="},{"label":"Ride-sharing","url":"https://www.theverge.com/ride-sharing","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1NjA="},{"label":"Scooters","url":"https://www.theverge.com/scooters","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1NjE="},{"label":"See all transportation","url":"/transportation","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1NjM="}],"id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NDYzMjM="},{"label":"Features","url":"https://www.theverge.com/features","menuItems":[],"id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1MDY="},{"label":"Verge Video","url":"https://www.theverge.com/featured-video","menuItems":[{"label":"TikTok","url":"https://www.tiktok.com/@verge","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1NjY="},{"label":"YouTube","url":"https://www.youtube.com/theverge","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1NjU="},{"label":"Instagram","url":"https://www.instagram.com/verge","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1Njc="}],"id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1MDg="},{"label":"Podcasts","url":"https://www.theverge.com/podcast","menuItems":[{"label":"Decoder","url":"/decoder-podcast-with-nilay-patel","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1NzA="},{"label":"The Vergecast","url":"/the-vergecast","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1NzI="},{"label":"Version History","url":"/version-history-podcast","id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1NzQ="}],"id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1MDk="},{"label":"Newsletters","url":"/newsletters","menuItems":[],"id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1MTA="},{"label":"Archives","url":"/archives/full","menuItems":[],"id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1MTE="},{"label":"Store","url":"https://shop.theverge.com/","menuItems":[],"id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4MTA1MTI="},{"label":"Verge Product Updates","url":"https://www.theverge.com/verge-product-updates","menuItems":[],"id":"dmcyOk5hdk1lbnVJdGVtVHlwZTo4NzQ2ODE="}]}},"footerNav":{"menuItems":{"nodes":[]}}},"errors":[]}]},"preview":false,"themes":{"overtone":"xvwrgw0","vergeLight":"_6ytxv90","vergeDark":"qksc1b0"},"communityId":372,"cycloneCommunityId":"815a6122-a71c-47a0-a311-32f264c80c8a","defaultTheme":"vergeDark","isPaywallEligible":false,"routeInfo":{"base":"/auth/register","page":null,"query":{}},"scripts":[{"src":"https://cdn.bullwhip.cloud/sonar/vox-verge.umd.js","strategy":"beforeInteractive","async":true},{"strategy":"beforeInteractive","children":"\\n try {\\n if (typeof history.scrollRestoration !== \'undefined\') {\\n const homepage = window.location.pathname === \'/\';\\n const scrollRestorationKey = sessionStorage.getItem(\'v:feed\');\\n if (homepage \\u0026\\u0026 scrollRestorationKey) {\\n history.scrollRestoration = \'manual\';\\n } else {\\n history.scrollRestoration = \'auto\';\\n }\\n }\\n } catch (e) {\\n console.warn(\'Failed to set scrollRestoration\', e);\\n }\\n "},{"strategy":"afterInteractive","children":"\\n(function(d) {\\n var e = d.createElement(\'script\');\\n e.src = d.location.protocol + \'//tag.wknd.ai/6384/i.js\';\\n e.async = true;\\n d.getElementsByTagName(\\"head\\")[0].appendChild(e);\\n}(document));\\n "}],"serverAuthState":{"isEntitled":false,"isLoggedIn":false},"currentOrigin":"https://www.theverge.com","version":"production-gitsha-76e5935d3535f9a9713f546667ee883765414b14"},"page":"/404","query":{},"buildId":"3QYWzWjXySH687eN3B7G3","isFallback":false,"isExperimentalCompile":false,"appGip":true,"scriptLoader":[{"strategy":"afterInteractive","children":"\\n(function(d) {\\n var e = d.createElement(\'script\');\\n e.src = d.location.protocol + \'//tag.wknd.ai/6384/i.js\';\\n e.async = true;\\n d.getElementsByTagName(\\"head\\")[0].appendChild(e);\\n}(document));\\n "}]}</script></body></html>')
-
-[https://www.topcashback.de]
-
-[https://www.v2ex.com]
-
-[https://www.w3.org]
-
-[https://www.wired.com]
-
-[https://www.xiaobot.net]
-
-[https://www.xiaohongshu.com]
-
-[https://www.xn--9kqx21a0sv.top]
+[http://154.44.29.139]
 buy  pass
-email  tunzspwo640@gmail.com
-name  白嫖云
-sub_info  0B  0B  永不过期  (剩余 0B)
-sub_url  https://baipiaoyun-oss.freeloadcloud.eu/api/v1/client/subscribe?token=e12bca7203eb0b0c7a775a102ccb800a
-time  2026-03-13 17:21:36.716032+08:00
+email  matztmdgv12@gmail.com
+name  Xboard
+sub_url  http://154.44.29.139/s/b90b6757a1ddd018122b481ba5e339ad
+time  2026-03-14 10:38:30.017311+08:00
 type  v2board
-保存base64/clash订阅失败  'NoneType' object is not iterable
+获取订阅失败  (http://154.44.29.139/s/b90b6757a1ddd018122b481ba5e339ad): 403 Forbidden ''
 
-[https://www.xn--9kqz09d4qq.com]
+[https://154.12.88.55]
 
-[https://www.xn--qk5apn.com]
-
-[https://www.youtube.com]
-
-[https://www.yunzoa.com]
-
-[https://www.zhujue.net]
-
-[https://www.zotero.org]
-
-[https://www8.bigairport-fourteenth-sub.top]
-
-[https://x.com]
-
-[https://x.xfuti.buzz]
-
-[https://xb.inekokkk.com]
-
-[https://xfa9.eu.org]
-
-[https://xn--6stp4p.com]
-
-[https://xn--9kq85xcu6b.com]
-name  套路云
+[https://e.hy2yydsapi.top]
+name  EMO
 type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(hizhwlvk793@guerrillamail.de): {'message': '验证码有误'}
+更新订阅链接/续费续签失败  注册失败(puqhskou578@gmail.com): 'NoneType' object is not subscriptable
 
-[https://xn--9kqt60cjmy.shop]
+[https://107.173.149.135]
 
-[https://xn--9kqy4sc0n4uu.xyz]
+[https://91.108.80.163]
 
-[https://xn--ehq00hgtfdmt.net]
+[http://km95.net]
+api_host  km95.net
+banned_domains  mydefipet.live
+name  任意飞翔
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(vsothvl828@mydefipet.live)
 
-[https://xn--ehqa22b.site]
+[https://km95.net]
+banned_domains  xdanae.com
+name  任意飞翔
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(fncwllk152@xdanae.com)
+
+[https://47.83.220.149]
+
+[http://154.95.24.27:8081]
 buy  pass
-email  xfdfpdg637@gmail.com
-name  三三云
-sub_url  https://xn--ehqa22b.site/s/2d162d0b47b06c5052701801d76368b3
-time  2026-03-13 17:21:41.901696+08:00
+email  qevvkkbv607@gmail.com
+name  飞马加速
+sub_url  https://s.feimajichang.com/feima/a83a0f45b26df959df4ef9effba27c1d
+time  2026-03-14 10:38:29.408204+08:00
 type  v2board
-获取订阅失败  (https://xn--ehqa22b.site/s/2d162d0b47b06c5052701801d76368b3): 403 Forbidden ''
+获取订阅失败  (http://154.95.24.27:8081/feima/a83a0f45b26df959df4ef9effba27c1d): 403 Forbidden ''
 
-[https://xn--wtq35pfyd55o.co]
-name  便宜机场
+[http://154.95.24.18:8081]
+buy  pass
+email  zenosdkpb224@gmail.com
+name  飞马加速
+sub_url  https://s.feimajichang.com/feima/d95afe15df672d826ca3354ab14e1f89
+time  2026-03-14 10:38:29.580452+08:00
 type  v2board
-更新订阅链接/续费续签失败  注册失败(ocqeeon463@gmail.com): 'NoneType' object is not subscriptable
+获取订阅失败  (http://154.95.24.18:8081/feima/d95afe15df672d826ca3354ab14e1f89): 403 Forbidden ''
 
-[https://y.dbf88.sbs]
-api_host  d888.nxxbbf.com
-name  多宝一元机场🏆
+[http://154.95.24.24:8081]
+buy  pass
+email  mtrqbex49@gmail.com
+name  飞马加速
+sub_url  https://s.feimajichang.com/feima/dda549815ab968acbb9d9b381365b945
+time  2026-03-14 10:38:29.616668+08:00
 type  v2board
-更新订阅链接/续费续签失败  注册失败(oeyahkief547@gmail.com): 'NoneType' object is not subscriptable
+获取订阅失败  (http://154.95.24.24:8081/feima/dda549815ab968acbb9d9b381365b945): 403 Forbidden ''
 
-[https://yfjc.xyz]
-
-[https://youhui.plus]
-
-[https://youxiu8168.xiaofeixia.info]
-
-[https://yuean.aiguardcloud.tech]
-
-[https://yun.huoyuan.tk]
-
-[https://yunduanjc.top]
-
-[https://yydsmc.com]
-
-[https://yyhj.ae1autumn.dpdns.org]
-
-[https://yylx5.yylxjichang.link]
-name  遥遥领先
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(kcavpld600@smartnator.com): {'message': '邮箱后缀不处于白名单中'}
-
-[https://yzxxy.top]
-
-[https://zangyun.xyz]
-type  v2board
-更新订阅链接/续费续签失败  发送邮箱验证码失败(bxbqyau474@nano-watt.tech): {'message': '邮箱后缀不处于白名单中'}
+[https://103.19.51.100]
