@@ -29,41 +29,41 @@ CHANNELS = [
 
 # URL 协议类节点（全协议）
 REGEX_PROTOCOLS = [
-    r'vmess://[A-Za-z0-9+/=_.:\-?&%]+',
-    r'vless://[A-Za-z0-9+/=_.:\-?&%]+',
-    r'trojan://[A-Za-z0-9+/=_.:\-?&%]+',
-    r'ss://[A-Za-z0-9+/=_.:\-?&%]+',
-    r'ssr://[A-Za-z0-9+/=_.:\-?&%]+',
+    r"vmess://[A-Za-z0-9+/=_.:\-?&%]+",
+    r"vless://[A-Za-z0-9+/=_.:\-?&%]+",
+    r"trojan://[A-Za-z0-9+/=_.:\-?&%]+",
+    r"ss://[A-Za-z0-9+/=_.:\-?&%]+",
+    r"ssr://[A-Za-z0-9+/=_.:\-?&%]+",
 
     # Hysteria / Hysteria2 / hy
-    r'hy://[A-Za-z0-9@:/?&=._+\-]+',
-    r'hysteria://[A-Za-z0-9@:/?&=._+\-]+',
-    r'hysteria2://[A-Za-z0-9@:/?&=._+\-]+',
+    r"hy://[A-Za-z0-9@:/?&=._+\-]+",
+    r"hysteria://[A-Za-z0-9@:/?&=._+\-]+",
+    r"hysteria2://[A-Za-z0-9@:/?&=._+\-]+",
 ]
 
 # Clash / Surge / YAML / QX 明文
 REGEX_YAML = [
-    r'proxies:\s*[\s\S]+?proxy-groups:',
-    r'proxies:\s*[\s\S]+',
-    r'
+    r"proxies:\s*[\s\S]+?proxy-groups:",
+    r"proxies:\s*[\s\S]+",
+    r"
 
 \[Proxy\]
 
-[\s\S]+?\n\n',
-    r'type:\s*(vmess|vless|ss|trojan)[\s\S]+?\n\n',
+[\s\S]+?\n\n",
+    r"type:\s*(vmess|vless|ss|trojan)[\s\S]+?\n\n",
 
     # Hysteria YAML
-    r'type:\s*hysteria[\s\S]+?\n\n',
-    r'type:\s*hysteria2[\s\S]+?\n\n',
+    r"type:\s*hysteria[\s\S]+?\n\n",
+    r"type:\s*hysteria2[\s\S]+?\n\n",
 
     # Surge hy
-    r'hysteria,.*',
-    r'hysteria2,.*',
+    r"hysteria,.*",
+    r"hysteria2,.*",
 ]
 
 # Base64 长串（订阅）
 REGEX_BASE64 = [
-    r'(?<![A-Za-z0-9+/=])(?:[A-Za-z0-9+/]{80,}={0,2})(?![A-Za-z0-9+/=])'
+    r"(?<![A-Za-z0-9+/=])(?:[A-Za-z0-9+/]{80,}={0,2})(?![A-Za-z0-9+/=])"
 ]
 
 
