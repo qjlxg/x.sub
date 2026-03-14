@@ -11,11 +11,15 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# --- 订阅源黑名单 ---
+
 # 包含以下关键词的订阅链接将被直接跳过，不爬取其节点
 BLACKLIST_DOMAINS = [
     'mojie.app',
     'xn--ehqa22b.site',
+    'subscribe002.awsy.top',
+    'onlysub.mjurl.com',
+    'ktm001.top',
+    '52pokemon.yunjnet.com',
     'mojie.link'
 ]
 
