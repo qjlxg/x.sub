@@ -19,16 +19,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # 获取完整历史以支持 rebase
+          fetch-depth: 0 # 获取完整历史以确保 rebase 成功
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-       
+         
 
       - name: Install Dependencies
-        run: pip install requests tqdm
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests tqdm
 
       - name: Run Collector Script
         run: python tg_collector.py
@@ -38,26 +40,23 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # 1. 核心修复：先 add 变更，解决 "You have unstaged changes" 报错
+          # 1. 先将变更加入暂存区
           git add tg_collector.txt sub.txt valid_subs.txt tg_channel_stats.csv
           
-          # 2. 尝试拉取远程更新并使用 rebase 合并
-          git pull origin main --rebase
-          
-          # 3. 检查是否有变动（排除掉 pull 带来的变动）并提交
+          # 2. 检查是否有实际变动
           if git diff --cached --quiet; then
-            echo "没有检测到文件变动，跳过提交。"
+            echo "没有检测到文件变动，跳过。"
           else
-            # 设置时区为上海
+            # 3. 核心修复：先 Commit 到本地仓库，让工作区变“干净”
             export TZ='Asia/Shanghai'
-            
-            # 统计有效节点和订阅数
             NODE_COUNT=$(grep -c '://' tg_collector.txt || echo 0)
             SUB_COUNT=$(wc -l < valid_subs.txt || echo 0)
             
-            # 提交信息包含统计和上海时间
             git commit -m "Auto Update | 节点: $NODE_COUNT | 订阅: $SUB_COUNT | $(date +'%Y-%m-%d %H:%M:%S')"
             
-            # 4. 推送到远程仓库
+            # 4. 此时再拉取远程更新并 Rebase，Git 不会再报 "uncommitted changes" 错误
+            git pull origin main --rebase
+            
+            # 5. 推送合并后的结果
             git push origin main
           fi
