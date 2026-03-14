@@ -1,13 +1,18 @@
 import requests
 import re
 import logging
+import csv
 import html
 import base64
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
+# --- 配置 ---
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+
+# 精选 2026 真实活跃频道列表
 CHANNELS = [
-    # --- 原有核心频道 ---
     "dingyue_Center", "pgkj666", "anranbp", "hkaa0", "wxgqlfx", "freeVPNjd", "arzhecn", 
     "schpd", "jichang_list", "linux_do_channel", "nodeseekc", "hostloc_pro", 
     "serveruniverse", "sharecentrepro", "Impart_Cloud", "helingqi", "AI_News_CN",
@@ -19,70 +24,98 @@ CHANNELS = [
     "v2rayngalphagamer", "jiedian_share", "vpn_mafia", "dr_v2ray", "bigsmoke_config",
     "vpn_443", "prossh", "mftizi", "qun521", "v2rayng_my2", "go4sharing", 
     "trand_farsi", "vpnplusee_free", "freekankan", "awxdy666",
-
-    # --- 新增：高速订阅与全能分享类 ---
-    "V2rayClashNode",      # 每日更新大量 Clash/V2Ray 订阅
-    "SSR_V2RAY_Clash",     # 长期稳定的节点分享
-    "v2cross",             # 包含大量订阅链接地址
-    "VlessConfigPool",     # 专注 Vless 协议
-    "Shadowrocket_VN",     # 越南活跃频道，节点存活率高
-    "Gfwh_Sub",            # 节点订阅源整合
-    "NodeFree",            # 每日自动推送节点列表
-    "Clash_V2ray_Node",    # 综合节点池
-    
-    # --- 新增：大厂与技术宅自建类 ---
-    "i_v2ray",             # 老牌节点分享频道
-    "free_ss",             # 专注于 SS 协议
-    "v2ray_vpn_free",      # 包含大量 Base64 订阅块
-    "ssrList",             # SSR 与 V2 订阅汇总
-    "v2free_node",         # 每日多时段更新
-    "ClashNode_Free",      # 专注于 Clash 订阅转换链接
-    "Tizi_Share",          # 综合性梯子分享
-    "Link_Vless_Nodes",    # 纯净 Vless 协议源
-
-    # --- 新增：海外与聚合资源类 ---
-    "FreeNode_List",       # 自动采集全网公开节点
-    "DailyNode_Update",    # 每日凌晨固定更新
-    "V2Ray_Shadowrocket",  # 小火箭专用订阅
-    "One_Node_One_World",  # 节点质量较高
-    "Fast_V2ray_Nodes"     # 专注于低延迟节点
-   
-  
-
+    "V2rayClashNode", "SSR_V2RAY_Clash", "v2cross", "VlessConfigPool", "Shadowrocket_VN", 
+    "Gfwh_Sub", "NodeFree", "Clash_V2ray_Node", "i_v2ray", "free_ss", "v2ray_vpn_free", 
+    "ssrList", "v2free_node", "ClashNode_Free", "Tizi_Share", "Link_Vless_Nodes",
+    "FreeNode_List", "DailyNode_Update", "V2Ray_Shadowrocket", "One_Node_One_World", "Fast_V2ray_Nodes"
 ]
 
-# 增强版正则：支持多层路径、查询参数、百分号编码
+# 增强正则：支持更多协议前缀、URL 编码字符 (%) 以及深度路径
 PROTO_PATTERN = r"(?:vmess|vless|trojan|ss|ssr|hysteria|hysteria2|hy2)://[A-Za-z0-9+/=_.:\-?&%@#]+"
 SUB_PATTERN = r"https?://[^\s<>\"'；]+?(?:sub|subscribe|api/v\d/|token=|link/|/s/|/clash/|/v2ray/|/free/)[A-Za-z0-9\-\.=&?%/]+"
 
 HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'}
 
+def safe_decode(data):
+    try:
+        data = re.sub(r'\s+', '', data.strip())
+        missing_padding = len(data) % 4
+        if missing_padding: data += '=' * (4 - missing_padding)
+        return base64.b64decode(data).decode('utf-8', errors='ignore')
+    except: return ""
+
+def extract_nodes(text):
+    nodes = re.findall(PROTO_PATTERN, text)
+    b64_blocks = re.findall(r"[A-Za-z0-9+/]{80,}", text)
+    for block in b64_blocks:
+        decoded = safe_decode(block)
+        if "://" in decoded: nodes.extend(re.findall(PROTO_PATTERN, decoded))
+    return [n.split('<')[0].split('"')[0].strip() for n in nodes if n]
+
+def fetch_sub_content(sub_url):
+    try:
+        r = requests.get(sub_url, headers=HEADERS, timeout=12)
+        if r.status_code == 200 and len(r.text) > 10:
+            content = r.text
+            if "://" not in content: content = safe_decode(content)
+            nodes = extract_nodes(content)
+            # 过滤掉流量耗尽（返回 0 节点）的订阅链接
+            return nodes, True if len(nodes) > 0 else False
+    except: pass
+    return [], False
+
 def process_channel(channel):
     try:
-        # 增加超时，TG 页面加载有时较慢
         r = requests.get(f"https://t.me/s/{channel}", headers=HEADERS, timeout=15)
         if r.status_code != 200: return channel, [], []
         
-        # 核心：必须先处理 HTML 转义，否则链接里的 &amp; 会让订阅失效
+        # 核心：必须处理 HTML 转义，解决 &amp; 导致的链接失效
         text = html.unescape(r.text)
-        
-        # 1. 提取直发节点
         channel_nodes = extract_nodes(text)
-        
-        # 2. 提取并清洗订阅链接
-        raw_subs = re.findall(SUB_PATTERN, text)
         valid_subs = []
-        
-        # 清洗并实测链接
-        for sub_url in set(raw_subs):
-            clean_url = sub_url.rstrip('.,;)') # 剔除正则误抓的末尾标点
-            nodes_from_sub, is_valid = fetch_sub_content(clean_url)
+
+        # 发现并清洗订阅地址
+        raw_subs = re.findall(SUB_PATTERN, text)
+        for sub in set(raw_subs):
+            clean_sub = sub.rstrip('.,;)') # 移除正则误抓的末尾标点
+            nodes_from_sub, is_valid = fetch_sub_content(clean_sub)
             if is_valid:
                 channel_nodes.extend(nodes_from_sub)
-                valid_subs.append(clean_url)
+                valid_subs.append(clean_sub)
                 
         return channel, list(set(channel_nodes)), valid_subs
-    except:
-        return channel, [], []
+    except: return channel, [], []
 
-# fetch_sub_content 和 extract_nodes 保持逻辑不变，但需确保支持 Base64 解码
+def main():
+    all_nodes, all_valid_subs, stats = [], [], {}
+    logger.info(f"📡 启动采集器，目标频道: {len(CHANNELS)}")
+
+    with ThreadPoolExecutor(max_workers=15) as executor:
+        futures = {executor.submit(process_channel, ch): ch for ch in CHANNELS}
+        for f in tqdm(as_completed(futures), total=len(CHANNELS), desc="执行进度"):
+            ch, n_list, s_list = f.result()
+            stats[ch] = len(n_list)
+            all_nodes.extend(n_list)
+            all_valid_subs.extend(s_list)
+
+    unique_nodes = sorted(list(set(all_nodes)))
+    unique_subs = sorted(list(set(all_valid_subs)))
+
+    # 保存文件
+    with open("tg_collector.txt", "w", encoding="utf-8") as f:
+        f.write(f"# Total: {len(unique_nodes)}\n")
+        f.writelines(f"{n}\n" for n in unique_nodes)
+    with open("sub.txt", "w", encoding="utf-8") as f:
+        f.write(base64.b64encode("\n".join(unique_nodes).encode()).decode())
+    with open("valid_subs.txt", "w", encoding="utf-8") as f:
+        f.writelines(f"{s}\n" for s in unique_subs)
+    with open("tg_channel_stats.csv", "w", encoding="utf-8", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["channel", "valid_nodes"])
+        for ch, count in stats.items():
+            writer.writerow([ch, count])
+
+    logger.info(f"✅ 完成！节点: {len(unique_nodes)}, 有效订阅源: {len(unique_subs)}")
+
+if __name__ == "__main__":
+    main()
