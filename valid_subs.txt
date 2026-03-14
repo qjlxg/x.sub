@@ -1,4 +1,5 @@
 https://01d.dklineo.top/api/dktv?token=bf695b505e13b9ee11aaccd51a2ac00f
+https://52pokemon.yunjnet.com/api/v1/client/subscribe?token=9d08a3ec6d1545e46a065666703c97aa
 https://ly.ba000.cc/s/d194066d5d4e228a21aa7257554a69e9
 https://mojie.app/api/v1/client/subscribe?token=6dbf0b92279e3ca9448b883496d8870f
 https://onlysub.mjurl.com/api/v1/client/subscribe?token=6dbf0b92279e3ca9448b883496d8870f
