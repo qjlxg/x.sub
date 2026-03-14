@@ -128,14 +128,16 @@ def main():
                 valid_nodes.append(v_futures[f])
 
     # 结果保存
-    valid_nodes.sort()
+# 1. 保存明文列表
     with open("tg_collector.txt", "w", encoding="utf-8") as f:
-        f.write(f"# Total Valid Nodes: {len(valid_nodes)}\n")
+        f.write(f"# Total: {len(valid_nodes)}\n")
         f.writelines(f"{n}\n" for n in valid_nodes)
 
+    # 2. 保存订阅格式
     with open("sub.txt", "w", encoding="utf-8") as f:
         f.write(base64.b64encode("\n".join(valid_nodes).encode()).decode())
 
+    # 3. 保存统计信息
     with open("tg_channel_stats.csv", "w", encoding="utf-8", newline="") as f:
         writer = csv.writer(f)
         writer.writerow(["channel", "valid_nodes"])
