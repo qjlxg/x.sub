@@ -1,44 +1,54 @@
 name: tg_collector
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: # 允许手动点击运行
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: '0 */1* * *' # 
 
 jobs:
   run-collector:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write 
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
+        with:
+          fetch-depth: 0 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-          
+    
 
       - name: Install Dependencies
         run: pip install requests tqdm
 
-      - name: Run Script
+      - name: Run Collector Script
         run: python tg_collector.py
 
-      - name: Push Changes
+      - name: Commit and Push Changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-
+          # 1. 关键：推送前先拉取远程更新，防止 push rejected
+          git pull origin main --rebase
+          
+          # 2. 锁定 4 个文件名添加
           git add tg_collector.txt sub.txt valid_subs.txt tg_channel_stats.csv
           
+          # 3. 检查是否有变动并提交
           if git diff --cached --quiet; then
-            echo "No changes."
+            echo "No changes detected, skipping commit."
           else
             export TZ='Asia/Shanghai'
-            git commit -m "Auto Update | Nodes: $(grep -c '://' tg_collector.txt) | Subs: $(wc -l < valid_subs.txt)"
-            git push
+            # 统计有效节点和订阅数，写入 Commit 信息
+            NODE_COUNT=$(grep -c '://' tg_collector.txt || echo 0)
+            SUB_COUNT=$(wc -l < valid_subs.txt || echo 0)
+            git commit -m "Auto Update | Nodes: $NODE_COUNT | Subs: $SUB_COUNT | $(date +'%Y-%m-%d %H:%M')"
+            
+            # 4. 推送到远程仓库
+            git push origin main
           fi
