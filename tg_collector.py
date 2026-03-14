@@ -8,11 +8,10 @@ import socket
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-# --- 增强版配置 ---
+# --- 锁定配置 ---
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# 频道列表保持不变...
 CHANNELS = [
     "dingyue_Center", "pgkj666", "anranbp", "hkaa0", "wxgqlfx", "freeVPNjd", "arzhecn", 
     "schpd", "jichang_list", "linux_do_channel", "nodeseekc", "hostloc_pro", 
@@ -26,125 +25,106 @@ CHANNELS = [
     "vpn_443", "prossh", "mftizi", "qun521", "v2rayng_my2", "go4sharing", 
     "trand_farsi", "vpnplusee_free", "freekankan", "awxdy666"
 ]
-# 1. 节点协议正则
-PROTO_PATTERN = r"(?:vmess|vless|trojan|ss|ssr|hysteria|hysteria2|hy2)://[A-Za-z0-9+/=_.:\-?&%@#]+"
 
-# 2. 增强型订阅链接识别正则 (覆盖 V2Board, SSPanel, PHP 等各种格式)
-SUB_PATTERN = r"https?://[^\s<>\"'；]+?(?:sub|subscribe|api/v\d/|token=|link/|/s/)[A-Za-z0-9\-\.=&?]+"
+PROTO_PATTERN = r"(?:vmess|vless|trojan|ss|ssr|hysteria|hysteria2|hy2)://[A-Za-z0-9+/=_.:\-?&%@#]+"
+SUB_PATTERN = r"https?://[^\s<>\"'；]+?(?:sub|subscribe|api/v[1-9]|token=|link/|/s/)[A-Za-z0-9\-\.=&?]+"
 
 HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'}
 
-# --- 核心功能函数 ---
+# --- 功能函数 ---
 
 def safe_decode(data):
-    """鲁棒性强的 Base64 解码"""
-    data = data.strip()
     try:
-        # 移除可能存在的空白符
-        data = re.sub(r'\s+', '', data)
+        data = re.sub(r'\s+', '', data.strip())
         missing_padding = len(data) % 4
         if missing_padding: data += '=' * (4 - missing_padding)
         return base64.b64decode(data).decode('utf-8', errors='ignore')
     except: return ""
 
-def tcp_ping(node_url):
-    """端口存活测试：判定节点是否有流量/存活"""
-    try:
-        parts = node_url.split('://')
-        if len(parts) < 2: return False
-        content = parts[1]
-        if '@' in content: content = content.split('@')[1]
-        host_port = content.split('/')[0].split('?')[0].split('#')[0]
-        
-        if ':' in host_port:
-            host, port = host_port.rsplit(':', 1)
-            with socket.create_connection((host, int(port)), timeout=2.5):
-                return True
-    except: pass
-    return False
+def extract_nodes(text):
+    nodes = re.findall(PROTO_PATTERN, text)
+    b64_blocks = re.findall(r"[A-Za-z0-9+/]{80,}", text)
+    for block in b64_blocks:
+        decoded = safe_decode(block)
+        if "://" in decoded: nodes.extend(re.findall(PROTO_PATTERN, decoded))
+    return [n.split('<')[0].split('"')[0].strip() for n in nodes if n]
 
-def fetch_and_parse_sub(sub_url):
-    """深度探测：请求订阅地址并提取节点"""
+def fetch_sub_content(sub_url):
+    """测试订阅地址：返回 (提取到的节点列表, 是否有效)"""
     try:
-        # 针对部分需要通过 https 访问的地址进行补全
-        r = requests.get(sub_url, headers=HEADERS, timeout=12)
+        r = requests.get(sub_url, headers=HEADERS, timeout=10)
         if r.status_code == 200 and len(r.text) > 10:
-            content = r.text.strip()
-            # 自动识别 Base64 并解码
-            if "://" not in content:
-                content = safe_decode(content)
-            
-            # 从解码后的内容中提取所有节点
-            return re.findall(PROTO_PATTERN, content)
+            content = r.text
+            if "://" not in content: content = safe_decode(content)
+            nodes = extract_nodes(content)
+            return nodes, True if nodes else False
     except: pass
-    return []
+    return [], False
 
 def process_channel(channel):
-    """处理单个频道"""
+    """处理频道：返回 (频道名, 节点列表, 有效订阅链接列表)"""
     try:
-        r = requests.get(f"https://t.me/s/{channel}", headers=HEADERS, timeout=15)
-        if r.status_code != 200: return channel, []
+        r = requests.get(f"https://t.me/s/{channel}", headers=HEADERS, timeout=12)
+        if r.status_code != 200: return channel, [], []
         
-        raw_text = html.unescape(r.text)
-        
-        # 1. 提取页面明文节点
-        found_nodes = re.findall(PROTO_PATTERN, raw_text)
-        
-        # 2. 提取订阅地址并逐个探测内部节点
-        potential_subs = set(re.findall(SUB_PATTERN, raw_text))
-        for sub in potential_subs:
-            logger.info(f"正在探测订阅链接: {sub[:50]}...")
-            nodes_from_sub = fetch_and_parse_sub(sub)
-            if nodes_from_sub:
-                found_nodes.extend(nodes_from_sub)
-        
-        return channel, list(set(found_nodes))
-    except Exception as e:
-        return channel, []
+        text = html.unescape(r.text)
+        channel_nodes = extract_nodes(text)
+        valid_subs = []
+
+        # 发现订阅地址并实测
+        subs = set(re.findall(SUB_PATTERN, text))
+        for sub in subs:
+            nodes_from_sub, is_valid = fetch_sub_content(sub)
+            if is_valid:
+                channel_nodes.extend(nodes_from_sub)
+                valid_subs.append(sub)
+                
+        return channel, list(set(channel_nodes)), valid_subs
+    except: return channel, [], []
 
 # --- 主逻辑 ---
 
 def main():
-    all_collected = []
+    all_nodes = []
+    all_valid_subs = []
     stats = {}
 
-    # 多线程抓取频道 + 深度探测订阅
+    logger.info("📡 开始深度抓取与订阅探测...")
+
     with ThreadPoolExecutor(max_workers=10) as executor:
         futures = {executor.submit(process_channel, ch): ch for ch in CHANNELS}
-        for f in tqdm(as_completed(futures), total=len(CHANNELS), desc="频道扫描"):
-            ch, nodes = f.result()
-            stats[ch] = len(nodes)
-            all_collected.extend(nodes)
+        for f in tqdm(as_completed(futures), total=len(CHANNELS), desc="频道进度"):
+            ch, n_list, s_list = f.result()
+            stats[ch] = len(n_list)
+            all_nodes.extend(n_list)
+            all_valid_subs.extend(s_list)
 
-    unique_nodes = list(set(all_collected))
-    logger.info(f"探测完成。共发现 {len(unique_nodes)} 个潜在节点。开始存活验证...")
+    unique_nodes = sorted(list(set(all_nodes)))
+    unique_subs = sorted(list(set(all_valid_subs)))
 
-    # 多线程 TCP 验证 (过滤掉无流量/已过期的死节点)
-    valid_nodes = []
-    with ThreadPoolExecutor(max_workers=60) as v_executor:
-        v_futures = {v_executor.submit(tcp_ping, n): n for n in unique_nodes}
-        for f in tqdm(as_completed(v_futures), total=len(unique_nodes), desc="存活验证"):
-            if f.result():
-                valid_nodes.append(v_futures[f])
-
-    # 结果保存
-# 1. 保存明文列表
+    # --- 保存文件 (锁定文件名) ---
+    
+    # 1. 有效节点明文
     with open("tg_collector.txt", "w", encoding="utf-8") as f:
-        f.write(f"# Total: {len(valid_nodes)}\n")
-        f.writelines(f"{n}\n" for n in valid_nodes)
+        f.write(f"# Total Nodes: {len(unique_nodes)}\n")
+        f.writelines(f"{n}\n" for n in unique_nodes)
 
-    # 2. 保存订阅格式
+    # 2. 节点 Base64 订阅
     with open("sub.txt", "w", encoding="utf-8") as f:
-        f.write(base64.b64encode("\n".join(valid_nodes).encode()).decode())
+        f.write(base64.b64encode("\n".join(unique_nodes).encode()).decode())
 
-    # 3. 保存统计信息
+    # 3. 有效原始订阅链接
+    with open("valid_subs.txt", "w", encoding="utf-8") as f:
+        f.writelines(f"{s}\n" for s in unique_subs)
+
+    # 4. 统计信息
     with open("tg_channel_stats.csv", "w", encoding="utf-8", newline="") as f:
         writer = csv.writer(f)
         writer.writerow(["channel", "valid_nodes"])
         for ch, count in stats.items():
             writer.writerow([ch, count])
 
-    logger.info(f"🎉 全部完成！有效节点总数: {len(valid_nodes)}")
+    logger.info(f"✅ 完成！节点: {len(unique_nodes)}, 有效订阅地址: {len(unique_subs)}")
 
 if __name__ == "__main__":
     main()
