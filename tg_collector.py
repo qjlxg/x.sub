@@ -7,11 +7,11 @@ import base64
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-# --- 配置 ---
+# --- 基础配置 ---
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# 精选 2026 真实活跃频道列表
+# 精选 2026 真实活跃频道
 CHANNELS = [
     "dingyue_Center", "pgkj666", "anranbp", "hkaa0", "wxgqlfx", "freeVPNjd", "arzhecn", 
     "schpd", "jichang_list", "linux_do_channel", "nodeseekc", "hostloc_pro", 
@@ -30,8 +30,8 @@ CHANNELS = [
     "FreeNode_List", "DailyNode_Update", "V2Ray_Shadowrocket", "One_Node_One_World", "Fast_V2ray_Nodes"
 ]
 
-# 增强正则：支持更多协议前缀、URL 编码字符 (%) 以及深度路径
 PROTO_PATTERN = r"(?:vmess|vless|trojan|ss|ssr|hysteria|hysteria2|hy2)://[A-Za-z0-9+/=_.:\-?&%@#]+"
+# 修正后的正则：包含 % 和 /，防止链接截断
 SUB_PATTERN = r"https?://[^\s<>\"'；]+?(?:sub|subscribe|api/v\d/|token=|link/|/s/|/clash/|/v2ray/|/free/)[A-Za-z0-9\-\.=&?%/]+"
 
 HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'}
@@ -49,19 +49,29 @@ def extract_nodes(text):
     b64_blocks = re.findall(r"[A-Za-z0-9+/]{80,}", text)
     for block in b64_blocks:
         decoded = safe_decode(block)
-        if "://" in decoded: nodes.extend(re.findall(PROTO_PATTERN, decoded))
+        # 只有解码后包含协议头的才算有效
+        if "://" in decoded:
+            nodes.extend(re.findall(PROTO_PATTERN, decoded))
     return [n.split('<')[0].split('"')[0].strip() for n in nodes if n]
 
 def fetch_sub_content(sub_url):
+    """
+    深度验证：不仅要下载成功，还得确保内容里真的有节点协议头
+    """
     try:
         r = requests.get(sub_url, headers=HEADERS, timeout=12)
-        if r.status_code == 200 and len(r.text) > 10:
+        if r.status_code == 200 and len(r.text) > 50:
             content = r.text
-            if "://" not in content: content = safe_decode(content)
+            # 如果不包含协议头，尝试解码
+            if "://" not in content:
+                content = safe_decode(content)
+            
+            # 提取节点并校验数量
             nodes = extract_nodes(content)
-            # 过滤掉流量耗尽（返回 0 节点）的订阅链接
-            return nodes, True if len(nodes) > 0 else False
-    except: pass
+            if nodes:
+                return nodes, True
+    except:
+        pass
     return [], False
 
 def process_channel(channel):
@@ -69,30 +79,30 @@ def process_channel(channel):
         r = requests.get(f"https://t.me/s/{channel}", headers=HEADERS, timeout=15)
         if r.status_code != 200: return channel, [], []
         
-        # 核心：必须处理 HTML 转义，解决 &amp; 导致的链接失效
         text = html.unescape(r.text)
         channel_nodes = extract_nodes(text)
         valid_subs = []
 
-        # 发现并清洗订阅地址
+        # 发现链接并实测
         raw_subs = re.findall(SUB_PATTERN, text)
         for sub in set(raw_subs):
-            clean_sub = sub.rstrip('.,;)') # 移除正则误抓的末尾标点
+            clean_sub = sub.rstrip('.,;)')
             nodes_from_sub, is_valid = fetch_sub_content(clean_sub)
             if is_valid:
                 channel_nodes.extend(nodes_from_sub)
                 valid_subs.append(clean_sub)
                 
         return channel, list(set(channel_nodes)), valid_subs
-    except: return channel, [], []
+    except:
+        return channel, [], []
 
 def main():
     all_nodes, all_valid_subs, stats = [], [], {}
-    logger.info(f"📡 启动采集器，目标频道: {len(CHANNELS)}")
+    logger.info(f"🚀 启动采集器 | 频道数: {len(CHANNELS)}")
 
     with ThreadPoolExecutor(max_workers=15) as executor:
         futures = {executor.submit(process_channel, ch): ch for ch in CHANNELS}
-        for f in tqdm(as_completed(futures), total=len(CHANNELS), desc="执行进度"):
+        for f in tqdm(as_completed(futures), total=len(CHANNELS), desc="进度"):
             ch, n_list, s_list = f.result()
             stats[ch] = len(n_list)
             all_nodes.extend(n_list)
@@ -115,7 +125,7 @@ def main():
         for ch, count in stats.items():
             writer.writerow([ch, count])
 
-    logger.info(f"✅ 完成！节点: {len(unique_nodes)}, 有效订阅源: {len(unique_subs)}")
+    logger.info(f"✅ 完成 | 节点: {len(unique_nodes)} | 有效链接: {len(unique_subs)}")
 
 if __name__ == "__main__":
     main()
