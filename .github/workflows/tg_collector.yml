@@ -2,25 +2,30 @@ name: tg_collector
 
 on:
   workflow_dispatch: # 允许手动点击运行
+  push:
+    paths:
+      - 'tg_collector.py'                # 当脚本变动时触发
+      - '.github/workflows/tg_collector.yml' # 当工作流变动时触发
   schedule:
-    - cron: '0 */1* * *' # 
+    - cron: '0 */1 * * *' 
 
 jobs:
   run-collector:
     runs-on: ubuntu-latest
     permissions:
-      contents: write 
+      contents: write # 必须开启写入权限
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 
+          fetch-depth: 0 # 获取完整历史
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-    
+          
 
       - name: Install Dependencies
         run: pip install requests tqdm
@@ -33,7 +38,7 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # 1. 关键：推送前先拉取远程更新，防止 push rejected
+          # 1. 关键：推送前先拉取远程更新并使用 rebase 避免冲突
           git pull origin main --rebase
           
           # 2. 锁定 4 个文件名添加
@@ -41,13 +46,17 @@ jobs:
           
           # 3. 检查是否有变动并提交
           if git diff --cached --quiet; then
-            echo "No changes detected, skipping commit."
+            echo "没有检测到文件变动，跳过提交。"
           else
+            # 设置时区为上海
             export TZ='Asia/Shanghai'
-            # 统计有效节点和订阅数，写入 Commit 信息
+            
+            # 统计有效节点和订阅数
             NODE_COUNT=$(grep -c '://' tg_collector.txt || echo 0)
             SUB_COUNT=$(wc -l < valid_subs.txt || echo 0)
-            git commit -m "Auto Update | Nodes: $NODE_COUNT | Subs: $SUB_COUNT | $(date +'%Y-%m-%d %H:%M')"
+            
+            # 提交信息包含统计和上海时间
+            git commit -m "Auto Update | 节点: $NODE_COUNT | 订阅链接: $SUB_COUNT | $(date +'%Y-%m-%d %H:%M:%S')"
             
             # 4. 推送到远程仓库
             git push origin main
