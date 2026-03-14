@@ -7,7 +7,7 @@ on:
       - 'tg_collector.py'                # 当脚本变动时触发
       - '.github/workflows/tg_collector.yml' # 当工作流变动时触发
   schedule:
-    - cron: '0 */1 * * *' 
+    - cron: '0 */1 * * *' # 每小时运行一次
 
 jobs:
   run-collector:
@@ -19,13 +19,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # 获取完整历史
+          fetch-depth: 0 # 获取完整历史以支持 rebase
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-          
+          cache: 'pip'
 
       - name: Install Dependencies
         run: pip install requests tqdm
@@ -38,13 +38,13 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # 1. 关键：推送前先拉取远程更新并使用 rebase 避免冲突
-          git pull origin main --rebase
-          
-          # 2. 锁定 4 个文件名添加
+          # 1. 核心修复：先 add 变更，解决 "You have unstaged changes" 报错
           git add tg_collector.txt sub.txt valid_subs.txt tg_channel_stats.csv
           
-          # 3. 检查是否有变动并提交
+          # 2. 尝试拉取远程更新并使用 rebase 合并
+          git pull origin main --rebase
+          
+          # 3. 检查是否有变动（排除掉 pull 带来的变动）并提交
           if git diff --cached --quiet; then
             echo "没有检测到文件变动，跳过提交。"
           else
@@ -56,7 +56,7 @@ jobs:
             SUB_COUNT=$(wc -l < valid_subs.txt || echo 0)
             
             # 提交信息包含统计和上海时间
-            git commit -m "Auto Update | 节点: $NODE_COUNT | 订阅链接: $SUB_COUNT | $(date +'%Y-%m-%d %H:%M:%S')"
+            git commit -m "Auto Update | 节点: $NODE_COUNT | 订阅: $SUB_COUNT | $(date +'%Y-%m-%d %H:%M:%S')"
             
             # 4. 推送到远程仓库
             git push origin main
