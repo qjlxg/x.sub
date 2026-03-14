@@ -7,6 +7,7 @@ on:
       - 'tg_collector.py'
       - '.github/workflows/tg_collector.yml'
   schedule:
+    # 每小时运行一次 (UTC时间，0分时触发)
     - cron: '0 */1 * * *'
 
 jobs:
@@ -23,22 +24,29 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
+          cache: 'pip'
 
-      - name: Install
+      - name: Install Dependencies
         run: pip install requests tqdm
 
-      - name: Collect
+      - name: Run Collector
         run: python tg_collector.py
 
-      - name: Push
+      - name: Push Changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add tg_collector.txt airport_entrances.txt tg_channel_stats.csv
+          
+          # 1. 核心匹配：确保添加脚本生成的三个文件
+          # tg_nodes.txt (明文列表)
+          # sub.txt (Base64订阅)
+          # tg_channel_stats.csv (频道统计)
+          git add tg_nodes.txt sub.txt tg_channel_stats.csv
+
           if git diff --cached --quiet; then
-            echo "No changes detected."
+            echo "No changes detected in nodes or stats."
           else
             export TZ='Asia/Shanghai'
-            git commit -m "Update subs and domains: $(date +'%Y-%m-%d %H:%M:%S')"
+            git commit -m "Auto Update: $(date +'%Y-%m-%d %H:%M:%S') (UTC+8)"
             git push
           fi
