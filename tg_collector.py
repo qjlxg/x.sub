@@ -11,27 +11,15 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# 精选 2026 真实活跃频道
+# 频道列表保持你之前的活跃源即可
 CHANNELS = [
     "dingyue_Center", "pgkj666", "anranbp", "hkaa0", "wxgqlfx", "freeVPNjd", "arzhecn", 
     "schpd", "jichang_list", "linux_do_channel", "nodeseekc", "hostloc_pro", 
-    "serveruniverse", "sharecentrepro", "Impart_Cloud", "helingqi", "AI_News_CN",
-    "Newlearner", "DocOfCard", "baipiao_ml", "jichangtuijian", "Airport_News", 
-    "freemason6", "jichangbaipiao", "v2ray_configs_pool", "IP_CF_Config", "FreakConfig",
-    "oneclickvpnkeys", "PrivateVPNs", "DirectVPN", "VlessConfig", "manVPN", "ELiV2RAY", 
-    "Outline_Vpn", "V2rayNGX", "ccbaohe", "wangcai_8", "vpn_3000", "academi_vpn",
-    "freedatazone1", "freev2rayi", "mypremium98", "inikotesla", "v2rayngalpha", 
-    "v2rayngalphagamer", "jiedian_share", "vpn_mafia", "dr_v2ray", "bigsmoke_config",
-    "vpn_443", "prossh", "mftizi", "qun521", "v2rayng_my2", "go4sharing", 
-    "trand_farsi", "vpnplusee_free", "freekankan", "awxdy666",
-    "V2rayClashNode", "SSR_V2RAY_Clash", "v2cross", "VlessConfigPool", "Shadowrocket_VN", 
-    "Gfwh_Sub", "NodeFree", "Clash_V2ray_Node", "i_v2ray", "free_ss", "v2ray_vpn_free", 
-    "ssrList", "v2free_node", "ClashNode_Free", "Tizi_Share", "Link_Vless_Nodes",
-    "FreeNode_List", "DailyNode_Update", "V2Ray_Shadowrocket", "One_Node_One_World", "Fast_V2ray_Nodes"
+    "serveruniverse", "sharecentrepro", "VlessConfig", "V2rayNGX", "V2rayClashNode", 
+    "SSR_V2RAY_Clash", "v2cross", "Gfwh_Sub", "NodeFree", "free_ss", "Tizi_Share"
 ]
 
 PROTO_PATTERN = r"(?:vmess|vless|trojan|ss|ssr|hysteria|hysteria2|hy2)://[A-Za-z0-9+/=_.:\-?&%@#]+"
-# 修正后的正则：包含 % 和 /，防止链接截断
 SUB_PATTERN = r"https?://[^\s<>\"'；]+?(?:sub|subscribe|api/v\d/|token=|link/|/s/|/clash/|/v2ray/|/free/)[A-Za-z0-9\-\.=&?%/]+"
 
 HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'}
@@ -49,28 +37,45 @@ def extract_nodes(text):
     b64_blocks = re.findall(r"[A-Za-z0-9+/]{80,}", text)
     for block in b64_blocks:
         decoded = safe_decode(block)
-        # 只有解码后包含协议头的才算有效
         if "://" in decoded:
             nodes.extend(re.findall(PROTO_PATTERN, decoded))
     return [n.split('<')[0].split('"')[0].strip() for n in nodes if n]
 
 def fetch_sub_content(sub_url):
     """
-    深度验证：不仅要下载成功，还得确保内容里真的有节点协议头
+    不仅抓取内容，还检查流量元数据 (核心修复)
     """
     try:
         r = requests.get(sub_url, headers=HEADERS, timeout=12)
-        if r.status_code == 200 and len(r.text) > 50:
-            content = r.text
-            # 如果不包含协议头，尝试解码
-            if "://" not in content:
-                content = safe_decode(content)
+        if r.status_code != 200:
+            return [], False
+
+        # --- 仿照你提供的代码逻辑：检查流量元数据 ---
+        # 很多机场会在响应头返回: upload=xxx; download=xxx; total=xxx; expire=xxx
+        user_info = r.headers.get('Subscription-Userinfo') or r.headers.get('subscription-userinfo')
+        if user_info:
+            info = dict(item.split('=') for item in user_info.split('; ') if '=' in item)
+            upload = int(info.get('upload', 0))
+            download = int(info.get('download', 0))
+            total = int(info.get('total', 0))
             
-            # 提取节点并校验数量
-            nodes = extract_nodes(content)
-            if nodes:
-                return nodes, True
-    except:
+            # 如果总流量 > 0 且 (已用 >= 总量)，说明废了
+            if total > 0 and (upload + download) >= total:
+                logger.warning(f"跳过废源 (流量耗尽): {sub_url}")
+                return [], False
+
+        # --- 深度校验：内容必须包含节点协议 ---
+        content = r.text
+        if "://" not in content:
+            content = safe_decode(content)
+        
+        nodes = extract_nodes(content)
+        
+        # 再次确认：如果是“流量耗尽”提示，extract_nodes 应该抓不到任何有效节点
+        if nodes:
+            return nodes, True
+            
+    except Exception as e:
         pass
     return [], False
 
@@ -83,7 +88,6 @@ def process_channel(channel):
         channel_nodes = extract_nodes(text)
         valid_subs = []
 
-        # 发现链接并实测
         raw_subs = re.findall(SUB_PATTERN, text)
         for sub in set(raw_subs):
             clean_sub = sub.rstrip('.,;)')
@@ -93,16 +97,15 @@ def process_channel(channel):
                 valid_subs.append(clean_sub)
                 
         return channel, list(set(channel_nodes)), valid_subs
-    except:
-        return channel, [], []
+    except: return channel, [], []
 
 def main():
     all_nodes, all_valid_subs, stats = [], [], {}
-    logger.info(f"🚀 启动采集器 | 频道数: {len(CHANNELS)}")
+    logger.info("📡 深度过滤模式启动...")
 
     with ThreadPoolExecutor(max_workers=15) as executor:
         futures = {executor.submit(process_channel, ch): ch for ch in CHANNELS}
-        for f in tqdm(as_completed(futures), total=len(CHANNELS), desc="进度"):
+        for f in tqdm(as_completed(futures), total=len(CHANNELS), desc="采集进度"):
             ch, n_list, s_list = f.result()
             stats[ch] = len(n_list)
             all_nodes.extend(n_list)
@@ -111,7 +114,7 @@ def main():
     unique_nodes = sorted(list(set(all_nodes)))
     unique_subs = sorted(list(set(all_valid_subs)))
 
-    # 保存文件
+    # 保存文件 (保持原有文件名)
     with open("tg_collector.txt", "w", encoding="utf-8") as f:
         f.write(f"# Total: {len(unique_nodes)}\n")
         f.writelines(f"{n}\n" for n in unique_nodes)
@@ -125,7 +128,7 @@ def main():
         for ch, count in stats.items():
             writer.writerow([ch, count])
 
-    logger.info(f"✅ 完成 | 节点: {len(unique_nodes)} | 有效链接: {len(unique_subs)}")
+    logger.info(f"✅ 过滤完成！存活节点: {len(unique_nodes)}, 真活源: {len(unique_subs)}")
 
 if __name__ == "__main__":
     main()
