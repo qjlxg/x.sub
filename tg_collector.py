@@ -52,7 +52,7 @@ CHANNELS = [
     "DailyNode_Update",    # 每日凌晨固定更新
     "V2Ray_Shadowrocket",  # 小火箭专用订阅
     "One_Node_One_World",  # 节点质量较高
-    "Fast_V2ray_Nodes"     # 专注于低延迟节点
+    "Fast_V2ray_Nodes",     # 专注于低延迟节点
    
     "v2raynodeauto",
     "clashnodeauto",
