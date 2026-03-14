@@ -2,11 +2,12 @@ import requests
 import re
 import logging
 from tqdm import tqdm
+import csv
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# Telegram频道列表（可自行扩展）
+# Telegram频道列表
 CHANNELS = [
     "dingyue_Center", "pgkj666", "anranbp", "hkaa0", "wxgqlfx",
     "freeVPNjd", "arzhecn", "schpd", "jichang_list",
@@ -34,7 +35,7 @@ REGEX_PROTOCOLS = [
     r'ss://[A-Za-z0-9+/=_.:\-?&%]+',
     r'ssr://[A-Za-z0-9+/=_.:\-?&%]+',
 
-    # === Hysteria / Hysteria2 / hy ===
+    # Hysteria / Hysteria2 / hy
     r'hy://[A-Za-z0-9@:/?&=._+\-]+',
     r'hysteria://[A-Za-z0-9@:/?&=._+\-]+',
     r'hysteria2://[A-Za-z0-9@:/?&=._+\-]+',
@@ -87,28 +88,43 @@ def extract_all_nodes(text):
 
 def fetch_tg_channels():
     all_nodes = []
+    stats = {}  # 频道 → 节点数量
 
     logger.info("📡 正在抓取 Telegram 频道节点（最简洁版，无验证）...")
 
     for channel in tqdm(CHANNELS, desc="抓取频道"):
         url = f"https://t.me/s/{channel}"
+        count = 0
+
         try:
             r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=12)
             if r.status_code == 200:
                 nodes = extract_all_nodes(r.text)
+                count = len(nodes)
                 all_nodes.extend(nodes)
         except Exception:
-            continue
+            pass
+
+        stats[channel] = count
 
     # 去重
     all_nodes = list(set(all_nodes))
 
+    # 保存节点全集
     with open("tg_collector.txt", "w", encoding="utf-8") as f:
         f.write("# === Telegram 全协议节点全集（无验证） ===\n")
         for n in all_nodes:
             f.write(n.strip() + "\n")
 
-    logger.info(f"🎉 完成！共提取 {len(all_nodes)} 条节点，已保存到 tg_collector.txt")
+    # 保存频道统计 CSV
+    with open("tg_channel_stats.csv", "w", encoding="utf-8", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["channel", "count"])
+        for ch, ct in stats.items():
+            writer.writerow([ch, ct])
+
+    logger.info(f"🎉 完成！共提取 {len(all_nodes)} 条节点")
+    logger.info("📊 频道统计已保存到 tg_channel_stats.csv")
 
 
 if __name__ == "__main__":
