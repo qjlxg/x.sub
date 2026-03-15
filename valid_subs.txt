@@ -1,5 +1,4 @@
 https://api-jx.02000.xin/jx?token=44767d451e35779c02fa0f94ac21155e
-https://dk01.iqiyi.ccwu.cc/api/dktv?token=e7c167cfe7f19931af08908aeb9d7703
+https://ly.ba000.cc/s/d194066d5d4e228a21aa7257554a69e9
 https://mfvpn.fuchen.indevs.in/sub/3e96ef7d-8637-42c2-ac73-75182196e755
-https://packet32.qjty.buzz/api/v2/user/token/ff1679f7a830ab760db281c5c6289938
 https://suba.f2vip.net/api/v1/client/subscribe?token=9df8f2f225bbabf679b1b02a871e5751
