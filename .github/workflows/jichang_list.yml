@@ -1,0 +1,50 @@
+name: jichang_list
+
+on:
+  workflow_dispatch: # 允许手动触发
+  schedule:
+    # 每天北京时间上午 11:00 运行 (11 - 8 = 3 UTC)
+    - cron: '0 3 * * *' 
+  push:
+    paths:
+      - 'jichang_list.py'
+      - '.github/workflows/jichang_list.yml'
+
+jobs:
+  update-trial-cfg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Python 环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: 运行 Python 脚本
+        run: |
+          python jichang_list.py
+
+      - name: Commit and push changes
+        if: success() # 建议仅在脚本成功运行后提交
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "github-actions[bot]"
+          
+          # 确保获取最新代码防止冲突
+          git pull origin main --rebase
+          
+          git add trial.cfg
+          # 检查是否有文件变动，避免空的 commit 导致报错
+          if ! git diff --cached --exit-code; then
+            git commit -m "Update trial.cfg [skip ci]"
+            git push origin main
+          else
+            echo "No changes to trial.cfg"
+          fi
