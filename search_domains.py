@@ -18,6 +18,9 @@ FINGERPRINTS = [
 # 常见路径
 PATHS = ["/", "/login", "/auth", "/panel", "/user"]
 
+# 多关键词列表
+KEYWORDS = ["v2board", "xboard", "sspanel", "vpn", "ray"]
+
 def fetch_domains(keyword, after=None, before=None):
     """从 crt.sh 获取域名，支持时间范围过滤"""
     url = f"https://crt.sh/?q={keyword}&output=json"
@@ -60,19 +63,24 @@ def check_domain(domain):
     return None
 
 def main():
-    keyword = "v2board"  # 换成你要查的关键字
-    after = "2026-03-13"
-    before = "2026-03-16"
+    after = None   # 可以设置时间范围，例如 "2026-03-13"
+    before = None  # 可以设置时间范围，例如 "2026-03-16"
 
-    print(f"[*] 正在从证书库检索关键词: {keyword}")
-    domains = fetch_domains(keyword, after, before)
-    print(f"[*] 获取到 {len(domains)} 个潜在域名")
+    all_domains = []
+    for kw in KEYWORDS:
+        print(f"[*] 正在检索关键词: {kw}")
+        domains = fetch_domains(kw, after, before)
+        print(f"[*] 获取到 {len(domains)} 个域名")
+        all_domains.extend(domains)
 
-    stats = {"total": len(domains), "resolved": 0, "checked": 0, "matched": 0, "resolve_fail": 0}
+    all_domains = list(set(all_domains))  # 去重
+    print(f"\n[*] 总计 {len(all_domains)} 个唯一域名，开始扫描...")
+
+    stats = {"total": len(all_domains), "checked": 0, "matched": 0}
     found = []
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=30) as executor:
-        future_to_domain = {executor.submit(check_domain, d): d for d in domains}
+        future_to_domain = {executor.submit(check_domain, d): d for d in all_domains}
         for future in concurrent.futures.as_completed(future_to_domain):
             d = future_to_domain[future]
             try:
@@ -80,9 +88,10 @@ def main():
                 stats["checked"] += 1
                 if res:
                     stats["matched"] += 1
+                    print(f"[!] 命中目标: {res}")
                     found.append(res)
             except Exception:
-                stats["resolve_fail"] += 1
+                continue
 
     if found:
         with open("results.txt", "a") as f:
