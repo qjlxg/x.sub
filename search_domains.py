@@ -1,56 +1,53 @@
 import os
 import requests
-from bs4 import BeautifulSoup
-from urllib.parse import urlparse
-import time
-import random
+import datetime
 
-def get_domain(url):
-    try:
-        domain = urlparse(url).netloc
-        if domain and not any(x in domain for x in ['google', 'github', 'youtube', 'facebook']):
-            return domain
-    except:
-        return None
+# 监控关键词（针对 v2board/xboard 常见的特征域名或关键词）
+KEYWORDS = ["v2board", "xboard", "v2-board"]
 
-def google_search_scraping(query):
-    domains = set()
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-    }
-    # 模拟 Google 搜索链接
-    url = f"https://www.google.com/search?q={query}&num=50"
-    
+def get_domains_from_crtsh(keyword):
+    print(f"正在从 crt.sh 检索关键词: {keyword}")
+    url = f"https://crt.sh/?q={keyword}&output=json"
+    new_domains = set()
     try:
-        resp = requests.get(url, headers=headers, timeout=15)
-        if resp.status_code == 200:
-            soup = BeautifulSoup(resp.text, 'html.parser')
-            # Google 搜索结果的链接通常在 h3 标签附近的 a 标签里
-            for a in soup.find_all('a'):
-                href = a.get('href')
-                if href and "url?q=" in href:
-                    # 提取真实 URL
-                    clean_url = href.split("url?q=")[1].split("&sa=")[0]
-                    domain = get_domain(clean_url)
-                    if domain:
-                        domains.add(domain)
-        elif resp.status_code == 429:
-            print("触发了 Google 429 频率限制。")
+        # crt.sh 响应有时较慢，设置 60s 超时
+        response = requests.get(url, timeout=60)
+        if response.status_code == 200:
+            data = response.json()
+            for item in data:
+                # 提取域名，去掉泛域名通配符
+                name = item['common_name'].replace("*.", "")
+                new_domains.add(name.lower())
     except Exception as e:
-        print(f"请求出错: {e}")
-    return domains
+        print(f"检索 {keyword} 出错: {e}")
+    return new_domains
 
 def main():
-    queries = [
-        'inurl:"/theme/Rocket/assets/"',
-        'intitle:"V2Board" login'
-    ]
-    
     all_found = set()
-    for q in queries:
-        print(f"正在深度搜索: {q}")
-        all_found.update(google_search_scraping(q))
-        time.sleep(random.uniform(5, 10)) # 延长等待时间
+    for kw in KEYWORDS:
+        all_found.update(get_domains_from_crtsh(kw))
 
-    # ... 后续的去重和写入 logic 同之前一样 ...
-    # (省略部分参考之前的脚本)
+    if not all_found:
+        print("未发现任何相关域名。")
+        return
+
+    file_path = 'results.txt'
+    existing = set()
+    if os.path.exists(file_path):
+        with open(file_path, 'r') as f:
+            existing = {line.strip() for line in f if line.strip()}
+
+    # 发现库外新资产
+    unique_new = all_found - existing
+    
+    if unique_new:
+        print(f"发现 {len(unique_new)} 个新域名！")
+        # 合并并排序
+        final = sorted(existing.union(unique_new))
+        with open(file_path, 'w') as f:
+            f.write("\n".join(final) + "\n")
+    else:
+        print("未发现库外新资产。")
+
+if __name__ == "__main__":
+    main()
