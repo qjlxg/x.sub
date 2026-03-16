@@ -1,120 +1,91 @@
 import requests
-import ipaddress
-import concurrent.futures
-import re
-import os
-from urllib.parse import urlparse
-# 引入 urllib3 用来静默 SSL 警告
-import urllib3
+import socket
 
-# 禁用安全请求警告（针对 verify=False 产生的警告）
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-
-# --- 配置区 ---
+# 指纹列表
 FINGERPRINTS = [
-    "/theme/Rocket/assets/", 
-    "/theme/Aurora/static/", 
+    "/theme/Rocket/assets/",
+    "/theme/Aurora/static/",
     "/theme/default/assets/umi.js",
-    "v2board", 
-    "xboard", 
-    "layouts__index.async.js",
-    "auth/login",
-    "auth/register"
+    "/theme/Xoouo-Simple/assets/umi.js",
+    "/assets/umi",
+    "v2board",
+    "xboard",
+    "SSPanel-Uim",
+    "{\"message\":\"Unauthenticated.\"}",
+    "layouts__index.async.js"
 ]
 
-TARGET_RANGES = [
-    "154.223.160.0/24", 
-    "45.195.153.0/24", 
-    "103.117.138.0/24",
-    "103.85.24.0/24"
-]
-
-SUB_SOURCES = [
-    "https://raw.githubusercontent.com/freefq/free/master/v2",
-    "https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray",
-    "https://raw.githubusercontent.com/Pawpieee/Free-V2ray-Config/main/base64"
-]
-
-def check_url(url):
-    """深度指纹探测"""
-    try:
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-        }
-        # 增加 allow_redirects=True 处理自动跳转
-        resp = requests.get(url, timeout=4, verify=False, allow_redirects=True, headers=headers)
-        
-        # 只要命中了指纹，或者跳转后的 URL 包含特征路径
-        content = resp.text.lower()
-        final_url = resp.url.lower()
-        
-        if any(fp.lower() in content for fp in FINGERPRINTS) or "/auth/login" in final_url:
-            target = urlparse(resp.url).netloc
-            print(f"[+] 发现目标: {target}")
-            return target
-    except:
-        pass
-    return None
-
-def scan_ips():
-    print(">>> 正在进行 IP 段指纹扫描...")
-    test_targets = []
-    for r in TARGET_RANGES:
-        try:
-            net = ipaddress.ip_network(r)
-            for ip in net.hosts():
-                # 同时扫描 80 和 443
-                test_targets.append(f"http://{ip}")
-                test_targets.append(f"https://{ip}")
-        except:
-            continue
-    
-    found = set()
-    # 增加线程到 150，GitHub Actions 绰绰有余
-    with concurrent.futures.ThreadPoolExecutor(max_workers=150) as executor:
-        results = list(executor.map(check_url, test_targets))
-        found = {r for r in results if r}
-    return found
-
-def fetch_subs():
-    print(">>> 正在从订阅源提取域名...")
+def fetch_domains(keyword):
+    """从 crt.sh 获取域名列表"""
+    url = f"https://crt.sh/?q={keyword}&output=json"
+    resp = requests.get(url, timeout=15)
+    data = resp.json()
     domains = set()
-    headers = {"User-Agent": "Mozilla/5.0"}
-    for s in SUB_SOURCES:
+    for entry in data:
+        name = entry.get("name_value")
+        if name:
+            for d in name.split("\n"):
+                if not d.startswith("*."):
+                    domains.add(d.strip())
+    return list(domains)
+
+def resolve_domain(domain):
+    """DNS解析域名 -> IP"""
+    try:
+        ip = socket.gethostbyname(domain)
+        return ip
+    except Exception:
+        return None
+
+def check_domain(domain):
+    """检测域名是否命中指纹"""
+    for scheme in ["http", "https"]:
         try:
-            resp = requests.get(s, timeout=10, headers=headers)
-            # 改进正则：匹配更符合域名的字符串
-            matches = re.findall(r'(?:[a-zA-Z0-9](?:[a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}', resp.text)
-            for d in matches:
-                d_low = d.lower()
-                # 排除噪音
-                if not any(noise in d_low for noise in ['github', 'google', 'cloudflare', 'apple', 'v2ray', 'microsoft', 'pki']):
-                    domains.add(d_low)
-        except:
-            continue
-    return domains
+            resp = requests.get(f"{scheme}://{domain}", timeout=5, verify=False)
+            if any(fp in resp.text for fp in FINGERPRINTS):
+                print(f"[!] 命中指纹: {domain}")
+                return True
+        except Exception:
+            pass
+    return False
 
 def main():
-    # 1. 探测
-    found_assets = scan_ips() | fetch_subs()
-    
-    # 2. 读取历史记录 (results.txt)
-    file_path = 'results.txt'
-    existing = set()
-    if os.path.exists(file_path):
-        with open(file_path, 'r') as f:
-            existing = {line.strip() for line in f if line.strip()}
-    
-    # 3. 筛选新资产
-    new_assets = found_assets - existing
-    
-    if new_assets:
-        print(f"[*] 发现 {len(new_assets)} 个新资产，正在存入库中...")
-        with open(file_path, 'a') as f:
-            for a in sorted(list(new_assets)):
-                f.write(f"{a}\n")
+    keyword = "example.com"  # 换成你要查的关键字
+    domains = fetch_domains(keyword)
+    print(f"共获取 {len(domains)} 个域名")
+
+    stats = {
+        "total_domains": len(domains),
+        "resolved": 0,
+        "checked": 0,
+        "matched": 0
+    }
+
+    found = []
+    for d in domains:
+        ip = resolve_domain(d)
+        if ip:
+            stats["resolved"] += 1
+            if check_domain(d):
+                stats["matched"] += 1
+                found.append((d, ip))
+            stats["checked"] += 1
+
+    # 输出结果
+    if found:
+        with open("results.txt", "a") as f:
+            for d, ip in found:
+                f.write(f"{d} -> {ip}\n")
+        print(f"探测结束，新增 {len(found)} 个资产。")
     else:
-        print("[-------] 暂未发现库外新资产。")
+        print("未发现匹配指纹的域名。")
+
+    # 打印统计汇总
+    print("\n=== 扫描统计 ===")
+    print(f"总域名数: {stats['total_domains']}")
+    print(f"解析成功: {stats['resolved']}")
+    print(f"请求检测: {stats['checked']}")
+    print(f"命中指纹: {stats['matched']}")
 
 if __name__ == "__main__":
     main()
