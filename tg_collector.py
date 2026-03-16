@@ -24,17 +24,7 @@ BLACKLIST_DOMAINS = [
     'mojie.link'
 ]
 
-CHANNELS = [
-    'dingyue_Center','pgkj666','anranbp','hkaa0','wxgqlfx','freeVPNjd','arzhecn','schpd',
-    'jichang_list','linux_do_channel','nodeseekc','hostloc_pro','serveruniverse','sharecentrepro',
-    'Impart_Cloud','helingqi','AI_News_CN','Newlearner','DocOfCard','baipiao_ml','jichangtuijian',
-    'Airport_News','freemason6','jichangbaipiao','v2ray_configs_pool','Gap_Mafiya','IP_CF_Config',
-    'FreakConfig','oneclickvpnkeys','PrivateVPNs','DirectVPN','VlessConfig','manVPN','ELiV2RAY',
-    'Outline_Vpn','PPT_f66_zHk2ZDY8','V2rayNGX','ccbaohe','wangcai_8','vpn_3000','academi_vpn',
-    'freedatazone1','freev2rayi','mypremium98','inikotesla','v2rayngalpha','v2rayngalphagamer',
-    'jiedian_share','vpn_mafia','dr_v2ray','allv2board','bigsmoke_config','vpn_443','prossh',
-    'mftizi','qun521','v2rayng_my2','go4sharing','trand_farsi','vpnplusee_free','freekankan','awxdy666'
-]
+CHANNELS = ['vpn_3000','ccbaohe']
 
 PROTO_PATTERN = r"(?:vmess|vless|trojan|ss|ssr|hysteria|hysteria2|hy2)://[A-Za-z0-9+/=_.:\-?&%@#]+"
 SUB_PATTERN = r"https?://[^\s<>\"'；]+?(?:sub|subscribe|api/v\d/|token=|link/|/s/|/clash/|/v2ray/|/free/)[A-Za-z0-9\-\.=&?%/]+"
