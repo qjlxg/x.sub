@@ -1,26 +1,27 @@
 import requests
-from urllib.parse import urlparse
+from bs4 import BeautifulSoup
 import re
 
-FINGERPRINTS = [
-    "v2board", "xboard", "SSPanel-Uim", "layouts__index.async.js",
-    "/theme/Rocket/assets/", "/theme/Aurora/static/"
-]
+FINGERPRINTS = ["v2board", "xboard", "SSPanel-Uim"]
 
-def google_search(query, api_key, cse_id):
-    """调用 Google Custom Search API"""
-    url = "https://www.googleapis.com/customsearch/v1"
-    params = {"q": query, "key": api_key, "cx": cse_id}
-    resp = requests.get(url, params=params)
-    results = resp.json().get("items", [])
-    return [item["link"] for item in results]
+def google_scrape(query, num=10):
+    headers = {"User-Agent": "Mozilla/5.0"}
+    url = f"https://www.google.com/search?q={query}&num={num}"
+    resp = requests.get(url, headers=headers)
+    soup = BeautifulSoup(resp.text, "html.parser")
+    links = []
+    for a in soup.select("a"):
+        href = a.get("href")
+        if href and href.startswith("http"):
+            links.append(href)
+    return links
 
 def check_url(url):
-    """检测 URL 是否命中指纹"""
+    headers = {"User-Agent": "Mozilla/5.0"}
     try:
-        resp = requests.get(url, timeout=6, verify=False, allow_redirects=True)
+        resp = requests.get(url, timeout=6, verify=False, headers=headers)
         text = resp.text
-        if any(re.search(fp, text) for fp in FINGERPRINTS):
+        if any(fp in text for fp in FINGERPRINTS):
             print(f"[!] 命中指纹: {url}")
             return url
     except:
@@ -28,13 +29,11 @@ def check_url(url):
     return None
 
 def main():
-    api_key = "你的Google API Key"
-    cse_id = "你的Custom Search Engine ID"
-    queries = ["v2board", "xboard", "sspanel", "vpn"]
-
+    queries = ["v2board", "xboard", "sspanel"]
     found = []
     for q in queries:
-        urls = google_search(q, api_key, cse_id)
+        print(f"[*] 搜索关键词: {q}")
+        urls = google_scrape(q, num=20)
         for u in urls:
             res = check_url(u)
             if res:
@@ -42,9 +41,9 @@ def main():
 
     if found:
         with open("results_google.txt", "a") as f:
-            for u in found:
+            for u in sorted(set(found)):
                 f.write(f"{u}\n")
-        print(f"\n[+] 探测结束，新增 {len(found)} 个资产。")
+        print(f"\n[+] 探测结束，新增 {len(found)} 个有效资产。")
     else:
         print("\n[-] 本次扫描未发现有效资产。")
 
