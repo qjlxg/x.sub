@@ -1,0 +1,44 @@
+name: Google Asset Monitor
+
+on:
+  # 1. 手动运行
+  workflow_dispatch:
+  
+  # 2. 当脚本或 yml 本身变动时自动运行
+  push:
+    paths:
+      - 'search_domains.py'
+      - '.github/workflows/google_scan.yml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      with:
+        persist-credentials: true
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Install dependencies
+      run: |
+        pip install googlesearch-python
+
+    - name: Run Search Script
+      # 设置上海时区环境（虽然脚本内部主要靠 Google 指令过滤）
+      env:
+        TZ: Asia/Shanghai
+      run: python search_domains.py
+
+    - name: Commit and Push results
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add results.txt
+        # 只有在文件有变动时才提交，防止报错
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update assets: $(date +'%Y-%m-%d %H:%M:%S')" && git push)
