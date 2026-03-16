@@ -1,43 +1,54 @@
+from googlesearch import search
 import requests
-from bs4 import BeautifulSoup
 import re
+from urllib.parse import urlparse
+import concurrent.futures
 
-FINGERPRINTS = ["v2board", "xboard", "SSPanel-Uim"]
+FINGERPRINTS = [
+    "v2board", "xboard", "SSPanel-Uim", "layouts__index.async.js",
+    "/theme/Rocket/assets/", "/theme/Aurora/static/"
+]
 
-def google_scrape(query, num=10):
-    headers = {"User-Agent": "Mozilla/5.0"}
-    url = f"https://www.google.com/search?q={query}&num={num}"
-    resp = requests.get(url, headers=headers)
-    soup = BeautifulSoup(resp.text, "html.parser")
-    links = []
-    for a in soup.select("a"):
-        href = a.get("href")
-        if href and href.startswith("http"):
-            links.append(href)
-    return links
+PATHS = ["/", "/login", "/auth", "/panel", "/user"]
+
+def google_search(query, num=20):
+    urls = []
+    for u in search(query, num_results=num, lang="en"):
+        # 过滤掉 Google 自家域名
+        if not any(skip in u for skip in ["google.com", "youtube.com", "support.google.com"]):
+            urls.append(u)
+    return urls
 
 def check_url(url):
     headers = {"User-Agent": "Mozilla/5.0"}
-    try:
-        resp = requests.get(url, timeout=6, verify=False, headers=headers)
-        text = resp.text
-        if any(fp in text for fp in FINGERPRINTS):
-            print(f"[!] 命中指纹: {url}")
-            return url
-    except:
-        pass
+    domain = urlparse(url).netloc
+    for scheme in ["https", "http"]:
+        for path in PATHS:
+            try:
+                resp = requests.get(f"{scheme}://{domain}{path}", timeout=6, verify=False, headers=headers, allow_redirects=True)
+                text = resp.text
+                final_path = urlparse(resp.url).path
+                if any(re.search(fp, text) for fp in FINGERPRINTS) or "/auth/login" in final_path:
+                    print(f"[!] 命中指纹: {scheme}://{domain}{path}")
+                    return f"{scheme}://{domain}{path}"
+            except:
+                continue
     return None
 
 def main():
-    queries = ["v2board", "xboard", "sspanel"]
+    queries = ["inurl:/auth/login v2board", "intitle:xboard", "sspanel site:.xyz"]
     found = []
+
     for q in queries:
         print(f"[*] 搜索关键词: {q}")
-        urls = google_scrape(q, num=20)
-        for u in urls:
-            res = check_url(u)
-            if res:
-                found.append(res)
+        urls = google_search(q, num=20)
+        print(f"[*] 获取到 {len(urls)} 个结果，开始检测...")
+        with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
+            future_to_url = {executor.submit(check_url, u): u for u in urls}
+            for future in concurrent.futures.as_completed(future_to_url):
+                res = future.result()
+                if res:
+                    found.append(res)
 
     if found:
         with open("results_google.txt", "a") as f:
