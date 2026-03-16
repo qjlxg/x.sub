@@ -1,53 +1,64 @@
-import os
 import requests
-import datetime
+import os
+import concurrent.futures
 
-# 监控关键词（针对 v2board/xboard 常见的特征域名或关键词）
-KEYWORDS = ["v2board", "xboard", "v2-board"]
+# 1. 定义你那串极其精准的指纹（只要命中其中一个就是目标）
+FINGERPRINTS = [
+    "/theme/Rocket/assets/",
+    "/theme/Aurora/static/",
+    "/theme/default/assets/umi.js",
+    "v2board",
+    "xboard",
+    "layouts__index.async.js"
+]
 
-def get_domains_from_crtsh(keyword):
-    print(f"正在从 crt.sh 检索关键词: {keyword}")
-    url = f"https://crt.sh/?q={keyword}&output=json"
-    new_domains = set()
+# 2. 目标 IP 段（示例：你可以换成你观察到的机场常用 IP 段）
+# 这里以几个常见的香港机房网段为例
+TARGET_RANGES = [
+    "103.117.138.0/24",
+    "154.223.160.0/24",
+    "45.195.153.0/24"
+]
+
+def check_url(ip):
+    url = f"http://{ip}"
     try:
-        # crt.sh 响应有时较慢，设置 60s 超时
-        response = requests.get(url, timeout=60)
-        if response.status_code == 200:
-            data = response.json()
-            for item in data:
-                # 提取域名，去掉泛域名通配符
-                name = item['common_name'].replace("*.", "")
-                new_domains.add(name.lower())
-    except Exception as e:
-        print(f"检索 {keyword} 出错: {e}")
-    return new_domains
+        # 只要 3 秒内有响应
+        resp = requests.get(url, timeout=3, verify=False)
+        text = resp.text
+        # 匹配指纹
+        if any(fp in text for fp in FINGERPRINTS):
+            print(f"[!] 发现匹配目标: {ip}")
+            return ip
+    except:
+        pass
+    return None
 
 def main():
-    all_found = set()
-    for kw in KEYWORDS:
-        all_found.update(get_domains_from_crtsh(kw))
-
-    if not all_found:
-        print("未发现任何相关域名。")
-        return
-
-    file_path = 'results.txt'
-    existing = set()
-    if os.path.exists(file_path):
-        with open(file_path, 'r') as f:
-            existing = {line.strip() for line in f if line.strip()}
-
-    # 发现库外新资产
-    unique_new = all_found - existing
+    print("开始主动探测指纹...")
+    found_ips = []
     
-    if unique_new:
-        print(f"发现 {len(unique_new)} 个新域名！")
-        # 合并并排序
-        final = sorted(existing.union(unique_new))
-        with open(file_path, 'w') as f:
-            f.write("\n".join(final) + "\n")
+    # 将 CIDR 转为 IP 列表（简单处理）
+    # 实际建议使用 ipaddress 库生成列表
+    test_ips = []
+    for r in TARGET_RANGES:
+        prefix = ".".join(r.split('.')[:-1])
+        for i in range(1, 255):
+            test_ips.append(f"{prefix}.{i}")
+
+    # 开启 100 线程极速扫描
+    with concurrent.futures.ThreadPoolExecutor(max_workers=100) as executor:
+        results = list(executor.map(check_url, test_ips))
+        found_ips = [r for r in results if r]
+
+    # 写入结果
+    if found_ips:
+        with open('results.txt', 'a') as f:
+            for ip in found_ips:
+                f.write(f"{ip}\n")
+        print(f"探测结束，新增 {len(found_ips)} 个资产。")
     else:
-        print("未发现库外新资产。")
+        print("本次探测未发现匹配指纹的活跃 IP。")
 
 if __name__ == "__main__":
     main()
